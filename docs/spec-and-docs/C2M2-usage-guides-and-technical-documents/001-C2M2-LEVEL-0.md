@@ -1,20 +1,21 @@
 # C2M2 Level 0
 
-C2M2 Level 0 defines a **minimal valid C2M2 instance.** Data submissions
+C2M2 Level 0 defines a **minimal valid
+[C2M2 instance](../CFDE-glossary.md#c2m2-instance).** Data submissions
 at this level of metadata richness will be the easiest to produce, and will
 support the simplest available functionality implemented by
 downstream applications.
 
 #### Level 0 submission process: overview
 
-Metadata submissions at Level 0 will consist of a single TSV
-file describing a **collection of digital
-files** owned or managed by a DCC. The properties listed
+Metadata submissions at Level 0 will consist of a single
+[TSV file](../CFDE-glossary.md#tab-separated-value-file-tsv)
+describing a **collection of digital [files](../CFDE-glossary.md#file)** owned
+or managed by a [DCC](../CFDE-glossary.md#data-coordinating-center-dcc). The properties listed
 for the Level 0 `file` entity (see below for
 diagram and definitions) will serve as the TSV's column
 headers; each TSV row will represent a single file. The
-Level 0 TSV itself thus represents a
-**[manifest](../draft-CFDE_glossary/glossary.md#CFDE-asset-manifest)
+Level 0 TSV itself thus represents a **manifest
 or inventory** of digital files that a DCC wants to
 introduce into the C2M2 metadata ecosystem.
 
@@ -25,7 +26,7 @@ accounting, querying and reporting.
 
 |_Level 0 model diagram_|
 |:---:|
-|![Level 0 model diagram](../draft-C2M2_ER_diagrams/Level-0-C2M2-model.png "Level 0 model diagram")|
+|![Level 0 model diagram](../C2M2-ER-diagrams/C2M2-Level-0-ER-diagram.png "Level 0 model diagram")|
 
 #### Level 0 technical specification: properties of the `file` entity
 
@@ -47,7 +48,7 @@ A JSON Schema document -- implementing [Frictionless
 Data](https://frictionlessdata.io/)'s "[Data
 Package](https://frictionlessdata.io/data-package/)" container meta-specification --
 defining the Level 0 TSV is
-[here](../draft-C2M2_JSON_Schema_datapackage_specs/C2M2_Level_0.datapackage.json);
+[here](../C2M2-JSON-Schemas/C2M2_Level_0.datapackage.json);
 an example Level-0-compliant TSV submission collection can be found
 [here](../draft-C2M2_example_submission_data/HMP__sample_C2M2_Level_0_bdbag.contents/file.tsv)
 (just the `file.tsv` portion) and
