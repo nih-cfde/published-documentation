@@ -63,7 +63,7 @@ the life cycle of DCC/CFDE technical interaction matures.
 ## C2M2 Richness Levels
 
 In its fullest form ([Level 2](./003-C2M2-LEVEL-2.md)),
-C2M2 is an [entity-relationship system](../CFDE-glossary.md#entity-relationship-model)
+C2M2 is an [entity-relationship system](../CFDE-glossary.md#entity-relationship-er-model)
 that describes fundamental biomedical research resources
 like digital [files](../CFDE-glossary.md#file),
 experimental [events](../CFDE-glossary.md#event),
