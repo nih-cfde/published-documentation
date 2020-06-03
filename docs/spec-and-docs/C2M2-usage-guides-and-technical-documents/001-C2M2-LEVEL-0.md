@@ -2,7 +2,7 @@
 
 C2M2 Level 0 defines a **minimal valid
 [C2M2 instance](../CFDE-glossary.md#c2m2-instance).** Data submissions
-at this level of metadata richness will be the easiest to produce, and will
+at this level of [metadata richness](../CFDE-glossary.md#c2m2-richness-levels) will be the easiest to produce, and will
 support the simplest available functionality implemented by
 downstream applications.
 
