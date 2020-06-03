@@ -42,7 +42,7 @@ accounting, querying and reporting.
 | `md5` | **Permitted** file checksum string: the output of the MD5 message-digest algorithm after being run as a cryptographic hash function on this `file`. One or both of `sha256` and `md5` is required. (CFDE recommends SHA-256 if feasible, but we recognize the nontrivial overhead involved in recomputing these hash values for large collections of files, so if MD5 values have already been generated, CFDE will accept them.) |
 | `filename` | A filename with no prepended PATH information. |
 
-#### Technical specification for Level 0 C2M2 instance data: JSON Schema
+#### Level 0 technical specification: JSON Schema
 
 A JSON Schema document -- implementing [Frictionless
 Data](https://frictionlessdata.io/)'s "[Data
