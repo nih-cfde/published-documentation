@@ -44,8 +44,8 @@ accounting, querying and reporting.
 
 #### Level 0 technical specification: JSON Schema
 
-A JSON Schema document -- implementing [Frictionless
+A JSON Schema document (implementing [Frictionless
 Data](https://frictionlessdata.io/)'s "[Data
-Package](https://frictionlessdata.io/data-package/)" container meta-specification --
+Package](https://frictionlessdata.io/data-package/)" container meta-specification)
 defining the Level 0 TSV can be found
 [here](../C2M2-JSON-Schemas/C2M2_Level_0.datapackage.json).
