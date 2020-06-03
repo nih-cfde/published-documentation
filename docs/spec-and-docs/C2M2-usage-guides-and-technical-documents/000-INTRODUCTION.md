@@ -1,7 +1,7 @@
 # The Common Fund Data Ecosystem's Crosscut Metadata Model (CFDE C2M2)
 
 This document introduces the Crosscut Metadata Model
-([C2M2](../CFDE-glossary.md#C2M2)), a
+([C2M2](../CFDE-glossary.md#crosscut-metadata-model-c2m2)), a
 flexible standard for describing biomedical experimental
 data. The Common Fund Data Ecosystem group is creating a new
 computing infrastructure, with C2M2 as its organizing principle,
@@ -14,7 +14,7 @@ and integrate experimental data from different sources to
 facilitate scientific replication and to drive new discoveries.
 
 Using this new infrastructure, Common Fund data coordinating centers
-([DCCs](../CFDE-glossary.md#DCC)) will
+([DCCs](../CFDE-glossary.md#data-coordinating-center-dcc)) will
 share structured, detailed information ([metadata](../CFDE-glossary.md#metadata))
 about their experimental resources with the research
 community at large, widening and deepening access to usable
