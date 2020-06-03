@@ -49,7 +49,7 @@ for each DCC's C2M2 metadata submission, during the
 
 CFDE offers DCCs three alternative metadata submission
 formats (C2M2 Levels [0](./001-C2M2-LEVEL-0.md), [1](./002-C2M2-LEVEL-1.md) and
-[2](#level-2-the-full-c2m2-model)), each of which is automatically
+[2](./003-C2M2-LEVEL-2.md)), each of which is automatically
 interoperable with the entire C2M2 software ecosystem. These
 alternative formats are arranged in levels tiered according
 to increasing complexity, reflecting anticipated differences in
@@ -62,7 +62,7 @@ the life cycle of DCC/CFDE technical interaction matures.
 
 ## C2M2 Richness Levels
 
-In its fullest form ([Level 2](#level-2-the-full-c2m2-model)),
+In its fullest form ([Level 2](./003-C2M2-LEVEL-2.md)),
 C2M2 is an [entity-relationship system](../CFDE-glossary.md#entity-relationship-model)
 that describes fundamental biomedical research resources
 like digital [files](../CFDE-glossary.md#file),
@@ -80,7 +80,7 @@ a particular blood pressure measurement was made.
 Modeling and data wrangling are always difficult, even for
 experts. Requiring every DCC to represent their metadata using
 all possible features of the [full Level 2 C2M2
-model](#level-2-the-full-c2m2-model)
+model](./003-C2M2-LEVEL-2.md)
 as a precondition for submitting metadata to CFDE would
 be infeasible for several important reasons (apart from
 creating avoidable and unnecessary onboarding delays).
@@ -103,7 +103,7 @@ systems of their own should not encounter arbitrary
 barriers to CFDE support for more extensive relational
 modeling of their metadata if they want it; CFDE will
 maintain such support by iteratively refining
-[C2M2 Level 2](#level-2-the-full-c2m2-model)
+[C2M2 Level 2](./003-C2M2-LEVEL-2.md)
 according to needs identified while working with
 more operationally advanced DCCs. Newer or smaller DCCs, by contrast, may
 not currently have enough readily-available information
@@ -125,7 +125,7 @@ level is a value-added superset of all of the metadata
 encompassed by the previous (less complex) level.
 
 Accordingly, two less complex C2M2 variants are on offer
-in addition to the full ([Level 2](#level-2-the-full-c2m2-model)) C2M2 model.
+in addition to the full ([Level 2](./003-C2M2-LEVEL-2.md)) C2M2 model.
 [Level 0](./001-C2M2-LEVEL-0.md) describes truly basic metadata defining
 a collection of digital files. [Level 1](./002-C2M2-LEVEL-1.md) introduces models
 for core experimental resources like [biosamples](../CFDE-glossary.md#biosample)
