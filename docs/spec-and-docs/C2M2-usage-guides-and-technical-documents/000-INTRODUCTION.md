@@ -32,7 +32,7 @@ submission will take the form of a set of tab-separated
 value files
 ([TSVs](../CFDE-glossary.md#TSV)): precise formatting requirements for these
 TSV filesets ([C2M2 instances](../CFDE-glossary.md#c2m2-instance)) are specified by
-[JSON Schema documents](../draft-C2M2_JSON_Schema_datapackage_specs/),
+[JSON Schema documents](../C2M2-JSON-Schemas/),
 each of which is an instance of the
 [Data Package](http://frictionlessdata.io/docs/data-package/)
 meta-specification published by the
