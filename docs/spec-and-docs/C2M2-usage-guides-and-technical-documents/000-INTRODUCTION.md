@@ -30,7 +30,7 @@ DCCs will collect and provide metadata to CFDE describing
 experimental resources within their purview. Each metadata
 submission will take the form of a set of tab-separated
 value files
-([TSVs](../CFDE-glossary.md#TSV)): precise formatting requirements for these
+([TSVs](../CFDE-glossary.md#tab-separated-value-file-tsv)): precise formatting requirements for these
 TSV filesets ([C2M2 instances](../CFDE-glossary.md#c2m2-instance)) are specified by
 [JSON Schema documents](../C2M2-JSON-Schemas/),
 each of which is an instance of the
