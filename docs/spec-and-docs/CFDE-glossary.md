@@ -30,8 +30,39 @@ need lots of lines
 need lots of lines
 need lots of lines
 
-
 ### C2M2 instance
+
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+
+### C2M2 richness levels
+
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+need lots of lines
+
+### collection
 
 need lots of lines
 need lots of lines

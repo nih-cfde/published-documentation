@@ -118,7 +118,7 @@ CFDE in such a way as to maximize interoperability with
 more complex C2M2 variants, and the whole system should be
 structured to minimize side effects caused by model
 changes. These considerations have led to the
-specification of C2M2 [richness levels](../CFDE-glossary.md#richness-levels):
+specification of C2M2 [richness levels](../CFDE-glossary.md#c2m2-richness-levels):
 concentric, canonical variants of C2M2 which are benchmarked at
 increasing levels of complexity and detail, wherein each successive
 level is a value-added superset of all of the metadata
