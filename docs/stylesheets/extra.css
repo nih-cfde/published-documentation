@@ -140,10 +140,6 @@ body {
     border-top: 1px solid #0355ab !important;
 }
 
-/* unvisited link */
-a:link {
-  color: #0355ab;
-}
 
 /* mouse over link */
 a:hover {
