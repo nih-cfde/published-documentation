@@ -30,8 +30,10 @@ DCCs will collect and provide metadata to CFDE describing
 experimental resources within their purview. Each metadata
 submission will take the form of a set of tab-separated
 value files
-([TSVs](../CFDE-glossary.md#tab-separated-value-file-tsv)): precise formatting requirements for these
-TSV filesets ([C2M2 instances](../CFDE-glossary.md#c2m2-instance)) are specified by
+([TSVs](../CFDE-glossary.md#tab-separated-value-file-tsv)):
+precise formatting requirements for these TSV filesets
+([C2M2 instances](../CFDE-glossary.md#c2m2-instance))
+are specified by
 [JSON Schema documents](../C2M2-JSON-Schemas/),
 each of which is an instance of the
 [Data Package](http://frictionlessdata.io/docs/data-package/)
@@ -39,7 +41,8 @@ meta-specification published by the
 [Frictionless Data](http://frictionlessdata.io/)
 group. This meta-specification is a formal way to
 define formatting requirements for sets of files
-configured as relational database tables: [foreign-key](../CFDE-glossary.md#foreign-key)
+configured as relational database tables:
+[foreign-key](../CFDE-glossary.md#foreign-key)
 relationships between tables, type checking of table fields
 and other similar basic validation processes for database
 management are supported. The C2M2 software infrastructure uses these schema
@@ -48,8 +51,11 @@ for each DCC's C2M2 metadata submission, during the
 [C2M2 ingestion process](../CFDE-glossary.md#C2M2-ingestion-process).
 
 CFDE offers DCCs three alternative metadata submission
-formats (C2M2 Levels [0](./001-C2M2-LEVEL-0.md), [1](./002-C2M2-LEVEL-1.md) and
-[2](./003-C2M2-LEVEL-2.md)), each of which is automatically
+formats (C2M2 Levels [0](./001-C2M2-LEVEL-0.md),
+[1](./002-C2M2-LEVEL-1.md)
+and
+[2](./003-C2M2-LEVEL-2.md)),
+each of which is automatically
 interoperable with the entire C2M2 software ecosystem. These
 alternative formats are arranged in levels tiered according
 to increasing complexity, reflecting anticipated differences in
@@ -124,18 +130,23 @@ increasing levels of complexity and detail, wherein each successive
 level is a value-added superset of all of the metadata
 encompassed by the previous (less complex) level.
 
-Accordingly, two less complex C2M2 variants are on offer
-in addition to the full ([Level 2](./003-C2M2-LEVEL-2.md)) C2M2 model.
-[Level 0](./001-C2M2-LEVEL-0.md) describes truly basic metadata defining
-a collection of digital files. [Level 1](./002-C2M2-LEVEL-1.md) introduces models
-for core experimental resources like [biosamples](../CFDE-glossary.md#biosample)
-and [subjects](../CFDE-glossary.md#subject), and the core
-relationships between them; a rudimentary set of search targets
+Accordingly, two less complex C2M2 variants are on offer in addition to the full
+([Level 2](./003-C2M2-LEVEL-2.md))
+C2M2 model.
+[Level 0](./001-C2M2-LEVEL-0.md)
+describes truly basic metadata defining a collection of digital files.
+[Level 1](./002-C2M2-LEVEL-1.md)
+introduces models for core experimental resources like
+[biosamples](../CFDE-glossary.md#biosample)
+and
+[subjects](../CFDE-glossary.md#subject),
+and the core relationships between them; a rudimentary set of search targets
 in the form of annotations like the anatomical location of
 the source for a human tissue sample or taxonomic data describing
 biosample source organisms and study subjects; and basic support for arranging
 experimental resources into named groups, based either on a
-hierarchy of [projects](../CFDE-glossary.md#project)
+hierarchy of
+[projects](../CFDE-glossary.md#project)
 or on more arbitrarily structured
-[collections](../CFDE-glossary.md#collection), which can
-be defined using any relevant scientific or operational categorization.
+[collections](../CFDE-glossary.md#collection),
+which can be defined using any relevant scientific or operational categorization.
