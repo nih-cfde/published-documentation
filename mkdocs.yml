@@ -1,1 +1,75 @@
-site_name: My Docs
+site_name: Common Fund Data Ecosystem Documentation
+
+repo_url: https://github.com/nih-cfde/published-documentation
+
+theme:
+  name: material
+  palette:
+    primary: white
+  features:
+    - tabs
+  logo: images/CFDE-logo.png
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - C2M2 Model Documentation:
+    - Introduction: spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION.md
+    - Level 0: spec-and-docs/C2M2-usage-guides-and-technical-documents/001-C2M2-LEVEL-0.md
+    - Level 1: spec-and-docs/C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1.md
+    - Level 2: spec-and-docs/C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
+    - Glossary: spec-and-docs/CFDE-glossary.md
+  - FAIR Cookbook:
+    - Introduction: the-fair-cookbook/content/intro.md
+    - Recipes:
+      - FAIR in NIH CDFE context:
+        - CFDE: the-fair-cookbook/content/recipes/05/cfde.md
+        - FAIR-CFDE: the-fair-cookbook/content/recipes/01/fair-cfde.md
+        - Fair Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
+        - Licensing: the-fair-cookbook/content/recipes/03/licensing.md
+        - Ethics: the-fair-cookbook/content/recipes/02/ethics.md
+        - C2M2: the-fair-cookbook/content/recipes/12/c2m2.md
+      - Discoverability:
+        - Cataloguing: the-fair-cookbook/content/recipes/06/cataloguing.md
+        - Deriva-frictionless: the-fair-cookbook/content/recipes/13/deriva-frictionless.md
+        - ETL: the-fair-cookbook/content/recipes/15/etl.md
+      - Identification:
+        - The need for identifiers: the-fair-cookbook/content/recipes/08/identifiers.md
+        - PIDs: the-fair-cookbook/content/recipes/08/1/pids.md
+        - MINIDs: the-fair-cookbook/content/recipes/08/2/minids.md
+        - DOIs: the-fair-cookbook/content/recipes/08/3/doi.md
+      - Semantics:
+        - Finding: the-fair-cookbook/content/recipes/09/finding.md
+        - Understanding Terminologies: the-fair-cookbook/content/recipes/10/ontologies.md
+        - Using ontology services: the-fair-cookbook/content/recipes/11/onto-services.md
+        - NIH CFDE selected terminologies: the-fair-cookbook/content/recipes/14/cfde-terminologies.md
+      - FAIR compliance:
+        - FAIRshake: the-fair-cookbook/content/recipes/04/fairshake.md
+        - Developing FAIR API: the-fair-cookbook/content/recipes/16/fair-api.md
+        - Cloud: the-fair-cookbook/content/recipes/17/cloud.md
+        - Notebooks and Workflows: the-fair-cookbook/content/recipes/18/notebooks-workflows.md
+      - Experiences Applying FAIR:
+        - HMP: the-fair-cookbook/content/recipes/15/1/hmp.md
+        - MW: the-fair-cookbook/content/recipes/15/2/mw.md
+        - GTEx: the-fair-cookbook/content/recipes/15/3/gtex.md
+        - LINCS: the-fair-cookbook/content/recipes/15/4/lincs.md
+      - Extending the Cookbook:
+        - Recipe Template: the-fair-cookbook/content/1/recipe-template.md
+        - Building The Cookbook: the-fair-cookbook/README.md
+        - Code of Conduct: the-fair-cookbook/content/code_of_conduct.md
+        - CONTRIBUTING: the-fair-cookbook/content/contributing.md
+        - Disclaimer: the-fair-cookbook/content/disclaimer.md
+        - Governance: the-fair-cookbook/content/governance.md
+        - License: the-fair-cookbook/content/license.md
+
+markdown_extensions:
+- admonition
+- codehilite:
+    guess_lang: false
+- toc:
+    permalink: true
+extra:
+  hypothesis: true
+extra_css:
+  - stylesheets/extra.css
