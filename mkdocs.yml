@@ -62,7 +62,12 @@ nav:
         - Disclaimer: the-fair-cookbook/content/disclaimer.md
         - Governance: the-fair-cookbook/content/governance.md
         - License: the-fair-cookbook/content/license.md
-
+  - About:
+    - Informational Website: https://nih-cfde.org/
+    - Code of Conduct: about/CODEOFCONDUCT.md
+    - License: about/LICENSE.md
+    - Contributing: about/CONTRIBUTING.md
+  
 markdown_extensions:
 - admonition
 - codehilite:
