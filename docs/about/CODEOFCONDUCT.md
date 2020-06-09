@@ -29,8 +29,8 @@ Members asked to stop any harassing behavior are expected to comply
 immediately.
 
 If you are being harassed, notice that someone else is being harassed,
-or have any other concerns, please contact our 
-[Code of Conduct Team](autohelp+int+852+1037728591560792003@CFDE.groups.io) 
+or have any other concerns, please contact our
+[Code of Conduct Team](mailto:autohelp+int+852+1037728591560792003@CFDE.groups.io) 
 immediately. If you would prefer to remain anonymous, you can email
 that address using a free single-anonymous email service like
 [Anonymouse](http://anonymouse.org/anonemail.html)
