@@ -77,3 +77,6 @@ extra:
   hypothesis: true
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
