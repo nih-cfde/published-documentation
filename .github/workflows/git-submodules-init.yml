@@ -1,0 +1,3 @@
+- name: Git Submodules Init
+  uses: chris-short/github-action-git-submodules@v0.1.0
+
