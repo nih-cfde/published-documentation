@@ -14,7 +14,7 @@ jobs:
         uses: peter-evans/create-pull-request@v2
         with:
             base: Preview
-            token: ${{ secrets.highcharttest }}
+            token: ${{ secrets.HIGHCHARTTEST }}
             commit-message: Update Cookbook
             title: Auto update Cookbook submodule
             body: |
