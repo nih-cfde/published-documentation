@@ -21,6 +21,7 @@ nav:
     - Level 1: spec-and-docs/C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1.md
     - Level 2: spec-and-docs/C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
     - Glossary: spec-and-docs/CFDE-glossary.md
+    - Glossary-test: spec-and-docs/CFDE-glossary-test.md
   - FAIR Cookbook:
     - Introduction:
       - What is FAIR?: the-fair-cookbook/content/intro.md
