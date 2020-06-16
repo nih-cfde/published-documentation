@@ -400,7 +400,7 @@ experimental resources.
       CV subsets on an ongoing basis (as new term requirements roll in from
       client metadata sources (DCCs) as they try to model their respective datasets)?_
 
-#### Level 1 metadata submission examples: Data Package JSON Schema and example TSVs
+#### Level 1 metadata submission examples: Data Package JSON Schema
 
 A JSON Schema document -- implementing
 [Frictionless Data](https://frictionlessdata.io/)'s
