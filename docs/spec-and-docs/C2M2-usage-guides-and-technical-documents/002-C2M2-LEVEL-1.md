@@ -3,7 +3,7 @@
 C2M2 Level 1 models **basic experimental resources and associations between them**.
 This level of metadata richness is more difficult to produce than Level 0's flat
 inventory of digital files. As a result, Level 1 metadata offers users more powerful
-downstream tools than are available for Level 0 datasets, including
+downstream tools than are available for [Level 0](./001-C2M2-LEVEL-0.md) datasets, including
    * faceted searches on a (small) set of biologically relevant features (like anatomy
    and taxonomy) of experimental resources like `biosample`s and `subject`s
    * organization of summary displays using subdivisions of experimental metadata
@@ -14,7 +14,7 @@ downstream tools than are available for Level 0 datasets, including
 
 C2M2 Level 1 is designed to offer an intermediate tier of difficulty, in terms of
 preparing compliant submissions, between Level 0's basic digital inventory
-and the full intricacy of Level 2 C2M2 (the most powerful and flexible research-asset
+and the full intricacy of [Level 2 C2M2](./003-C2M2-LEVEL-2.md) (the most powerful and flexible research-asset
 metadata model that can be meaningfully generalized to represent multiple CFDE datasets).
 Accordingly, we have reserved several modeling concepts -- requiring the most effort
 to produce and maintain -- for Level 2. The following are **not modeled at Level 1**:
