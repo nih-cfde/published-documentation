@@ -1,7 +1,8 @@
 # C2M2 Level 1
 
-Portions of this document are being expanded and refined. (All technical
-specifications are currently complete and present.)
+_Portions of this document are being expanded and refined.
+
+All technical specifications are currently present and complete._
 
 --------------------------------------------------------------------------------
 
