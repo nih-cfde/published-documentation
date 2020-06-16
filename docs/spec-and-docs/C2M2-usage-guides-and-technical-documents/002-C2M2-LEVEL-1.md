@@ -1,5 +1,10 @@
 # C2M2 Level 1
 
+Portions of this document are being expanded and refined. (All technical
+specifications are currently complete and present.)
+
+--------------------------------------------------------------------------------
+
 C2M2 Level 1 models **basic experimental resources and associations between them**.
 This level of metadata richness is more difficult to produce than [Level 0](./001-C2M2-LEVEL-0.md)'s flat
 inventory of digital files. As a result, Level 1 metadata offers users more powerful
