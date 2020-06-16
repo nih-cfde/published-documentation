@@ -66,7 +66,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
 
 |_Level 1 model diagram_|
 |:---:|
-|![Level 1 model diagram](../draft-C2M2_ER_diagrams/Level-1-C2M2-model.png "Level 1 model diagram")|
+|![Level 1 model diagram](../C2M2-ER-diagrams/C2M2-Level-1-ER-diagram.png "Level 1 model diagram")|
 
 #### Level 1 technical specification
 
