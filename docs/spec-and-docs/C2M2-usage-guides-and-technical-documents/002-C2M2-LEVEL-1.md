@@ -82,7 +82,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
       as between each_ `biosample` _and any_ `file`_s analytically derived from it -- are
       represented using association tables, with one such table dedicated to each
       relationship type (cf. below, §"Association tables: inter-entity linkages").
-      Actual [DCC](../CFDE-glossary.md#data-coordinating-center-dcc)-managed provenance metadata will sometimes (maybe always) represent more complex and
+      Actual [DCC](../CFDE-glossary.md#data-coordinating-center-dcc)-managed provenance [metadata](../CFDE-glossary.md#metadata) will sometimes (maybe always) represent more complex and
       detailed provenance networks: in such situations, chains of "_`this` _produced_
       `that`_" relationships too complex to model at Level 1 will need to be
       transitively collapsed. As an example: let's say a research team collects a
