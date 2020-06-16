@@ -42,8 +42,8 @@ shown in the diagram below. We'll give you copies of the gold tables to include
 with your submission: you'll reference IDs from these tables in the (blue and black) tables
 you're building directly. Once you've built the core entity tables,
 the green tables can be built automatically using our
-[term-scanner script](../draft-C2M2_external_CV_term_table_generator_script/build_term_tables.py), which will
-collect all relevant CV terms used throughout your core tables and will create the
+term-scanner script, which will
+collect all relevant [controlled vocabulary terms](../CFDE-glossary.md#controlled-vocabulary) used throughout your core tables and will create the
 corresponding green tables, using data loaded from versioned, whole-CV reference
 documents (like OBO files)._
 
