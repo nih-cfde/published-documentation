@@ -43,11 +43,11 @@ with your submission: you'll reference IDs from these tables in the (blue and bl
 you're building directly. Once you've built the core entity tables,
 the green tables can be built automatically using our
 term-scanner script, which will
-collect all relevant [controlled vocabulary terms](../CFDE-glossary.md#controlled-vocabulary) used throughout your core tables and will create the
+collect all relevant [controlled vocabulary (CV) terms](../CFDE-glossary.md#controlled-vocabulary) used throughout your core tables and will create the
 corresponding green tables, using data loaded from versioned, whole-CV reference
 documents (like OBO files)._
 
-_In the case of any unpopulated tables (no_ `collection` _records, for example, are
+_In the case of any unpopulated tables (no_ [`collection`](../CFDE-glossary.md#collection) _records, for example, are
 required for model compliance), please create the relevant TSV files anyway,
 with just one tab-separated header line containing the empty table's column
 names. (In contrast to simply omitting the blank table file, the recommended practice
