@@ -177,7 +177,7 @@
 ##### [FAIR Insignia]()
 - A grid of colored squares developed to visually communicate FAIRness level. The [FAIR](#FAIR) insignia identifies areas of strength and weakness in the FAIRness level of digital objects, guiding digital object producers on how to improve the FAIRness of their products. FAIR insignia is an output of the [FAIRshake](#FAIRshake)
 
-<img src="./images/logo/FAIRinsignia.png" alt="drawing" style="border:1px solid black;" width="100"  align="top" />
+<img src="https://github.com/nih-cfde/the-fair-cookbook/blob/master/content/images/logo/FAIRinsignia.png?raw=true" alt="drawing" style="border:1px solid black;" width="100"  align="top" />
 
 
 ##### [FAIRshake](https://fairshake.cloud/)
