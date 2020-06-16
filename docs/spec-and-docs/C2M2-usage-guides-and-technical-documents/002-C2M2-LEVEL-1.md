@@ -61,7 +61,7 @@ _Color key:_
 from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _table._
 * _Green: external CVs (term & display-decoration tracking tables) and their foreign-key relationships_
 * _Blue: containers and their containment relationships_
-* _Black: core entities and the direct [associative relationships](../CFDE-glossary.md#associative-relationship-association-table) between them (plus_
+* _Black: core entities and the direct [associative relationships](../CFDE-glossary.md#associative-relationship--association-table) between them (plus_
 `subject` _<->_ `subject_role_taxonomy` _)_
 
 |_Level 1 model diagram_|
