@@ -56,7 +56,7 @@ for a given table from the case in which a table has been omitted by mistake.)_
 
 _Color key:_
 
-* _Gold: CFDE-internal controlled vocabularies/dictionaries and their foreign-key relationships_
+* _Gold: CFDE-internal controlled vocabularies/dictionaries and their [foreign-key](../CFDE-glossary.md#foreign-key) relationships_
    * _Note: for representational clarity, gold FK arrows are implied (but not drawn)
 from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _table._
 * _Green: external CVs (term & display-decoration tracking tables) and their foreign-key relationships_
