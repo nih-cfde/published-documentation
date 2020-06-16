@@ -161,7 +161,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
       * _Alongside shared metadata fields (cf. below, §"Common entity fields") and inter-entity
       associations (cf. below, §"Association tables: inter-entity linkages"), C2M2
       Level 1 models two additional details specific to_ `subject` _entities:_
-         * _internal structural configuration (defined in the_ `subject_granularity` _table
+         * _[internal structural configuration](../CFDE-glossary.md#subject-granularity) (defined in the_ `subject_granularity` _table
          and specified for each_ `subject` _record via a foreign key field in the_ `subject` _table),
          e.g.: "single organism," "microbiome," "cell line"_
          * _taxonomic assignments attached to subcomponents ("roles," defined in the_
