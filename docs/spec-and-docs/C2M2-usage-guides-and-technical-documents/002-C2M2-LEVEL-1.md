@@ -104,7 +104,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
    	only_ `subject` _<->_ `some_monolothic_stuff` _<->_ `(FASTQ) file` _can and should be
    	explicitly represented._
          * _The simplifications here are partially necessitated by the fact that
-   	   [event modeling has been deliberately deferred to C2M2 Level 2: as a result,
+   	   event modeling has been deliberately deferred to C2M2 Level 2: as a result,
    	   the notion of a well-defined "chain of provenance" is not modeled at
    	   this C2M2 Level. (More concretely: Level 1 does not represent
    	   inter-_`biosample` _relationships.)_
@@ -117,7 +117,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
          that enables an analytic (or observational or other scientific) process (which
          originates at a_ `subject` _) to move forward and ultimately produce one or
          more_ `file`_s._  
-      * _In practice, a Level 1 C2M2 instance builder facing such a situation
+      * _In practice, a Level 1 [C2M2 instance](../CFDE-glossary.md#c2m2-instance) builder facing such a situation
    	might reasonably create one record for the originating_ `subject` _; create one_
    	`biosample` _entity record; create a_ `file` _record for the FASTQ file produced
    	by the sequencing process; and hook up_ `subject` _<->_ `biosample` _and_
@@ -128,8 +128,8 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
          might for example choose to import metadata (IDs, etc.) describing the
          final pre-sequencer material. The creation of specific rules governing maps
          from native DCC data to (simplified, abstracted) Level 1 entity records
-         is of necessity left up to the best judgment of the serialization staff
-         creating each DCC's Level 1 C2M2 ETL instance; we recommend consistency,
+         is of necessity left up to the best judgment of the [serialization](../CFDE-glossary.md#serialization) staff
+         creating each DCC's Level 1 C2M2 instance; we recommend consistency,
          but beyond that, custom solutions will have to be developed to handle
          different data sources. CFDE staff will be available to help navigate any
          complexity encountered when establishing a map between the native details
