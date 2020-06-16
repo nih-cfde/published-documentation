@@ -37,7 +37,7 @@ to produce and maintain -- for Level 2. The following are **not modeled at Level
 
 #### Level 1 submission process: overview
 
-_Build the black (core entity) and blue (containment relationship) tables
+_Build the black (core [entity](../CFDE-glossary.md#entity-relationship-er-model)) and blue (containment relationship) tables
 shown in the diagram below. We'll give you copies of the gold tables to include
 with your submission: you'll reference IDs from these tables in the (blue and black) tables
 you're building directly. Once you've built the core entity tables,
