@@ -1,9 +1,9 @@
 # C2M2 Level 1
 
 C2M2 Level 1 models **basic experimental resources and associations between them**.
-This level of metadata richness is more difficult to produce than Level 0's flat
+This level of metadata richness is more difficult to produce than [Level 0](./001-C2M2-LEVEL-0.md)'s flat
 inventory of digital files. As a result, Level 1 metadata offers users more powerful
-downstream tools than are available for [Level 0](./001-C2M2-LEVEL-0.md) datasets, including
+downstream tools than are available for Level 0 datasets, including
    * faceted searches on a (small) set of biologically relevant features (like anatomy
    and taxonomy) of experimental resources like `biosample`s and `subject`s
    * organization of summary displays using subdivisions of experimental metadata
