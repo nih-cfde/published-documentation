@@ -48,7 +48,7 @@ corresponding green tables, using data loaded from versioned, whole-CV reference
 documents (like OBO files)._
 
 _In the case of any unpopulated tables (no_ [`collection`](../CFDE-glossary.md#collection) _records, for example, are
-required for model compliance), please create the relevant TSV files anyway,
+required for model compliance), please create the relevant [TSV](../CFDE-glossary.md#tab-separated-value-file-tsv) files anyway,
 with just one tab-separated header line containing the empty table's column
 names. (In contrast to simply omitting the blank table file, the recommended practice
 instead explicitly distinguishes the case in which no data is being submitted
