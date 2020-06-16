@@ -278,7 +278,7 @@ experimental resources.
    feedback and guidance when navigating these issues._
    
    _Please see the relevant sections of the_
-   [Level 1 JSON Schema](../draft-C2M2_JSON_Schema_datapackage_specs/C2M2_Level_1.datapackage.json)
+   [Level 1 JSON Schema](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json)
    _to find all table-specific field names and foreign-key constraints._
 
 ##### Association table: taxonomy and the `subject` entity: the `subject_role_taxonomy` table
@@ -310,7 +310,7 @@ experimental resources.
       entry classifying the given_ `subject` _by way of the given_ `subject_role`
 
    _Please refer to the definition of_ `subject_role_taxonomy` _in the_
-   [Level 1 JSON Schema](../draft-C2M2_JSON_Schema_datapackage_specs/C2M2_Level_1.datapackage.json)
+   [Level 1 JSON Schema](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json)
    _to find all technical details (field names and foreign-key constraints)._
 
 ##### Controlled vocabularies and term tables
@@ -346,7 +346,7 @@ experimental resources.
       deadline. (Note that once we've actually built a few C2M2 metadata instance
       collections, we can then compare notes to help us all get a much better collective
       grip on some of the problems that will need solving in this area.)`
-   * [CV term scanner script](../draft-C2M2_external_CV_term_table_generator_script/build_term_tables.py):
+   * CV term scanner script:
    	_auto-builds (green) CV term tables_
       * _executed during bdbag-preparation stage, after core TSVs have been built_
       * _inflates (bare) CV terms cited in core-entity table fields into corresponding CV
@@ -405,10 +405,5 @@ experimental resources.
 A JSON Schema document -- implementing
 [Frictionless Data](https://frictionlessdata.io/)'s
 "[Data Package](https://frictionlessdata.io/data-package/)"
-container meta-specification -- defining the Level 1 TSV collection is
-[here](../draft-C2M2_JSON_Schema_datapackage_specs/C2M2_Level_1.datapackage.json);
-an example Level-1-compliant TSV submission collection can be found
-[here](../draft-C2M2_example_submission_data/HMP__sample_C2M2_Level_1_bdbag.contents/)
-(as a bare collection of TSV files) and
-[here](../draft-C2M2_example_submission_data/HMP__sample_C2M2_Level_1_bdbag.tgz)
-(as a packaged BDBag archive).
+container meta-specification -- defining the Level 1 TSV collection can be found
+[here](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json).
