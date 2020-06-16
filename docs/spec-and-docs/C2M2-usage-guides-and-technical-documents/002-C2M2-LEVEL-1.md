@@ -293,12 +293,12 @@ experimental resources.
 
    * `subject_granularity`_:_ `subject` _multiplicity specifier:_
       * _for each_ `subject` _record, pick one of
-   [these values](../draft-C2M2_internal_CFDE_CV_tables/subject_granularity.tsv)
+   [these values](../C2M2-reference-tables/subject_granularity.tsv)
    and attach its_ `id` _to the_ `subject` _record using the_ `granularity` _foreign
    key provided in the_ `subject` _entity table_
    * `subject_role`: _constituent relationship to intra-_`subject` _system:_
       * _each_ `subject_granularity` _corresponds to a subset of
-      [these values](../draft-C2M2_internal_CFDE_CV_tables/subject_role.tsv),
+      [these values](../C2M2-reference-tables/subject_role.tsv),
       each of which can be labeled independently with NCBI Taxonomy Database
       IDs via_ `subject_role_taxonomy`.
    * `subject_role_taxonomy`: _Putting it all together: this association table
