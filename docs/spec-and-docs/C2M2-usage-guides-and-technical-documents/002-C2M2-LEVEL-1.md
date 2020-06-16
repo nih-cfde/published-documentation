@@ -341,13 +341,6 @@ experimental resources.
       terms aren't available in a particular ontological CV_
       * _aggressively leave blank CV-field values for any records that wind up causing
       you the slightest bit of trouble._
-      * `#c2m2-internal-note: See the wish list (two bullets below) for initial notes on improving the
-      engineering solutions for this topic after the demo. Too many important issues remain
-      to be studied, argued, decided, implemented and tested for us to make CV management
-      more than a quick and intellectually unsatisfying kludge and still meet our June development
-      deadline. (Note that once we've actually built a few C2M2 metadata instance
-      collections, we can then compare notes to help us all get a much better collective
-      grip on some of the problems that will need solving in this area.)`
    * CV term scanner script:
    	_auto-builds (green) CV term tables_
       * _executed during bdbag-preparation stage, after core TSVs have been built_
@@ -360,18 +353,7 @@ experimental resources.
       configuration_
          * _make sure the prerequisite files are in the right directories_
          * _then just run the script without arguments_
-   * `#c2m2-internal-note: `**`wish list:`**` Everything listed here `**`must`**` be carefully
-   addressed well in advance of the final full-production phase of C2M2 development.
-   Handling these issues will take place `**`independently of and in parallel to our
-   June demo development process`**` (or after it concludes). Any progress made on these
-   topics before the demo will be binned into one of two categories: `**`(a) Data
-   refinements`**` to ETL instances which do not affect the underlying Level 1 model structure,
-   i.e., changes to field values and concomitant updates to the relevant Deriva
-   catalogs; `**`or (b) model-altering implementation decisions`**` (including but not limited
-   to the replacement of any of the currently-selected CV ontologies, as well as any
-   changes that would alter entity field-format syntax (or add new fields), e.g.
-   URI encoding/handling) `**`whose execution will be deferred`**` until immediately after
-   the demo concludes.)`
+   * `extant known CV issues: require refinement via convocation and consensus`
       * _explicit **version control** policy for reference CVs_
       * _detailed plan for handling app-layer aggregations of CV-term query
       results to **best serve users' search requests**:_
@@ -388,9 +370,9 @@ experimental resources.
       driven by usage needs identified by DCC clients_
       * _are **URIs better than bare CV terms** in terms of C2M2 field values?_
          * _what sort of URI support do CVs already provide?_
-         * _how deeply can we leverage their own preexisting constructs without
-         having to handle maintenance, synchrony, version, etc., issues ourselves?_
-         * _can we establish a uniform URI policy to cover all C2M2-referenced CVs,
+         * _how deeply can CFDE leverage existing id-anchoring constructs without
+         having to handle maintenance, synchrony, version, etc., issues?_
+         * _can CFDE establish a uniform URI policy to cover all C2M2-referenced CVs,
          or will we need to establish multiple policies for different CVs?_
       * _establish and execute some sort of survey process to create
       consensus on **which particular CVs look like the best final selections**
@@ -398,7 +380,7 @@ experimental resources.
       	* _how comprehensive is a CV's coverage of the relevant ontological space?_
       	* _how responsive are the CV owners to change requests?_
       * _detailed ETL-construction usage plan: should we pre-select sub-vocabularies of
-      sanctioned CVs to distribute to ETL generators, updating these CFDE-blessed
+      sanctioned CVs to distribute to DCC instance generators, updating these blessed
       CV subsets on an ongoing basis (as new term requirements roll in from
       client metadata sources (DCCs) as they try to model their respective datasets)?_
 
