@@ -13,7 +13,7 @@ downstream tools than are available for Level 0 datasets, including
    * faceted searches on a (small) set of biologically relevant features (like anatomy
    and taxonomy) of experimental resources like [`biosample`s](../CFDE-glossary.md#biosample) and [`subject`s](../CFDE-glossary.md#subject)
    * organization of summary displays using subdivisions of experimental metadata
-   collections by `project` (grant or contract) and `collection` (any scientifically
+   collections by [`project`](../CFDE-glossary.md#project) (grant or contract) and [`collection`](../CFDE-glossary.md#collection) (any scientifically
    relevant grouping of resources)
    * basic reporting on changes in metadata over time, tracking (for example)
    creation times for `file`s and `biosample`s
@@ -26,7 +26,7 @@ Accordingly, we have reserved several modeling concepts -- requiring the most ef
 to produce and maintain -- for Level 2. The following are **not modeled at Level 1**:
    * any and all **protected data**
    * documentation of  **experimental protocols**
-   * event-based resource generation/**provenance networks**
+   * [event](../CFDE-glossary.md#event)-based resource generation/**provenance networks**
    * detailed information on **organizations and people** governing the research
    being documented
    * a **comprehensive suite** of options to model **scientific attributes of
@@ -47,7 +47,7 @@ collect all relevant [controlled vocabulary (CV) terms](../CFDE-glossary.md#cont
 corresponding green tables, using data loaded from versioned, whole-CV reference
 documents (like OBO files)._
 
-_In the case of any unpopulated tables (no_ [`collection`](../CFDE-glossary.md#collection) _records, for example, are
+_In the case of any unpopulated tables (no_ `collection` _records, for example, are
 required for model compliance), please create the relevant [TSV](../CFDE-glossary.md#tab-separated-value-file-tsv) files anyway,
 with just one tab-separated header line containing the empty table's column
 names. (In contrast to simply omitting the blank table file, the recommended practice
@@ -104,7 +104,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
    	only_ `subject` _<->_ `some_monolothic_stuff` _<->_ `(FASTQ) file` _can and should be
    	explicitly represented._
          * _The simplifications here are partially necessitated by the fact that
-   	   event modeling has been deliberately deferred to C2M2 Level 2: as a result,
+   	   [event modeling has been deliberately deferred to C2M2 Level 2: as a result,
    	   the notion of a well-defined "chain of provenance" is not modeled at
    	   this C2M2 Level. (More concretely: Level 1 does not represent
    	   inter-_`biosample` _relationships.)_
