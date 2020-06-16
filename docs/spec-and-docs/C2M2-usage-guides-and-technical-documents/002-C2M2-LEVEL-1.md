@@ -11,7 +11,7 @@ This level of metadata richness is more difficult to produce than [Level 0](./00
 inventory of digital files. As a result, Level 1 metadata offers users more powerful
 downstream tools than are available for Level 0 datasets, including
    * faceted searches on a (small) set of biologically relevant features (like anatomy
-   and taxonomy) of experimental resources like `biosample`s and `subject`s
+   and taxonomy) of experimental resources like [`biosample`s](../CFDE-glossary.md#biosample) and [`subject`s](../CFDE-glossary.md#subject)
    * organization of summary displays using subdivisions of experimental metadata
    collections by `project` (grant or contract) and `collection` (any scientifically
    relevant grouping of resources)
