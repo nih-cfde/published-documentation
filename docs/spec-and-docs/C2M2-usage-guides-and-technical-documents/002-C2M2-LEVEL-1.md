@@ -164,7 +164,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
          * _[internal structural configuration](../CFDE-glossary.md#subject-granularity) (defined in the_ `subject_granularity` _table
          and specified for each_ `subject` _record via a foreign key field in the_ `subject` _table),
          e.g.: "single organism," "microbiome," "cell line"_
-         * _taxonomic assignments attached to subcomponents ("roles," defined in the_
+         * _taxonomic assignments attached to subcomponents ("[roles](../CFDE-glossary.md#subject-role)," defined in the_
          `subject_role` _table) of_ `subject` _entities, e.g. "cell line ancestor ->
          NCBI:txid9606" or "host (of host-pathogen symbiont system) -> NCBI:txid10090":
          this is accomplished via the_ `subject_role_taxonomy` _trinary association table
