@@ -252,7 +252,7 @@ experimental resources.
    subcollection)**._
    
    _Please see the relevant sections of the_
-   [Level 1 JSON Schema](../draft-C2M2_JSON_Schema_datapackage_specs/C2M2_Level_1.datapackage.json)
+   [Level 1 JSON Schema](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json)
    _to find all table-specific field names and foreign-key constraints._
 
 ##### Association tables: inter-entity linkages
