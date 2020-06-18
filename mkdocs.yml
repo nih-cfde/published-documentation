@@ -57,7 +57,9 @@ nav:
     - Code of Conduct: about/CODEOFCONDUCT.md
     - License: about/LICENSE.md
     - Contributing: about/CONTRIBUTING.md
-
+  - To the data portal: https://app.nih-cfde.org/
+  - To the main website: https://nih-cfde.org/
+  
 markdown_extensions:
 - admonition
 - pymdownx.emoji
