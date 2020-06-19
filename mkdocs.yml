@@ -3,7 +3,7 @@ site_name: Common Fund Data Ecosystem Documentation
 repo_url: https://github.com/nih-cfde/published-documentation
 
 theme:
-  name: material
+  name: tacos
   custom_dir: overrides
   palette:
     primary: white
