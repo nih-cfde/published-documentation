@@ -1,6 +1,6 @@
 name: Build documentation on PR
 
-on: [pull_request, push]
+on: pull_request
 
 jobs:
   build-and-deploy:
