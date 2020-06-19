@@ -13,7 +13,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
-            base: Preview
+            base: preview
             token: ${{ secrets.ALLTHEACTIONS }}
             commit-message: Update Cookbook
             title: Auto update Cookbook submodule
