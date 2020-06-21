@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Update dependencies
+      - name: Update Cookbook submodule preview
         run: |
           git submodule update --init --remote --recursive
       - name: Create Pull Request
