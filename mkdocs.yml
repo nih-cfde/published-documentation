@@ -79,3 +79,6 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       execute: True
+  - search: # necessary for search to work
+      separator: '[\s\-\.]+'
+  - awesome-pages
