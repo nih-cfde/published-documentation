@@ -33,7 +33,9 @@ nav:
         - Introducing the Cross-Cut Metadata Model (C2M2): the-fair-cookbook/content/recipes/12/c2m2.md
         - Description of the Level-1 C2M2: the-fair-cookbook/content/recipes/12/C2M2-L1-description.md
         - CFDE Resource Naming: the-fair-cookbook/content/recipes/06/cfde-namespaces.md
-        - ETL to C2M2/DATS - the KidsFirst example: the-fair-cookbook/content/recipes/07/seo.ipynb
+        - ETL to C2M2/DATS - the Kids First example: the-fair-cookbook/content/recipes/07/seo.ipynb
+        - ETL to C2M2- the Kids First example: the-fair-cookbook/content/recipes/15/5/kf 
+        - ETL to C2M2- the LINCS example: the-fair-cookbook/content/recipes/15/4/lincs         
       - Identification:
         - The need for identifiers: the-fair-cookbook/content/recipes/08/identifiers.md
         - Minting persistent and resolvable identifiers: the-fair-cookbook/content/recipes/08/1/pids.md
@@ -77,3 +79,6 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       execute: True
+  - search: # necessary for search to work
+      separator: '[\s\-\.]+'
+  - awesome-pages
