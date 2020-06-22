@@ -1,0 +1,8 @@
+title: C2M2 Model Documentation
+  - C2M2-usage-guides-and-technical-documents/000-INTRODUCTION.md
+  - C2M2-usage-guides-and-technical-documents/001-C2M2-LEVEL-0.md
+  - C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1.md
+  - C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
+  Glossary:
+    - spec-and-docs/CFDE-glossary.md
+    - spec-and-docs/CFDE-glossary-test.md
