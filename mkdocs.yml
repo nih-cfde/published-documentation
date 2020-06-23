@@ -13,56 +13,6 @@ theme:
 
 docs_dir: docs
 
-nav:
-  - Home: index.md
-  - C2M2 Model Documentation:
-    - Introduction: spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION.md
-    - Level 0: spec-and-docs/C2M2-usage-guides-and-technical-documents/001-C2M2-LEVEL-0.md
-    - Level 1: spec-and-docs/C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1.md
-    - Level 2: spec-and-docs/C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
-    - Glossary: spec-and-docs/CFDE-glossary.md
-    - Glossary-test: spec-and-docs/CFDE-glossary-test.md
-  - FAIR Cookbook:
-    - Introduction:
-      - What is FAIR?: the-fair-cookbook/content/intro.md
-      - Fair Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
-      - Engaging with NIH-CFDE: the-fair-cookbook/content/recipes/05/cfde.md
-    - Recipes:
-      - Discoverability:
-        - Cataloguing: the-fair-cookbook/content/recipes/06/cataloguing.md
-        - Introducing the Cross-Cut Metadata Model (C2M2): the-fair-cookbook/content/recipes/12/c2m2.md
-        - Description of the Level-1 C2M2: the-fair-cookbook/content/recipes/12/C2M2-L1-description.md
-        - CFDE Resource Naming: the-fair-cookbook/content/recipes/06/cfde-namespaces.md
-        - ETL to C2M2/DATS - the Kids First example: the-fair-cookbook/content/recipes/07/seo.ipynb
-        - ETL to C2M2- the Kids First example: the-fair-cookbook/content/recipes/15/5/kf 
-        - ETL to C2M2- the LINCS example: the-fair-cookbook/content/recipes/15/4/lincs         
-      - Identification:
-        - The need for identifiers: the-fair-cookbook/content/recipes/08/identifiers.md
-        - Minting persistent and resolvable identifiers: the-fair-cookbook/content/recipes/08/1/pids.md
-        - Using MINIDs: the-fair-cookbook/content/recipes/08/2/minids.md
-      - Semantics:
-        - Finding: the-fair-cookbook/content/recipes/09/finding.md
-        - Understanding terminologies: the-fair-cookbook/content/recipes/10/ontologies.md
-        - NIH CFDE selected terminologies: the-fair-cookbook/content/recipes/14/cfde-terminologies.md
-      - FAIR compliance:
-        - Evaluating FAIRness with FAIRshake: the-fair-cookbook/content/recipes/04/fairshake.md
-        - Developing FAIR API: the-fair-cookbook/content/recipes/16/fair-api.md
-      - Extending the Cookbook:
-        - Recipe Template: the-fair-cookbook/content/1/recipe-template.md
-        - Building The Cookbook: the-fair-cookbook/README.md
-        - Code of Conduct: the-fair-cookbook/content/code_of_conduct.md
-        - CONTRIBUTING: the-fair-cookbook/content/contributing.md
-        - Disclaimer: the-fair-cookbook/content/disclaimer.md
-        - Governance: the-fair-cookbook/content/governance.md
-        - License: the-fair-cookbook/content/license.md
-  - About:
-    - Code of Conduct: about/CODEOFCONDUCT.md
-    - License: about/LICENSE.md
-    - Contributing: about/CONTRIBUTING.md
-  - Visit the Data Portal: 
-    - Portal: https://app.nih-cfde.org/
-  - Visit the CFDE Website: 
-    - Site: https://nih-cfde.org/
   
 markdown_extensions:
 - admonition
