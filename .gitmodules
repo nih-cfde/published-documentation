@@ -1,4 +1,4 @@
 [submodule "docs/the-fair-cookbook"]
 	path = docs/the-fair-cookbook
 	url = https://github.com/nih-cfde/the-fair-cookbook.git
-        branch = master
+        branch = decentralizedtoc
