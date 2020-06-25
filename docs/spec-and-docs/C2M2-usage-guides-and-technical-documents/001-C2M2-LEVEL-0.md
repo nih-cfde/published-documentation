@@ -1,3 +1,7 @@
+---
+layout: default
+title: Level 0
+---
 # C2M2 Level 0
 
 C2M2 Level 0 defines a **minimal valid

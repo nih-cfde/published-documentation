@@ -1,3 +1,8 @@
+---
+layout: default
+title: INTRODUCTION
+---
+
 # The Common Fund Data Ecosystem's Crosscut Metadata Model (CFDE C2M2)
 
 This document introduces the Crosscut Metadata Model

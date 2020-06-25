@@ -1,4 +1,9 @@
-# Contributing to the nih-cfde published-documentation Repository
+---
+layout: default
+title: Contributing
+---
+
+## Contributing to the nih-cfde published-documentation Repository
 
 Hello, and thank you for wanting to contribute to the CFDE published-documentation
 Repository\!

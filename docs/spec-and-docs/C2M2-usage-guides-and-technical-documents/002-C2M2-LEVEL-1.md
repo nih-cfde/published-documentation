@@ -1,3 +1,8 @@
+---
+layout: default
+title: Level 1
+---
+
 # C2M2 Level 1
 
 _Portions of this document are being expanded and refined._
@@ -199,7 +204,7 @@ experimental resources.
       (_`file`/`subject`/`biosample`_) record_
       * _conceptually rooted in -- but not necessarily mapped one-to-one from
       -- a corresponding hierarchy of grants, contracts or other **important
-      administrative subdivisions of primary research funding**_ 
+      administrative subdivisions of primary research funding**_
       * `project` _attribution is **required** for core resource entity types: use
       (binary, explicit, namespace-decoupled) "primary project" FK in_
       `file`/`biosample`/`subject` _entity records to encode these attributions_
@@ -242,17 +247,17 @@ experimental resources.
    * `file_in_collection`
    * `subject_in_collection`
    * `biosample_in_collection`
-   
+
    _These tables are used to express basic containment relationships like "this_ `file` _is in
    this_ `collection`_" or "this_ `project` _is a sub-project of this other_
    `project`_." The record format for all of these tables specifies four fields:_
-   
+
    * _two (an_ `id_namespace` _and an_ `id`_) encoding a foreign key representing
    the **containing**_ **`project`** _**or**_ **`collection`**_, and_
    * _two (another_ {`id_namespace`, `id`} _pair) acting as a foreign key
    referencing the table describing the **contained resource (or
    subcollection)**._
-   
+
    _Please see the relevant sections of the_
    [Level 1 JSON Schema](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json)
    _to find all table-specific field names and foreign-key constraints._
@@ -263,12 +268,12 @@ experimental resources.
    * `file_describes_biosample`
    * `biosample_from_subject`
    * `collection_defined_by_project`
-   
+
    _As with the containment association tables, records in these tables
    will contain four fields, encoding two foreign keys: one (binary) key per
    entity involved in the particular relationship being asserted by
    each record._
-   
+
    _Table names define relationship types, and are (with the exception
    of_ `collection_defined_by_project`_) somewhat nonspecific by design.
    Note in particular that relationships between core entities represented
@@ -278,7 +283,7 @@ experimental resources.
    approximations) are left to DCC serialization staff and relevant
    investigators; CFDE staff will be available as needed to offer
    feedback and guidance when navigating these issues._
-   
+
    _Please see the relevant sections of the_
    [Level 1 JSON Schema](../C2M2-JSON-Schemas/C2M2_Level_1.datapackage.json)
    _to find all table-specific field names and foreign-key constraints._
