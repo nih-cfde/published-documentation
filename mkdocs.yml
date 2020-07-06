@@ -22,13 +22,12 @@ nav:
     - Level 2: spec-and-docs/C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
     - Glossary: spec-and-docs/CFDE-glossary-test.md
   - FAIR Cookbook:
-    - Introduction:
-      - What is FAIR?: the-fair-cookbook/content/intro.md
-      - Fair Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
-       - Cataloguing: the-fair-cookbook/content/recipes/06/cataloguing.md
-       - Introducing the Cross-Cut Metadata Model (C2M2): the-fair-cookbook/content/recipes/12/c2m2.md
-       - Description of the Level-1 C2M2: the-fair-cookbook/content/recipes/12/C2M2-L1-description.md
-       - CFDE Resource Naming: the-fair-cookbook/content/recipes/06/cfde-namespaces.md    
+    - What is FAIR?: the-fair-cookbook/content/intro.md
+    - FAIR Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
+    - Cataloguing: the-fair-cookbook/content/recipes/06/cataloguing.md
+    - Introducing the Cross-Cut Metadata Model (C2M2): the-fair-cookbook/content/recipes/12/c2m2.md
+    - Description of the Level-1 C2M2: the-fair-cookbook/content/recipes/12/C2M2-L1-description.md
+    - CFDE Resource Naming: the-fair-cookbook/content/recipes/06/cfde-namespaces.md    
     - Recipes:
       - Discoverability:
         - ETL to C2M2/DATS - the Kids First example: the-fair-cookbook/content/recipes/07/seo.ipynb
