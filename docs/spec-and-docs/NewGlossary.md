@@ -21,7 +21,7 @@ a `sample or a file`, which are also known as `material asset` or `digital asset
 ---
 
 ##### <u>Asset Inventory</u>
-an asset inventory is a collection of digital asset  distributed by the DCCs through a portal.
+an asset inventory is a collection of digital assets distributed by the [DCCs](#dccs) through a portal.
 
 ---
 
@@ -43,12 +43,12 @@ an asset inventory is a collection of digital asset  distributed by the DCCs thr
 ---
 
 ##### <u>Biospecimens</u>
-a `material asset`, collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [Sample](#Sample)
+a `material asset`, collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [Sample](#sample)
 
 ---
 
 ##### <u>C2M2</u>
-the `CrossCut Metadata Model` is a data model specification developed by the NIH [CFDE](#CFDE) to represent experiments and datasets. Recycling a number of entities from the [DATS specification](#DATS)
+the `CrossCut Metadata Model` is a data model specification developed by the NIH [CFDE](#cfde) to represent experiments and datasets. Recycling a number of entities from the [DATS specification](#dats)
 
 ---
 
@@ -58,7 +58,7 @@ the process which generated the C2M2 model.
 ---
 
 ##### <u>C2M2 Extractor Flow</u>
-a process which transforms information stored in a given DCC representation format into the CFDE C2M2 model instances.
+a process which transforms information stored in a given [DCC](#dccs) representation format into the CFDE [C2M2 model instances](#c2m2-instance).
 
 ---
 
@@ -75,7 +75,7 @@ a process which transforms information stored in a given DCC representation form
 ---
 
 ##### <u>CC</u>
-`Coordinating Center`. The [CFDE](#CFDE)-CC’s purpose is to improve growth in use and reuse of CF program data by supporting [DCC](#DCC)s that participate in the Common Fund Data Ecosystem.
+`Coordinating Center`. The [CFDE](#cfde)-CC’s purpose is to improve growth in use and reuse of CF program data by supporting [DCC](#dccs)s that participate in the Common Fund Data Ecosystem.
 
 ---
 
@@ -85,22 +85,22 @@ a process which transforms information stored in a given DCC representation form
 ---
 
 ##### <u>CFDE Asset Manifest</u>
-a collection of *Assets* described by the *CFDE Asset Specification*. The ecosystem will support the concept of a manifest that describes a collection of files. The manifests enable bundling lists of CFDE data assets into a machine-readable file using a common format. Manifests will also be used to publish the complete inventories of data from each DCC, and will enable uniform collection of asset metadata to support indexing of the assets in the CFDE portal.
+a collection of [assets](#asset) described by the [CFDE Asset Specification](#cfde-asset-specification). The ecosystem will support the concept of a manifest that describes a collection of files. The manifests enable bundling lists of CFDE data assets into a machine-readable file using a common format. Manifests will also be used to publish the complete inventories of data from each DCC, and will enable uniform collection of asset metadata to support indexing of the assets in the CFDE portal.
 
 ---
 
 ##### <u>CFDE-asset-manifest</u>
-a type of Metadata Manifest describing an  [Asset Inventory](#Asset-Inventory)
+a type of Metadata Manifest describing an  [Asset Inventory](#asset-inventory)
 
 ---
 
 ##### <u>CFDE Asset Specification</u>
-defines the set of attributes used to charaterize an *Asset*. The specification simplifies the discovery of assets hosted at the DCCs with a minimal set of descriptors for each of these files. The types of files that are referenced (e.g., genomic sequence, metagenomic, RNA-Seq, physiological and metabolic data) are flexible and contain a small number of essential elements such as a *GUID*, originating institution (e.g., Broad Institute), assay type (e.g., whole genome/exome, transcriptome, epigenome), file type (e.g., fastq, alignment, vcf, counts), and tissue source and species name for the sample.
+defines the set of attributes used to charaterize an *Asset*. The specification simplifies the discovery of assets hosted at the DCCs with a minimal set of descriptors for each of these files. The types of files that are referenced (e.g., genomic sequence, metagenomic, RNA-Seq, physiological and metabolic data) are flexible and contain a small number of essential elements such as a [GUID](#guid), originating institution (e.g., Broad Institute), assay type (e.g., whole genome/exome, transcriptome, epigenome), file type (e.g., fastq, alignment, vcf, counts), and tissue source and species name for the sample.
 
 ---
 
 ##### [CFDE Common Metadata Format](https://fair-research.org/deliverables/cfde-metadata-format.html)
-specifies a minimal set of attributes (metadata) related to an [Asset](#Asset).
+specifies a minimal set of attributes (metadata) related to an [asset](#asset).
 
 <!-- ![common metadata format](https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png)
 <img src="https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png" alt="drawing" style="border:1px solid black;" width="650"  align="top" /> -->
@@ -112,7 +112,7 @@ the `CFDE Core Entity Relationship diagram` corresponds to a  `Level 0 represent
 ---
 
 ##### <u>CFDE Core Table Schema</u>
-the `CFDE Core Table Schema` corresponds to a  `Level 0 representation richness`, expressed as a [Frictionless Data Package](#Frictionless) represenstation and is available from the following [github repository](https://github.com/nih-cfde/cfde-deriva/blob/2019-08/table-schema/cfde-core-model.json)
+the `CFDE Core Table Schema` corresponds to a  `Level 0 representation richness`, expressed as a [Frictionless Data Package](#frictionless-data-package) represenstation and is available from the following [github repository](https://github.com/nih-cfde/cfde-deriva/blob/2019-08/table-schema/cfde-core-model.json)
 
 ---
 
@@ -123,7 +123,7 @@ an interface that monitors DCC data upload to the cloud and usage statistics to 
 ---
 
 ##### <u>CFDE Entity-Relation Diagram</u>
-the `CFDE Core Entity Relationship diagram` corresponds to a  `Level 2 representation richness` and is available from the following [github repository](https://github.com/nih-cfde/cfde-deriva/blob/2019-10/extractors_and_metadata.GTEx/cfde-core-model.2019.10.21.1430.png)
+the `CFDE Core Entity Relationship diagram` corresponds to a `Level 2 representation richness` and is available from the following [github repository](https://github.com/nih-cfde/cfde-deriva/blob/2019-10/extractors_and_metadata.GTEx/cfde-core-model.2019.10.21.1430.png)
 
 ---
 
@@ -167,12 +167,12 @@ the `Stimulating Peripheral Activity to Relieve Conditions program` seeks to acc
 ---
 
 ##### <u>CV</u>
-`Controlled Vocabulary`: an organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching. It typically includes preferred and variant terms and has a defined scope or describes a specific domain. For example, the [DCIC](#DCIC) curates an internal [4DN](#4DN) controlled vocabulary to provide definitions for emerging technologies and techniques, metadata terms, and captures important data features not defined by previous ontologies.
+`Controlled Vocabulary`: an organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching. It typically includes preferred and variant terms and has a defined scope or describes a specific domain. For example, the [DCIC](#dcic) curates an internal [4DN](#4DN) controlled vocabulary to provide definitions for emerging technologies and techniques, metadata terms, and captures important data features not defined by previous ontologies.
 
 ---
 
 ##### <u>Data Citation Rubric</u>
-a collection of rules to assess [FAIRness](#FAIR-Evaluation) of data citation using the [FAIRshake tool](#FAIRshake) available from the following [github repository](https://github.com/nih-cfde/FAIR/blob/master/Demos/FAIRAssessment/data_citation_rubric.py)
+a collection of rules to assess [FAIRness](#fair-evaluation) of data citation using the [FAIRshake tool](#fairshake) available from the following [github repository](https://github.com/nih-cfde/FAIR/blob/master/Demos/FAIRAssessment/data_citation_rubric.py)
 
 ---
 
@@ -202,7 +202,7 @@ a `collection of data`, published or curated by a single agent, and available fo
 ---
 
 ##### <u>DCC-data-ingestion-process</u>
-a process which converts a dataset obtained from a [DCC](#DCC) and transforms its data and metadata into a [C2M2](#C2M2) model instance representation and persists it to a [DERIVA](#DERIVA) endpoint  
+a process which converts a dataset obtained from a [DCC](#dccs) and transforms its data and metadata into a [C2M2](#c2m2) model instance representation and persists it to a [DERIVA](#deriva) endpoint  
 
 ---
 
@@ -222,12 +222,12 @@ a process which converts a dataset obtained from a [DCC](#DCC) and transforms it
 ---
 
 ##### [DERIVA Catalog](https://cfde.derivacloud.org/)
-a group of assets that may be digital objects (i.e., files) or references to physical objects. [DERIVA](#DERIVA) uses an entity-relationship data model to catalog and organize these assets. 
+a group of assets that may be digital objects (i.e., files) or references to physical objects. [DERIVA](#deriva) uses an entity-relationship data model to catalog and organize these assets. 
 
 ---
 
 ##### <u>DTC</u>
-`Data and Tools Cores`. The [Metabolomics Program](#Metabolomics) consortium consists of six RCMRCs and seven DTCs that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
+`Data and Tools Cores`. The [Metabolomics Program](#metabolomics) consortium consists of six RCMRCs and seven DTCs that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
 
 ---
 
@@ -260,14 +260,14 @@ a process which evaluates the level of compliance of a dataset with the FAIR pri
 ---
 
 ##### <u>FAIR Insignia</u>
-a grid of colored squares developed to visually communicate FAIRness level. The [FAIR](#FAIR) insignia identifies areas of strength and weakness in the FAIRness level of digital objects, guiding digital object producers on how to improve the FAIRness of their products. FAIR insignia is an output of the [FAIRshake](#FAIRshake)
+a grid of colored squares developed to visually communicate FAIRness level. The [FAIR](#fair) insignia identifies areas of strength and weakness in the FAIRness level of digital objects, guiding digital object producers on how to improve the FAIRness of their products. FAIR insignia is an output of the [FAIRshake](#fairshake)
 
 <img src="https://github.com/nih-cfde/the-fair-cookbook/blob/master/content/images/logo/FAIRinsignia.png?raw=true" alt="drawing" style="border:1px solid black;" width="100"  align="top" />
 
 ---
 
 ##### [FAIRshake](https://fairshake.cloud/)
-a tool produced for carrying out *FAIR Assessment*. Under the [CFDE](#CFDE), each data center’s inventory will be evaluated consistently based on FAIRshake, and the Coordinating Center will work with the individual Common Fund programs to adjust [FAIR](#FAIR) measures to meet the needs of the Common Fund. FAIRshake includes evaluating the FAIRness of digital objects including datasets, tools, and repositories.
+a tool produced for carrying out *FAIR Assessment*. Under the [CFDE](#cfde), each data center’s inventory will be evaluated consistently based on FAIRshake, and the Coordinating Center will work with the individual Common Fund programs to adjust [FAIR](#fair) measures to meet the needs of the Common Fund. FAIRshake includes evaluating the FAIRness of digital objects including datasets, tools, and repositories.
 
 ---
 
@@ -277,7 +277,7 @@ an online open access repository where researchers can preserve and share their 
 ---
 
 ##### <u>File</u>
-a `digital asset`, that is a type of digital object that each of the [DCCs](#DCC) hosts, such as genomic, metagenomic, RNA-Seq sequence data, physiological, and metabolic data or generic metadata electronic document.
+a `digital asset`, that is a type of digital object that each of the [DCCs](#dcc) hosts, such as genomic, metagenomic, RNA-Seq sequence data, physiological, and metabolic data or generic metadata electronic document.
 
 ---
 
@@ -315,7 +315,7 @@ the`Human Microbiome Project`.
 
 ---
 
-##### <u>Ingest, Ingestion (see [C2M2 Ingestion Process](#C2M2-ingestion-process))</u>
+##### <u>Ingest, Ingestion (see [C2M2 Ingestion Process](#c2m2-ingestion-process))</u>
 
 ---
 
@@ -364,12 +364,12 @@ a file that includes metadata for a group of accompanying files that are part of
 ---
 
 ##### <u>MW</u>
-[`Metabolomics Workbench`](https://www.metabolomicsworkbench.org/). The MW is an online interface to the [NMDR](#NMDR) developed at UCSD, by the Common Fund [Metabolomics](#Metabolomics) program, . It allows users to manage and upload studies as well as browse and search available studies. Using the MW interface, submitters upload data and results, including metadata, targeted data measurements, protocols/methods files, untargeted data measurements, and raw data (MS/NMR files, etc.). Other researchers can then use the MW website to browse, search, analyze, and download data as well as view summary figures of key study search parameters (e.g., bubble chart showing studies by sample source). For example, studies can be filtered by study metadata (disease, sample source, species, instrumentation) or metabolite information (metabolite classification, biochemical pathways, retention time, etc.) to identify data relevant to the user’s needs. Additionally, it provides analysis tools and access to metabolite standards, protocols, tutorials, training, and other resources to support metabolomic researchers (such as [RefMet](#RefMet), [Metabolomics Workbench Metabolite Database](#Metabolomics-Workbench-Metabolite-Database)).
+[`Metabolomics Workbench`](https://www.metabolomicsworkbench.org/). The MW is an online interface to the [NMDR](#nmdr) developed at UCSD, by the Common Fund [Metabolomics](#metabolomics) program, . It allows users to manage and upload studies as well as browse and search available studies. Using the MW interface, submitters upload data and results, including metadata, targeted data measurements, protocols/methods files, untargeted data measurements, and raw data (MS/NMR files, etc.). Other researchers can then use the MW website to browse, search, analyze, and download data as well as view summary figures of key study search parameters (e.g., bubble chart showing studies by sample source). For example, studies can be filtered by study metadata (disease, sample source, species, instrumentation) or metabolite information (metabolite classification, biochemical pathways, retention time, etc.) to identify data relevant to the user’s needs. Additionally, it provides analysis tools and access to metabolite standards, protocols, tutorials, training, and other resources to support metabolomic researchers (such as [RefMet](#refMet), [Metabolomics Workbench Metabolite Database](#metabolomics-Workbench-Metabolite-Database)).
 
 ---
 
 ##### <u>NMDR</u>
-`National Metabolomics Data Repository`. Responsible for collating, analyzing, and distributing the data gathered by the RCMRCs and hosting the tools and methods created by the [DTC](#DTC)s.
+`National Metabolomics Data Repository`. Responsible for collating, analyzing, and distributing the data gathered by the RCMRCs and hosting the tools and methods created by the [DTC](#dtc)s.
 
 ---
 
@@ -399,7 +399,7 @@ a entity to describe administrative/funding/contract/etc. hierarchy governing ow
 ---
 
 ##### <u>RCMRC</u>
-`Regional Comprehensive Metabolomics Resource Cores`. The Metabolomics Program consortium consists of six RCMRCs, also called the Compound Identification Cores (CIDCs), and seven Data and Tools Cores ([DTC](#DTC)s) that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
+`Regional Comprehensive Metabolomics Resource Cores`. The Metabolomics Program consortium consists of six RCMRCs, also called the Compound Identification Cores (CIDCs), and seven Data and Tools Cores ([DTC](#dtc)s) that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
 
 ---
 
@@ -409,7 +409,7 @@ a entity to describe administrative/funding/contract/etc. hierarchy governing ow
 ---
 
 ##### <u>Richness-levels</u>
-a qualifier indicative of the depth and granularity of an object model or [Entity-Relationship model](#Entity-relationship-model). In the context of [CFDE](#CFDE), the [C2M2](#C2M2) model is described by the following increasing richness levels: [Level-0, Level-1, Level-2]
+a qualifier indicative of the depth and granularity of an object model or [Entity-Relationship model](#entity-relationship-model). In the context of [CFDE](#cfde), the [C2M2](#c2m2) model is described by the following increasing richness levels: [Level-0, Level-1, Level-2]
 
 ---
 ##### <u>Sample</u>
