@@ -26,7 +26,6 @@ nav:
     - Introduction:
       - What is FAIR?: the-fair-cookbook/content/intro.md
       - Fair Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
-      - Engaging with NIH-CFDE: the-fair-cookbook/content/recipes/05/cfde.md
        - Cataloguing: the-fair-cookbook/content/recipes/06/cataloguing.md
        - Introducing the Cross-Cut Metadata Model (C2M2): the-fair-cookbook/content/recipes/12/c2m2.md
        - Description of the Level-1 C2M2: the-fair-cookbook/content/recipes/12/C2M2-L1-description.md
