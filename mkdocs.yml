@@ -50,6 +50,7 @@ nav:
       - Extending the Cookbook:
         - Recipe Template: the-fair-cookbook/content/1/recipe-template.md
         - Building The Cookbook: the-fair-cookbook/README.md
+      - Cookbook About:
         - Code of Conduct: the-fair-cookbook/content/code_of_conduct.md
         - CONTRIBUTING: the-fair-cookbook/content/contributing.md
         - Disclaimer: the-fair-cookbook/content/disclaimer.md
