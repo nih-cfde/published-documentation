@@ -48,7 +48,7 @@ a `material asset`, collected from an organism, a cell culture, or a material co
 ---
 
 ##### <u>C2M2</u>
-the [`CrossCut Metadata Model`](https://www.nih-cfde.org/product/full-c2m2-er-model/)is a data model specification developed by NIH [CFDE](#CFDE) to represent experiments and datasets. Recycling a number of entities from the [DATS specification](#DATS)
+the `CrossCut Metadata Model` is a data model specification developed by the NIH [CFDE](#CFDE) to represent experiments and datasets. Recycling a number of entities from the [DATS specification](#DATS)
 
 ---
 
@@ -100,7 +100,7 @@ defines the set of attributes used to charaterize an *Asset*. The specification 
 ---
 
 ##### [CFDE Common Metadata Format](https://fair-research.org/deliverables/cfde-metadata-format.html)
-specifies a minimal set of attributes (metadata) related to an *Asset*.
+specifies a minimal set of attributes (metadata) related to an [Asset](#Asset).
 
 <!-- ![common metadata format](https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png)
 <img src="https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png" alt="drawing" style="border:1px solid black;" width="650"  align="top" /> -->
@@ -154,10 +154,10 @@ the `Kids First Pediatric Research Program` Data Resource Center enables researc
 - ###### [LINCS](http://lincsproject.org/) 
 the `Library of Integrated Network-based Cellular Signatures project` is based on the premise that disrupting any one of the many steps of a given biological process will cause related changes in the molecular and cellular characteristics, behavior, and/or function of the cell – the observable composite of which is known as the cellular phenotype. Observing how and when a cell’s phenotype is altered by specific stressors can provide clues about the underlying mechanisms involved in perturbation and, ultimately, disease.
 
-- ###### [Metabolomics]() 
+- ###### [Metabolomics](https://jgi.doe.gov/our-science/science-programs/metabolomics-technology/) 
 the `Metabolomics program` was developed with the goal of increasing national capacity in metabolomics by supporting the development of next generation technologies, providing training and mentoring opportunities, increasing the inventory and availability of high quality reference standards, and promoting data sharing and collaboration.
 
-- ###### [SPARC]() 
+- ###### [SPARC](https://commonfund.nih.gov/sparc) 
 the `Stimulating Peripheral Activity to Relieve Conditions program` seeks to accelerate development of therapeutic devices that modulate electrical activity in nerves to improve organ function.
 
 ---
@@ -259,7 +259,7 @@ a process which evaluates the level of compliance of a dataset with the FAIR pri
 
 ---
 
-##### [FAIR Insignia]()
+##### <u>FAIR Insignia</u>
 a grid of colored squares developed to visually communicate FAIRness level. The [FAIR](#FAIR) insignia identifies areas of strength and weakness in the FAIRness level of digital objects, guiding digital object producers on how to improve the FAIRness of their products. FAIR insignia is an output of the [FAIRshake](#FAIRshake)
 
 <img src="https://github.com/nih-cfde/the-fair-cookbook/blob/master/content/images/logo/FAIRinsignia.png?raw=true" alt="drawing" style="border:1px solid black;" width="100"  align="top" />
@@ -295,7 +295,7 @@ an online hub for storing and sharing computer programs and other plain text fil
 
 ---
 
-##### [Globus Automate]()
+##### <u>Globus Automate</u>
 a distributed research automation platform that addresses the problem of securely and reliably automating, for many thousands of scientists, sequences of data management tasks that may span locations, storage systems, administrative domains, and timescales, and integrate both mechanical and human inputs.
 
 ---
