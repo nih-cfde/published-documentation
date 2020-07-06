@@ -72,19 +72,14 @@ a type of Metadata Manifest describing an  [Asset Inventory](#Asset-Inventory)
 
 ##### <u>CFDE Asset Specification</u>
 defines the set of attributes used to charaterize an *Asset*. The specification simplifies the discovery of assets hosted at the DCCs with a minimal set of descriptors for each of these files. The types of files that are referenced (e.g., genomic sequence, metagenomic, RNA-Seq, physiological and metabolic data) are flexible and contain a small number of essential elements such as a *GUID*, originating institution (e.g., Broad Institute), assay type (e.g., whole genome/exome, transcriptome, epigenome), file type (e.g., fastq, alignment, vcf, counts), and tissue source and species name for the sample.
-<!-- ![data asset specification](https://user-images.githubusercontent.com/40363469/66134046-ac16bc80-e5c5-11e9-9b30-66407a3446e5.png) -->
-
-<img src="https://user-images.githubusercontent.com/40363469/66134046-ac16bc80-e5c5-11e9-9b30-66407a3446e5.png" alt="drawing" style="border:1px solid black;" width="650"  align="top" />
 
 ---
 
 ##### [CFDE Common Metadata Format](https://fair-research.org/deliverables/cfde-metadata-format.html)
 specifies a minimal set of attributes (metadata) related to an *Asset*.
 
-<!-- ![common metadata format](https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png) -->
-
-<img src="https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png" alt="drawing" style="border:1px solid black;" width="650"  align="top" />
-
+<!-- ![common metadata format](https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png)
+<img src="https://user-images.githubusercontent.com/40363469/66134031-a8833580-e5c5-11e9-9cc8-5e4b275fa20c.png" alt="drawing" style="border:1px solid black;" width="650"  align="top" /> -->
 ---
 
 ##### <u>CFDE Core ER Diagram</u>
@@ -202,145 +197,208 @@ a group of assets that may be digital objects (i.e., files) or references to phy
 ##### <u>DTC</u>
 `Data and Tools Cores`. The [Metabolomics Program](#Metabolomics) consortium consists of six RCMRCs and seven DTCs that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
 
+---
+
 ##### <u>Entity-relationship-model</u>
 an `Entity-relationship-model` (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). In software engineering, an ER model is commonly formed to represent things a business needs to remember in order to perform business processes. Consequently, the ER model becomes an abstract data model, that defines a data or information structure which can be implemented in a database, typically a relational database. source: Wikipedia).
+
+---
 
 ##### <u>eRA Commons</u>
 the [`electronic Research Administration`](https://public.era.nih.gov/commons) is an online interface where signing officials, principal investigators, trainees, and post-docs at institutions/organizations can access and share administrative information relating to research grants. It is the `designated ID provider` for the whitelist of DCCs.
 
+---
+
 ##### [FAIR](https://www.go-fair.org/fair-principles/)
 `Findable, Accessible, Interoperable, and Reusable`. Making data FAIR is the main goal of the DCCs.
 
+---
+
 ##### <u>FAIR Assessment</u>
 a process which evaluates the level of compliance of a dataset with the FAIR principles. The assessment may be performed with tools such as [FAIRshake](https://fairshake.cloud) or [FAIREvaluator](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/).
+
+---
 
 ##### [FAIR Insignia]()
 a grid of colored squares developed to visually communicate FAIRness level. The [FAIR](#FAIR) insignia identifies areas of strength and weakness in the FAIRness level of digital objects, guiding digital object producers on how to improve the FAIRness of their products. FAIR insignia is an output of the [FAIRshake](#FAIRshake)
 
 <img src="https://github.com/nih-cfde/the-fair-cookbook/blob/master/content/images/logo/FAIRinsignia.png?raw=true" alt="drawing" style="border:1px solid black;" width="100"  align="top" />
 
+---
+
 ##### [FAIRshake](https://fairshake.cloud/)
 a tool produced for carrying out *FAIR Assessment*. Under the [CFDE](#CFDE), each data center’s inventory will be evaluated consistently based on FAIRshake, and the Coordinating Center will work with the individual Common Fund programs to adjust [FAIR](#FAIR) measures to meet the needs of the Common Fund. FAIRshake includes evaluating the FAIRness of digital objects including datasets, tools, and repositories.
+
+---
 
 ##### [Figshare](https://figshare.com/)
 an online open access repository where researchers can preserve and share their research outputs, including figures, datasets, images, and videos.
 
+---
+
 ##### <u>File</u>
 a `digital asset`, that is a type of digital object that each of the [DCCs](#DCC) hosts, such as genomic, metagenomic, RNA-Seq sequence data, physiological, and metabolic data or generic metadata electronic document.
+
+---
 
 ##### [Frictionless Data Package](http://frictionlessdata.io/data-package/)
 a format specification produced by the [Open Knowledge Foundation](https://okfn.org/) and supported by the Frictionlessdata.io organization. It aims to shorten the path from data to insight with a collection of specifications and software for the publication, transport, and consumption of data. This kills the cycle of find/improve/share that makes for a dynamic and productive data ecosystem.
 
+---
+
 ##### [GitHub](https://github.com/)
 an online hub for storing and sharing computer programs and other plain text files. The [CFDE](#CFDE) team uses it for storage, hosting websites, communications, and project management.
+
+---
 
 ##### [Globus Automate]()
 a distributed research automation platform that addresses the problem of securely and reliably automating, for many thousands of scientists, sequences of data management tasks that may span locations, storage systems, administrative domains, and timescales, and integrate both mechanical and human inputs.
 
+---
+
 ##### <u>Globus Automate Flow</u>
 a process which relies on Globus Automate, a software service created and based at the University of Chicago, to help scientists simplify their workflow by automating data transfer and synchronization tasks. Users can create automated sequences initiated by events, known as `Globus Automate Flows`.
+
+---
 
 ##### <u>GUID</u>
 `Globally Unique IDentifier`. a chain of characters, usually 128-bit long used to uniquely identify an entity. Modern hashing functions used to generate GUIDs make `identifier collisions` (the event of the function producing the same sequence) highly unlikely (but not impossible), hence those can only be `nearly guaranteed to be unique`.
 
+---
+
 ##### <u>HMP</u>
 the`Human Microbiome Project`. 
+
+---
 
 ##### [Jupyter Notebook](https://jupyter.org/)
 a web-based interactive environment for organizing data, performing computation, and visualizing output.
 
+---
+
 ##### <u>M3C</u>
 the `Metabolomics Consortium Coordinating Center` at the University of Florida, which handles overall coordination for the Metabolomics program.
+
+---
 
 ##### <u>Metadata Ingest</u>
 a process which assigns identifiers to the objects, then extracts or creates metadata for these objects and persists them.
 
+---
+
 ##### <u>MGP</u>
 [`Human Metabolome Gene/Protein Database`](https://www.metabolomicsworkbench.org/databases/proteome/MGP.php). Developed by the Common Fund Metabolomics program and part of Metabolomics Workbench. A database of metabolome-related genes and proteins containing over 7,300 genes and over 15,500 proteins. Users can search by gene (name, symbol, entrez ID, etc.), HMDB Pathway, or Reactome Pathway. MGP displays genes/proteins and metabolites associated with a pathway of interest. Searching by gene displays information about the gene’s associated proteins and pathways, including a summary of the function and metabolites involved in the pathway.
+
+---
 
 ##### <u>MoTrPAC</u>
 [`Molecular Transducers of Physical Activity Consortium`](https://www.motrpac.org/). MoTrPAC is a national research consortium designed to discover and perform preliminary characterization of the range of molecular transducers (the "molecular map") that underlie the effects of physical activity in humans. The program's goal is to study the molecular changes that occur during and after exercise and ultimately to advance the understanding of how physical activity improves and preserves health. The six-year program is the largest targeted NIH investment of funds into the mechanisms of how physical activity improves health and prevents disease.
 
+---
+
 ##### <u>MW</u>
 [`Metabolomics Workbench`](https://www.metabolomicsworkbench.org/). The MW is an online interface to the [NMDR](#NMDR) developed at UCSD, by the Common Fund [Metabolomics](#Metabolomics) program, . It allows users to manage and upload studies as well as browse and search available studies. Using the MW interface, submitters upload data and results, including metadata, targeted data measurements, protocols/methods files, untargeted data measurements, and raw data (MS/NMR files, etc.). Other researchers can then use the MW website to browse, search, analyze, and download data as well as view summary figures of key study search parameters (e.g., bubble chart showing studies by sample source). For example, studies can be filtered by study metadata (disease, sample source, species, instrumentation) or metabolite information (metabolite classification, biochemical pathways, retention time, etc.) to identify data relevant to the user’s needs. Additionally, it provides analysis tools and access to metabolite standards, protocols, tutorials, training, and other resources to support metabolomic researchers (such as [RefMet](#RefMet), [Metabolomics Workbench Metabolite Database](#Metabolomics-Workbench-Metabolite-Database)).
+
+---
 
 ##### <u>Metabolomics Workbench Metabolite Database</u>
 a PostgreSQL database containing over 65,000 structures and annotations of biologically relevant metabolites collected from public repositories (e.g., LIPID MAPS, ChEBI, HMDB, BMRB, PubChem, KEGG). Users can search for metabolites in the database by substructure, text, or mass (m/z ratio). Each entry contains key information about the metabolite, including structure, molecular weight, common and systematic names, PubChem compound ID, and classification. Entries also contain cross references to external databases and repositories (e.g., HMDB, ChEBI, LIPID MAPS, METLIN, ChemSpider, KEGG, etc.) as well as links to the MoNA MS spectra and human metabolic pathways containing the metabolite. Additionally, the open-source chemistry cartridge enables substructure searching, generation of chemistry-centric attributes (formula, exact mass), and interconversion of molecular formats.
 
+---
+
 ##### <u>Metadata</u>
 a type of information entity usually defined as `data about the data`, understood as `descriptors to understand the context of a dataset`. For example, metadata about an FASTQ file may be `file size` or `file creator`. Metadata is often classified into `descriptive metadata`, `structural metadata`, `administrative metadata`, and `provenance metadata`, all of which provide ++`context`++ to the actual data/dataset.
+
+---
 
 ##### <u>Metadata Manifest</u>
 a file that includes metadata for a group of accompanying files that are part of a coherent unit (manifest), such as name, version, background scripts, and browser actions.
 
+---
+
 ##### <u>NMDR</u>
 `National Metabolomics Data Repository`. Responsible for collating, analyzing, and distributing the data gathered by the RCMRCs and hosting the tools and methods created by the [DTC](#DTC)s.
+
+---
 
 ##### [NPM](https://www.npmjs.com/)
 `Node Package Manager`: a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
 
-##### <u>Objective</u>
-a description of a scientific process, told without reference to a specific technology solution. Focuses on resources required, method(s) followed, and outcome(s) targeted. Can be validated with scientific stakeholders.
+---
 
 ##### <u>Organization</u> 
 an entity comprising of multiple people, such as an institution or an association, that has a particular purpose.
 
-##### <u>Persona</u>
-a type of user who will appear in the epics and stories that follow.
+---
 
 ##### <u>Proof of Concept (POC)</u>
 a process or realization of a certain method or idea in order to demonstrate its feasibility. 
 
+---
+
 ##### <u>Project</u>
 a entity to describe administrative/funding/contract/etc. hierarchy governing ownership/management/purview/responsibility of/for subcollections of experimental resources and metadata 
+
+---
 
 ##### <u>RAS</u>
 `Researcher Authorization Service`. A service under development by the NIH's Center for Information Technology that will facilitate access to controlled data assets and repositories.
 
+---
+
 ##### <u>RCMRC</u>
 `Regional Comprehensive Metabolomics Resource Cores`. The Metabolomics Program consortium consists of six RCMRCs, also called the Compound Identification Cores (CIDCs), and seven Data and Tools Cores ([DTC](#DTC)s) that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
- 
+
+---
+
 ##### <u>RefMet</u>
 [`Reference list of Metabolite names`](https://www.metabolomicsworkbench.org/databases/refmet/index.php). Developed by the Common Fund Metabolomics program. Effectively, a large spreadsheet that provides a standard nomenclature for over 95,500 chemical species. From the Metabolomics Workbench website, it can be browsed and searched directly or a user can input a list of metabolite names and have them automatically converted to RefMet nomenclature. A user can also directly download the data, either in whole or after filtering as one would with a simple Excel sheet. Or the entire dataset can be downloaded as part of a Shiny R app and queried locally.
 
-##### <u>Requirement</u>
-a well-scoped and defined piece of software or data engineering work that is needed to support a User Task. These should be small tasks that can be verified with engineering teams (e.g. `did we deliver it?` `yes` or `no`). A single requirement may be important for any number of different [User Task](#User-Task)s, and various collections of Requirements can be grouped to support different User Tasks.
+---
 
 ##### <u>Richness-levels</u>
 a qualifier indicative of the depth and granularity of an object model or [Entity-Relationship model](#Entity-relationship-model). In the context of [CFDE](#CFDE), the [C2M2](#C2M2) model is described by the following increasing richness levels: [Level-0, Level-1, Level-2]
 
+---
 ##### <u>Sample</u>
 a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: *[Biospecimens](#Biospecimens)*.
+
+---
 
 ##### <u>SSO</u>
 `Single Sign-On`: An authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. It is often accomplished by using the [Lightweight Directory Access Protocol (LDAP)](https://ldap.com/) and stored LDAP databases on (directory) servers. A simple version of single sign-on can be achieved over IP networks using cookies but only if the sites share a common DNS parent domain.
 
+---
+
 ##### <u>STRIDES</u>
 `Science and Technology Research Infrastructure for Discovery, Experimentation, and Sustainability` initiative by the NIH. Common Fund leadership has partnered with the STRIDES initiative, which provides lower-cost cloud services to NIH projects.
+
+---
 
 ##### <u>Subject</u>
 a study participant (human, animal) from which samples may be obtained.
 
+---
+
 ##### <u>Subject Group</u>
 a set of study subjects sharing some characteristics or undergoing the same type of study intervention.
 
-##### <u>Summary</u>
-a high-level, non-technical description of an entire `use case`. The user in each summary has a name, a scientific or administrative problem, and both proximate and ultimate goals. The focus is on the problem and what is generally needed to solve it.
+---
 
 ##### <u>Table Schema to DERIVA Translation</u>
 a process of metadata ingest which uses tabular formatted data such as Frictionless data package to persist information in the [DERIVA system](#DERIVA). The code for such a process is available from Github from [this repository]((https://github.com/nih-cfde/cfde-deriva/blob/2019-08/examples/tableschema_to_deriva.py))
 
+---
+
 ##### <u>TCC</u>
 `Training Coordination Center`. This center is staffed by experts in bioinformatics curriculum development, teaching, and community building. It provides support and resources for the development of DCC-specific training programs as well as end-user training on CFDE products and general topics of interest to the Common Fund research community. The TCC can help with logistical support for hosting workshops, as well as providing guidance on how to grow and build a sustainable training program. The TCC provides instructor training for the [DCC](#DCC)s and assists with creating useful qualitative and quantitative feedback and assessment tools. In addition to site-specific training, the TCC offers training on CFDE products as they become available, and pilots a general bioinformatics workshop curriculum on topics of broad interest within the Common Fund.
+
+---
 
 ##### <u>TOPMed</u>
 [`Trans-Omics for Precision Medicine`](https://www.nhlbiwgs.org/).  The Trans-Omics for Precision Medicine (TOPMed) program, sponsored by the National Institutes of Health (NIH) National Heart, Lung and Blood Institute (NHLBI), is part of a broader Precision Medicine Initiative, which aims to provide disease treatments tailored to an individual’s unique genes and environment. TOPMed contributes to this Initiative through the integration of whole-genome sequencing (WGS) and other omics (e.g., metabolic profiles, epigenomics, protein and RNA expression patterns) data with molecular, behavioral, imaging, environmental, and clinical data.
 
-##### <u>Use Case</u>
-a `use case`, in software and systems engineering, is a list of actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system.
-
-##### <u>User Task</u>
-a `user story` is a story told from the user’s perspective that captures a concrete step in a user's interactions with tools (e.g., software solutions) in the service of achieving the scientific objective. A `user task` ++must be written in terms that are meaningful to the user, from their perspective++. This can be thought of as one in a series of medium scale tasks that must be completed to answer the question posed in the scientific objective. The list of `user tasks` in a [`use case`](#Use-Case) should cover everything the users needs to achieve their goals, even interactions that do not involve the software or data from the Common Fund.
+---
 
 <!-- *[A2CPS]: Acute to Chronic Pain Signatures program
 *[SSO]: Single Sign-On
@@ -365,4 +423,17 @@ a `user story` is a story told from the user’s perspective that captures a con
 *[STRIDES]: Science and Technology Research Infrastructure for Discovery, Experimentation 
 *[DNS]: Domain Name System 
 *[RNA]: ribonucleic acid
+Use case terms 
+##### <u>Objective</u>
+a description of a scientific process, told without reference to a specific technology solution. Focuses on resources required, method(s) followed, and outcome(s) targeted. Can be validated with scientific stakeholders.
+##### <u>Persona</u>
+a type of user who will appear in the epics and stories that follow.
+##### <u>Requirement</u>
+a well-scoped and defined piece of software or data engineering work that is needed to support a User Task. These should be small tasks that can be verified with engineering teams (e.g. `did we deliver it?` `yes` or `no`). A single requirement may be important for any number of different [User Task](#User-Task)s, and various collections of Requirements can be grouped to support different User Tasks.
+##### <u>Summary</u>
+a high-level, non-technical description of an entire `use case`. The user in each summary has a name, a scientific or administrative problem, and both proximate and ultimate goals. The focus is on the problem and what is generally needed to solve it.
+##### <u>Use Case</u>
+a `use case`, in software and systems engineering, is a list of actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system.
+##### <u>User Task</u>
+a `user story` is a story told from the user’s perspective that captures a concrete step in a user's interactions with tools (e.g., software solutions) in the service of achieving the scientific objective. A `user task` ++must be written in terms that are meaningful to the user, from their perspective++. This can be thought of as one in a series of medium scale tasks that must be completed to answer the question posed in the scientific objective. The list of `user tasks` in a [`use case`](#Use-Case) should cover everything the users needs to achieve their goals, even interactions that do not involve the software or data from the Common Fund.
  -->
