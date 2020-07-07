@@ -43,7 +43,7 @@ an asset inventory is a collection of digital assets distributed by the [DCCs](#
 ---
 
 ##### <u>Biospecimens</u>
-a `material asset`, collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [Sample](#sample)
+a `material asset`, collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [sample](#sample)
 
 ---
 
@@ -90,7 +90,7 @@ a collection of [assets](#asset) described by the [CFDE Asset Specification](#cf
 ---
 
 ##### <u>CFDE-asset-manifest</u>
-a type of Metadata Manifest describing an  [Asset Inventory](#asset-inventory)
+a type of Metadata Manifest describing an [asset inventory](#asset-inventory)
 
 ---
 
@@ -413,7 +413,7 @@ a qualifier indicative of the depth and granularity of an object model or [Entit
 
 ---
 ##### <u>Sample</u>
-a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: *[Biospecimens](#Biospecimens)*.
+a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [biospecimens](#biospecimens).
 
 ---
 
@@ -454,7 +454,7 @@ a set of study subjects sharing some characteristics or undergoing the same type
 ---
  
 ##### <u>Table Schema to DERIVA Translation</u>
-a process of metadata ingest which uses tabular formatted data such as Frictionless data package to persist information in the [DERIVA system](#DERIVA). The code for such a process is available from Github from [this repository]((https://github.com/nih-cfde/cfde-deriva/blob/2019-08/examples/tableschema_to_deriva.py))
+a process of metadata ingest which uses tabular formatted data such as Frictionless data package to persist information in the [DERIVA system](#deriva). The code for such a process is available from Github from [this repository]((https://github.com/nih-cfde/cfde-deriva/blob/2019-08/examples/tableschema_to_deriva.py))
 
 ---
 
