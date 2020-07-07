@@ -252,6 +252,7 @@ the [`electronic Research Administration`](https://public.era.nih.gov/commons) i
 ---
 
 ##### <u>Event</u>
+Specific instances of data gathering for a specific patient, as in a specific surgery or appointment
 
 ---
 
