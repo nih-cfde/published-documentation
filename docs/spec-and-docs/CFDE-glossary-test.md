@@ -241,8 +241,8 @@ the `Domain Name System` is the internet database that connects URLs to their IP
 
 ---
 
-##### <u>Entity-relationship-model</u>
-an `Entity-relationship-model` (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). In software engineering, an ER model is commonly formed to represent things a business needs to remember in order to perform business processes. Consequently, the ER model becomes an abstract data model, that defines a data or information structure which can be implemented in a database, typically a relational database. source: Wikipedia).
+##### <u>Entity Relationship Model</u>
+an `Entity Relationship Model` (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). In software engineering, an ER model is commonly formed to represent things a business needs to remember in order to perform business processes. Consequently, the ER model becomes an abstract data model, that defines a data or information structure which can be implemented in a database, typically a relational database. source: Wikipedia).
 
 ---
 
