@@ -26,11 +26,56 @@ an asset inventory is a collection of digital assets distributed by the [DCCs](#
 ---
 
 ##### <u>Association Table</u>
+A two-dimensional matrix encoding a specified [associative
+relationship](#associative-relationship) within groups of two or more [entities](#entity).
+The columns of an association table encode two or more entity
+identifiers, which reference entity tables as
+[foreign keys](#foreign-key). Each row lists the IDs of two or more entities,
+asserting that those entities are related to one another in the context
+of the associative relationship attached to the table.
 
 ---
 
 ##### <u>Associative Relationship</u>
-a close semantic relationship that is not characterized as synonymous or hierarchical
+A list of groups of two or more entities, where all the entities in each listed group are
+understood to be mutually related to one another according to some specified relationship.
+
+```
+Example: 
+
+20 martial artists in team A are picked to pair off with 20 people in team B for one-on-one sparring. The associative relationship here might be called "is presently sparring with," and could be represented as a list like this:
+(team_A_person_12, team_B_person_4)   
+(team_A_person_3, team_B_person_17)
+```
+
+No _ordering or hierarchy_ among related entities is implied by default. In the example above, this means that it doesn't signify anything if I write the
+person from team A first or the one from team B first in each pair: an associative relationship among any group of entities doesn't in general depend on the order in which they're listed, so "A is related to B" _always_ means "B is also related to A."
+
+A semantic hierarchy, direction, or other structured ordering _may_ be overlaid on entities related by an associative relationship by design convention. 
+
+```
+For example:
+
+the "file X describes biosample Y" associative relationship in C2M2 Level 1 (encoded
+by the `file_describes_biosample` association table) clearly implies a more
+structured relationship: it's not meaningful to say that "'file X describes biosample Y'
+implies that 'biosample Y describes file X'".
+```
+
+Regardless of whether a particular associative relationship comes with an implied
+"subject/predicate" relationship or (by contrast) simply represents "A and B are in
+the same bucket", it's important to note that in _any_ associative relationship,
+"A is related to B" _always_ implies that "B is related to A" -- translation to
+English is generally the confusing factor, here, e.g. "file X describes biosample Y"
+comes guaranteed with the converse "biosample Y _is described by_ file X".
+
+Multiplicity is not constrained: extending our C2M2 example above, one biosample entity
+can be "described by" multiple file entities (expressed by writing one record
+for each associated biosample/file pair in the `file_describes_biosample` table,
+repeating the biosample entity [identifier](#identifier) as needed), and similarly one
+file entity can "describe" multiple biosample entities (similarly encoded by creating
+multiple records in the `file_describes_biosample` association table, one for each
+of the biosamples described by the one file).
 
 ---
 
@@ -70,6 +115,7 @@ the process through which metadata is brought in, matched, and merged into the C
 ---
 
 ##### <u>C2M2 Instance</u>
+a collection of metadata structurally conformant with one of the C2M2 level specifications (0, 1, or 2).
 
 ---
 
@@ -294,6 +340,8 @@ a `digital asset`, that is a type of digital object that each of the [DCCs](#dcc
 ---
 
 ##### <u>Foreign Key</u>
+A field in a database table that references a particular target record in some other ("foreign") database table by storing a copy of the identifier ("key") field from the foreign table assigned to the target record.
+A foreign key can also comprise multiple fields, if it encodes a multi-part identifier from the foreign table: cf. e.g. paired key.
 
 ---
 
@@ -452,11 +500,25 @@ a qualifier indicative of the depth and granularity of an object model or [Entit
 
 ---
 ##### <u>Sample</u>
-a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [biospecimens](#biospecimens).
+a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [biospecimens](#biospecimens)
 
 ---
 
 ##### <u>Serialization</u>
+Any well-defined, replicable process that transforms a (not necessarily inherently sequential) collection of data into an ordered sequence of information in such a way that one can then reliably reconstruct the original data from the encoded sequence.
+
+("Inherently sequential" data is naturally ordered, first-bit-to-last-bit.
+Regarding data that _isn't_ inherently sequential, one example is a dataset describing a social network that connects multiple people to one another via inter-person links. There's no obvious "first" person, among other things, so there's no obvious way to unambiguously describe that dataset as an ordered sequence of things.)
+
+The basic purpose of serialization is to allow people to create, save, and share files (which are necessarily sequential: first byte, second byte,
+etc., through to the end of the file) that encode non-sequential data in a reproducible way according to a shared method, so that three different people don't wind up encoding the same data in three different ways. This helps ensure reliability when automatically processing complex datasets, especially in an environment where data is being shared and processed across multiple independent teams using different information systems.
+
+In the context of CFDE, serialization refers specifically to the process of
+transforming a collection of biomedical metadata managed by a
+DCC from its native format(s) into a group of files conforming
+to one of the C2M2 metadata specifications, so that unstructured data
+from multiple independent sources can be reliably ingested into core CFDE database systems via a single standard automated process.
+
 
 ---
 
@@ -476,6 +538,26 @@ a study participant (human, animal) from which samples may be obtained.
 ---
 
 ##### <u>Subject Granularity</u>
+a short list of general concepts -- defined and maintained as part of the C2M2 metadata specification space -- to partition and categorize [subject](#subject) entities into broad groups or types (generally corresponding to organism multiplicity).
+
+C2M2 subjects are modeled quite generally by default, defined only as sources
+from which some biological material (a [biosample](#biosample)) was obtained. Subject granularity allows further refinement of this definition by categorizing subjects into concept groups or types. These include the most basic "single organism" (e.g., one human subject); the more complex "symbiont system" (in which multiple co-located organisms are modeled as comprising an indivisible biological _environment_ which can, at the time of sampling, only be characterized as a mixture of organisms, because physical separation, DNA-based differentiation, etc., are all pending downstream);
+and "cell line" (not properly an "organism" as such, but a common source of
+biological material, further classified within its own ontological system).
+
+Specification of subject granularity also let the application layer handle
+subjects with different granularities in different ways, according to ontological context.
+
+<!--[EDITOR: either punt the reader to the C2M2 specification documents for a complete
+list of subject granularities and descriptions, or edit this entry to include a complete
+table of values inline here instead. In the latter case just import the info in
+this file directly into the table:
+https://github.com/nih-cfde/specifications-and-documentation/blob/master/draft-C2M2_internal_CFDE_CV_tables/subject_granularity.tsv
+If the inline table is chosen, please someone make a note about explicitly
+maintaining concurrency with the actual C2M2 standard. As proposed here, someone would
+need to remember to update this document each time a change is made, and that's
+probably not a good thing to do, even though I'm the one who proposed it.]
+-->
 
 ---
 
@@ -485,6 +567,29 @@ a set of study subjects sharing some characteristics or undergoing the same type
 ---
 
 ##### <u>Subject Role</u>
+A short list of general concepts -- defined and maintained as part of the C2M2 metadata specification space -- to support the systematic subdivision of
+[subject](#subject) entities into multiple constituent organisms phylogenetic clades, or other reasonable subdivisions, depending on subject granularity.
+
+For any subject entity categorized by a <link>subject granularity</link>
+which represents a collection of multiple co-occurring organisms, subject roles allow the attachment of descriptive metadata to different constituent subcomponents of the biological system represented by the overall subject record.
+
+Such attachments are (for example) represented by records in the
+`subject_role_taxonomy` <link>association table</link>. Records in this table
+link some subject role (e.g. "host", "symbiont", "pathogen", "cell line
+ancestor") to (on the one hand) a particular subject entity record of which that role represents a part and also (on the other hand) to a taxonomic label classifying that particular role in that particular subject. Multiple roles (constituent organisms or taxa) within the same subject can thus be independently classified.
+
+Please see the <link>[main C2M2 Level 1 descriptor document]</link> for a complete technical framework governing the use of subject roles.
+
+<!-- [EDITOR: For complete coverage of the list of "subject role" category values,
+either punt the reader to the C2M2 specification documents, or edit this entry
+to include a complete table of values inline here instead. In the latter case just
+import the info in this file directly into the table:
+https://github.com/nih-cfde/specifications-and-documentation/blob/master/draft-C2M2_internal_CFDE_CV_tables/subject_role.tsv
+If the inline table is chosen, please someone make a note about explicitly
+maintaining concurrency with the actual C2M2 standard. As proposed here, someone would
+need to remember to update this document each time a change is made, and that's
+probably not a good thing to do, even though I'm the one who proposed it.]
+-->
  
 ---
  
