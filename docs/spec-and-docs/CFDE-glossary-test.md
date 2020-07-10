@@ -554,7 +554,7 @@ from multiple independent sources can be reliably ingested into core CFDE databa
 ---
 
 ##### <u>Subject</u>
-a study participant (human, animal) from which samples may be obtained.
+a source from which some biological material (a [biosample](#biosample)) was obtained.
 
 ---
 
@@ -567,7 +567,7 @@ and "cell line" (not properly an "organism" as such, but a common source of
 biological material, further classified within its own ontological system).
 
 Specification of subject granularity also let the application layer handle
-subjects with different granularities in different ways, according to ontological context.
+subjects with different granularities in different ways, according to ontological context. For more detail you can see the C2M2 specification [here](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION/).
 
 <!--[EDITOR: either punt the reader to the C2M2 specification documents for a complete
 list of subject granularities and descriptions, or edit this entry to include a complete
@@ -591,15 +591,15 @@ a set of study subjects sharing some characteristics or undergoing the same type
 A short list of general concepts -- defined and maintained as part of the C2M2 metadata specification space -- to support the systematic subdivision of
 [subject](#subject) entities into multiple constituent organisms phylogenetic clades, or other reasonable subdivisions, depending on subject granularity.
 
-For any subject entity categorized by a <link>subject granularity</link>
-which represents a collection of multiple co-occurring organisms, subject roles allow the attachment of descriptive metadata to different constituent subcomponents of the biological system represented by the overall subject record.
+For any subject entity categorized by a [subject granularity](#subject-granularity) which represents a collection of multiple co-occurring organisms, subject roles allow the attachment of descriptive metadata to different constituent subcomponents of the biological system represented by the overall subject record.
 
 Such attachments are (for example) represented by records in the
-`subject_role_taxonomy` <link>association table</link>. Records in this table
+`subject_role_taxonomy` [association table](#association-table). Records in this table
 link some subject role (e.g. "host", "symbiont", "pathogen", "cell line
 ancestor") to (on the one hand) a particular subject entity record of which that role represents a part and also (on the other hand) to a taxonomic label classifying that particular role in that particular subject. Multiple roles (constituent organisms or taxa) within the same subject can thus be independently classified.
 
-Please see the <link>[main C2M2 Level 1 descriptor document]</link> for a complete technical framework governing the use of subject roles.
+Please see the [main C2M2 Level 1 descriptor document](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1/) for a complete technical framework governing the use of subject roles. 
+The current C2M2 specification is described [here](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION/).
 
 <!-- [EDITOR: For complete coverage of the list of "subject role" category values,
 either punt the reader to the C2M2 specification documents, or edit this entry
