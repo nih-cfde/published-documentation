@@ -119,8 +119,11 @@ a collection of metadata structurally conformant with one of the C2M2 level spec
 
 ---
 
-##### <u>C2M2 Richness Levels</u>
+##### <u>C2M2 Metadata Specification</u>
 Concentric, canonical subsets of C2M2 that are benchmarked at increasing levels of model complexity and detail, wherein each successive modeling level is a value-added superset of all of the metadata encompassed by the previous (less complex) level
+
+##### <u>C2M2 Richness Levels</u>
+see [C2M2 Metadata Specification](c2m2-metadata-specification)
 
 ---
 
@@ -287,8 +290,18 @@ the `Domain Name System` is the internet database that connects URLs to their IP
 
 ---
 
+##### <u>Entity</u>
+a component of the [entity relationship model](#entity-relationship-model)
+
+---
+
 ##### <u>Entity Relationship Model</u>
 an `Entity Relationship Model` (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). In software engineering, an ER model is commonly formed to represent things a business needs to remember in order to perform business processes. Consequently, the ER model becomes an abstract data model, that defines a data or information structure which can be implemented in a database, typically a relational database. source: Wikipedia).
+
+---
+
+##### <u>Entity Table</u>
+a database table representing an [entity](#entity)
 
 ---
 
@@ -372,6 +385,10 @@ a process which relies on Globus Automate, a software service created and based 
 
 ##### <u>HMP</u>
 the`Human Microbiome Project`. 
+
+---
+
+##### <u>Identifier</u>
 
 ---
 
@@ -462,6 +479,10 @@ a file that includes metadata for a group of accompanying files that are part of
 
 ##### <u>Organization</u> 
 an entity comprising of multiple people, such as an institution or an association, that has a particular purpose.
+
+---
+
+##### <u>Paired Key</u>
 
 ---
 
