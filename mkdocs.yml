@@ -33,3 +33,4 @@ plugins:
       separator: '[\s\-\.]+'
   - awesome-pages
   - mknotebooks
+      execute: true
