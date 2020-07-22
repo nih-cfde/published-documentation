@@ -32,3 +32,4 @@ plugins:
   - search: # necessary for search to work
       separator: '[\s\-\.]+'
   - awesome-pages
+  - mknotebooks
