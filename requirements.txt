@@ -2,4 +2,4 @@ mkdocs-material
 mkdocs-jupyter
 mkdocs-awesome-pages-plugin
 mknotebooks
-mkdocs-pdf-with-js-plugin
+mkdocs-mermaid-plugin
