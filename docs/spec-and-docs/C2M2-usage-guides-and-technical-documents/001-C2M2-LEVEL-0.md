@@ -1,18 +1,18 @@
 # C2M2 Level 0
 
 C2M2 Level 0 defines a **minimal valid
-[C2M2 instance](../CFDE-glossary.md#c2m2-instance).**
+[C2M2 instance](../../CFDE-glossary.md#c2m2-instance).**
 Data submissions at this level of
-[metadata richness](../CFDE-glossary.md#c2m2-richness-levels)
+[metadata richness](../../CFDE-glossary.md#c2m2-richness-levels)
 will be the easiest to produce, and will support the simplest available
 functionality implemented by downstream applications.
 
 #### Level 0 submission process: overview
 
 Metadata submissions at Level 0 will consist of a single
-[TSV file](../CFDE-glossary.md#tab-separated-value-file-tsv)
-describing a **collection of digital [files](../CFDE-glossary.md#file)** owned
-or managed by a [DCC](../CFDE-glossary.md#data-coordinating-center-dcc). The properties listed
+[TSV file](../../CFDE-glossary.md#tab-separated-value-file-tsv)
+describing a **collection of digital [files](../../CFDE-glossary.md#file)** owned
+or managed by a [DCC](../../CFDE-glossary.md#data-coordinating-center-dcc). The properties listed
 for the Level 0 `file` entity (see below for
 diagram and definitions) will serve as the TSV's column
 headers; each TSV row will represent a single file. The

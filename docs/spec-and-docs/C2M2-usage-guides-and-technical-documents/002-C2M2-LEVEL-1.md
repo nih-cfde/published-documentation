@@ -8,13 +8,13 @@ _All technical specifications are currently present and complete._
 
 C2M2 Level 1 models **basic experimental resources and associations between them**.
 This level of metadata richness is more difficult to produce than [Level 0](./001-C2M2-LEVEL-0.md)'s flat
-inventory of [digital files](../CFDE-glossary.md#file). As a result, Level 1 metadata offers users more powerful
+inventory of [digital files](../../CFDE-glossary.md#file). As a result, Level 1 metadata offers users more powerful
 downstream tools than are available for Level 0 datasets, including
 
    * faceted searches on a (small) set of biologically relevant features (like anatomy
-   and taxonomy) of experimental resources like [`biosample`s](../CFDE-glossary.md#biosample) and [`subject`s](../CFDE-glossary.md#subject)
+   and taxonomy) of experimental resources like [`biosample`s](../../CFDE-glossary.md#biosample) and [`subject`s](../../CFDE-glossary.md#subject)
    * organization of summary displays using subdivisions of experimental metadata
-   collections by [`project`](../CFDE-glossary.md#project) (grant or contract) and [`collection`](../CFDE-glossary.md#collection) (any scientifically
+   collections by [`project`](../../CFDE-glossary.md#project) (grant or contract) and [`collection`](../../CFDE-glossary.md#collection) (any scientifically
    relevant grouping of resources)
    * basic reporting on changes in metadata over time, tracking (for example)
    creation times for `file`s and `biosample`s
@@ -28,7 +28,7 @@ to produce and maintain -- for Level 2. The following are **not modeled at Level
 
    * any and all **protected data**
    * documentation of  **experimental protocols**
-   * [event](../CFDE-glossary.md#event)-based resource generation/**provenance networks**
+   * [event](../../CFDE-glossary.md#event)-based resource generation/**provenance networks**
    * detailed information on **organizations and people** governing the research
    being documented
    * a **comprehensive suite** of options to model **scientific attributes of
@@ -39,18 +39,18 @@ to produce and maintain -- for Level 2. The following are **not modeled at Level
 
 #### Level 1 submission process: overview
 
-_Build the black (core [entity](../CFDE-glossary.md#entity-relationship-er-model)) and blue (containment relationship) tables
+_Build the black (core [entity](../../CFDE-glossary.md#entity-relationship-er-model)) and blue (containment relationship) tables
 shown in the diagram below. We'll give you copies of the gold tables to include
 with your submission: you'll reference IDs from these tables in the (blue and black) tables
 you're building directly. Once you've built the core entity tables,
 the green tables can be built automatically using our
 term-scanner script, which will
-collect all relevant [controlled vocabulary (CV) terms](../CFDE-glossary.md#controlled-vocabulary) used throughout your core tables and will create the
+collect all relevant [controlled vocabulary (CV) terms](../../CFDE-glossary.md#controlled-vocabulary) used throughout your core tables and will create the
 corresponding green tables, using data loaded from versioned, whole-CV reference
 documents (like OBO files)._
 
 _In the case of any unpopulated tables (no_ `collection` _records, for example, are
-required for model compliance), please create the relevant [TSV](../CFDE-glossary.md#tab-separated-value-file-tsv) files anyway,
+required for model compliance), please create the relevant [TSV](../../CFDE-glossary.md#tab-separated-value-file-tsv) files anyway,
 with just one tab-separated header line containing the empty table's column
 names. (In contrast to simply omitting the blank table file, the recommended practice
 instead explicitly distinguishes the case in which no data is being submitted
@@ -58,12 +58,12 @@ for a given table from the case in which a table has been omitted by mistake.)_
 
 _Color key:_
 
-* _Gold: CFDE-internal controlled vocabularies/dictionaries and their [foreign-key](../CFDE-glossary.md#foreign-key) relationships_
+* _Gold: CFDE-internal controlled vocabularies/dictionaries and their [foreign-key](../../CFDE-glossary.md#foreign-key) relationships_
    * _Note: for representational clarity, gold FK arrows are implied (but not drawn)
 from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _table._
 * _Green: external CVs (term & display-decoration tracking tables) and their foreign-key relationships_
 * _Blue: containers and their containment relationships_
-* _Black: core entities and the direct [associative relationships](../CFDE-glossary.md#associative-relationship--association-table) between them (plus_
+* _Black: core entities and the direct [associative relationships](../../CFDE-glossary.md#associative-relationship--association-table) between them (plus_
 `subject` _<->_ `subject_role_taxonomy` _)_
 
 |_Level 1 model diagram_|
@@ -84,7 +84,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
       as between each_ `biosample` _and any_ `file`_s analytically derived from it -- are
       represented using association tables, with one such table dedicated to each
       relationship type (cf. below, §"Association tables: inter-entity linkages").
-      Actual [DCC](../CFDE-glossary.md#data-coordinating-center-dcc)-managed provenance [metadata](../CFDE-glossary.md#metadata) will sometimes (maybe always) represent more complex and
+      Actual [DCC](../../CFDE-glossary.md#data-coordinating-center-dcc)-managed provenance [metadata](../../CFDE-glossary.md#metadata) will sometimes (maybe always) represent more complex and
       detailed provenance networks: in such situations, chains of "_`this` _produced_
       `that`_" relationships too complex to model at Level 1 will need to be
       transitively collapsed. As an example: let's say a research team collects a
@@ -119,7 +119,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
          that enables an analytic (or observational or other scientific) process (which
          originates at a_ `subject` _) to move forward and ultimately produce one or
          more_ `file`_s._  
-      * _In practice, a Level 1 [C2M2 instance](../CFDE-glossary.md#c2m2-instance) builder facing such a situation
+      * _In practice, a Level 1 [C2M2 instance](../../CFDE-glossary.md#c2m2-instance) builder facing such a situation
    	might reasonably create one record for the originating_ `subject` _; create one_
    	`biosample` _entity record; create a_ `file` _record for the FASTQ file produced
    	by the sequencing process; and hook up_ `subject` _<->_ `biosample` _and_
@@ -130,7 +130,7 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
          might for example choose to import metadata (IDs, etc.) describing the
          final pre-sequencer material. The creation of specific rules governing maps
          from native DCC data to (simplified, abstracted) Level 1 entity records
-         is of necessity left up to the best judgment of the [serialization](../CFDE-glossary.md#serialization) staff
+         is of necessity left up to the best judgment of the [serialization](../../CFDE-glossary.md#serialization) staff
          creating each DCC's Level 1 C2M2 instance; we recommend consistency,
          but beyond that, custom solutions will have to be developed to handle
          different data sources. CFDE staff will be available to help navigate any
@@ -163,10 +163,10 @@ from all_ `id_namespace` _fields to the header block of the_ `id_namespace` _tab
       * _Alongside shared metadata fields (cf. below, §"Common entity fields") and inter-entity
       associations (cf. below, §"Association tables: inter-entity linkages"), C2M2
       Level 1 models two additional details specific to_ `subject` _entities:_
-         * _[internal structural configuration](../CFDE-glossary.md#subject-granularity) (defined in the_ `subject_granularity` _table
+         * _[internal structural configuration](../../CFDE-glossary.md#subject-granularity) (defined in the_ `subject_granularity` _table
          and specified for each_ `subject` _record via a foreign key field in the_ `subject` _table),
          e.g.: "single organism," "microbiome," "cell line"_
-         * _taxonomic assignments attached to subcomponents ("[roles](../CFDE-glossary.md#subject-role)," defined in the_
+         * _taxonomic assignments attached to subcomponents ("[roles](../../CFDE-glossary.md#subject-role)," defined in the_
          `subject_role` _table) of_ `subject` _entities, e.g. "cell line ancestor ->
          NCBI:txid9606" or "host (of host-pathogen symbiont system) -> NCBI:txid10090":
          this is accomplished via the_ `subject_role_taxonomy` _trinary association table

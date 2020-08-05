@@ -1,7 +1,7 @@
 # The Common Fund Data Ecosystem's Crosscut Metadata Model (CFDE C2M2)
 
 This document introduces the Crosscut Metadata Model
-([C2M2](../CFDE-glossary.md#crosscut-metadata-model-c2m2)), a
+([C2M2](../../CFDE-glossary.md#crosscut-metadata-model-c2m2)), a
 flexible standard for describing biomedical experimental
 data. The Common Fund Data Ecosystem group is creating a new
 computing infrastructure, with C2M2 as its organizing principle,
@@ -14,8 +14,8 @@ and integrate experimental data from different sources to
 facilitate scientific replication and to drive new discoveries.
 
 Using this new infrastructure, Common Fund data coordinating centers
-([DCCs](../CFDE-glossary.md#data-coordinating-center-dcc)) will
-share structured, detailed information ([metadata](../CFDE-glossary.md#metadata))
+([DCCs](../../CFDE-glossary.md#data-coordinating-center-dcc)) will
+share structured, detailed information ([metadata](../../CFDE-glossary.md#metadata))
 about their experimental resources with the research
 community at large, widening and deepening access to usable
 observational data. One immediate
@@ -30,9 +30,9 @@ DCCs will collect and provide metadata to CFDE describing
 experimental resources within their purview. Each metadata
 submission will take the form of a set of tab-separated
 value files
-([TSVs](../CFDE-glossary.md#tab-separated-value-file-tsv)):
+([TSVs](../../CFDE-glossary.md#tab-separated-value-file-tsv)):
 precise formatting requirements for these TSV filesets
-([C2M2 instances](../CFDE-glossary.md#c2m2-instance))
+([C2M2 instances](../../CFDE-glossary.md#c2m2-instance))
 are specified by
 [JSON Schema documents](../C2M2-JSON-Schemas/),
 each of which is an instance of the
@@ -42,13 +42,13 @@ meta-specification published by the
 group. This meta-specification is a formal way to
 define formatting requirements for sets of files
 configured as relational database tables:
-[foreign-key](../CFDE-glossary.md#foreign-key)
+[foreign-key](../../CFDE-glossary.md#foreign-key)
 relationships between tables, type checking of table fields
 and other similar basic validation processes for database
 management are supported. The C2M2 software infrastructure uses these schema
 files to automatically validate format compliance and metadata integrity,
 for each DCC's C2M2 metadata submission, during the
-[C2M2 ingestion process](../CFDE-glossary.md#C2M2-ingestion-process).
+[C2M2 ingestion process](../../CFDE-glossary.md#C2M2-ingestion-process).
 
 CFDE offers DCCs three alternative metadata submission
 formats (C2M2 Levels [0](./001-C2M2-LEVEL-0.md),
@@ -69,13 +69,13 @@ the life cycle of DCC/CFDE technical interaction matures.
 ## C2M2 Richness Levels
 
 In its fullest form ([Level 2](./003-C2M2-LEVEL-2.md)),
-C2M2 is an [entity-relationship system](../CFDE-glossary.md#entity-relationship-er-model)
+C2M2 is an [entity-relationship system](../../CFDE-glossary.md#entity-relationship-er-model)
 that describes fundamental biomedical research resources
-like digital [files](../CFDE-glossary.md#file),
-experimental [events](../CFDE-glossary.md#event),
-[project](../CFDE-glossary.md#project) hierarchies,
-material [biosamples](../CFDE-glossary.md#biosample)
-and the [subject organisms or environments](../CFDE-glossary.md#subject)
+like digital [files](../../CFDE-glossary.md#file),
+experimental [events](../../CFDE-glossary.md#event),
+[project](../../CFDE-glossary.md#project) hierarchies,
+material [biosamples](../../CFDE-glossary.md#biosample)
+and the [subject organisms or environments](../../CFDE-glossary.md#subject)
 from which they derive. Essential relationships between these
 fundamental resources are also formally described, documenting
 (for example) which samples were processed to produce a
@@ -124,7 +124,7 @@ CFDE in such a way as to maximize interoperability with
 more complex C2M2 variants, and the whole system should be
 structured to minimize side effects caused by model
 changes. These considerations have led to the
-specification of C2M2 [richness levels](../CFDE-glossary.md#c2m2-richness-levels):
+specification of C2M2 [richness levels](../../CFDE-glossary.md#c2m2-richness-levels):
 concentric, canonical variants of C2M2 which are benchmarked at
 increasing levels of complexity and detail, wherein each successive
 level is a value-added superset of all of the metadata
@@ -137,16 +137,16 @@ C2M2 model.
 describes truly basic metadata defining a collection of digital files.
 [Level 1](./002-C2M2-LEVEL-1.md)
 introduces models for core experimental resources like
-[biosamples](../CFDE-glossary.md#biosample)
+[biosamples](../../CFDE-glossary.md#biosample)
 and
-[subjects](../CFDE-glossary.md#subject),
+[subjects](../../CFDE-glossary.md#subject),
 and the core relationships between them; a rudimentary set of search targets
 in the form of annotations like the anatomical location of
 the source for a human tissue sample or taxonomic data describing
 biosample source organisms and study subjects; and basic support for arranging
 experimental resources into named groups, based either on a
 hierarchy of
-[projects](../CFDE-glossary.md#project)
+[projects](../../CFDE-glossary.md#project)
 or on more arbitrarily structured
-[collections](../CFDE-glossary.md#collection),
+[collections](../../CFDE-glossary.md#collection),
 which can be defined using any relevant scientific or operational categorization.
