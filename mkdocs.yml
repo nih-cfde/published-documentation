@@ -20,7 +20,6 @@ nav:
     - Level 0: spec-and-docs/C2M2-usage-guides-and-technical-documents/001-C2M2-LEVEL-0.md
     - Level 1: spec-and-docs/C2M2-usage-guides-and-technical-documents/002-C2M2-LEVEL-1.md
     - Level 2: spec-and-docs/C2M2-usage-guides-and-technical-documents/003-C2M2-LEVEL-2.md
-    - Glossary: CFDE-glossary-test.md
   - FAIR Cookbook:
     - What is FAIR?: the-fair-cookbook/content/intro.md
     - FAIR Principles: the-fair-cookbook/content/recipes/00/fair-principles.md
@@ -53,6 +52,7 @@ nav:
         - Disclaimer: the-fair-cookbook/content/disclaimer.md
         - Governance: the-fair-cookbook/content/governance.md
         - License: the-fair-cookbook/content/license.md
+  - Glossary: CFDE-glossary.md
   - About:
     - Code of Conduct: about/CODEOFCONDUCT.md
     - License: about/LICENSE.md
