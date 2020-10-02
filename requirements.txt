@@ -1,3 +1,3 @@
-mkdocs-material
+mkdocs-material-5.5.14
 mkdocs-jupyter
 mkdocs-awesome-pages-plugin
