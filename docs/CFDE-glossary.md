@@ -407,6 +407,11 @@ see [C2M2 Instance](#c2m2-instance)
 
 ---
 
+##### [JSON-LD](https://json-ld.org/)
+`JSON for Linking Data` is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is JSON based syntax for expressing a generalized [RDF](#rdf) dataset.
+
+---
+
 ##### [Jupyter Notebook](https://jupyter.org/)
 a web-based interactive environment for organizing data, performing computation, and visualizing output.
 
