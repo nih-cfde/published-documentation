@@ -412,6 +412,11 @@ see [C2M2 Instance](#c2m2-instance)
 
 ---
 
+##### [JSON Schema](https://json-schema.org/)
+`JSON Schema` is a [JSON](#json)-serialized vocabulary that allows you to annotate and validate [JSON](#json) documents.
+
+---
+
 ##### [Jupyter Notebook](https://jupyter.org/)
 a web-based interactive environment for organizing data, performing computation, and visualizing output.
 
