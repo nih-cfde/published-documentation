@@ -83,8 +83,9 @@ plugins:
       separator: '[\s\-\.]+'
   - awesome-pages
   - mknotebooks
-      execute: true
-      - search
+      binder: true
+      binder_service_name: "gh"
+      binder_branch: "master"
   - markdownmermaid
 extra_javascript:
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
