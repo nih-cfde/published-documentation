@@ -511,6 +511,11 @@ a entity to describe administrative/funding/contract/etc. hierarchy governing ow
 
 ---
 
+##### <u>RDF</u>
+`Resource Description Framework`. A standard model for semantic data interchange on the Web. RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports the evolution of schemas over time without requiring all the data consumers to be changed.
+
+---
+
 ##### <u>RefMet</u>
 [`Reference list of Metabolite names`](https://www.metabolomicsworkbench.org/databases/refmet/index.php). Developed by the Common Fund Metabolomics program. Effectively, a large spreadsheet that provides a standard nomenclature for over 95,500 chemical species. From the Metabolomics Workbench website, it can be browsed and searched directly or a user can input a list of metabolite names and have them automatically converted to RefMet nomenclature. A user can also directly download the data, either in whole or after filtering as one would with a simple Excel sheet. Or the entire dataset can be downloaded as part of a Shiny R app and queried locally.
 
