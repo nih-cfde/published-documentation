@@ -73,6 +73,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
+  - exclude:
+      glob:
+        - the-fair-cookbook/content/1/testnb/*
   - mkdocs-jupyter:
       include_source: True
       execute: True
