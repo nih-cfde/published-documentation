@@ -402,6 +402,11 @@ see [C2M2 Instance](#c2m2-instance)
 
 ---
 
+##### [JSON](https://www.json.org/)
+`JavaScript Object Notation` is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
+
+---
+
 ##### [Jupyter Notebook](https://jupyter.org/)
 a web-based interactive environment for organizing data, performing computation, and visualizing output.
 
