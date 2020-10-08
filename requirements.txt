@@ -2,6 +2,4 @@ mkdocs-material
 mkdocs-jupyter
 mkdocs-awesome-pages-plugin
 mkdocs-exclude
-mknotebooks
 mkdocs-mermaid-plugin
-beautifulsoup4>=4.6.3
