@@ -3,3 +3,4 @@ mkdocs-jupyter
 mkdocs-awesome-pages-plugin
 mkdocs-exclude
 mkdocs-mermaid-plugin
+beautifulsoup4>=4.6.3
