@@ -76,12 +76,6 @@ plugins:
   - exclude:
       glob:
         - the-fair-cookbook/content/1/testnb/*
-  - mkdocs-jupyter:
-      include_source: True
-      execute: false
-  - search: # necessary for search to work
+    - search: # necessary for search to work
       separator: '[\s\-\.]+'
   - awesome-pages
-  - markdownmermaid
-extra_javascript:
-    - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
