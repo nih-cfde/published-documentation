@@ -78,7 +78,7 @@ plugins:
         - the-fair-cookbook/content/1/testnb/*
   - mkdocs-jupyter:
       include_source: True
-      execute: True
+      execute: false
   - search: # necessary for search to work
       separator: '[\s\-\.]+'
   - awesome-pages
