@@ -72,10 +72,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
-  - mknotebooks:
-      binder: true
-      binder_service_name: "gh"
-      binder_branch: "master"
+  - mkdocs-jupyter
   - htmlproofer
   - exclude:
       glob:
