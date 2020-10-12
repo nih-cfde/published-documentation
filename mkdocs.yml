@@ -72,7 +72,8 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+    include_source: True
   - htmlproofer
   - exclude:
       glob:
