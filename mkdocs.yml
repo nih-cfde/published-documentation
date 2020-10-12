@@ -72,6 +72,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
+  - htmlproofer
   - exclude:
       glob:
         - the-fair-cookbook/content/1/testnb/*
