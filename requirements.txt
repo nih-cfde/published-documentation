@@ -2,4 +2,4 @@ mkdocs-material
 mkdocs-awesome-pages-plugin
 mkdocs-exclude
 mkdocs-htmlproofer-plugin
-mknotebooks
+mkdocs-jupyter
