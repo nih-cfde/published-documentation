@@ -72,7 +72,8 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
-  - mknotebooks
+  - mknotebooks:
+      execute: true
   - htmlproofer
   - exclude:
       glob:
