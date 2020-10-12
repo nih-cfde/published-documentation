@@ -73,7 +73,9 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - mknotebooks:
-      execute: true
+      binder: true
+      binder_service_name: "gh"
+      binder_branch: "master"
   - htmlproofer
   - exclude:
       glob:
