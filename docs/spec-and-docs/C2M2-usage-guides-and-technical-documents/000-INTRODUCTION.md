@@ -173,14 +173,14 @@ A C2M2 topic requiring special attention is the use of _identifiers_.
 ### C2M2 identifiers
 
 * _Two complementary identifier slots for DCC-issued records_
-   * `persistent_id`: _persistent and resolvable ID (ideal, but optional)_
-   * `id_namespace`, `local_id`: _2-part key is as least-common denominator_
+    * `persistent_id`: _persistent and resolvable ID (ideal, but optional)_
+    * `id_namespace`, `local_id`: _2-part key is as least-common denominator_
 * _The optional persistent identifier is a DOI, ARK, MINID, etc._
 * _The 2-element composite identifier conveys fragments of a record URI_
-   * `local_id` _bears a name from some namespace, e.g. an accession ID_
-   * `id_namespace` _specifies which namespace, i.e. left-hand side of a URI_
-   * _concatenation of namespace + local yields the full record URI_
-   * _URIs are cheap and easy: low barrier to entry, no hosting requirements_
+    * `local_id` _bears a name from some namespace, e.g. an accession ID_
+    * `id_namespace` _specifies which namespace, i.e. left-hand side of a URI_
+    * _concatenation of namespace + local yields the full record URI_
+    * _URIs are cheap and easy: low barrier to entry, no hosting requirements_
 * _To steer users directly to data, we require_ `persistent_id`_!_
 * _Otherwise, we can steer users towards the DCC contact._
 * _For consistency, we repeat this scheme on several entity tables._
@@ -225,17 +225,17 @@ possibly comical -- downstream side effects.)_
 --------------------------------------------------------------------------------
 
 * _For a DCC already issuing persistent, resolvable IDs_
-   * `persistent_id`: _fill with canonical ID_
-   * `id_namespace`, `local_id`: _fill with (split) copy of canonical ID_
+    * `persistent_id`: _fill with canonical ID_
+    * `id_namespace`, `local_id`: _fill with (split) copy of canonical ID_
 * _For a DCC already issuing relatively stable URIs_
-   * `persistent_id`: _leave blank until ready_
-   * `id_namespace`, `local_id`: _fill with (split) copy of URI_
+    * `persistent_id`: _leave blank until ready_
+    * `id_namespace`, `local_id`: _fill with (split) copy of URI_
 * _For a DCC already issuing local accession IDs_
-   * `persistent_id`: _leave blank until ready_
-   * `local_id`: _fill with local accession ID_
-   * `id_namespace`: _choose an appropriate namespace URI-prefix_
+    * `persistent_id`: _leave blank until ready_
+    * `local_id`: _fill with local accession ID_
+    * `id_namespace`: _choose an appropriate namespace URI-prefix_
 * _For a DCC without local ID stability_
-   * _Need to invent something approximating accession ID and proceed as above_
+    * _Need to invent something approximating accession ID and proceed as above_
 
 _If a DCC already uses persistent identifiers such as DOIs, ARKs, or_
 _other short identifiers resolvable by some name-to-thing service then they can_
