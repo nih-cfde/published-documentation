@@ -395,9 +395,7 @@ A JSON Schema document -- implementing
 container meta-specification -- defining the Level 1 TSV collection is
 [here](../C2M2-JSON-Schemas/swap_in_as_canonical_after_2020.10.31/C2M2_Level_1.datapackage.json);
 an example Level-1-compliant TSV submission collection can be found
-[here](../C2M2_example_submission_data/swap_in_as_canonical_after_2020.10.31/HMP__sample_C2M2_Level_1_bdbag.contents)
-(as a bare collection of TSV files) and
-[here](../C2M2_example_submission_data/swap_in_as_canonical_after_2020.10.31/HMP__sample_C2M2_Level_1_bdbag.tgz)
-(as a packaged BDBag archive).
+[here](https://osf.io/uadny/)
+as a bare collection of TSV files and as a packaged BDBag archive.
 
 --------------------------------------------------------------------------------
