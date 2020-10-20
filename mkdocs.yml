@@ -42,6 +42,7 @@ nav:
         - NIH CFDE selected terminologies: the-fair-cookbook/content/recipes/14/cfde-terminologies.md
       - FAIR compliance:
         - Evaluating FAIRness with FAIRshake: the-fair-cookbook/content/recipes/04/fairshake.md
+        - Evaluating FAIRness with the CFDE rubric on FAIRshake: the-fair-cookbook/content/recipes/19/fairshake.md
         - Developing FAIR API: the-fair-cookbook/content/recipes/16/fair-api.md
       - Extending the Cookbook:
         - Recipe Template: the-fair-cookbook/content/1/recipe-template.md
