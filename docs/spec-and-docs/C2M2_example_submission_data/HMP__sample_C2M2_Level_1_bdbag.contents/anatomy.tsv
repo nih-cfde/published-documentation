@@ -1,0 +1,45 @@
+id	name	description	synonyms
+UBERON:0001988	feces	Portion of semisolid bodily waste discharged through the anus[MW,modified]	
+UBERON:0001969	blood plasma	The liquid component of blood, in which erythrocytes are suspended.	
+UBERON:0001052	rectum	the terminal portion of the intestinal tube, terminating with the anus	
+UBERON:0002116	ileum	the portion of the small intestine that extends from the jejunum to the colon	
+UBERON:0001157	transverse colon	The proximal-distal subdivision of colon that runs transversely across the upper part of the abdomen, from the right to the left colic flexure. Continuous with the descending colon[BTO,modified].	
+UBERON:0001158	descending colon	The portion of the colon between the left colic flexure and the sigmoid colon at the pelvic brim; the portion of the descending colon lying in the left iliac fossa is sometimes called the iliac colon.	
+UBERON:0001159	sigmoid colon	The part of the large intestine that is closest to the rectum and anus. It forms a loop that averages about 40 cm. in length, and normally lies within the pelvis, but on account of its freedom of movement it is liable to be displaced into the abdominal cavity.	
+UBERON:0001153	caecum	A pouch in the digestive tract that connects the ileum with the ascending colon of the large intestine. It is separated from the ileum by the ileocecal valve, and is the beginning of the large intestine. It is also separated from the colon by the cecocolic junction.	
+UBERON:0001156	ascending colon	Section of colon which is distal to the cecum and proximal to the transversecolon.[FMA,modified]	
+UBERON:0001155	colon	Last portion of the large intestine before it becomes the rectum.	
+UBERON:0000996	vagina	A fibromuscular tubular tract leading from the uterus to the exterior of the body in female placental mammals and marsupials, or to the cloaca in female birds, monotremes, and some reptiles[WP].	
+UBERON:0001977	blood serum	The portion of blood plasma that excludes clotting factors.	
+UBERON:0003403	skin of forearm	A zone of skin that is part of a lower arm [Automatically generated definition].	
+UBERON:0001465	knee	A segment of the hindlimb that corresponds to the joint connecting a hindlimb stylopod and zeugopod.	
+UBERON:0000160	intestine	Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.	
+UBERON:0005409	alimentary part of gastrointestinal system	The part of the digestive system that excludes the hepatobiliary system.	
+UBERON:0001461	elbow	The elbow is the region surrounding the elbow-joint-the ginglymus or hinge joint in the middle of the arm. Three bones form the elbow joint: the humerus of the upper arm, and the paired radius and ulna of the forearm. The bony prominence at the very tip of the elbow is the olecranon process of the ulna, and the inner aspect of the elbow is called the antecubital fossa. [WP,unvetted,human-specific].	
+UBERON:0001137	dorsum	A major subdivision of an organism that is the entire part of the organism dorsal to a horizontal plane and bounded on one side by the same transverse plane. In vertebrares this includes the vertebral column..	
+UBERON:0000978	leg	The portion of the hindlimb that contains both the stylopod and zeugopod.	
+UBERON:0000403	scalp	The outer covering of the calvaria. It is composed of several layers: SKIN; subcutaneous connective tissue; the occipitofrontal muscle which includes the tendonous galea aponeurotica; Loose connective tissue; and the pericranium (the PERIOSTEUM of the SKULL).	
+UBERON:0002387	pes	distal portion of the hind limb, including tarsal region, metatarsal region and digits.	
+UBERON:0001467	shoulder	A subdivision of the pectoral complex consisting of the structures in the region of the shoulder joint (which connects the humerus, scapula and clavicle).	
+UBERON:0000916	abdomen	The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column.	
+UBERON:0000002	uterine cervix	Lower, narrow portion of the uterus where it joins with the top end of the vagina.	
+UBERON:0004264	lower leg skin	A zone of skin that is part of a lower leg [Automatically generated definition].	
+UBERON:0008878	palmar part of manus		
+UBERON:0000165	mouth	The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks).	
+UBERON:0012336	perianal skin	A zone of skin that is part of the area surrounding the anus.	
+UBERON:0012317	vagina orifice	The median slit located inferior and posterior to the external urethral orifice in the female; the exit for menstrual flow and birth and the entrance for the penis during sexual intercourse; the size and appearance of the vaginal orifice varies inversely with that of the hymen (G. membrane), a thin fold of mucous membrane that surrounds the vaginal orifice	
+UBERON:0000057	urethra	the fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening	
+UBERON:0000004	nose	The olfactory organ of vertebrates, consisting of nares, olfactory epithelia and the structures and skeletal framework of the nasal cavity.	
+UBERON:0001728	nasopharynx	the section of the pharynx that lies above the soft palate	
+UBERON:0002398	manus	distal segment of the fore limb, including carpal region, metacarpal region and digits.	
+UBERON:0004262	upper leg skin	A zone of skin that is part of a hindlimb stylopod [Automatically generated definition].	
+UBERON:0009471	dorsum of tongue	The superior surface of the tongue divided by the sulcus terminalis into an anterior two-thirds, the presulcal part (pars presulcalis). and a posterior one-third, the postsulcal part (pars postsulcalis).	
+UBERON:0003216	hard palate	Anterior portion of the palate consisting of bone and mucous membranes[GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine[Kardong].	
+UBERON:0006956	buccal mucosa	The inner lining of the cheeks and lips.	
+UBERON:0001828	gingiva	The fibrous investing tissue, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and with the mucosal tissues of the mouth[Glossary of Periodontal Terms 2001].	
+UBERON:0002373	palatine tonsil	tonsils on the left and right sides at the back of the throat. one of the mucosa-associated lymphoid tissues (MALT), located at the entrance to the upper respiratory and gastrointestinal tracts to protect the body from the entry of exogenous material through mucosal sites[WP].	
+UBERON:0000341	throat	In anatomy, the throat is the anterior part of the neck, in front of the vertebral column. It consists of the pharynx and larynx. An important feature of the throat is the epiglottis, a flap which separates the esophagus from the trachea and prevents inhalation of food or drink. The throat contains various blood vessels, various pharyngeal muscles, the trachea (windpipe) and the esophagus. The hyoid bone and the clavicle are the only bones located in the throat of mammals. It is sometimes considered a synonym for fauces. [WP,unvetted].	
+UBERON:0005928	external naris	A naris that provides one of the small external openings of the head that give passage to air for breathing.	
+UBERON:0016486	posterior fornix of vagina	The vaginal fornix that is behind the cervix. It is close to the recto-uterine pouch.	
+UBERON:0000167	oral cavity	Anatomical cavity at the start of the digestive tract that that is enclosed by the mouth. The boundaries and contents vary depending on the species. In vertebrates, the boundaries are the oral opening, the cheeks, the palate and (if present) the palatoglossal arch - if this is not present then the mouth and pharynx form the oropharyngeal cavity. The buccal cavity contains the teeth, tongue and palate (when present)	
+UBERON:0000178	blood	A fluid that is composed of blood plasma and erythrocytes.	

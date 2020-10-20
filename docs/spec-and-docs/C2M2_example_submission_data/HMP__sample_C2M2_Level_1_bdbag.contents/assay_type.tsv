@@ -1,0 +1,18 @@
+id	name	description	synonyms
+OBI:0002763	16s ribosomal gene sequencing assay	An amplicon sequencing assay in which the amplicon is derived from universal primers used to amplify the 16S ribosomal RNA gene from isolate bacterial genomic DNA or metagenomic DNA from a microbioal community. Resulting sequences are compared to reference 16S sequence databases to identify or classify bacteria present within a given sample.	
+OBI:0002766	cytokine assay	An analyte assay to study presence, concentration, or amount of cytokines.	
+OBI:0002623	whole metagenome sequencing assay	A DNA sequencing assay that intends to provide information on the DNA sequences of multiple genomes (a metagenome) from different organisms present in the same input sample.	
+OBI:0001968	operational taxonomic unit matrix	Operational Taxonomic Unit matrix  is a data item, organized as a table, where organismal taxonomic units, computed by sequence analysis and genetic distance calculation, are counted in a set of biological or environmental samples. The table is  used to appraise biodiversity of a population or community of living organism.\n	
+OBI:0002585	sequence trimming	A data transformation in which subsequences of a molecular sequence are cut (removed).	
+OBI:0001177	RNA sequencing assay	An assay that determines the sequence of an RNA molecule.	
+OBI:0000366	metabolite profiling assay	An assay that detects and identifies chemical entities resulting from biochemical and cellular metabolism	
+OBI:0001872	sequence assembly process	A data transformation that assembles two or more individual sequence reads into contiguous sequences (i.e., contigs).	
+OBI:0001944	sequence annotation	A planned process that identifies and reports sequence features (e.g. protein coding regions) in sequence data.	
+OBI:0002567	sequence alignment	A data transformation in which one or more sequences (reads) are positioned on a reference sequence template (often a reference set of genes), according to the genetic base-pairing paradigm.	
+OBI:0002020	epigenetic modification assay	An assay that identifies epigenetic modifications including histone modifications, open chromatin, and DNA methylation.	
+OBI:0002145	antigen specific antibodies assay	An analyte assay that measures the presence or amount of antibodies to a specified antigen.	
+OBI:0002117	whole genome sequencing assay	A DNA sequencing assay that intends to provide information about the sequence of an entire genome of an organism.	
+OBI:0001247	genotyping by high throughput sequencing assay	A genotyping assay that uses a high througput sequencer	
+OBI:0000615	protein expression profiling assay	An assay that determines protein expression and translation activity using protein extracts collected from a material entity.	
+OBI:0200175	class discovery data transformation	A class discovery data transformation (sometimes called unsupervised classification) is a data transformation that has objective class discovery.	
+OBI:0002761	lipid profiling assay	An analyte assay assay that detects and identifies lipids resulting from biochemical and cellular metabolism.	
