@@ -402,6 +402,21 @@ see [C2M2 Instance](#c2m2-instance)
 
 ---
 
+##### [JSON](https://www.json.org/)
+`JavaScript Object Notation` is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
+
+---
+
+##### [JSON-LD](https://json-ld.org/)
+`JSON for Linking Data` is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is JSON based syntax for expressing a generalized [RDF](#rdf) dataset.
+
+---
+
+##### [JSON Schema](https://json-schema.org/)
+`JSON Schema` is a [JSON](#json)-serialized vocabulary that allows you to annotate and validate [JSON](#json) documents.
+
+---
+
 ##### [Jupyter Notebook](https://jupyter.org/)
 a web-based interactive environment for organizing data, performing computation, and visualizing output.
 
@@ -503,6 +518,11 @@ a entity to describe administrative/funding/contract/etc. hierarchy governing ow
 
 ##### <u>RCMRC</u>
 `Regional Comprehensive Metabolomics Resource Cores`. The Metabolomics Program consortium consists of six RCMRCs, also called the Compound Identification Cores (CIDCs), and seven Data and Tools Cores ([DTC](#dtc)s) that are overseen by the Metabolomics Consortium Coordinating Center at the University of Florida.
+
+---
+
+##### <u>RDF</u>
+`Resource Description Framework`. A standard model for semantic data interchange on the Web. RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports the evolution of schemas over time without requiring all the data consumers to be changed.
 
 ---
 

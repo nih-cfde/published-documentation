@@ -31,7 +31,7 @@ to CFDE describing experimental resources within their purview. Each
 submission is a set of tab-separated value files
 ([TSVs](../../CFDE-glossary.md#tsv));
 precise formatting requirements for these filesets are specified by
-[JSON Schema documents](../draft-C2M2_JSON_Schema_datapackage_specs/),
+[JSON Schema documents](https://github.com/nih-cfde/published-documentation/tree/master/docs/spec-and-docs/C2M2-JSON-Schemas),
 each of which is an instance of the
 [Data Package](http://frictionlessdata.io/docs/data-package/)
 meta-specification published by the

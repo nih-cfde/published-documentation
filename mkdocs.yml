@@ -74,7 +74,7 @@ extra_css:
 plugins:
   - mkdocs-jupyter:
       include_source: True
-  - htmlproofer
+#  - htmlproofer
   - exclude:
       glob:
         - the-fair-cookbook/content/1/testnb/*
