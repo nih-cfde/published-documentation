@@ -5,3 +5,4 @@
 [submodule "docs/specifications-and-documentation"]
 	path = docs/specifications-and-documentation
 	url = https://github.com/nih-cfde/specifications-and-documentation.git
+	      branch = automatewebsite
