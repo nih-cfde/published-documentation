@@ -5,13 +5,13 @@ This repository builds the public technical documentation for the CFDE: https://
 The website is a compliation of 3 data sources:
 
 - https://github.com/nih-cfde/specifications-and-documentation 
-  - the `master` branch is pulled in here as docs/specification-and-documentation
+  - the `master` branch is pulled in here as the submodule docs/specification-and-documentation
 - https://github.com/nih-cfde/the-fair-cookbook 
-  - the `master` branch is pulled in here as docs/the-fair-cookbook
+  - the `master` branch is pulled in here as the submodule docs/the-fair-cookbook
 - The other directories in the docs/ directory of this repo are local to this repo
 
 
-# Updating the Documentation in the Public Documentation Site
+# Updating the Documentation in the Public Documentation Site from a submodule
 
 ## Overview
 
@@ -73,7 +73,7 @@ If your preview site does not look right, continue making changes to the appropr
 
 #### Troubleshooting
 
-There are three possible reasons the PR might not automatically merge into specspreview:
+There are three possible reasons the PR might not automatically merge into specspreview/cookbookpreview:
 
 - The most likely reason, is that the preview branch needs to be refreshed, that a stale preview was already in the specspreview/cookbookpreview branch and is clashing with yours. To fix it delete the specspreview/cookbookpreview branch and wait for the next hourly run
 - If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @Acharbonneau in your PR and she'll help
@@ -89,3 +89,27 @@ If the robot detects changes to either sub repository, it also automatically:
 - runs a series of build checks
 
 Once you are happy with your preview site, approve this matching PR, and it will be merged in. An administrator has to merge this PR into the https://github.com/nih-cfde/published-documentation repository, and they are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @Acharbonneau
+
+# Updating the Documentation in the Public Documentation Site from this repo
+
+Only overall style of this website and the contents of the "About" pages are editable from this repository. 
+
+To make changes to this repo:
+
+- make a branch for work
+- when you are happy with your changes, make a PR of your branch to a branch called `preview`
+- the robot will automaticaly:
+   - run a series of build checks, and if those checks pass
+   - build a preview site for you to see your proposed changes at https://cfde-published-documentation.readthedocs-hosted.com/en/preview/
+- if your changes are as expected, make a PR of your branch to 'stable' and tag @Acharbonneau and @marisalim 
+
+
+## Troubleshooting
+
+There are three possible reasons the PR might not automatically merge into preview:
+
+- The most likely reason, is that the preview branch needs to be refreshed, that a stale preview was already in the preview branch and is clashing with yours. To fix it delete the preview branch and re-do your PR to preview
+- If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @Acharbonneau in your PR and she'll help
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the preview branch so that the robot tries again generally fixes this. Or tag @Acharbonneau
+
+
