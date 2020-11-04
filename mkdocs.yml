@@ -32,6 +32,8 @@ plugins:
   - exclude:
       glob:
         - the-fair-cookbook/content/1/testnb/*
+        - specifications-and-documentation/README.md
   - search: # necessary for search to work
       separator: '[\s\-\.]+'
-  - awesome-pages
+  - awesome-pages:
+      collapse_single_pages: true
