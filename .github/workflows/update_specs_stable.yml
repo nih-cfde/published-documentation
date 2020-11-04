@@ -1,4 +1,4 @@
-name: Update specs and docs master
+name: Update specs and docs stable
 on:
   schedule:
     - cron:  '1 */1 * * *'
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: merge specifications-and-documentation submodule to master
+      - name: merge specifications-and-documentation submodule to stable
         run: |
           git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" submodule update --init --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
@@ -15,8 +15,8 @@ jobs:
         with:
             base: stable
             token: ${{ secrets.ALLTHEACTIONS }}
-            commit-message: Update master
-            title: Auto update specs and docs submodule to master
+            commit-message: Update stable
+            title: Auto update specs and docs submodule to stable
             body: |
               - Dependency updates
               - requires review
