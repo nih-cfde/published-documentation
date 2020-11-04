@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: merge specifications-and-documentation submodule to master
         run: |
-          git submodule update --init --recursive --remote docs/specifications-and-documentation
+          git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" submodule update --init --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
