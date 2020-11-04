@@ -1,4 +1,4 @@
-name: Update cookbook master
+name: Update cookbook stable
 on:
   schedule:
     - cron:  '1 */1 * * *'
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: merge Cookbook submodule to master
+      - name: merge Cookbook submodule to stable
         run: |
           git submodule update --init --recursive --remote docs/the-fair-cookbook
       - name: Create Pull Request
@@ -15,8 +15,8 @@ jobs:
         with:
             base: stable
             token: ${{ secrets.ALLTHEACTIONS }}
-            commit-message: Update master
-            title: Auto update Cookbook submodule to master
+            commit-message: Update stable
+            title: Auto update Cookbook submodule to stable
             body: |
               - Dependency updates
               - requires review
