@@ -1,5 +1,5 @@
 mkdocs-material
-mkdocs-jupyter
 mkdocs-awesome-pages-plugin
-mknotebooks
-mkdocs-mermaid-plugin
+mkdocs-exclude
+mkdocs-htmlproofer-plugin
+mkdocs-jupyter

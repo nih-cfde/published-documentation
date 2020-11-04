@@ -4,7 +4,6 @@ repo_url: https://github.com/nih-cfde/published-documentation
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     primary: white
   features:
