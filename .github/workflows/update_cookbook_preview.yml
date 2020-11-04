@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with: token: ${{ secrets.ALLTHEACTIONS }}
         name: Update Cookbook submodule preview
         run: |
           git submodule update --init --recursive --remote docs/the-fair-cookbook
