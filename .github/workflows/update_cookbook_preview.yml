@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        name: Update Cookbook submodule preview
+      - name: Update Cookbook submodule preview
         run: |
-          git submodule update --init --recursive --remote docs/the-fair-cookbook
+          git submodule update --init --remote --recursive
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
