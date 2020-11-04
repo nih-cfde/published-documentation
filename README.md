@@ -92,17 +92,20 @@ Once you are happy with your preview site, approve this matching PR, and it will
 
 # Updating the Documentation in the Public Documentation Site from this repo
 
-Only overall style of this website and the contents of the "About" pages are editable from this repository. 
+Only overall style of this website and the contents of the "About" pages are editable from this repository. These changes are made periodically, as detailed in our release plan <insert link here>
 
 To make changes to this repo:
 
 - make a branch for work
-- when you are happy with your changes, make a PR of your branch to a branch called `preview`
+- when you are happy with your changes, make a PR of your branch to a branch called `preview` ** 
 - the robot will automaticaly:
    - run a series of build checks, and if those checks pass
    - build a preview site for you to see your proposed changes at https://cfde-published-documentation.readthedocs-hosted.com/en/preview/
-- if your changes are as expected, make a PR of your branch to 'stable' and tag @Acharbonneau and @marisalim 
+- if your changes are as expected, make a PR of your branch to 'dev' and tag @Acharbonneau and @marisalim
+- the admin team will check your changes and approve
+- changes to dev will be periodically promoted to the `stable` branch, as detailed in our release plan <insert link here>
 
+** if you have admin access to ReadTheDocs you can skip testing your changes in the `preview` branch and use the ReadTheDocs automated preview branch
 
 ## Troubleshooting
 
