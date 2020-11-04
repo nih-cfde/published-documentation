@@ -19,7 +19,7 @@ To update documents or layout relating to the FAIR cookbook, make changes to htt
 To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/specifications-and-documentation 
 To update the overall style of this website, the contents of the "About" pages, or to add additional data sources, make changes to this repository.
 
-A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/specifications-and-documentation. When changes are detected, the roboto will automatically pull the changes into this repository and:
+A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/specifications-and-documentation. When changes are detected, the robot will automatically pull the changes into this repository and:
 
 - attempt to render them as a preview site so the author can see how they will look in the public site
 - make a PR to incorporate your changes into the stable branch so they can be merged into the public site
