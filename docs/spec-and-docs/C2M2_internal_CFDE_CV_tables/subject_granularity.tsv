@@ -1,7 +1,0 @@
-id	name	description
-cfde_subject_granularity:0	single organism	One organism
-cfde_subject_granularity:1	symbiont system	A mixed system of consisting of two or more organisms (symbionts) in symbiosis (living colocated in time and space): one such symbiont may optionally be identified as a host
-cfde_subject_granularity:2	host-pathogen system	A special case of a symbiont system consisting of one symbiont, designated as a host, plus one or more other symbionts acting to create or sustain disease within the host organism
-cfde_subject_granularity:3	microbiome	A symbiont system consisting of a collection of (potentially unknown or partially characterized) taxa, where the environment in which the system resides is well-characterized, but the taxonomic composition of the system may be unknown; optionally contains one symbiont specially identified as a host
-cfde_subject_granularity:4	cell line	A cell line derived from one or more species or strains
-cfde_subject_granularity:5	synthetic	A synthetic biological entity

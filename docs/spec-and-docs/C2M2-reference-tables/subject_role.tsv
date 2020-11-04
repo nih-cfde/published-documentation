@@ -1,8 +1,0 @@
-id	name	description
-cfde_subject_role:0	single organism	The organism represented by a subject in the 'single organism' granularity category
-cfde_subject_role:1	host	Any organism identified as a host for a subject assigned to the 'symbiont system', 'host-pathogen system', or 'microbiome' granularity categories
-cfde_subject_role:2	symbiont	An organism identified as a symbiont within a subject assigned to the 'symbiont system' granularity category
-cfde_subject_role:3	pathogen	An organism identified as a pathogen symbiont in a subject assigned to the 'host-pathogen system' granularity category
-cfde_subject_role:4	microbiome taxon	A constituent taxon of either (a) a subject assigned to the 'environmental microbiome' granularity category or (b) the microbiome (non-host) portion of a subject assigned to the 'host-associated microbiome' granularity category [NB: This role is probably not appropriate for Level 1, because it necessitates the post-facto attachment of downstream analysis procedures (subject -> sample -> library prep -> sequencing -> bioinformatics -> taxonomic classification results) to a subject which was originally uncharacterized at this level]
-cfde_subject_role:5	cell line ancestor	A taxon identified as a source organism for a subject assigned to the 'cell line' granularity category
-cfde_subject_role:6	synthetic	A synthetic biological entity

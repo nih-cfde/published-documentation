@@ -1,9 +1,0 @@
-id	name	description	synonyms
-data:2044	Sequence	One or more molecular sequences, possibly with associated annotation.	
-data:2050	Molecular property (general)	General data for a molecule.	
-data:2082	Matrix	An array of numerical values.	
-data:1270	Feature table	Annotation of positional sequence features, organised into a standard feature table.	
-data:1916	Alignment	An alignment of molecular sequences, structures or profiles derived from them.	
-data:3498	Sequence variations	Data on gene sequence variations resulting large-scale genotyping and DNA sequencing projects.	
-data:0897	Protein property	A report of primarily non-positional data describing intrinsic physical, chemical or other properties of a protein molecule or model.	
-data:2976	Protein sequence	One or more protein sequences, possibly with associated annotation.	

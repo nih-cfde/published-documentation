@@ -2,3 +2,6 @@
 	path = docs/the-fair-cookbook
 	url = https://github.com/nih-cfde/the-fair-cookbook.git
         branch = master
+[submodule "docs/specifications-and-documentation"]
+	path = docs/specifications-and-documentation
+	url = git@github.com:nih-cfde/specifications-and-documentation.git
