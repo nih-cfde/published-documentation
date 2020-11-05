@@ -9,7 +9,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: merge specifications-and-documentation submodule to stable
         run: |
-          git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" submodule update --init --recursive --remote docs/specifications-and-documentation
+          # From https://github.com/actions/checkout/issues/116#issuecomment-583221947
+          git config --global url."https://github.com/".insteadOf "git@github.com:"
+          git submodule sync --recursive
+          git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" -c protocol.version=2 submodule update --init --force --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
