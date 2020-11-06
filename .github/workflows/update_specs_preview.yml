@@ -7,9 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Update spec and docs submodule preview
-        run: |
-          git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" submodule update --init --recursive --remote docs/specifications-and-documentation
+        with:
+          repository: nih-cfde/specifications-and-documentation
+          submodules: "recursive"
+          token: ${{ secrets.ALLTHEACTIONS }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
