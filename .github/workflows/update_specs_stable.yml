@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Checkout submodule
         run: |
-          git config --file=.gitmodules submodule.lib/https://github.com/nih-cfde/specifications-and-documentation.git https://${{ ALLTHEACTIONS }}:${{ ALLTHEACTIONS }}@github.com/nih-cfde/specifications-and-documentation.git
+          git config --file=.gitmodules submodule.lib/https://github.com/nih-cfde/specifications-and-documentation.git https://${{ secrets.ALLTHEACTIONS }}:${{ secrets.ALLTHEACTIONS }}@github.com/nih-cfde/specifications-and-documentation.git
           git submodule sync
           git submodule update --init --recursive
       - name: Create Pull Request
