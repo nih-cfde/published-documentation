@@ -7,10 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          repository: nih-cfde/specifications-and-documentation
-          submodules: "recursive"
-          token: ${{ secrets.ALLTHEACTIONS }}
+      - name: Checkout submodule
+        run: |
+          git config --file=.gitmodules submodule.lib/https://github.com/nih-cfde/specifications-and-documentation.git https://${{ ALLTHEACTIONS }}:${{ ALLTHEACTIONS }}@github.com/nih-cfde/specifications-and-documentation.git
+          git submodule sync
+          git submodule update --init --recursive
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
