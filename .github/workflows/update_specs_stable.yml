@@ -4,7 +4,7 @@ on:
     - cron:  '1 */1 * * *'
 jobs:
   update-dep:
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
