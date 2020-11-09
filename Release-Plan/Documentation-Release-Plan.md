@@ -8,7 +8,7 @@ The Github repo for the published documentation website will host a release sect
 
 For documentation version numbering system we will follow the release semantics with Major and Minor numbering. Thus our release tag would have the format: **`Major.Minor`**
 
-The current version of the published documentation is at `v1.0`. Any subsequent updates via PRs to the repo will be documented and can be released as either a `Minor` or `Major` release depending on the scope of the content. For example updates to an existing use case might be might be considered a minor update with tag as **`v1.1`**.
+The current version of the published documentation is at `v1.0`. Any subsequent updates via PRs to the repo will be documented and can be released as either a `Minor` or `Major` release depending on the scope of the content. For example updates to an existing documentation might be might be considered a minor update with tag as **`v1.1`**.
 
 A draft of the release notes will be auto generated based on PR merges into `latest`.
 To access the draft

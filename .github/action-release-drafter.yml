@@ -1,8 +1,15 @@
 name-template: 'Release v$NEXT_MINOR_VERSION'
 tag-template: 'v$NEXT_MINOR_VERSION'
 version-template: '$MAJOR.$MINOR'
+change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
-
+categories:
+  - title: 'FAIR Cookbook'
+    labels:
+      - 'proposedfairupdate'
+  - title: 'Specifications & Documentation'
+    labels:
+      - 'proposedspecsupdate'
 template: |
   ## What's Changed
 
