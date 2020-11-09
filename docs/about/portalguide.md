@@ -198,7 +198,7 @@ To search by biosample:
 *   The **Browse All Data > Biosample** option in the main menu bar.
 *   The **Biosample** link under View Data By in the Explore our Repository section on the main portal page.
 
-The data browser displays the CFDE data and filters related to biosamples.
+    The data browser displays the CFDE data and filters related to biosamples.
     ![alt_text](../images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
@@ -351,12 +351,14 @@ To search by ID namespace:
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
     ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
 2. The data browser includes the following columns in the results table:
+    
     *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
     *   ID – The unique ID within the ID Namespace.
     *   Abbreviation – A short label for the ID Namespace.
     *   Name – A short user-friendly label for the ID Namespace.
     *   Description – A user-friendly description of the ID Namespace.
+
 3. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   ID
