@@ -169,7 +169,7 @@ To log into the portal and dashboard:
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](docs/images/Login_CFDE.png "Globus Login")
+![alt_text](/docs/images/Login_CFDE.png "Globus Login")
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
     1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
