@@ -7,7 +7,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-  logo: images/CFDE-logo-white-outline.png
+  logo: images/CFDE_Logo-color-web.png
   favicon: images/CFDE-logo-white-outline.png
   docs_dir: docs
   custom_dir: custom
