@@ -1,42 +1,5 @@
 
 # Portal and Dashboard User Guide
-## Version 2.0
-**────────────────────────────────────**
-
-**Revision History**
-
-<table>
-  <tr>
-   <td><strong>Date (MM/DD/YYYY)</strong>
-   </td>
-   <td><strong>Version #</strong>
-   </td>
-   <td><strong>Changes Made By</strong>
-   </td>
-   <td><strong>Description of Change</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>06/30/2020
-   </td>
-   <td>1.0
-   </td>
-   <td>Erin Friday
-   </td>
-   <td>Initial draft.
-   </td>
-  </tr>
-  <tr>
-   <td>11/05/2020
-   </td>
-   <td>2.0
-   </td>
-   <td>Erin Friday
-   </td>
-   <td>Updated for latest functionality.
-   </td>
-  </tr>
-</table>
 
 ## Introduction
 
