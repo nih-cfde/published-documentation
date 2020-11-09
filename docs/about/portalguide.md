@@ -1,20 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![alt_text](/docs/images/CFDE_Logo.png "CFDE Logo")
 
-# Portal and Dashboard
-## User Guide
+# Portal and Dashboard User Guide
 ## Version 2.0
 **────────────────────────────────────**
 
