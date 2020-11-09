@@ -1,6 +1,4 @@
 
-![ver4](../images/CFDE_Logo.png "CFDE Logo")
-
 # Portal and Dashboard User Guide
 ## Version 2.0
 **────────────────────────────────────**
@@ -78,17 +76,12 @@ Currently, all features are available without a login, but this may change in th
 
 To log into the portal and dashboard:
 
-![alt_text](../images/Login_CFDE.png "Globus Login")
+    1. Click **Log In** in the upper-right of the page. The Login page displays.
 
-1. Click **Log In** in the upper-right of the page. The Login page displays.
+    ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
-
-   
-
-
- 
-- If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+    1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
+        1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
 ![alt_text](../images/Login.png "Login")
 
@@ -202,13 +195,13 @@ more information.
 To search by all collections:
 
 1. Select one of the following options:
-*   The **Browse All Data > Collection** option in the main menu bar.
-*   The **Search All Collections** button under Explore our Repository.
-*   The **Collection** link under View Data By in the Explore our Repository section.
+    - The **Browse All Data > Collection** option in the main menu bar.
+    - The **Search All Collections** button under Explore our Repository.
+    - The **Collection** link under View Data By in the Explore our Repository section.
 
 The entire CFDE data collection displays in the data browser.
 
-![alt_text](../images/Collection_Data_Browser.png "Collection")
+  ![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
