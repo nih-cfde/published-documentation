@@ -219,11 +219,21 @@ You have 4 H1 headings. You may want to use the "H1 -> H2" option to demote all 
 
 
 ![alt_text](CFDE_Logo.png "test 1")
+
 ![alt_text](/CFDE_Logo.png "test 2")
+
 ![alt_text](~/CFDE_Logo.png "test 3")
+
 ![alt_text](./CFDE_Logo.png "test 4")
+
 ![alt_text](~/images/CFDE_Logo.png "test 5")
+
 ![alt_text](./images/CFDE_Logo.png "test 6")
+
+![alt_text](~/images/CFDE_Logo-color-web.png "test 7")
+
+![alt_text](./images/CFDE_Logo-color-web.png "test 8")
+
 
 # Portal and Dashboard  \
 User Guide
