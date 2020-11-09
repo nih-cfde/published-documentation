@@ -11,61 +11,6 @@
 
 
 
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-<a href="#gdcalert31">alert31</a>
-<a href="#gdcalert32">alert32</a>
-<a href="#gdcalert33">alert33</a>
-<a href="#gdcalert34">alert34</a>
-<a href="#gdcalert35">alert35</a>
-<a href="#gdcalert36">alert36</a>
-<a href="#gdcalert37">alert37</a>
-<a href="#gdcalert38">alert38</a>
-<a href="#gdcalert39">alert39</a>
-<a href="#gdcalert40">alert40</a>
-<a href="#gdcalert41">alert41</a>
-<a href="#gdcalert42">alert42</a>
-<a href="#gdcalert43">alert43</a>
-<a href="#gdcalert44">alert44</a>
-<a href="#gdcalert45">alert45</a>
-<a href="#gdcalert46">alert46</a>
-<a href="#gdcalert47">alert47</a>
-<a href="#gdcalert48">alert48</a>
-<a href="#gdcalert49">alert49</a>
-<a href="#gdcalert50">alert50</a>
-<a href="#gdcalert51">alert51</a>
-<a href="#gdcalert52">alert52</a>
-<a href="#gdcalert53">alert53</a>
-<a href="#gdcalert54">alert54</a>
-
 ![alt_text](/docs/images/CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard
@@ -342,7 +287,7 @@ To search by subject:
 
     The data browser displays the CFDE data and filters related to subjects.
 
-![alt_text](docs/images/Subject_Data_Browser.png "Subject")
+![alt_text](/docs/images/Subject_Data_Browser.png "Subject")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -461,7 +406,7 @@ To search by vocabulary:
 
 To search by ID namespace:
 
-1. Select **Browse All Data > ID Namespace **from the main menu bar.
+1. Select **Browse All Data > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
 
@@ -491,7 +436,7 @@ To search by ID namespace:
 Click the icon in the View column (![alt_text](/docs/images/View_Details_Button.png "View Details")
 ) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example. 
 
-![alt_text](docs/images/View_Details.png "View Details")
+![alt_text](/docs/images/View_Details.png "View Details")
 
 The metadata displays in the summary section at the top of the page. In the example above, the metadata includes:
 
@@ -510,7 +455,7 @@ The metadata displays in the summary section at the top of the page. In the exam
 
 The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links. 
 
-![alt_text](docs/images/View_Details_Sections.png "View Sections")
+![alt_text](/docs/images/View_Details_Sections.png "View Sections")
 
 Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search. 
 
@@ -528,8 +473,6 @@ The buttons in the upper-right of the page include:
 ### Refine Search Results
 
 To use the facets to refine your search results:
-
-
 
 1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results. 
 
@@ -573,9 +516,9 @@ The data browser search results can be sorted and viewed using the following fun
 
 Search results can be exported from the main data browser and from the View Details page. To export the search results:
 
-1. Click the **Export **button. 
+1. Click the **Export** button. 
 
-![alt_text](/docs/images/Export_Button.png "Export Options")
+![alt_text](/docs/images/Export_Options.png "Export Options")
  
 2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
 *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
@@ -694,7 +637,7 @@ The Data Review page displays a personalized dashboard for you to verify the dat
 
 NOTE: Currently, only the HMP data is available for this feature. The other DCCs are coming soon.
 
-![alt_text](docs/images/Data_Review_Main.png "Data Review")
+![alt_text](/docs/images/Data_Review_Main.png "Data Review")
 
 The Data Review section on the left displays the data totals and the data breakdown numbers. These totals show you how many data files exist for your DCC overall, how many subjects are represented, and how many biosamples are in the project.
 
