@@ -1,12 +1,8 @@
-![ver1](docs/images/CFDE_Logo.png "CFDE Logo")
+![ver1](../docs/images/CFDE_Logo.png "CFDE Logo")
 
-![ver2](~/docs/images/CFDE_Logo.png "CFDE Logo")
+![ver2](../../docs/images/CFDE_Logo.png "CFDE Logo")
 
-![ver3](~/CFDE_Logo.png "CFDE Logo")
-
-![ver4](./CFDE_Logo.png "CFDE Logo")
-
-
+![ver3](../../../CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard User Guide
 ## Version 2.0
