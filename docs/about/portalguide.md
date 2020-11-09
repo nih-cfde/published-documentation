@@ -1,13 +1,5 @@
 
-![ver1](../../docs/images/CFDE_Logo.png "CFDE Logo")
-
-![ver2](~/docs/images/CFDE_Logo.png "CFDE Logo")
-
-![ver3](~/images/CFDE_Logo.png "CFDE Logo")
-
 ![ver4](../images/CFDE_Logo.png "CFDE Logo")
-
-![ver5](../../images/CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard User Guide
 ## Version 2.0
@@ -88,13 +80,13 @@ To log into the portal and dashboard:
 
 1. Click **Log In** in the upper-right of the page. The Login page displays.
 
-![alt_text](/docs/images/Login_CFDE.png "Globus Login")
+![alt_text](../images/Login_CFDE.png "Globus Login")
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
 
 a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
-![alt_text](/docs/images/Login.png "Login")
+![alt_text](../images/Login.png "Login")
 
 b. Click **Allow**.
 
@@ -116,7 +108,7 @@ From the portal, you can:
 *   Read documentation about the C2M2 and FAIR Cookbook.
 *   See the latest news regarding the CFDE.
 
-![alt_text](/docs/images/Portal_Home.png "Portal Home")
+![alt_text](../images/Portal_Home.png "Portal Home")
 
 ### Access the Portal
 
@@ -127,7 +119,7 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each CF program.
 
-![alt_text](/docs/images/Summary_View_Chart.png "Summary View")
+![alt_text](../images/Summary_View_Chart.png "Summary View")
 
 
 To filter the portal chart:
@@ -166,7 +158,7 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 
 ### Export the Chart
 
-The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button")
+The Export icon (![alt_text](../images/Export_Button.png "Export Button")
 ) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 ### Explore the Repository
@@ -212,7 +204,7 @@ To search by all collections:
 
 The entire CFDE data collection displays in the data browser.
 
-![alt_text](/docs/images/Collection_Data_Browser.png "Collection")
+![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -250,7 +242,7 @@ To search by biosample:
 
 The data browser displays the CFDE data and filters related to biosamples.
 
-![alt_text](/docs/images/Biosample_Data_Browser.png "BioSample")
+![alt_text](../images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -282,7 +274,7 @@ To search by subject:
 
     The data browser displays the CFDE data and filters related to subjects.
 
-![alt_text](/docs/images/Subject_Data_Browser.png "Subject")
+![alt_text](../images/Subject_Data_Browser.png "Subject")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -315,7 +307,7 @@ To search by file:
 
     The data browser displays the CFDE data and filters related to files.
 
-![alt_text](/docs/images/File_Data_Browser.png "File")
+![alt_text](../images/File_Data_Browser.png "File")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -353,7 +345,7 @@ To search by project:
 
 1. Select **Browse All Data > Project** from the main menu bar. The data browser displays the CFDE data and filters related to projects.
 
-![alt_text](/docs/images/Project_Data_Browser.png "image_tooltip")
+![alt_text](../images/Project_Data_Browser.png "image_tooltip")
 
 
 2. The data browser includes the following columns in the results table:
@@ -405,7 +397,7 @@ To search by ID namespace:
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
 
-![alt_text](/docs/images/ID_Namespace_Data_Browser.png "image_tooltip")
+![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -428,10 +420,10 @@ To search by ID namespace:
 
 ### View Details
 
-Click the icon in the View column (![alt_text](/docs/images/View_Details_Button.png "View Details")
+Click the icon in the View column (![alt_text](../images/View_Details_Button.png "View Details")
 ) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example. 
 
-![alt_text](/docs/images/View_Details.png "View Details")
+![alt_text](../images/View_Details.png "View Details")
 
 The metadata displays in the summary section at the top of the page. In the example above, the metadata includes:
 
@@ -442,7 +434,7 @@ The metadata displays in the summary section at the top of the page. In the exam
      *   Click **Table Mode** to display the project in a table with additional information.    
     *   Click **Explore** to open the project in a separate data browser.
 
-![alt_text](/docs/images/View_Details_Table_Mode.png "Table Mode")
+![alt_text](../images/View_Details_Table_Mode.png "Table Mode")
 
 *  Name – A short user-friendly label for the ID Namespace.
 *  Description – A user-friendly description of the ID Namespace.
@@ -450,11 +442,11 @@ The metadata displays in the summary section at the top of the page. In the exam
 
 The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links. 
 
-![alt_text](/docs/images/View_Details_Sections.png "View Sections")
+![alt_text](../images/View_Details_Sections.png "View Sections")
 
 Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search. 
 
-![alt_text](/docs/images/Explore_Button.png "Explore Button")
+![alt_text](../images/Explore_Button.png "Explore Button")
 
 Within each data file, you can click the **View** icon to view additional information about the record.
 
@@ -471,39 +463,39 @@ To use the facets to refine your search results:
 
 1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results. 
 
-![alt_text](/docs/images/Data_Type_Facet.png "Data Type")
+![alt_text](../images/Data_Type_Facet.png "Data Type")
 
 2. Within a facet, you can perform any of the following to filter the results:
 *   Select the appropriate attribute checkbox(es).
 *   Use the Search box to search for attributes only within that facet.
 *   Click **Show More** to display additional information about the attributes.
 
-![alt_text](/docs/images/Search_by_Data_Type.png "Search by Data Type")
+![alt_text](../images/Search_by_Data_Type.png "Search by Data Type")
 
 3. The time-related facets (Collection Creation Time, File Creation Time, and Biosample Creation Time) and the Size in Bytes facet function differently. To filter on a time-related facet, perform one of the following:
 *   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
 *   Use the interactive histogram to find the appropriate time period. Click and drag anywhere in the graph to zoom into a smaller subset of data. The From and To dates update automatically as you use the histogram, but you must select the blue checkmark to filter the results in the main data browser.
 
-![alt_text](/docs/images/Collection_Creation_Time.png "image_tooltip")
+![alt_text](../images/Collection_Creation_Time.png "image_tooltip")
 
 ### Sort and View Search Results
 
 The data browser search results can be sorted and viewed using the following functions:
 
-*   The results table can be sorted by column header using the arrow icon (![alt_text](/docs/images/Arrow_Button.png "Arrow Button")
+*   The results table can be sorted by column header using the arrow icon (![alt_text](../images/Arrow_Button.png "Arrow Button")
 ).
 *   View a different amount of results on one page by selecting a different option for the **Displaying first number of records** drop-down. 
 
-![alt_text](/docs/images/Number_of_Records.png "Number of Records")
+![alt_text](../images/Number_of_Records.png "Number of Records")
 
 *   Use the **Search All Columns** search box at the top of the results table to search for records within the table.
 
-![alt_text](/docs/images/Search_All_Columns.png "Search All Columns")
+![alt_text](../images/Search_All_Columns.png "Search All Columns")
 
 *   View additional results by clicking the **Next** button at the bottom of the table.
 *   Click the **X** next to the filter to remove the one filter from the search results.
 
-![alt_text](/docs/images/Clear_All_Filters.png "Clear All Filters")
+![alt_text](../images/Clear_All_Filters.png "Clear All Filters")
 
 *   Click **Clear All Filters** to remove all filters from the search results.
 
@@ -513,7 +505,7 @@ Search results can be exported from the main data browser and from the View Deta
 
 1. Click the **Export** button. 
 
-![alt_text](/docs/images/Export_Options.png "Export Options")
+![alt_text](../images/Export_Options.png "Export Options")
  
 2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
 *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
@@ -554,7 +546,7 @@ To access the dashboard:
 
 The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. The title of the charts update automatically to reflect the options selected.
 
-![alt_text](/docs/images/File_Count_by_CF_Program_Chart.png "File Count by CF Program and Assay")
+![alt_text](../images/File_Count_by_CF_Program_Chart.png "File Count by CF Program and Assay")
 
 To filter the bar charts:
 
@@ -592,7 +584,7 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 
 ### Filter the Anatomy by Assay Type across the Common Fund Chart
 
-![alt_text](/docs/images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
+![alt_text](../images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
 
 To filter the anatomy by assay type across the Common Fund chart:
 
@@ -614,7 +606,7 @@ To filter the anatomy by assay type across the Common Fund chart:
 
 ### Filter the Anatomy by Common Fund Program Chart
 
-![alt_text](/docs/images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
+![alt_text](../images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
 
 To filter the anatomy by Common Fund program chart:
 
@@ -632,7 +624,7 @@ The Data Review page displays a personalized dashboard for you to verify the dat
 
 NOTE: Currently, only the HMP data is available for this feature. The other DCCs are coming soon.
 
-![alt_text](/docs/images/Data_Review_Main.png "Data Review")
+![alt_text](../images/Data_Review_Main.png "Data Review")
 
 The Data Review section on the left displays the data totals and the data breakdown numbers. These totals show you how many data files exist for your DCC overall, how many subjects are represented, and how many biosamples are in the project.
 
@@ -642,6 +634,6 @@ To get help with reports or the data, click the associated link at the bottom of
 
 ### Export the Chart
 
-The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
+The Export icon (![alt_text](../images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 
