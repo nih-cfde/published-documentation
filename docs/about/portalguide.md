@@ -61,12 +61,11 @@ Select your name in the upper-right after logging in, click the down arrow, and 
 The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data. 
 
 From the portal, you can:
-
-*   View and export a dashboard bar chart.
-*   Explore the repository of Common Fund data.
-*   Access the full dashboard with additional summary charts.
-*   Read documentation about the C2M2 and FAIR Cookbook.
-*   See the latest news regarding the CFDE.
+* View and export a dashboard bar chart.
+* Explore the repository of Common Fund data.
+* Access the full dashboard with additional summary charts.
+* Read documentation about the C2M2 and FAIR Cookbook.
+* See the latest news regarding the CFDE.
 
 ![alt_text](../images/Portal_Home.png "Portal Home")
 
@@ -163,8 +162,7 @@ To search by all collections:
     - The **Collection** link under View Data By in the Explore our Repository section.
 
 The entire CFDE data collection displays in the data browser.
-
-  ![alt_text](../images/Collection_Data_Browser.png "Collection")
+    ![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -201,8 +199,7 @@ To search by biosample:
 *   The **Biosample** link under View Data By in the Explore our Repository section on the main portal page.
 
 The data browser displays the CFDE data and filters related to biosamples.
-
-![alt_text](../images/Biosample_Data_Browser.png "BioSample")
+    ![alt_text](../images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
@@ -229,105 +226,101 @@ The data browser displays the CFDE data and filters related to biosamples.
 To search by subject:
 
 1. Select one of the following options:
-*   The **Browse All Data > Subject** option in the main menu bar.
-*   The **Subject** link under View Data By in the Explore our Repository section on the main portal page.
+    *   The **Browse All Data > Subject** option in the main menu bar.
+    *   The **Subject** link under View Data By in the Explore our Repository section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
-
-![alt_text](../images/Subject_Data_Browser.png "Subject")
+    ![alt_text](../images/Subject_Data_Browser.png "Subject")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
-*   ID Namespace – A grouping of subject IDs.
-*   Local ID – The unique subject ID within the ID Namespace.
-*   Project – The project attributed as the source of the subject.
-*   Granularity – The specificity of the subject description, i.e., organism versus cell-line.
-*   Taxonomy – The classification concept(s) that characterize the subject.
-*   Creation Time – The date and time the subject record was created.
+    *   ID Namespace – A grouping of subject IDs.
+    *   Local ID – The unique subject ID within the ID Namespace.
+    *   Project – The project attributed as the source of the subject.
+    *   Granularity – The specificity of the subject description, i.e., organism versus cell-line.
+    *   Taxonomy – The classification concept(s) that characterize the subject.
+    *   Creation Time – The date and time the subject record was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-*   Taxonomy
-*   Subject Granularity
-*   Taxonomic Role
-*   Common Fund Program
-*   Project
-*   Creation Time
-*   Derived Biosample
-*   Described by File
-*   Part of Collection
+    *   Taxonomy
+    *   Subject Granularity
+    *   Taxonomic Role
+    *   Common Fund Program
+    *   Project
+    *   Creation Time
+    *   Derived Biosample
+    *   Described by File
+    *   Part of Collection
 
 ### Browse by File
 
 To search by file:
 
 1. Select one of the following options:
-*   The **Browse All Data > File** option in the main menu bar.
-*   The **File** link under View Data By in the Explore our Repository section on the main portal page.
+    *   The **Browse All Data > File** option in the main menu bar.
+    *   The **File** link under View Data By in the Explore our Repository section on the main portal page.
 
     The data browser displays the CFDE data and filters related to files.
-
-![alt_text](../images/File_Data_Browser.png "File")
+    ![alt_text](../images/File_Data_Browser.png "File")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
-*   ID Namespace – A grouping of file IDs.
-*   Local ID – The unique file ID within the ID Namespace.
-*   Filename – The name of the file excluding prepended PATH information.
-*   Project – The project attributed as the source of the file.
-*   Size in Bytes – The size of the file in bytes.
-*   File Format – The content format of the file.
-*   Data Type – The type of data represented by the file.
-*   Assay Type – The assay type represented by the file.
-*   Creation Time – The date and time the file was created.
+    *   ID Namespace – A grouping of file IDs.
+    *   Local ID – The unique file ID within the ID Namespace.
+    *   Filename – The name of the file excluding prepended PATH information.
+    *   Project – The project attributed as the source of the file.
+    *   Size in Bytes – The size of the file in bytes.
+    *   File Format – The content format of the file.
+    *   Data Type – The type of data represented by the file.
+    *   Assay Type – The assay type represented by the file.
+    *   Creation Time – The date and time the file was created.
 3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-*   Data Type
-*   File Format
-*   Assay Type
-*   Anatomy
-*   Subject Taxonomy
-*   Common Fund Program
-*   Project
-*   Subject Granularity
-*   Subject Role
-*   File Creation Time
-*   Biosample Creation Time
-*   Size in Bytes
-*   Uncompressed Size in Bytes
-*   Part of Collection
-*   Described Biosample
-*   Described Subject
+    *   Data Type
+    *   File Format
+    *   Assay Type
+    *   Anatomy
+    *   Subject Taxonomy
+    *   Common Fund Program
+    *   Project
+    *   Subject Granularity
+    *   Subject Role
+    *   File Creation Time
+    *   Biosample Creation Time
+    *   Size in Bytes
+    *   Uncompressed Size in Bytes
+    *   Part of Collection
+    *   Described Biosample
+    *   Described Subject
 
 ### Browse by Project
 
 To search by project:
 
 1. Select **Browse All Data > Project** from the main menu bar. The data browser displays the CFDE data and filters related to projects.
-
-![alt_text](../images/Project_Data_Browser.png "image_tooltip")
-
+    ![alt_text](../images/Project_Data_Browser.png "image_tooltip")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
-*   ID Namespace – A grouping of project IDs.
-*   Local ID – The unique project ID within the ID Namespace.
-*   Name – A short user-friendly label for the ID Namespace.
-*   Description – A user-friendly description of the ID Namespace.
-*   Creation Time – The date and time the project was created.
+    *   ID Namespace – A grouping of project IDs.
+    *   Local ID – The unique project ID within the ID Namespace.
+    *   Name – A short user-friendly label for the ID Namespace.
+    *   Description – A user-friendly description of the ID Namespace.
+    *   Creation Time – The date and time the project was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-*   Creation Time
-*   Super-Project
-*   Sub-Project
-*   Subject Granularity
-*   Subject Role
-*   Subject Taxonomy
-*   Anatomy
-*   Assay Type
-*   File Format
-*   Data Type
+    *   Creation Time
+    *   Super-Project
+    *   Sub-Project
+    *   Subject Granularity
+    *   Subject Role
+    *   Subject Taxonomy
+    *   Anatomy
+    *   Assay Type
+    *   File Format
+    *   Data Type
 
 ### Browse by Vocabulary
 
@@ -335,13 +328,13 @@ To search by vocabulary:
 
 1. Select **Browse All Data > Vocabulary** from the main menu bar. 
 2. Select an item from the list:
-*   Anatomy
-*   Assay Type
-*   Data Type
-*   File Format
-*   NCBI Taxonomy
-*   Subject Granularity
-*   Subject Role
+    *   Anatomy
+    *   Assay Type
+    *   Data Type
+    *   File Format
+    *   NCBI Taxonomy
+    *   Subject Granularity
+    *   Subject Role
 
     The data browser displays the CFDE data and filters related to the vocabulary term.
 
@@ -356,27 +349,25 @@ To search by ID namespace:
 1. Select **Browse All Data > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
-
-![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
-
+    ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
-*   ID – The unique ID within the ID Namespace.
-*   Abbreviation – A short label for the ID Namespace.
-*   Name – A short user-friendly label for the ID Namespace.
-*   Description – A user-friendly description of the ID Namespace.
+    *   ID – The unique ID within the ID Namespace.
+    *   Abbreviation – A short label for the ID Namespace.
+    *   Name – A short user-friendly label for the ID Namespace.
+    *   Description – A user-friendly description of the ID Namespace.
 3. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-*   ID
-*   Abbreviation
-*   Name
-*   Description
-*   Biosample
-*   Collection
-*   File
-*   Project
-*   Subject
+    *   ID
+    *   Abbreviation
+    *   Name
+    *   Description
+    *   Biosample
+    *   Collection
+    *   File
+    *   Project
+    *   Subject
 
 ### View Details
 
@@ -421,20 +412,19 @@ The buttons in the upper-right of the page include:
 
 To use the facets to refine your search results:
 
-1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results. 
-
-![alt_text](../images/Data_Type_Facet.png "Data Type")
+1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results.    
+    ![alt_text](../images/Data_Type_Facet.png "Data Type")
 
 2. Within a facet, you can perform any of the following to filter the results:
-*   Select the appropriate attribute checkbox(es).
-*   Use the Search box to search for attributes only within that facet.
-*   Click **Show More** to display additional information about the attributes.
+    *   Select the appropriate attribute checkbox(es).
+    *   Use the Search box to search for attributes only within that facet.
+    *   Click **Show More** to display additional information about the attributes.
 
 ![alt_text](../images/Search_by_Data_Type.png "Search by Data Type")
 
 3. The time-related facets (Collection Creation Time, File Creation Time, and Biosample Creation Time) and the Size in Bytes facet function differently. To filter on a time-related facet, perform one of the following:
-*   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
-*   Use the interactive histogram to find the appropriate time period. Click and drag anywhere in the graph to zoom into a smaller subset of data. The From and To dates update automatically as you use the histogram, but you must select the blue checkmark to filter the results in the main data browser.
+    *   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
+    *   Use the interactive histogram to find the appropriate time period. Click and drag anywhere in the graph to zoom into a smaller subset of data. The From and To dates update automatically as you use the histogram, but you must select the blue checkmark to filter the results in the main data browser.
 
 ![alt_text](../images/Collection_Creation_Time.png "image_tooltip")
 
@@ -464,18 +454,18 @@ The data browser search results can be sorted and viewed using the following fun
 Search results can be exported from the main data browser and from the View Details page. To export the search results:
 
 1. Click the **Export** button. 
-
-![alt_text](../images/Export_Options.png "Export Options")
+    
+    ![alt_text](../images/Export_Options.png "Export Options")
  
 2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
-*   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
-    *   RID - The internal Record ID, which could be considered the Primary Key.
-    *   RCT - The timestamp representing the Record Creation Time.
-    *   RMT - The timestamp representing the Record Modified Time.
-    *   RCB - The Record Created By, which is the GlobusAuth identity string (GUID) representing the creator of the record.
-    *   RMB - The Record Modified By, which is the GlobusAuth identity string (GUID) representing the user who last modified the record.
-    *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
-*   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
+    *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
+        *   RID - The internal Record ID, which could be considered the Primary Key.
+        *   RCT - The timestamp representing the Record Creation Time.
+        *   RMT - The timestamp representing the Record Modified Time.
+        *   RCB - The Record Created By, which is the GlobusAuth identity string (GUID) representing the creator of the record.
+        *   RMB - The Record Modified By, which is the GlobusAuth identity string (GUID) representing the user who last modified the record.
+        *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
+    *   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
 
 ### Documentation
 
@@ -511,28 +501,28 @@ The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay,
 To filter the bar charts:
 
 1. Select an **X-axis** value from the drop-down. Options include:
-*   CF Program
-*   Data Type
-*   Assay
-*   Species
-*   Anatomy
+    *   CF Program
+    *   Data Type
+    *   Assay
+    *   Species
+    *   Anatomy
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
 2. Select a **Y-axis** value from the drop-down. Options include:
-*   File Count
-*   Data Volume
-*   Sample Count
-*   Subject Count
+    *   File Count
+    *   Data Volume
+    *   Sample Count
+    *   Subject Count
 
     The vertical axis of the bar chart updates automatically with the option selected.
 
 3. Select a **Stack By** value from the drop-down. Options include:
-*   CF Program
-*   Data Type
-*   Assay
-*   Species
-*   Anatomy
+    *   CF Program
+    *   Data Type
+    *   Assay
+    *   Species
+    *   Anatomy
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
@@ -549,18 +539,18 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 To filter the anatomy by assay type across the Common Fund chart:
 
 1. Select the **Assay Type** from the drop-down. Options include:
-*   16s ribosomal gene sequencing assay
-*   Hi-C assay
-*   RNA sequencing assay
-*   Cytokine assay
-*   Epigenetic modification assay
-*   Fluorescence detection assay
-*   Mass spectrometry assay
-*   Metabolite profiling assay
-*   Protein expression profiling assay
-*   Transcription profiling assay
-*   Whole genome sequencing assay
-*   Whole metagenome sequencing assay
+    *   16s ribosomal gene sequencing assay
+    *   Hi-C assay
+    *   RNA sequencing assay
+    *   Cytokine assay
+    *   Epigenetic modification assay
+    *   Fluorescence detection assay
+    *   Mass spectrometry assay
+    *   Metabolite profiling assay
+    *   Protein expression profiling assay
+    *   Transcription profiling assay
+    *   Whole genome sequencing assay
+    *   Whole metagenome sequencing assay
 
     The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) across all Common Fund programs based on the assay type selected.
 
@@ -571,10 +561,10 @@ To filter the anatomy by assay type across the Common Fund chart:
 To filter the anatomy by Common Fund program chart:
 
 1. Select the **CF Program** from the drop-down. Options include:
-*   4DN
-*   HMP
-*   LINCS
-*   Metabolomics
+    *   4DN
+    *   HMP
+    *   LINCS
+    *   Metabolomics
 
     The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) based on the Common Fund program selected.
 
