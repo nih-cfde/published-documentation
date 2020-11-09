@@ -218,9 +218,12 @@ You have 4 H1 headings. You may want to use the "H1 -> H2" option to demote all 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image2.png "image_tooltip")
-
-
+![alt_text](CFDE_Logo.png "test 1")
+![alt_text](/CFDE_Logo.png "test 2")
+![alt_text](~/CFDE_Logo.png "test 3")
+![alt_text](./CFDE_Logo.png "test 4")
+![alt_text](~/images/CFDE_Logo.png "test 5")
+![alt_text](./images/CFDE_Logo.png "test 6")
 
 # Portal and Dashboard  \
 User Guide
