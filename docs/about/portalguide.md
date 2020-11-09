@@ -65,11 +65,11 @@ Select your name in the upper-right after logging in, click the down arrow, and 
 The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data. 
 
 From the portal, you can:
-* View and export a dashboard bar chart.
-* Explore the repository of Common Fund data.
-* Access the full dashboard with additional summary charts.
-* Read documentation about the C2M2 and FAIR Cookbook.
-* See the latest news regarding the CFDE.
+    - View and export a dashboard bar chart.
+    - Explore the repository of Common Fund data.
+    - Access the full dashboard with additional summary charts.
+    - Read documentation about the C2M2 and FAIR Cookbook.
+    - See the latest news regarding the CFDE.
 
 ![alt_text](../images/Portal_Home.png "Portal Home")
 
