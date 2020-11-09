@@ -165,61 +165,61 @@ To search by all collections:
     ![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
-*   ID Namespace – A grouping of collection IDs.
-*   Local ID – The unique collection ID within the ID Namespace.
-*   Name – A short user-friendly label for the collection.
-*   Description – A user-friendly description of the collection.
-*   Creation Time – The date and time the collection was created.
+    *   ID Namespace – A grouping of collection IDs.
+    *   Local ID – The unique collection ID within the ID Namespace.
+    *   Name – A short user-friendly label for the collection.
+    *   Description – A user-friendly description of the collection.
+    *   Creation Time – The date and time the collection was created.
 3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-*   Data Type
-*   File Format
-*   Assay Type
-*   Anatomy
-*   Subject Taxonomy
-*   Common Fund Program
-*   Project
-*   Subject Granularity
-*   Subject Role
-*   Collection Creation Time
-*   File Creation Time
-*   Biosample Creation Time
-*   Part of Collection
-*   Contained Subject
-*   Contained Biosample
-*   Contained File
+    *   Data Type
+    *   File Format
+    *   Assay Type
+    *   Anatomy
+    *   Subject Taxonomy
+    *   Common Fund Program
+    *   Project
+    *   Subject Granularity
+    *   Subject Role
+    *   Collection Creation Time
+    *   File Creation Time
+    *   Biosample Creation Time
+    *   Part of Collection
+    *   Contained Subject
+    *   Contained Biosample
+    *   Contained File
 
 ### Browse by Biosample
 
 To search by biosample:
 
 1. Select one of the following options:
-*   The **Browse All Data > Biosample** option in the main menu bar.
-*   The **Biosample** link under View Data By in the Explore our Repository section on the main portal page.
+    *   The **Browse All Data > Biosample** option in the main menu bar.
+    *   The **Biosample** link under View Data By in the Explore our Repository section on the main portal page.
 
     The data browser displays the CFDE data and filters related to biosamples.
     ![alt_text](../images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
-*   ID Namespace – A grouping of biosample IDs.
-*   Local ID – The unique biosample ID within the ID Namespace.
-*   Project – The project attributed as the source of the biosample.
-*   Anatomy – The anatomy from which the biosample is derived.
-*   Creation Time – The date and time the biosample was created.
+    *   ID Namespace – A grouping of biosample IDs.
+    *   Local ID – The unique biosample ID within the ID Namespace.
+    *   Project – The project attributed as the source of the biosample.
+    *   Anatomy – The anatomy from which the biosample is derived.
+    *   Creation Time – The date and time the biosample was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine_search_results) section for more information. The panel includes the following facets by which you can filter the results:
-*   Assay Type
-*   Anatomy
-*   Subject Taxonomy
-*   Common Fund Program
-*   Project
-*   Creation Time
-*   Source Subject
-*   Described by File
-*   Part of Collection
+    *   Assay Type
+    *   Anatomy
+    *   Subject Taxonomy
+    *   Common Fund Program
+    *   Project
+    *   Creation Time
+    *   Source Subject
+    *   Described by File
+    *   Part of Collection
 
 ### Browse by Subject
 
@@ -350,7 +350,7 @@ To search by ID namespace:
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
     ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
-2. The data browser includes the following columns in the results table:
+1. The data browser includes the following columns in the results table:
     
     *   View – Click the icon next to the appropriate record to view more information about the record. See the 
 [View Details](#view-details) section for more information.
@@ -359,7 +359,7 @@ To search by ID namespace:
     *   Name – A short user-friendly label for the ID Namespace.
     *   Description – A user-friendly description of the ID Namespace.
 
-3. The results can be filtered using the Refine Search filter panel. See the 
+1. The results can be filtered using the Refine Search filter panel. See the 
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   ID
     *   Abbreviation
