@@ -633,6 +633,6 @@ To get help with reports or the data, click the associated link at the bottom of
 
 ### Export the Chart
 
-The Export icon ((![alt_text](/docs/images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
+The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 
