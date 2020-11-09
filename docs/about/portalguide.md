@@ -1,4 +1,6 @@
 
+<img src="../images/CFDE_Logo.png" width="400" align="center" >
+
 ![ver4](../images/CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard User Guide
