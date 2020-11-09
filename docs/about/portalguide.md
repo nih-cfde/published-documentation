@@ -67,10 +67,10 @@ The specific goals of the CFDE are to:
 
 The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/dashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
 
-*   F – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
-*   A – Offering rich access control and access to metadata via standard HTTP web service interfaces.
-*   I – Integrating with standardized terms defined by collaborators, consortium, and communities.
-*   R – Supporting dynamic model evolution so the presented data accurately represents the current structure and state of knowledge within an investigation.
+*   **F** – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
+*   **A** – Offering rich access control and access to metadata via standard HTTP web service interfaces.
+*   **I** – Integrating with standardized terms defined by collaborators, consortium, and communities.
+*   **R** – Supporting dynamic model evolution so the presented data accurately represents the current structure and state of knowledge within an investigation.
 
 To support these principals, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
 
@@ -86,13 +86,13 @@ To log into the portal and dashboard:
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
 
-a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+    a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
 ![alt_text](../images/Login.png "Login")
 
-b. Click **Allow**.
+    b. Click **Allow**.
 
-c. Enter your information and click **Login**.
+    c. Enter your information and click **Login**.
 
 ### View Your Profile
 
