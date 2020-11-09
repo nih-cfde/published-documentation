@@ -1,6 +1,4 @@
 
-<img src="../images/CFDE_Logo.png" width="400" align="center" >
-
 ![ver4](../images/CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard User Guide
@@ -80,19 +78,23 @@ Currently, all features are available without a login, but this may change in th
 
 To log into the portal and dashboard:
 
-1. Click **Log In** in the upper-right of the page. The Login page displays.
-
 ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
+1. Click **Log In** in the upper-right of the page. The Login page displays.
 
-    a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
+
+   
+
+
+ 
+- If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
 ![alt_text](../images/Login.png "Login")
 
-    b. Click **Allow**.
+- Click **Allow**.
 
-    c. Enter your information and click **Login**.
+- Enter your information and click **Login**.
 
 ### View Your Profile
 
@@ -127,28 +129,28 @@ The portal chart is an interactive graphic that renders automatically when diffe
 To filter the portal chart:
 
 1. Select an **X-axis** value from the drop-down. Options include:
-*   CF Program
-*   Data Type
-*   Assay
-*   Species
-*   Anatomy
+    - CF Program
+    - Data Type
+    - Assay
+    - Species
+    - Anatomy
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
 2. Select a **Y-axis** value from the drop-down. Options include:
-*   File Count
-*   Data Volume
-*   Sample Count
-*   Subject Count
+    *   File Count
+    *   Data Volume
+    *   Sample Count
+    *   Subject Count
 
     The vertical axis of the bar chart updates automatically with the option selected.
 
 3. Select a **Stack By** value from the drop-down. Options include:
-*   CF Program
-*   Data Type
-*   Assay
-*   Species
-*   Anatomy
+    *   CF Program
+    *   Data Type
+    *   Assay
+    *   Species
+    *   Anatomy
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
