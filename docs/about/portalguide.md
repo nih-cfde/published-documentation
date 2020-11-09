@@ -220,7 +220,7 @@ You have 4 H1 headings. You may want to use the "H1 -> H2" option to demote all 
 
 ![alt_text](CFDE_Logo.png "test 1")
 
-![alt_text](/images/CFDE_Logo.png "test 2")
+![alt_text](/docs/images/CFDE_Logo.png "test 2")
 
 ![alt_text](~/CFDE_Logo.png "test 3")
 
