@@ -1,150 +1,15 @@
-<!-- Copy and paste the converted output. -->
-
-<!-----
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 15.296 seconds.
 
 
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β29
-* Fri Nov 06 2020 12:20:01 GMT-0800 (PST)
-* Source doc: CFDE Portal and Dashboard User Guide
-* Tables are currently converted to HTML tables.
-
-ERROR:
-undefined internal link to this URL: "#heading=h.r3utoiesoe42".link text: Browse All Collections
-?Did you generate a TOC?
 
 
-ERROR:
-undefined internal link to this URL: "#heading=h.r3utoiesoe42".link text: Browse All Collections
-?Did you generate a TOC?
 
 
-ERROR:
-undefined internal link to this URL: "#heading=h.r3utoiesoe42".link text: Browse All Collections
-?Did you generate a TOC?
 
 
-ERROR:
-undefined internal link to this URL: "#heading=h.4t7e0r4ybsgm".link text: Browse by Biosample
-?Did you generate a TOC?
 
 
-ERROR:
-undefined internal link to this URL: "#heading=h.ykpkugz698js".link text: Browse by Subject
-?Did you generate a TOC?
 
 
-ERROR:
-undefined internal link to this URL: "#heading=h.8b829asamxi2".link text: Browse by File
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.yu7dn3hfqpzl".link text: Browse by Project
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.4qy7784a4zbe".link text: Browse by Vocabulary
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.v93gl7he7i76".link text: Browse by ID Namespace
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.fvlvpg7zwb9l".link text: View Details
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ba29j4q0t8ds".link text: Refine Search Results
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.bmhmezkpi2vp".link text: Export Search Results
-?Did you generate a TOC?
-
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
-
-WARNING:
-You have 4 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 23; WARNINGs: 1; ALERTS: 54.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
 <a href="#gdcalert2">alert2</a>
@@ -209,44 +74,14 @@ You have 4 H1 headings. You may want to use the "H1 -> H2" option to demote all 
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
+![alt_text](/docs/images/CFDE_Logo.png "CFDE Logo")
 
-![alt_text](images/image1.png "image_tooltip")
- 
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](CFDE_Logo.png "test 1")
-
-![alt_text](/docs/images/CFDE_Logo.png "test 2")
-
-![alt_text](~/CFDE_Logo.png "test 3")
-
-![alt_text](./CFDE_Logo.png "test 4")
-
-![alt_text](~/images/CFDE_Logo.png "test 5")
-
-![alt_text](./images/CFDE_Logo.png "test 6")
-
-![alt_text](~/images/CFDE_Logo-color-web.png "test 7")
-
-![alt_text](./images/CFDE_Logo-color-web.png "test 8")
-
-
-# Portal and Dashboard  \
-User Guide
-
-
+# Portal and Dashboard
+## User Guide
 ## Version 2.0
-
 **────────────────────────────────────**
 
-
-
 **Revision History**
-
 
 <table>
   <tr>
@@ -281,22 +116,9 @@ User Guide
   </tr>
 </table>
 
+## Introduction
 
-
-
-**Table of Contents**
-
-
-[TOC]
-
-
-
-
-
-# Introduction
-
-
-## Common Fund Data Ecosystem (CFDE)
+### Common Fund Data Ecosystem (CFDE)
 
 The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH Common Fund (CF) programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
 
@@ -320,7 +142,7 @@ The specific goals of the CFDE are to:
 *   Provide training – maximize scientists’ ability to use CF data and other resources.
 
 
-## Purpose of this Document
+### Purpose of this Document
 
 The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/dashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
 
@@ -334,7 +156,7 @@ The CFDE website includes two modules to ensure the specific goals are met and u
 To support these principals, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
 
 
-## Login
+### Login
 
 Currently, all features are available without a login, but this may change in the future.
 
@@ -347,7 +169,7 @@ To log into the portal and dashboard:
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](docs/images/Login_CFDE.png "Globus Login")
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
     1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
