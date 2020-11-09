@@ -350,6 +350,7 @@ To search by ID namespace:
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
     ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
+
 1. The data browser includes the following columns in the results table:
     
     *   View – Click the icon next to the appropriate record to view more information about the record. See the 
