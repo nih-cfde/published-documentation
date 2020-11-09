@@ -76,18 +76,18 @@ Currently, all features are available without a login, but this may change in th
 
 To log into the portal and dashboard:
 
-    1. Click **Log In** in the upper-right of the page. The Login page displays.
+1. Click **Log In** in the upper-right of the page. The Login page displays.
 
     ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-    1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
-        1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
+  
+1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
-![alt_text](../images/Login.png "Login")
+    ![alt_text](../images/Login.png "Login")
 
-- Click **Allow**.
-
-- Enter your information and click **Login**.
+    1. Click **Allow**.
+    1. Enter your information and click **Login**.
 
 ### View Your Profile
 
