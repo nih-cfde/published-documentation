@@ -84,7 +84,7 @@ To log into the portal and dashboard:
   
     1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
-    ![alt_text](../images/Login.png "Login")
+        ![alt_text](../images/Login.png "Login")
 
     1. Click **Allow**.
     1. Enter your information and click **Login**.
