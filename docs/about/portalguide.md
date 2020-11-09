@@ -66,14 +66,6 @@
 <a href="#gdcalert53">alert53</a>
 <a href="#gdcalert54">alert54</a>
 
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
-## 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 ![alt_text](/docs/images/CFDE_Logo.png "CFDE Logo")
 
 # Portal and Dashboard
@@ -124,8 +116,6 @@ The CFDE is an effort to identify and solve issues that inhibit data access and 
 
 The Common Fund programs include:
 
-
-
 *   [4DN](https://www.4dnucleome.org/) – 4D Nucleome
 *   [HMP](https://hmpdacc.org/) – Human Microbiome Project
 *   [GTEx](https://gtexportal.org/home/) – Genotype-Tissue Expression
@@ -135,18 +125,13 @@ The Common Fund programs include:
 
 The specific goals of the CFDE are to:
 
-
-
 *   Increase usability – enable the uptake, reuse, and creation of Common Fund (CF) data and tools.
 *   Preserve data – support the storage, sharing, and sustainability of CF data sets.
 *   Provide training – maximize scientists’ ability to use CF data and other resources.
 
-
 ### Purpose of this Document
 
 The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/dashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
-
-
 
 *   F – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
 *   A – Offering rich access control and access to metadata via standard HTTP web service interfaces.
@@ -155,32 +140,24 @@ The CFDE website includes two modules to ensure the specific goals are met and u
 
 To support these principals, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
 
-
 ### Login
 
 Currently, all features are available without a login, but this may change in the future.
 
 To log into the portal and dashboard:
 
-
-
 1. Click **Log In** in the upper-right of the page. The Login page displays.
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](/docs/images/Login_CFDE.png "Globus Login")
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
-    1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+   
+    a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![alt_text](/docs/images/Login.png "Login")
 
-
-![alt_text](images/image4.png "image_tooltip")
-
-    2. Click **Allow**.
-    3. Enter your information and click **Login**.
+    b. Click **Allow**.
+    c. Enter your information and click **Login**.
 
 
 ## View Your Profile
