@@ -192,8 +192,6 @@ The portal chart is an interactive graphic that renders automatically when diffe
 
 To filter the portal chart:
 
-
-
 1. Select an **X-axis** value from the drop-down. Options include:
 *   CF Program
 *   Data Type
@@ -220,31 +218,20 @@ To filter the portal chart:
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
-
-
-
 ---
-
 
 NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
 
-
-
 ---
-
-
 
 ### Export the Chart
 
 The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button")
 ) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
-
 ### Explore the Repository
 
 The CFDE repository, referred to as the “data browser,” provides views of the data based on the underlying data model and annotations. Using the data browser, you can:
-
-
 
 *   Search, explore, and browse collections of data
 *   Navigate from one data record to the next by following their relationships
@@ -255,73 +242,28 @@ The portal includes multiple ways to access the repository so you can view the d
 
 The repository can be accessed in the following ways from the portal:
 
-
-
-*   Select **Browse All Data > Collection** from the main menu bar. See the 
-
-[Browse All Collections1](#Browse All Collections) 
-
-[Browse All Collections2](###Browse All Collections) 
-
-[Browse All Collections3](#heading=h.r3utoiesoe42) 
-
-[Browse All Collections4](#browse-all-collections) 
-
-[Browse All Collections5](###browse-all-collections) 
-
-section below for 
+*   Select **Browse All Data > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for 
 more information.
-*   Click the **Search All Collections** button under Explore our Repository. See the 
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse All Collections"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse All Collections](#heading=h.r3utoiesoe42) section below for more information.
+*   Click the **Search All Collections** button under Explore our Repository. See the [Browse All Collections](#browse-all-collections) section below for more information.
 *   Click a link under View Data By in the Explore our Repository section to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Browse All Data drop-down in the main menu bar):
-    *   Collection – See the 
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse All Collections"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse All Collections](#heading=h.r3utoiesoe42) section below for more information.
-    *   Biosample – See the 
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by Biosample"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by Biosample](#heading=h.4t7e0r4ybsgm) section below for more information.
-    *   Subject – See the 
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by Subject"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by Subject](#heading=h.ykpkugz698js) section below for more information.
-    *   File – See the 
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by File"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by File](#heading=h.8b829asamxi2) section below for more information.
+    *   Collection – See the [Browse All Collections](#browse-all-collections) section below for more information.
+    *   Biosample – See the [Browse by Biosample](#browse-by-biosample) section below for more information.
+    *   Subject – See the [Browse by Subject](#browse-by-subject) section below for more information.
+    *   File – See the [Browse by File](#browse-by-file) section below for more information.
 
     NOTE: The options under Popular Data Views may vary, so they are not discussed in this guide.
 
 *   Select **Browse All Data > Project** from the main menu bar. See the 
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by Project"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by Project](#heading=h.yu7dn3hfqpzl) section below for more information.
-*   Select **Browse All Data > Vocabulary **from the main menu bar and select an item from the list. See the 
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by Vocabulary"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by Vocabulary](#heading=h.4qy7784a4zbe) section below for more information.
-*   Select **Browse All Data > ID Namespace **from the main menu bar. See the 
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse by ID Namespace"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Browse by ID Namespace](#heading=h.v93gl7he7i76) section below for more information.
+[Browse by Project](#browse-by-project) section below for more information.
+*   Select **Browse All Data > Vocabulary** from the main menu bar and select an item from the list. See the 
+[Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+*   Select **Browse All Data > ID Namespace** from the main menu bar. See the 
+[Browse by ID Namespace](#browse-by-id-namespace) section below for more information.
 
 
 ### Browse All Collections
 
 To search by all collections:
-
-
 
 1. Select one of the following options:
 *   The **Browse All Data > Collection** option in the main menu bar.
@@ -330,32 +272,17 @@ To search by all collections:
 
 The entire CFDE data collection displays in the data browser.
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-
+![alt_text](/docs/images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+[View Details](#view-details) section for more information.
 *   ID Namespace – A grouping of collection IDs.
 *   Local ID – The unique collection ID within the ID Namespace.
 *   Name – A short user-friendly label for the collection.
 *   Description – A user-friendly description of the collection.
 *   Creation Time – The date and time the collection was created.
-3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
 *   Data Type
 *   File Format
 *   Assay Type
@@ -373,12 +300,9 @@ The entire CFDE data collection displays in the data browser.
 *   Contained Biosample
 *   Contained File
 
-
 ### Browse by Biosample
 
 To search by biosample:
-
-
 
 1. Select one of the following options:
 *   The **Browse All Data > Biosample** option in the main menu bar.
@@ -386,32 +310,18 @@ To search by biosample:
 
 The data browser displays the CFDE data and filters related to biosamples.
 
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
-
-
+![alt_text](/docs/images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+[View Details](#view-details) section for more information.
 *   ID Namespace – A grouping of biosample IDs.
 *   Local ID – The unique biosample ID within the ID Namespace.
 *   Project – The project attributed as the source of the biosample.
 *   Anatomy – The anatomy from which the biosample is derived.
 *   Creation Time – The date and time the biosample was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+[Refine Search Results](#refine_search_results) section for more information. The panel includes the following facets by which you can filter the results:
 *   Assay Type
 *   Anatomy
 *   Subject Taxonomy
@@ -422,36 +332,21 @@ The data browser displays the CFDE data and filters related to biosamples.
 *   Described by File
 *   Part of Collection
 
-
 ### Browse by Subject
 
 To search by subject:
 
-
-
 1. Select one of the following options:
-*   The **Browse All Data > Subject **option in the main menu bar.
+*   The **Browse All Data > Subject** option in the main menu bar.
 *   The **Subject** link under View Data By in the Explore our Repository section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
 
-
-
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
-
-
+![alt_text](docs/images/Subject_Data_Browser.png "Subject")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+[View Details](#view-details) section for more information.
 *   ID Namespace – A grouping of subject IDs.
 *   Local ID – The unique subject ID within the ID Namespace.
 *   Project – The project attributed as the source of the subject.
@@ -459,10 +354,7 @@ To search by subject:
 *   Taxonomy – The classification concept(s) that characterize the subject.
 *   Creation Time – The date and time the subject record was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+[Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
 *   Taxonomy
 *   Subject Granularity
 *   Taxonomic Role
@@ -473,12 +365,9 @@ To search by subject:
 *   Described by File
 *   Part of Collection
 
-
 ### Browse by File
 
 To search by file:
-
-
 
 1. Select one of the following options:
 *   The **Browse All Data > File** option in the main menu bar.
@@ -486,23 +375,11 @@ To search by file:
 
     The data browser displays the CFDE data and filters related to files.
 
-
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
-
-
+![alt_text](/docs/images/File_Data_Browser.png "File")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+[View Details](#view-details) section for more information.
 *   ID Namespace – A grouping of file IDs.
 *   Local ID – The unique file ID within the ID Namespace.
 *   Filename – The name of the file excluding prepended PATH information.
@@ -512,11 +389,7 @@ To search by file:
 *   Data Type – The type of data represented by the file.
 *   Assay Type – The assay type represented by the file.
 *   Creation Time – The date and time the file was created.
-3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
 *   Data Type
 *   File Format
 *   Assay Type
@@ -534,41 +407,25 @@ To search by file:
 *   Described Biosample
 *   Described Subject
 
-
 ### Browse by Project
 
 To search by project:
 
-
-
 1. Select **Browse All Data > Project** from the main menu bar. The data browser displays the CFDE data and filters related to projects.
 
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
-
+![alt_text](/docs/images/Project_Data_Browser.png "image_tooltip")
 
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+*   View – Click the icon next to the appropriate record to view more information about the record. See the
+[View Details](#view-details) section for more information.
 *   ID Namespace – A grouping of project IDs.
 *   Local ID – The unique project ID within the ID Namespace.
 *   Name – A short user-friendly label for the ID Namespace.
 *   Description – A user-friendly description of the ID Namespace.
 *   Creation Time – The date and time the project was created.
 3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+[Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
 *   Creation Time
 *   Super-Project
 *   Sub-Project
@@ -580,14 +437,11 @@ To search by project:
 *   File Format
 *   Data Type
 
-
 ### Browse by Vocabulary
 
 To search by vocabulary:
 
-
-
-1. Select **Browse All Data > Vocabulary **from the main menu bar. 
+1. Select **Browse All Data > Vocabulary** from the main menu bar. 
 2. Select an item from the list:
 *   Anatomy
 *   Assay Type
@@ -601,48 +455,27 @@ To search by vocabulary:
 
 3. The columns vary based on the vocabulary term selected. 
 4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the 
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information on how to filter the results.
-
+[Refine Search Results](#refine-search-results) section for more information on how to filter the results.
 
 ### Browse by ID Namespace
 
 To search by ID namespace:
 
-
-
 1. Select **Browse All Data > ID Namespace **from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
 
-
-
-
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
-
-
-
+![alt_text](/docs/images/ID_Namespace_Data_Browser.png "image_tooltip")
 
 2. The data browser includes the following columns in the results table:
 *   View – Click the icon next to the appropriate record to view more information about the record. See the 
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "View Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[View Details](#heading=h.fvlvpg7zwb9l) section for more information.
+[View Details](#view-details) section for more information.
 *   ID – The unique ID within the ID Namespace.
 *   Abbreviation – A short label for the ID Namespace.
 *   Name – A short user-friendly label for the ID Namespace.
 *   Description – A user-friendly description of the ID Namespace.
 3. The results can be filtered using the Refine Search filter panel. See the 
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Refine Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Refine Search Results](#heading=h.ba29j4q0t8ds) section for more information. The panel includes the following facets by which you can filter the results:
+[Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
 *   ID
 *   Abbreviation
 *   Name
@@ -653,80 +486,43 @@ To search by ID namespace:
 *   Project
 *   Subject
 
-
 ### View Details
 
-Click the icon in the View column (
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
+Click the icon in the View column (![alt_text](/docs/images/View_Details_Button.png "View Details")
 ) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example. 
 
-
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
-
+![alt_text](docs/images/View_Details.png "View Details")
 
 The metadata displays in the summary section at the top of the page. In the example above, the metadata includes:
-
-
 
 *   ID Namespace – The hyperlink will display a View Details page for the Genotype-Tissue Expression ID Namespace.
 *   ID – The unique ID within the ID Namespace.
 *   Persistent ID – An identifier that provides a single view of an individual across numerous devices (desktop, mobile, in-app, etc.) without duplication.
 *   Defined by Project – The hyperlink will display the Genotype-Tissue Expression (GTEx) project in a separate data browser.
-    *   Click **Table Mode** to display the project in a table with additional information. 
-
-
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
-
-
-
+     *   Click **Table Mode** to display the project in a table with additional information.    
     *   Click **Explore** to open the project in a separate data browser.
-*   Name – A short user-friendly label for the ID Namespace.
-*   Description – A user-friendly description of the ID Namespace.
-*   Creation Time – The date and time the project was created.
 
-The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links. \
+![alt_text](/docs/images/View_Details_Table_Mode.png "Table Mode")
 
+*  Name – A short user-friendly label for the ID Namespace.
+*  Description – A user-friendly description of the ID Namespace.
+*  Creation Time – The date and time the project was created.
 
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links. 
 
+![alt_text](docs/images/View_Details_Sections.png "View Sections")
 
-![alt_text](images/image17.png "image_tooltip")
+Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search. 
 
-
-Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search. \
-
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
-
+![alt_text](/docs/images/Explore_Button.png "Explore Button")
 
 Within each data file, you can click the **View** icon to view additional information about the record.
 
 The buttons in the upper-right of the page include:
 
-
-
 *   Show/Hide empty sections - Toggles the empty sections that display on this page.
 *   Export – See the 
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Export Search Results"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Export Search Results](#heading=h.bmhmezkpi2vp) section for more information.
+[Export Search Results](#explore-search-results) section for more information.
 
 
 ### Refine Search Results
@@ -735,95 +531,51 @@ To use the facets to refine your search results:
 
 
 
-1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results. \
+1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results. 
 
-
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
+![alt_text](/docs/images/Data_Type_Facet.png "Data Type")
 
 2. Within a facet, you can perform any of the following to filter the results:
 *   Select the appropriate attribute checkbox(es).
 *   Use the Search box to search for attributes only within that facet.
 *   Click **Show More** to display additional information about the attributes.
 
-    
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
+![alt_text](/docs/images/Search_by_Data_Type.png "Search by Data Type")
 
 3. The time-related facets (Collection Creation Time, File Creation Time, and Biosample Creation Time) and the Size in Bytes facet function differently. To filter on a time-related facet, perform one of the following:
-*   Enter the **From** and** To **dates and times. Click the blue checkmark to filter the results in the main data browser.
+*   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
 *   Use the interactive histogram to find the appropriate time period. Click and drag anywhere in the graph to zoom into a smaller subset of data. The From and To dates update automatically as you use the histogram, but you must select the blue checkmark to filter the results in the main data browser.
 
-    
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
-
-
+![alt_text](/docs/images/Collection_Creation_Time.png "image_tooltip")
 
 ### Sort and View Search Results
 
 The data browser search results can be sorted and viewed using the following functions:
 
-
-
-*   The results table can be sorted by column header using the arrow icon (
-
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
+*   The results table can be sorted by column header using the arrow icon (![alt_text](/docs/images/Arrow_Button.png "Arrow Button")
 ).
-*   View a different amount of results on one page by selecting a different option for the **Displaying first number of records **drop-down. \
+*   View a different amount of results on one page by selecting a different option for the **Displaying first number of records** drop-down. 
 
+![alt_text](/docs/images/Number_of_Records.png "Number of Records")
 
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+*   Use the **Search All Columns** search box at the top of the results table to search for records within the table.
 
+![alt_text](/docs/images/Search_All_Columns.png "Search All Columns")
 
-![alt_text](images/image23.png "image_tooltip")
+*   View additional results by clicking the **Next** button at the bottom of the table.
+*   Click the **X** next to the filter to remove the one filter from the search results.
 
-*   Use the **Search All Columns** search box at the top of the results table to search for records within the table. \
+![alt_text](/docs/images/Clear_All_Filters.png "Clear All Filters")
 
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.png "image_tooltip")
-
-*   View additional results by clicking the **Next **button at the bottom of the table.
-*   Click the **X** next to the filter to remove the one filter from the search results. \
-
-
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
-
-*   Click **Clear All Filters **to remove all filters from the search results.
-
+*   Click **Clear All Filters** to remove all filters from the search results.
 
 ### Export Search Results
 
 Search results can be exported from the main data browser and from the View Details page. To export the search results:
 
+1. Click the **Export **button. 
 
-
-1. Click the **Export **button. \
-
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
+![alt_text](/docs/images/Export_Button.png "Export Options")
  
 2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
 *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
@@ -835,60 +587,38 @@ Search results can be exported from the main data browser and from the View Deta
     *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
 *   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
 
-
-## Documentation
+### Documentation
 
 To access additional CFDE resources, select **Technical Documentation** from the main menu bar. The following resources are available:
-
-
 
 *   About the CFDE includes the Code of Conduct, Contributing information, License information, this Portal and Dashboard User Guide, and a link to the [CFDE website](https://www.nih-cfde.org/).
 *   The [CFDE Crosscut Metadata Model (C2M2)](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION/) is a flexible standard for describing biomedical experimental data.
 *   The [FAIR Cookbook](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/the-fair-cookbook/content/intro/) provides introductory materials about various aspects of FAIRness, including practical guides that show how to enhance digital objects by adhering them to communicated-accepted standards.
 *   The [glossary](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/CFDE-glossary/) is a list of common CFDE terms with definitions.
 
-
-# 
-
-
-# Dashboard
+## Dashboard
 
 The CFDE dashboard displays multiple charts for users to view high-level data. The charts update automatically with the selections you make and the precise numbers can be viewed by hovering over the chart. The charts include:
-
-
 
 *   Two bar charts that allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. These bar charts display near each other so you can compare two different data summaries.
 *   Pie chart of the number of subjects by anatomy for a single assay type across all Common Fund programs.
 *   Pie chart of the number of samples by anatomy for a single Common Fund program.
 
-
-## Access the Dashboard
+### Access the Dashboard
 
 To access the dashboard:
-
-
 
 *   Access the dashboard directly using this link: \
 [https://app.nih-cfde.org/dashboard.html](https://app.nih-cfde.org/dashboard.html)
 *   Click **Dashboard** in the main menu bar from the portal.
 
-
-## Filter the Bar Charts
+### Filter the Bar Charts
 
 The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. The title of the charts update automatically to reflect the options selected.
 
-
-## 
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
-
+![alt_text](/docs/images/File_Count_by_CF_Program_Chart.png "File Count by CF Program and Assay")
 
 To filter the bar charts:
-
-
 
 1. Select an **X-axis** value from the drop-down. Options include:
 *   CF Program
@@ -916,33 +646,17 @@ To filter the bar charts:
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
-
-
-
 ---
-
 
 NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
 
-
-
 ---
 
+### Filter the Anatomy by Assay Type across the Common Fund Chart
 
-
-## Filter the Anatomy by Assay Type across the Common Fund Chart
-
-
-
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
-
+![alt_text](/docs/images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
 
 To filter the anatomy by assay type across the Common Fund chart:
-
-
 
 1. Select the **Assay Type** from the drop-down. Options include:
 *   16s ribosomal gene sequencing assay
@@ -960,21 +674,11 @@ To filter the anatomy by assay type across the Common Fund chart:
 
     The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) across all Common Fund programs based on the assay type selected.
 
+### Filter the Anatomy by Common Fund Program Chart
 
-
-## Filter the Anatomy by Common Fund Program Chart
-
-
-
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
-
+![alt_text](/docs/images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
 
 To filter the anatomy by Common Fund program chart:
-
-
 
 1. Select the **CF Program** from the drop-down. Options include:
 *   4DN
@@ -984,21 +688,13 @@ To filter the anatomy by Common Fund program chart:
 
     The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) based on the Common Fund program selected.
 
-
-
-## Review DCC Data
+### Review DCC Data
 
 The Data Review page displays a personalized dashboard for you to verify the data currently available for your DCC. The DCC data that displays is based on the DCC associated with your login account.
 
 NOTE: Currently, only the HMP data is available for this feature. The other DCCs are coming soon.
 
-
-
-<p id="gdcalert53" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert54">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
-
+![alt_text](docs/images/Data_Review_Main.png "Data Review")
 
 The Data Review section on the left displays the data totals and the data breakdown numbers. These totals show you how many data files exist for your DCC overall, how many subjects are represented, and how many biosamples are in the project.
 
@@ -1006,13 +702,7 @@ The Data Snapshot displays a bar chart of assay types by anatomy categories. Hov
 
 To get help with reports or the data, click the associated link at the bottom of the page. Your default email application will open an email to [support@cfde.atlassian.net](mailto:support@cfde.atlassian.net). 
 
+### Export the Chart
 
-## Export the Chart
-
-The Export icon (
-
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
+The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button")
 ) (or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
