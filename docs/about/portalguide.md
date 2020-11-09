@@ -151,29 +151,24 @@ To log into the portal and dashboard:
 ![alt_text](/docs/images/Login_CFDE.png "Globus Login")
 
 2. Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID iD. 
-   
-    a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+
+a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
 ![alt_text](/docs/images/Login.png "Login")
 
-    b. Click **Allow**.
-    c. Enter your information and click **Login**.
+b. Click **Allow**.
 
+c. Enter your information and click **Login**.
 
-## View Your Profile
+### View Your Profile
 
 Select your name in the upper-right after logging in, click the down arrow, and select **Profile**.
 
-
-
-
-# Portal
+## Portal
 
 The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data. 
 
 From the portal, you can:
-
-
 
 *   View and export a dashboard bar chart.
 *   Explore the repository of Common Fund data.
@@ -181,31 +176,18 @@ From the portal, you can:
 *   Read documentation about the C2M2 and FAIR Cookbook.
 *   See the latest news regarding the CFDE.
 
+![alt_text](/docs/images/Portal_Home.png "Portal Home")
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-
-## Access the Portal
+### Access the Portal
 
 Access the portal directly by using this link: [https://app.nih-cfde.org/](https://app.nih-cfde.org/).
 
 
-## Filter the Chart
+### Filter the Chart
 
 The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each CF program.
 
-
-## 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](/docs/images/Summary_View_Chart.png "Summary View")
 
 
 To filter the portal chart:
@@ -252,18 +234,13 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 
 
 
-## Export the Chart
+### Export the Chart
 
-The Export icon (
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+The Export icon (![alt_text](/docs/images/Export_Button.png "Export Button")
 ) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 
-## Explore the Repository
+### Explore the Repository
 
 The CFDE repository, referred to as the “data browser,” provides views of the data based on the underlying data model and annotations. Using the data browser, you can:
 
@@ -282,9 +259,14 @@ The repository can be accessed in the following ways from the portal:
 
 *   Select **Browse All Data > Collection** from the main menu bar. See the 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse All Collections"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+[Browse All Collections1](#Browse All Collections) 
+[Browse All Collections2](###Browse All Collections) 
+[Browse All Collections3](#heading=h.r3utoiesoe42) 
+[Browse All Collections4](#Browse All Collections) 
 
-[Browse All Collections](#heading=h.r3utoiesoe42) section below for more information.
+
+section below for 
+more information.
 *   Click the **Search All Collections** button under Explore our Repository. See the 
 
 <p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Browse All Collections"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
