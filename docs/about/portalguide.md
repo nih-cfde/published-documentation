@@ -260,10 +260,14 @@ The repository can be accessed in the following ways from the portal:
 *   Select **Browse All Data > Collection** from the main menu bar. See the 
 
 [Browse All Collections1](#Browse All Collections) 
-[Browse All Collections2](###Browse All Collections) 
-[Browse All Collections3](#heading=h.r3utoiesoe42) 
-[Browse All Collections4](#Browse All Collections) 
 
+[Browse All Collections2](###Browse All Collections) 
+
+[Browse All Collections3](#heading=h.r3utoiesoe42) 
+
+[Browse All Collections4](#browse-all-collections) 
+
+[Browse All Collections5](###browse-all-collections) 
 
 section below for 
 more information.
