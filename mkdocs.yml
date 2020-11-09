@@ -9,7 +9,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.sections
   logo: images/CFDE_Logo-color-web.png
 
 docs_dir: docs
