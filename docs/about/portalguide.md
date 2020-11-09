@@ -161,7 +161,7 @@ To search by all collections:
     - The **Search All Collections** button under Explore our Repository.
     - The **Collection** link under View Data By in the Explore our Repository section.
 
-The entire CFDE data collection displays in the data browser.
+    The entire CFDE data collection displays in the data browser.
     ![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
