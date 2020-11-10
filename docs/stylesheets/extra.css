@@ -6,13 +6,14 @@ body {
 .md-header {
     background-color: #ffffff !important;
     border-bottom: 1px solid #1b2532 !important;
+    color: #0355ab;
     font-family: “Montserrat”, Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 76.1875em) {
 
     html .md-nav--primary .md-nav__title--site {
-        background-color: #232f3e !important;
+        background-color: #0355ab !important;
         border-bottom: 1px solid #1b2532 !important;
     }
 
@@ -21,7 +22,7 @@ body {
     }
 
     html .md-nav--primary .md-nav__title {
-        background-color: #232f3e !important;
+        background-color: #0355ab !important;
         border-bottom: 1px solid #1b2532 !important;
         color: #ffffff;
     }
@@ -112,7 +113,7 @@ body {
 }
 
 .md-typeset table:not([class]) th {
-    min-width: 15rem;
+    min-width: 11.5rem;
     background-color: #6c6c6c !important;
     font-size: medium;
 }
@@ -136,10 +137,10 @@ body {
 }
 
 .md-footer-meta {
-    background-color: #0355ab !important;
-    border-top: 1px solid #0355ab !important;
+    background-color: hsla(211, 97%, 34%, 0.6)!important;
+    border-top: 1px solid hsla(211, 97%, 34%, 0.6) !important;
+    padding: 0.05rem;
 }
-
 
 /* mouse over link */
 a:hover {

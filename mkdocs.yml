@@ -1,18 +1,16 @@
 site_name: Common Fund Data Ecosystem Documentation
 
-repo_url: https://github.com/nih-cfde/published-documentation
-
 theme:
   name: material
   palette:
-    primary: white
+    primary: indigo
   features:
     - navigation.tabs
     - navigation.instant
   logo: images/CFDE_Logo-color-web.png
-
-docs_dir: docs
-
+  favicon: images/CFDE-logo-white-outline.png
+  docs_dir: docs
+  custom_dir: custom
 
 markdown_extensions:
 - admonition
@@ -23,6 +21,13 @@ markdown_extensions:
     permalink: true
 extra:
   hypothesis: true
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:CFDE-HelpDesk%20<support@cfde.atlassian.net>
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/CfdeNih
+    - icon: fontawesome/brands/github
+      link: https://github.com/nih-cfde/published-documentation
 extra_css:
   - stylesheets/extra.css
 plugins:
