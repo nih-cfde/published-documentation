@@ -1,15 +1,17 @@
 name: Update specs and docs stable
 on:
   schedule:
-    - cron:  '1 */1 * * *'
+    - cron:  '1 */12 * * *'
 jobs:
   update-dep:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: merge specifications-and-documentation submodule to stable
+      - name: Checkout submodule
         run: |
-          git -c "http.extraheader=Authorization: basic ${{secrets.ALLTHEACTIONS}}" submodule update --init --recursive --remote docs/specifications-and-documentation
+          git config --file=.gitmodules submodule.lib/https://github.com/nih-cfde/specifications-and-documentation.git https://${{ secrets.ALLTHEACTIONS }}:${{ secrets.ALLTHEACTIONS }}@github.com/nih-cfde/specifications-and-documentation.git
+          git submodule sync
+          git submodule update --init --recursive
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
