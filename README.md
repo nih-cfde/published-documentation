@@ -14,8 +14,11 @@ The website is a compilation of 3 data sources:
 
 - The other directories in the docs/ directory of this repo are local to this repo
 
+Contents:
+1. [Updating the Documentation in the Public Documentation Site from a submodule](#submod-repos)
+2. [Updating the Documentation in the Public Documentation Site from this repo](#this-repo)
 
-# Updating the Documentation in the Public Documentation Site from a submodule
+# Updating the Documentation in the Public Documentation Site from a submodule <a name="submod-repo"></a>
 
 ## Overview
 
@@ -65,17 +68,17 @@ If you are adding or removing pages, or otherwise changing how the navigation of
 
 If the robot detects changes to either sub repository, it automatically:
 
-- makes a branch called update-<repo>-preview with the changes
-- makes a PR to merge that branch into <repo>preview
+- makes a branch called `update-<repo>-preview` with the changes
+- makes a PR to merge that branch into `<repo>preview`
 - runs a series of build checks
 
 #### specifications-and-documentation
 
-If those build checks all pass, it will then automatically merge update-specsdocs-preview into specspreview, and will build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
+If those build checks all pass, it will then automatically merge `update-specsdocs-preview` into `specspreview`, and will build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
 
 #### the-fair-cookbook
 
-If those build checks all pass, it will then automatically merge update-fair-preview into cookbookpreview, and will build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
+If those build checks all pass, it will then automatically merge `update-fair-preview` into `cookbookpreview`, and will build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
 
 If your preview site looks as expected, go to [Publishing your changes](#Publishing-your-changes)
 
@@ -83,28 +86,28 @@ If your preview site does not look right, continue making changes to the appropr
 
 #### Troubleshooting
 
-There are three possible reasons the PR might not automatically merge into specspreview/cookbookpreview:
+There are three possible reasons the PR might not automatically merge into `specspreview/cookbookpreview`:
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the specspreview/cookbookpreview branch and is clashing with yours. To fix this problem delete the specspreview/cookbookpreview branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @Acharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `specspreview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `specspreview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the specspreview/cookbookpreview branch so that the robot tries again generally fixes this. Or tag @Acharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `specspreview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
 
 
 ### Publishing your changes
 
 If the robot detects changes to either sub repository, it also automatically:
 
-- makes a branch called update-<repo>docs with the changes
+- makes a branch called `update-<repo>docs` with the changes
 - makes a PR to merge that branch into stable
 - runs a series of build checks
 
-Once you are happy with your preview site, approve this matching PR, and it will be merged in. An administrator has to merge this PR into the https://github.com/nih-cfde/published-documentation repository, and they are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @Acharbonneau
+Once you are happy with your preview site, approve this matching PR, and it will be merged in. An administrator has to merge this PR into the https://github.com/nih-cfde/published-documentation repository, and they are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @ACharbonneau
 
-# Updating the Documentation in the Public Documentation Site from this repo
+# Updating the Documentation in the Public Documentation Site from this repo <a name="this-repo"></a>
 
-Only overall style of this website and the contents of the "About" pages are editable from this repository. These changes are made periodically, as detailed in our release plan <link coming soon>
+Only overall style of this website and the contents of the "About" pages are editable from this repository. These changes are made periodically, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md).
 
 To make changes to this repo:
 
@@ -113,9 +116,9 @@ To make changes to this repo:
 - the robot will automatically:
    - run a series of build checks, and if those checks pass
    - build a preview site for you to see your proposed changes at https://cfde-published-documentation.readthedocs-hosted.com/en/preview/
-- if your changes are as expected, make a PR of your branch to 'dev' and tag @Acharbonneau and @marisalim
+- if your changes are as expected, make a PR of your branch to 'dev' and tag @ACharbonneau and @marisalim
 - the admin team will check your changes and approve
-- changes to dev will be periodically promoted to the `stable` branch, as detailed in our release plan <link coming soon>
+- changes to dev will be periodically promoted to the `stable` branch, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md)
 
 ** if you have admin access to ReadTheDocs you can skip testing your changes in the `preview` branch and use the ReadTheDocs automated preview branch
 
@@ -125,6 +128,6 @@ There are three possible reasons the PR might not automatically merge into previ
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the specspreview/cookbookpreview branch and is clashing with yours. To fix this problem delete the specspreview/cookbookpreview branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @Acharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `specspreview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `specspreview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the specspreview/cookbookpreview branch so that the robot tries again generally fixes this. Or tag @Acharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `specspreview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
