@@ -13,7 +13,7 @@ jobs:
           git submodule sync
           git submodule update --init --recursive
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v2
+        uses: peter-evans/create-pull-request@v3.5.0
         with:
             base: stable
             token: ${{ secrets.ALLTHEACTIONS }}
