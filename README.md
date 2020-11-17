@@ -118,7 +118,7 @@ To make changes to this repo:
    - build a preview site for you to see your proposed changes at https://cfde-published-documentation.readthedocs-hosted.com/en/preview/
 - if your changes are as expected, make a PR of your branch to `dev` and tag @ACharbonneau and @marisalim
 - the admin team will check your changes and approve
-- changes to dev will be periodically promoted to the `stable` branch, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md)
+- changes to `dev` will be periodically promoted to the `stable` branch, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md)
 
 ** if you have admin access to ReadTheDocs you can skip testing your changes in the `preview` branch and use the ReadTheDocs automated preview branch
 
