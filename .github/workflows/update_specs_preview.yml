@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repo-token:  ${{ secrets.ALLTHEACTIONS }}
+          token:  ${{ secrets.ALLTHEACTIONS }}
       - name: Update specs submodule preview
         env: 
           GITHUB_TOKEN: ${{ secrets.ALLTHEACTIONS }}
