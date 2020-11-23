@@ -1,6 +1,6 @@
 # published-documentation
 
-This repository builds the public technical documentation for the CFDE: https://cfde-published-documentation.readthedocs-hosted.com/en/latest/
+This repository builds the public technical documentation for the CFDE: https://docs.nih-cfde.org/en/latest/ (redirects from ReadTheDocs [website](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/))
 
 The website is a compilation of 3 data sources:
 
