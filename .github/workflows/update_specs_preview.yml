@@ -14,7 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ALLTHEACTIONS }}
           ID_CFDEBOT: ${{ secrets.id_cfdebot.pub }}
         run: |
-          mkdir $HOME/.ssh && echo "$SSH_KEY" > $HOME/.ssh/id_rsa && chmod 600 $HOME/.ssh/id_rsa && git submodule update --init --recursive --remote docs/specifications-and-documentation
+          mkdir $HOME/.ssh && echo "$SSH_KEY" > $HOME/.ssh/id_cfdebot && chmod 600 $HOME/.ssh/id_cfdebot && git submodule update --init --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.5.0
         with:
