@@ -32,4 +32,4 @@ jobs:
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedspecsupdate
             branch: update-specsdocs
-            reviewers: Acharbonneau, marisalim
+            reviewers: Acharbonneau, marisalim, abradyIGS
