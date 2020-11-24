@@ -12,7 +12,7 @@ jobs:
       - name: Update specs submodule preview
         env: 
           GITHUB_TOKEN: ${{ secrets.ALLTHEACTIONS }}
-          ID_CFDEBOT: ${{ secrets.id_cfdebot.pub }}
+          ID_CFDEBOT: ${{ secrets.id_cfdebot }}
         run: |
           mkdir $HOME/.ssh && echo "$ID_CFDEBOT" > $HOME/.ssh/id_rsa && chmod 600 $HOME/.ssh/id_rsa && git submodule update --init --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
