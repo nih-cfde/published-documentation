@@ -23,7 +23,7 @@ jobs:
             commit-message: Update stable
             title: Auto update specs and docs submodule to stable
             body: |
-              Your preview was generated at: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
+              Your preview was generated at: https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
               - Dependency updates
               - requires review
 
