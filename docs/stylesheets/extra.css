@@ -6,6 +6,7 @@ body {
     background-color: #ffffff !important;
     border-bottom: 1.5px solid #336699 !important;
     color: #336699;
+    font-weight: 600;
     font-family: “Montserrat”, Arial, Helvetica, sans-serif;
 }
 
@@ -114,7 +115,7 @@ body {
 
 .md-typeset table:not([class]) th {
     min-width: 11.5rem;
-    background-color: #6c6c6c !important;
+    background-color: #C3E1E6 !important;
     font-size: medium;
 }
 
