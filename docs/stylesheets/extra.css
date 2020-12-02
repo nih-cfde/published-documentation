@@ -10,6 +10,11 @@ body {
     font-family: “Montserrat”, Arial, Helvetica, sans-serif;
 }
 
+.md-header a:hover, a:active {
+    background-color: transparent;
+    color: #4080bf;
+}
+
 @media only screen and (max-width: 76.1875em) {
 
     html .md-nav--primary .md-nav__title--site {
