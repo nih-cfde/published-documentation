@@ -1,25 +1,29 @@
 name: Update specs and docs stable
 on:
   schedule:
-    - cron:  '1 */12 * * *'
+   - cron:  '1 */1 * * *'
 jobs:
   update-dep:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout submodule
+        with:
+          token:  ${{ secrets.ALLTHEACTIONS }}
+      - name: Update specs submodule preview
+        env: 
+          GITHUB_TOKEN: ${{ secrets.ALLTHEACTIONS }}
+          ID_CFDEBOT: ${{ secrets.id_cfdebot }}
         run: |
-          git config --file=.gitmodules submodule.lib/https://github.com/nih-cfde/specifications-and-documentation.git https://${{ secrets.ALLTHEACTIONS }}:${{ secrets.ALLTHEACTIONS }}@github.com/nih-cfde/specifications-and-documentation.git
-          git submodule sync
-          git submodule update --init --recursive
+          mkdir $HOME/.ssh && echo "$ID_CFDEBOT" > $HOME/.ssh/id_rsa && chmod 600 $HOME/.ssh/id_rsa && git submodule update --init --recursive --remote docs/specifications-and-documentation
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v2
+        uses: peter-evans/create-pull-request@v3.5.0
         with:
             base: stable
             token: ${{ secrets.ALLTHEACTIONS }}
             commit-message: Update stable
             title: Auto update specs and docs submodule to stable
             body: |
+              Your preview was generated at: https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
               - Dependency updates
               - requires review
 
@@ -28,4 +32,4 @@ jobs:
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedspecsupdate
             branch: update-specsdocs
-            reviewers: Acharbonneau, marisalim
+            reviewers: Acharbonneau, marisalim, abradyIGS

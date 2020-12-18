@@ -1,35 +1,41 @@
 
-
 body {
     font-family: “Open Sans”, Arial, Helvetica, sans-serif;
 }
 .md-header {
     background-color: #ffffff !important;
-    border-bottom: 1px solid #1b2532 !important;
-    color: #0355ab;
+    border-bottom: 1.5px solid #336699 !important;
+    color: #336699;
+    font-weight: 600;
     font-family: “Montserrat”, Arial, Helvetica, sans-serif;
+}
+
+.md-header a:hover, a:active {
+    background-color: transparent;
+    color: #4080bf;
 }
 
 @media only screen and (max-width: 76.1875em) {
 
     html .md-nav--primary .md-nav__title--site {
-        background-color: #0355ab !important;
-        border-bottom: 1px solid #1b2532 !important;
+        background-color: #336699 !important;
+        border-bottom: 1px solid #204060 !important;
     }
 
     .md-nav__source {
-        background-color: #0355ab !important;
+        background-color: #336699 !important;
     }
 
     html .md-nav--primary .md-nav__title {
-        background-color: #0355ab !important;
-        border-bottom: 1px solid #1b2532 !important;
+        background-color: #336699 !important;
+        border-bottom: 1px solid #204060 !important;
         color: #ffffff;
     }
 
     html .md-nav--primary .md-nav__title::before {
         color: #ffffff;
     }
+
 
 }
 
@@ -100,7 +106,7 @@ body {
 /* Second Navigation */
 
 .md-tabs {
-    background-color: #0355ab !important;
+    background-color: #336699 !important;
     color: white
 }
 
@@ -114,7 +120,8 @@ body {
 
 .md-typeset table:not([class]) th {
     min-width: 11.5rem;
-    background-color: #6c6c6c !important;
+    background-color: #C3E1E6 !important;
+    color: black;
     font-size: medium;
 }
 
@@ -130,24 +137,32 @@ body {
     width: 40px
 }
 
+.md-nav--primary .md-nav__title[for=__drawer] {
+    position: relative;
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-primary-fg-color);
+}
+
 /* Footer */
 
 .md-footer-nav {
-    background-color: #0355ab !important;
+    background-color: #336699 !important;
 }
 
 .md-footer-meta {
-    background-color: hsla(211, 97%, 34%, 0.6)!important;
-    border-top: 1px solid hsla(211, 97%, 34%, 0.6) !important;
+    background-color: #204060 !important;
+    border-top: 1px solid #204060 !important;
     padding: 0.05rem;
 }
 
 /* mouse over link */
+/*
 a:hover {
   color: #fff9ad;
 }
-
+*/
 /* selected link */
-a:active {
+/*a:active {
   color: #3094a4 ;
 }
+*/

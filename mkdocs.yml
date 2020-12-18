@@ -3,7 +3,7 @@ site_name: Common Fund Data Ecosystem Documentation
 theme:
   name: material
   palette:
-    primary: indigo
+    primary: white
   features:
     - navigation.tabs
     - navigation.instant
