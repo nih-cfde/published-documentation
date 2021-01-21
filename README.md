@@ -4,7 +4,7 @@ This repository builds the public technical documentation for the CFDE: https://
 
 The website is a compilation of 3 data sources:
 
-- https://github.com/nih-cfde/specifications-and-documentation
+- https://github.com/nih-cfde/c2m2
 
   - the `master` branch is pulled in here as the submodule docs/specification-and-documentation
 
@@ -24,11 +24,11 @@ Contents:
 
 - To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-- To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/specifications-and-documentation
+- To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/c2m2
 
 - To update the overall style of this website, the contents of the "About" pages, or to add additional data sources, make changes to this repository.
 
-A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/specifications-and-documentation. When changes are detected, the robot will automatically pull the changes into this repository and:
+A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/c2m2. When changes are detected, the robot will automatically pull the changes into this repository and:
 
   - attempt to render them as a preview site so the author can see how they will look in the public site.
   - make a PR to incorporate your changes into the stable branch so they can be merged into the public site.
@@ -41,7 +41,7 @@ You should use the preview site to check that the changes look the way you want.
 
 To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/specifications-and-documentation
+To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/c2m2
 
 The robot checks hourly for changes to the `master` branch of these repositories. We recommend working in a personal branch, and pushing those changes to `master` once you are happy with them.
 
