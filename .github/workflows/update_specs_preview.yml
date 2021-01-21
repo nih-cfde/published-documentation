@@ -1,4 +1,4 @@
-name: Update specs and docs
+name: Update c2m2
 on:
   schedule:
    - cron:  '1 */1 * * *'
@@ -9,19 +9,19 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token:  ${{ secrets.ALLTHEACTIONS }}
-      - name: Update specs submodule preview
-        env: 
+      - name: Update c2m2 submodule preview
+        env:
           GITHUB_TOKEN: ${{ secrets.ALLTHEACTIONS }}
           ID_CFDEBOT: ${{ secrets.id_cfdebot }}
         run: |
-          mkdir $HOME/.ssh && echo "$ID_CFDEBOT" > $HOME/.ssh/id_rsa && chmod 600 $HOME/.ssh/id_rsa && git submodule update --init --recursive --remote docs/specifications-and-documentation
+          mkdir $HOME/.ssh && echo "$ID_CFDEBOT" > $HOME/.ssh/id_rsa && chmod 600 $HOME/.ssh/id_rsa && git submodule update --init --recursive --remote docs/c2m2
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.5.0
         with:
             base: specspreview
             token: ${{ secrets.ALLTHEACTIONS }}
-            commit-message: Update Specs preview
-            title: Auto update specs submodule preview
+            commit-message: Update c2m2 preview
+            title: Auto update c2m2 submodule preview
             body: |
               - Generates preview site at https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
 
@@ -29,4 +29,4 @@ jobs:
 
               [1]: https://github.com/peter-evans/create-pull-request
             labels: automerge
-            branch: update-specsdocs-preview
+            branch: update-c2m2-preview
