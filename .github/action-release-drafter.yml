@@ -9,7 +9,7 @@ categories:
       - 'proposedfairupdate'
   - title: 'C2M2'
     labels:
-      - 'proposedspecsupdate'
+      - 'proposedc2m2supdate'
 template: |
   ## What's Changed
 
