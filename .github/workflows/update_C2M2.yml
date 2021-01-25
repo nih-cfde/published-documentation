@@ -1,4 +1,4 @@
-name: Update c2m2
+name: Update C2M2
 on:
   schedule:
    - cron:  '1 */1 * * *'
@@ -29,4 +29,4 @@ jobs:
 
               [1]: https://github.com/peter-evans/create-pull-request
             labels: automerge
-            branch: update-c2m2-preview
+            branch: update-C2M2-preview
