@@ -4,5 +4,5 @@
         branch = master
 [submodule "docs/specifications-and-documentation"]
 	path = docs/specifications-and-documentation
-	url = git@github.com:nih-cfde/specifications-and-documentation.git
+	url = git@github.com:nih-cfde/c2m2.git
 	branch = master
