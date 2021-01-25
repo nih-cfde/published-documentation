@@ -4,9 +4,9 @@ This repository builds the public technical documentation for the CFDE: https://
 
 The website is a compilation of 3 data sources:
 
-- https://github.com/nih-cfde/specifications-and-documentation
+- https://github.com/nih-cfde/c2m2
 
-  - the `master` branch is pulled in here as the submodule docs/specification-and-documentation
+  - the `master` branch is pulled in here as the submodule docs/c2m2
 
 - https://github.com/nih-cfde/the-fair-cookbook
 
@@ -24,11 +24,11 @@ Contents:
 
 - To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-- To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/specifications-and-documentation
+- To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
 
 - To update the overall style of this website, the contents of the "About" pages, or to add additional data sources, make changes to this repository.
 
-A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/specifications-and-documentation. When changes are detected, the robot will automatically pull the changes into this repository and:
+A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/c2m2. When changes are detected, the robot will automatically pull the changes into this repository and:
 
   - attempt to render them as a preview site so the author can see how they will look in the public site.
   - make a PR to incorporate your changes into the stable branch so they can be merged into the public site.
@@ -41,7 +41,7 @@ You should use the preview site to check that the changes look the way you want.
 
 To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-To update documents or layout relating to the C2M2, make changes to https://github.com/nih-cfde/specifications-and-documentation
+To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
 
 The robot checks hourly for changes to the `master` branch of these repositories. We recommend working in a personal branch, and pushing those changes to `master` once you are happy with them.
 
@@ -72,9 +72,9 @@ If the robot detects changes to either sub repository, it automatically:
 - makes a PR to merge that branch into `<repo>preview`
 - runs a series of build checks
 
-#### specifications-and-documentation
+#### c2m2
 
-If those build checks all pass, it will then automatically merge `update-specsdocs-preview` into `specspreview` and close the PR, then build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/specspreview/
+If those build checks all pass, it will then automatically merge `update-c2m2` into `c2m2` and close the PR, then build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2/
 
 #### the-fair-cookbook
 
@@ -90,13 +90,13 @@ If this preview pull request runs and closes itself without you doing anything, 
 
 If the preview pull request does not merge and close itself, then there was a problem.
 
-There are three possible reasons the PR might not automatically merge into `specspreview/cookbookpreview`:
+There are three possible reasons the PR might not automatically merge into `c2m2preview/cookbookpreview`:
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the `specspreview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `specspreview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `c2m2preview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `c2m2preview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `specspreview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `c2m2preview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
 
 
 ### Publishing your changes
@@ -132,6 +132,6 @@ There are three possible reasons the PR might not automatically merge into previ
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the `specspreview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `specspreview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `c2m2preview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `c2m2preview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `specspreview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `c2m2preview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
