@@ -215,13 +215,18 @@ the `Stimulating Peripheral Activity to Relieve Conditions program` seeks to acc
 
 ---
 
+##### <u>Composite Key</u>
+a combination of two or more columns in a table that can be used to uniquely identify each row in the table. Uniqueness is only guaranteed when the columns are combined; when taken individually the columns do not guarantee uniqueness.
+
+---
+
 ##### <u>Controlled Vocabulary</u>
 an organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching. It typically includes preferred and variant terms and has a defined scope or describes a specific domain. For example, the [DCIC](#dcic) curates an internal [4DN](#4DN) controlled vocabulary to provide definitions for emerging technologies and techniques, metadata terms, and captures important data features not defined by previous ontologies.
 
 ---
 
 ##### <u>CV</u>
-see [`Controlled Vocabulary`](controlled-vocabulary)
+see [`Controlled Vocabulary`](#controlled-vocabulary)
 
 ---
 
@@ -256,7 +261,7 @@ a `collection of data`, published or curated by a single agent, and available fo
 ---
 
 ##### <u>DCC</u> 
-`Data Coordinating/Resource Center`.
+a Common Fund `Data Coordinating/Resource Center`.
 
 ---
 
@@ -312,6 +317,11 @@ the [`electronic Research Administration`](https://public.era.nih.gov/commons) i
 
 ##### <u>Event</u>
 Specific instances of data gathering for a specific patient, as in a specific surgery or appointment
+
+---
+
+##### <u>Experimental Resource</u>
+any object modeled as a C2M2 entity: a file, biosample, subject, collection, or project
 
 ---
 
@@ -388,10 +398,6 @@ the`Human Microbiome Project`.
 
 ---
 
-##### <u>Identifier</u>
-
----
-
 ##### <u>Ingest, Ingestion</u>
 see [C2M2 Ingestion Process](#c2m2-ingestion-process)
 
@@ -422,13 +428,23 @@ a web-based interactive environment for organizing data, performing computation,
 
 ---
 
-##### <u>M3C</u>
-the `Metabolomics Consortium Coordinating Center` at the University of Florida, which handles overall coordination for the Metabolomics program.
+##### <u>Landing Page</u>
+a webpage containing information identifying and describing a particular resource
 
 ---
 
 ##### <u>LDAP</u> 
 `Lightweight Directory Access Protocol`
+
+---
+
+##### <u>Local Identifier</u>
+a string assigned to a C2M2 resource by its managing DCC, identifying that resource uniquely within the context of a (mandatory) accompanying namespace stored in fields named local_id listed in the C2M2 specification.
+
+---
+
+##### <u>M3C</u>
+the `Metabolomics Consortium Coordinating Center` at the University of Florida, which handles overall coordination for the Metabolomics program.
 
 ---
 
@@ -467,6 +483,11 @@ a file that includes metadata for a group of accompanying files that are part of
 
 ---
 
+##### <u>Namespace</u>
+a named set of local identifiers. Every C2M2 resource must be uniquely identified by a [composite key](#composite-key) consisting of exactly one namespace and exactly one [local identifier](#local-identifier) in that namespace.
+
+---
+
 ##### NHLBI
 `National Heart, Lung, and Blood Institute`
 
@@ -501,6 +522,11 @@ an entity comprising of multiple people, such as an institution or an associatio
 
 ---
 
+##### <u>Persistent Identifier</u>
+URI or CURIE attached to a C2M2 resource; cannot be changed after attachment to the resource so identified; must resolve, either via some IANA scheme (e.g. http[s], i.e. the URI is a URL) or a resolver like identifiers.org, to a landing page describing the attached resource.
+
+---
+
 ##### <u>Proof of Concept (POC)</u>
 a process or realization of a certain method or idea in order to demonstrate its feasibility. 
 
@@ -531,6 +557,16 @@ a entity to describe administrative/funding/contract/etc. hierarchy governing ow
 
 ---
 
+##### <u>Resolvable</u>
+a resolvable address, attached to a given resource, is any string which can be used (as input to some intermediary service or scheme, e.g. http or identifiers.org) to obtain information about that resource
+
+---
+
+##### <u>Retrievable</u>
+a retrievable C2M2 resource can be directly obtained by an interested/authorized party, e.g. via download
+
+---
+
 ##### <u>Richness-levels</u>
 a qualifier indicative of the depth and granularity of an object model or [Entity-Relationship model](#entity-relationship-model). In the context of [CFDE](#cfde), the [C2M2](#c2m2) model is described by the following increasing richness levels: [Level-0, Level-1, Level-2]
 
@@ -540,6 +576,12 @@ a qualifier indicative of the depth and granularity of an object model or [Entit
 `ribonucleic acid`
 
 ---
+
+##### <u>Row Key</u>
+one or more fields (columns) in a database table row which, taken together, uniquely identify that row within its containing table.
+
+---
+
 ##### <u>Sample</u>
 a material collected from an organism, a cell culture, or a material containing organisms, such as an environmental material. syn: [biospecimens](#biospecimens)
 
