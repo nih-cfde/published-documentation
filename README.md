@@ -74,7 +74,7 @@ If the robot detects changes to either sub repository, it automatically:
 
 #### c2m2
 
-If those build checks all pass, it will then automatically merge `update-c2m2` into `c2m2` and close the PR, then build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2/
+If those build checks all pass, it will then automatically merge `update-c2m2-preview` into `c2m2preview` and close the PR, then build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2preview/
 
 #### the-fair-cookbook
 
