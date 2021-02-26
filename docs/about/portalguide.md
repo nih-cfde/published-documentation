@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Portal and Dashboard User Guide"
+title: Portal and Dashboard User Guide
 ---
 
 # Portal and Dashboard User Guide
@@ -47,8 +47,8 @@ To log into the portal and dashboard:
 
     ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID ID. 
-  
+1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID ID.
+
     1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
         ![alt_text](../images/Login.png "Login")
@@ -62,7 +62,7 @@ Select your name in the upper-right after logging in, click the down arrow, and 
 
 ## Portal
 
-The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data. 
+The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data.
 
 From the portal, you can:
 
@@ -134,11 +134,11 @@ The CFDE repository, referred to as the “data browser,” provides views of th
 *   Explore and export data collections
 *   Share data with other users and cite the data for use in publications
 
-The portal includes multiple ways to access the repository so you can view the data differently. For example, you can select “Browse All Collections” to see the entire CFDE data collection or select “Browse by Biosample” to see the data automatically pre-filtered by biosample. The data that displays and the Refine Search options differ based on the option selected. 
+The portal includes multiple ways to access the repository so you can view the data differently. For example, you can select “Browse All Collections” to see the entire CFDE data collection or select “Browse by Biosample” to see the data automatically pre-filtered by biosample. The data that displays and the Refine Search options differ based on the option selected.
 
 The repository can be accessed in the following ways from the portal:
 
-*   Select **Browse All Data > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for 
+*   Select **Browse All Data > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
 more information.
 *   Click the **Search All Collections** button under Explore our Repository. See the [Browse All Collections](#browse-all-collections) section below for more information.
 *   Click a link under View Data By in the Explore our Repository section to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Browse All Data drop-down in the main menu bar):
@@ -149,11 +149,11 @@ more information.
 
     NOTE: The options under Popular Data Views may vary, so they are not discussed in this guide.
 
-*   Select **Browse All Data > Project** from the main menu bar. See the 
+*   Select **Browse All Data > Project** from the main menu bar. See the
 [Browse by Project](#browse-by-project) section below for more information.
-*   Select **Browse All Data > Vocabulary** from the main menu bar and select an item from the list. See the 
+*   Select **Browse All Data > Vocabulary** from the main menu bar and select an item from the list. See the
 [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
-*   Select **Browse All Data > ID Namespace** from the main menu bar. See the 
+*   Select **Browse All Data > ID Namespace** from the main menu bar. See the
 [Browse by ID Namespace](#browse-by-id-namespace) section below for more information.
 
 
@@ -170,7 +170,7 @@ To search by all collections:
     ![alt_text](../images/Collection_Data_Browser.png "Collection")
 
 2. The data browser includes the following columns in the results table:
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID Namespace – A grouping of collection IDs.
     *   Local ID – The unique collection ID within the ID Namespace.
@@ -207,14 +207,14 @@ To search by biosample:
     ![alt_text](../images/Biosample_Data_Browser.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID Namespace – A grouping of biosample IDs.
     *   Local ID – The unique biosample ID within the ID Namespace.
     *   Project – The project attributed as the source of the biosample.
     *   Anatomy – The anatomy from which the biosample is derived.
     *   Creation Time – The date and time the biosample was created.
-3. The results can be filtered using the Refine Search filter panel. See the 
+3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine_search_results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Assay Type
     *   Anatomy
@@ -238,7 +238,7 @@ To search by subject:
     ![alt_text](../images/Subject_Data_Browser.png "Subject")
 
 2. The data browser includes the following columns in the results table:
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID Namespace – A grouping of subject IDs.
     *   Local ID – The unique subject ID within the ID Namespace.
@@ -246,7 +246,7 @@ To search by subject:
     *   Granularity – The specificity of the subject description, i.e., organism versus cell-line.
     *   Taxonomy – The classification concept(s) that characterize the subject.
     *   Creation Time – The date and time the subject record was created.
-3. The results can be filtered using the Refine Search filter panel. See the 
+3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Taxonomy
     *   Subject Granularity
@@ -270,7 +270,7 @@ To search by file:
     ![alt_text](../images/File_Data_Browser.png "File")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the 
+*   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID Namespace – A grouping of file IDs.
     *   Local ID – The unique file ID within the ID Namespace.
@@ -314,7 +314,7 @@ To search by project:
     *   Name – A short user-friendly label for the ID Namespace.
     *   Description – A user-friendly description of the ID Namespace.
     *   Creation Time – The date and time the project was created.
-3. The results can be filtered using the Refine Search filter panel. See the 
+3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Creation Time
     *   Super-Project
@@ -331,7 +331,7 @@ To search by project:
 
 To search by vocabulary:
 
-1. Select **Browse All Data > Vocabulary** from the main menu bar. 
+1. Select **Browse All Data > Vocabulary** from the main menu bar.
 2. Select an item from the list:
     *   Anatomy
     *   Assay Type
@@ -343,8 +343,8 @@ To search by vocabulary:
 
     The data browser displays the CFDE data and filters related to the vocabulary term.
 
-3. The columns vary based on the vocabulary term selected. 
-4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the 
+3. The columns vary based on the vocabulary term selected.
+4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the
 [Refine Search Results](#refine-search-results) section for more information on how to filter the results.
 
 ### Browse by ID Namespace
@@ -357,15 +357,15 @@ To search by ID namespace:
     ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
 
 1. The data browser includes the following columns in the results table:
-    
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the 
+
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID – The unique ID within the ID Namespace.
     *   Abbreviation – A short label for the ID Namespace.
     *   Name – A short user-friendly label for the ID Namespace.
     *   Description – A user-friendly description of the ID Namespace.
 
-1. The results can be filtered using the Refine Search filter panel. See the 
+1. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   ID
     *   Abbreviation
@@ -380,7 +380,7 @@ To search by ID namespace:
 ### View Details
 
 Click the icon in the View column (![alt_text](../images/View_Details_Button.png "View Details")
-) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example. 
+) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example.
 
 ![alt_text](../images/View_Details.png "View Details")
 
@@ -399,11 +399,11 @@ The metadata displays in the summary section at the top of the page. In the exam
 *  Description – A user-friendly description of the ID Namespace.
 *  Creation Time – The date and time the project was created.
 
-The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links. 
+The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links.
 
 ![alt_text](../images/View_Details_Sections.png "View Sections")
 
-Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search. 
+Click **Explore** in the gray section header to open the section in a separate data browser, where you can use the Refine Search filter panel to refine your search.
 
 ![alt_text](../images/Explore_Button.png "Explore Button")
 
@@ -412,7 +412,7 @@ Within each data file, you can click the **View** icon to view additional inform
 The buttons in the upper-right of the page include:
 
 *   Show/Hide empty sections - Toggles the empty sections that display on this page.
-*   Export – See the 
+*   Export – See the
 [Export Search Results](#explore-search-results) section for more information.
 
 
@@ -441,7 +441,7 @@ The data browser search results can be sorted and viewed using the following fun
 
 *   The results table can be sorted by column header using the arrow icon (![alt_text](../images/Arrow_Button.png "Arrow Button")
 ).
-*   View a different amount of results on one page by selecting a different option for the **Displaying first number of records** drop-down. 
+*   View a different amount of results on one page by selecting a different option for the **Displaying first number of records** drop-down.
 
 ![alt_text](../images/Number_of_Records.png "Number of Records")
 
@@ -460,10 +460,10 @@ The data browser search results can be sorted and viewed using the following fun
 
 Search results can be exported from the main data browser and from the View Details page. To export the search results:
 
-1. Click the **Export** button. 
-    
+1. Click the **Export** button.
+
     ![alt_text](../images/Export_Options.png "Export Options")
- 
+
 2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
     *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
         *   RID - The internal Record ID, which could be considered the Primary Key.
@@ -587,10 +587,8 @@ The Data Review section on the left displays the data totals and the data breakd
 
 The Data Snapshot displays a bar chart of assay types by anatomy categories. Hover over a bar to view the exact totals for each.
 
-To get help with reports or the data, click the associated link at the bottom of the page. Your default email application will open an email to [support@cfde.atlassian.net](mailto:support@cfde.atlassian.net). 
+To get help with reports or the data, click the associated link at the bottom of the page. Your default email application will open an email to [support@cfde.atlassian.net](mailto:support@cfde.atlassian.net).
 
 ### Export the Chart
 
 The Export icon (![alt_text](../images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
-
-

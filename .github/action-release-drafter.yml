@@ -7,9 +7,9 @@ categories:
   - title: 'FAIR Cookbook'
     labels:
       - 'proposedfairupdate'
-  - title: 'Specifications & Documentation'
+  - title: 'c2m2'
     labels:
-      - 'proposedspecsupdate'
+      - 'proposedc2m2supdate'
 template: |
   ## What's Changed
 

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Contributing
+hide:
+   - toc
 ---
 
 ## Contributing to the nih-cfde published-documentation Repository

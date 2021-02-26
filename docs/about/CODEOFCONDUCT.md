@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Code of Conduct"
+title: Code of Conduct
+hide:
+   - toc
 ---
 
 # Code of Conduct
