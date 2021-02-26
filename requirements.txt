@@ -1,4 +1,4 @@
-mkdocs-material
+mkdocs-material==6.2.6
 mkdocs-awesome-pages-plugin
 mkdocs-exclude
 mkdocs-htmlproofer-plugin
