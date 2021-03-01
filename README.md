@@ -14,7 +14,7 @@ The website is a compilation of 4 data sources:
 
 - https://github.com/nih-cfde/cfde-submit
 
-  - the 'master' branch is pulled here as teh submodule docs/cfde-submit
+  - the 'main' branch is pulled here as the submodule docs/cfde-submit
 
 - The other directories in the docs/ directory of this repo are local to this repo
 
@@ -51,7 +51,7 @@ To update documents or layout relating to the c2m2, make changes to https://gith
 
 To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
 
-The robot checks hourly for changes to the `master` branch of these repositories. We recommend working in a personal branch, and pushing those changes to `master` once you are happy with them.
+The robot checks hourly for changes to these repositories. We recommend working in a personal branch, and pushing those changes to `master` once you are happy with them.
 
 The only consideration for content changes is appropriate/correct linking.
 
