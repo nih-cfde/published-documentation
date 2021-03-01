@@ -24,4 +24,4 @@ jobs:
 
               [1]: https://github.com/peter-evans/create-pull-request
             labels: automerge
-            branch: update-cfde-submit
+            branch: update-cfde-submit-preview

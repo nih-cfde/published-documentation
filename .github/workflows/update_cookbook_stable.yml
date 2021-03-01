@@ -1,4 +1,4 @@
-name: Update cfde-submit stable
+name: Update cookbook stable
 on:
   schedule:
     - cron:  '1 */1 * * *'
@@ -7,18 +7,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: merge cfde-submit submodule to stable
+      - name: merge cookbook submodule to stable
         run: |
-          git submodule update --init --recursive --remote docs/cfde-submit
+          git submodule update --init --recursive --remote docs/the-fair-cookbook
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.5.0
         with:
             base: stable
             token: ${{ secrets.ALLTHEACTIONS }}
             commit-message: Update stable
-            title: Auto update cfde-submit submodule to stable
+            title: Auto update Cookbook submodule to stable
             body: |
-              Your preview was generated at: https://cfde-published-documentation.readthedocs-hosted.com/en/cfde-submitpreview/
+              Your preview was generated at: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
               - Dependency updates
               - requires review
 
@@ -26,5 +26,5 @@ jobs:
 
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedfairupdate
-            branch: update-cfde-submit
+            branch: update-cfde-fair
             reviewers: Acharbonneau, marisalim
