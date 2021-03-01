@@ -8,4 +8,4 @@
 [submodule "docs/cfde-submit"]
 	path = docs/cfde-submit
 	url = https://github.com/nih-cfde/cfde-submit.git
-        branch =  master
+        branch =  main
