@@ -2,7 +2,7 @@
 
 This repository builds the public technical documentation for the CFDE: https://docs.nih-cfde.org/en/latest/ (note that the ReadTheDocs [website](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/) redirects to this public URL).
 
-The website is a compilation of 3 data sources:
+The website is a compilation of 4 data sources:
 
 - https://github.com/nih-cfde/c2m2
 
@@ -11,6 +11,10 @@ The website is a compilation of 3 data sources:
 - https://github.com/nih-cfde/the-fair-cookbook
 
   - the `master` branch is pulled in here as the submodule docs/the-fair-cookbook
+
+- https://github.com/nih-cfde/cfde-submit
+
+  - the 'master' branch is pulled here as teh submodule docs/cfde-submit
 
 - The other directories in the docs/ directory of this repo are local to this repo
 
@@ -26,9 +30,11 @@ Contents:
 
 - To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
 
+- To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
+
 - To update the overall style of this website, the contents of the "About" pages, or to add additional data sources, make changes to this repository.
 
-A robot watches for changes made to the `master` branches of both https://github.com/nih-cfde/the-fair-cookbook and https://github.com/nih-cfde/c2m2. When changes are detected, the robot will automatically pull the changes into this repository and:
+A robot watches for changes made to the `master` branches of all the submodules. When changes are detected, the robot will automatically pull the changes into this repository and:
 
   - attempt to render them as a preview site so the author can see how they will look in the public site.
   - make a PR to incorporate your changes into the stable branch so they can be merged into the public site.
@@ -42,6 +48,8 @@ You should use the preview site to check that the changes look the way you want.
 To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
 To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
+
+To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
 
 The robot checks hourly for changes to the `master` branch of these repositories. We recommend working in a personal branch, and pushing those changes to `master` once you are happy with them.
 
@@ -72,13 +80,12 @@ If the robot detects changes to either sub repository, it automatically:
 - makes a PR to merge that branch into `<repo>preview`
 - runs a series of build checks
 
-#### c2m2
+If those build checks all pass, it will then automatically merge and close the PR, then build a preview site for you to browse
 
-If those build checks all pass, it will then automatically merge `update-c2m2-preview` into `c2m2preview` and close the PR, then build a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2preview/
-
-#### the-fair-cookbook
-
-If those build checks all pass, it will then automatically merge `update-fair-preview` into `cookbookpreview`, and close the PR, then a preview site for you to browse at: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
+#### Preview sites
+c2m2: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2preview/
+fair cookbook: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
+cfde-submit: https://cfde-published-documentation.readthedocs-hosted.com/en/cfde-submitpreview/
 
 If your preview site looks as expected, go to [Publishing your changes](#Publishing-your-changes)
 
@@ -90,39 +97,38 @@ If this preview pull request runs and closes itself without you doing anything, 
 
 If the preview pull request does not merge and close itself, then there was a problem.
 
-There are three possible reasons the PR might not automatically merge into `c2m2preview/cookbookpreview`:
+There are three possible reasons the PR might not automatically merge into `XXXpreview/XXXpreview`:
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the `c2m2preview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `c2m2preview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `XXXpreview` branch and is clashing with yours. To fix this problem delete the `XXXpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `c2m2preview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `XXXpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
 
 
 ### Publishing your changes
 
-If the robot detects changes to either sub repository, it also automatically:
+If the robot detects changes to any submodule, it also automatically:
 
 - makes a branch called `update-<repo>docs` with the changes
 - makes a PR to merge that branch into stable
 - runs a series of build checks
 
-Once you are happy with your preview site, approve this matching PR, and it will be merged in. An administrator has to merge this PR into the https://github.com/nih-cfde/published-documentation repository, and they are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @ACharbonneau
+This PR will have your changes, and a link to your preview site. You can continue making changes on your local repo, and they will be automatically added to this PR, and a new preview site generated with the addions. Once you are happy with your preview site, approve this PR. An administrator will double check the PR and then merge the changes into the public site https://github.com/nih-cfde/published-documentation. Administrators are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @ACharbonneau
 
 # Updating the Documentation in the Public Documentation Site from this repo <a name="this-repo"></a>
 
-Only overall style of this website and the contents of the "About" pages are editable from this repository. These changes are made periodically, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md).
+Only overall style of this website and the contents of the "About" pages are editable from this repository. 
 
 To make changes to this repo:
 
 - make a branch for work
-- when you are happy with your changes, make a PR of your branch to a branch called `preview` **
+- when you are happy with your changes, make a PR of your branch to a branch called, exactly, `preview`
 - the robot will automatically:
    - run a series of build checks, and if those checks pass
    - build a preview site for you to see your proposed changes at https://cfde-published-documentation.readthedocs-hosted.com/en/preview/
-- if your changes are as expected, make a PR of your branch to `dev` and tag @ACharbonneau and @marisalim
+- if your changes are as expected, make a PR of your branch to `stable` and tag @ACharbonneau and @marisalim
 - the admin team will check your changes and approve
-- changes to `dev` will be periodically promoted to the `stable` branch, as detailed in our [release plan](./Release-Plan/Documentation-Release-Plan.md)
 
 ** if you have admin access to ReadTheDocs you can skip testing your changes in the `preview` branch and use the ReadTheDocs automated preview branch
 
@@ -132,6 +138,6 @@ There are three possible reasons the PR might not automatically merge into previ
 
 - The most likely reason is that the preview branch needs to be refreshed
 
-- The second possibility is that a stale preview was already in the `c2m2preview/cookbookpreview` branch and is clashing with yours. To fix this problem delete the `c2m2preview/cookbookpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
+- The second possibility is that a stale preview was already in the `preview` branch and is clashing with yours. To fix this problem delete the `preview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
-- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `c2m2preview/cookbookpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+- Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `preview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
