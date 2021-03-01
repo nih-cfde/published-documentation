@@ -10,4 +10,5 @@ To facilitate this task, of the CFDE have developed and refined software tools. 
 
 - The [Crosscut Metadata Model](./c2m2/draft-C2M2_specification_with_Levels/README.md) (C2M2), a flexible standard for describing biomedical experimental data.
 - The [Datapackage Submission System](./cfde-submit/docs/index.md), how Common Fund metadata is submitted to the CFDE portal
+     - For help with submissions you can also check the [wiki](https://github.com/nih-cfde/published-documentation/wiki) or search common errors in the [discussion board](https://github.com/nih-cfde/published-documentation/discussions)
 - The [FAIR cookbook](./the-fair-cookbook/content/intro.md) provides introductory materials about various aspects of FAIRness, including practical guides that show how to enhance digital objects by adhering them to community accepted standards.
