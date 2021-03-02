@@ -14,7 +14,7 @@ The website is a compilation of 4 data sources:
 
 - https://github.com/nih-cfde/cfde-submit
 
-  - the 'main' branch is pulled here as the submodule docs/cfde-submit
+  - the `main` branch is pulled here as the submodule docs/cfde-submit
 
 - The other directories in the docs/ directory of this repo are local to this repo
 
