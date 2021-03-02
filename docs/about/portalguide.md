@@ -7,6 +7,8 @@ title: Portal and Dashboard User Guide
 
 ## Introduction
 
+This document decribes the features and basic navigation of the CFDE portal. If you are looking for documentation on using the submission system specifically [that documentation is here](https://github.com/nih-cfde/published-documentation/wiki)
+
 ### Common Fund Data Ecosystem (CFDE)
 
 The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH Common Fund (CF) programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
