@@ -1,4 +1,4 @@
-name: Update c2m2
+name: Update c2m2 preview
 on:
   schedule:
    - cron:  '*/10 * * * *'
