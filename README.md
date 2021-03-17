@@ -4,9 +4,9 @@ This repository builds the public technical documentation for the CFDE: https://
 
 The website is a compilation of 4 data sources:
 
-- https://github.com/nih-cfde/c2m2
+<!-- - https://github.com/nih-cfde/c2m2 -->
 
-  - the `master` branch is pulled in here as the submodule docs/c2m2
+- the `master` branch of the c2m2 repo is pulled in here as the submodule docs/c2m2
 
 - https://github.com/nih-cfde/the-fair-cookbook
 
@@ -28,7 +28,8 @@ Contents:
 
 - To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-- To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
+- Updates to documents or layout relating to the c2m2 are made on the c2m2 repo
+  <!-- - https://github.com/nih-cfde/c2m2 -->
 
 - To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
 
@@ -47,7 +48,8 @@ You should use the preview site to check that the changes look the way you want.
 
 To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
-To update documents or layout relating to the c2m2, make changes to https://github.com/nih-cfde/c2m2
+Updates to documents or layout relating to the c2m2 are made on the c2m2 repo
+  <!-- - https://github.com/nih-cfde/c2m2 -->
 
 To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
 
@@ -118,7 +120,7 @@ This PR will have your changes, and a link to your preview site. You can continu
 
 # Updating the Documentation in the Public Documentation Site from this repo <a name="this-repo"></a>
 
-Only overall style of this website and the contents of the "About" pages are editable from this repository. 
+Only overall style of this website and the contents of the "About" pages are editable from this repository.
 
 To make changes to this repo:
 
