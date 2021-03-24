@@ -13,15 +13,6 @@ This document decribes the features and basic navigation of the CFDE portal. If 
 
 The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH Common Fund (CF) programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
 
-The Common Fund programs include:
-
-*   [4DN](https://www.4dnucleome.org/) – 4D Nucleome
-*   [HMP](https://hmpdacc.org/) – Human Microbiome Project
-*   [GTEx](https://gtexportal.org/home/) – Genotype-Tissue Expression
-*   [KidsFirst](https://kidsfirstdrc.org/) – Gabriella Miller Kids First Pediatric Research Program
-*   [LINCS](http://www.lincsproject.org/) – Library of Integrated Network-Based Cellular Signatures
-*   [MoTrPAC](https://www.motrpac.org/) – Molecular Transducers of Physical Activity Consortium
-
 The specific goals of the CFDE are to:
 
 *   Increase usability – enable the uptake, reuse, and creation of Common Fund (CF) data and tools.
@@ -49,14 +40,14 @@ To log into the portal and dashboard:
 
     ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-1.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID ID.
+2.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID ID.
 
-    1. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
+    a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
         ![alt_text](../images/Login.png "Login")
 
-    1. Click **Allow**.
-    1. Enter your information and click **Login**.
+    b. Click **Allow**.
+    c. Enter your information and click **Login**.
 
 ### View Your Profile
 
@@ -272,7 +263,7 @@ To search by file:
     ![alt_text](../images/File_Data_Browser.png "File")
 
 2. The data browser includes the following columns in the results table:
-*   View – Click the icon next to the appropriate record to view more information about the record. See the
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
     *   ID Namespace – A grouping of file IDs.
     *   Local ID – The unique file ID within the ID Namespace.
@@ -358,7 +349,7 @@ To search by ID namespace:
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
     ![alt_text](../images/ID_Namespace_Data_Browser.png "image_tooltip")
 
-1. The data browser includes the following columns in the results table:
+2. The data browser includes the following columns in the results table:
 
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
@@ -367,7 +358,7 @@ To search by ID namespace:
     *   Name – A short user-friendly label for the ID Namespace.
     *   Description – A user-friendly description of the ID Namespace.
 
-1. The results can be filtered using the Refine Search filter panel. See the
+3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   ID
     *   Abbreviation
@@ -392,7 +383,7 @@ The metadata displays in the summary section at the top of the page. In the exam
 *   ID – The unique ID within the ID Namespace.
 *   Persistent ID – An identifier that provides a single view of an individual across numerous devices (desktop, mobile, in-app, etc.) without duplication.
 *   Defined by Project – The hyperlink will display the Genotype-Tissue Expression (GTEx) project in a separate data browser.
-     *   Click **Table Mode** to display the project in a table with additional information.    
+    *   Click **Table Mode** to display the project in a table with additional information.    
     *   Click **Explore** to open the project in a separate data browser.
 
 ![alt_text](../images/View_Details_Table_Mode.png "Table Mode")
@@ -489,7 +480,8 @@ To access additional CFDE resources, select **Technical Documentation** from the
 
 The CFDE dashboard displays multiple charts for users to view high-level data. The charts update automatically with the selections you make and the precise numbers can be viewed by hovering over the chart. The charts include:
 
-*   Two bar charts that allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. These bar charts display near each other so you can compare two different data summaries.
+*   Bar chart of the file count by Common Fund program and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
+*   Bar chart of the subject count by data type and Common Fund program. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
 *   Pie chart of the number of subjects by anatomy for a single assay type across all Common Fund programs.
 *   Pie chart of the number of samples by anatomy for a single Common Fund program.
 
@@ -548,20 +540,24 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 To filter the anatomy by assay type across the Common Fund chart:
 
 1. Select the **Assay Type** from the drop-down. Options include:
+    *   Whole genome sequencing assay
+    *   Unknown
     *   16s ribosomal gene sequencing assay
-    *   Hi-C assay
+    *   RNA-seq assay
+    *   Whole metagenome sequencing assay
+    *   Fluorescence imaging based cell proliferation assay
     *   RNA sequencing assay
     *   Cytokine assay
-    *   Epigenetic modification assay
-    *   Fluorescence detection assay
-    *   Mass spectrometry assay
+    *   Exome sequencing assay
     *   Metabolite profiling assay
-    *   Protein expression profiling assay
-    *   Transcription profiling assay
-    *   Whole genome sequencing assay
-    *   Whole metagenome sequencing assay
+    *   Epigenetic modification assay
+    *   Hi-C assay
+    *   Lipid profiling assay
+    *   Antigen specific antibodies assay
+    *   Other
 
-    The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) across all Common Fund programs based on the assay type selected.
+
+    The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, saliva, tissue, etc.) across all Common Fund programs based on the assay type selected.
 
 ### Filter the Anatomy by Common Fund Program Chart
 
@@ -570,27 +566,131 @@ To filter the anatomy by assay type across the Common Fund chart:
 To filter the anatomy by Common Fund program chart:
 
 1. Select the **CF Program** from the drop-down. Options include:
-    *   4DN
-    *   HMP
     *   LINCS
+    *   GTEx
+    *   HMP
     *   Metabolomics
+    *   KidsFirst
+    *   4DN
+    *   MoTrPAC
 
-    The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., blood plasma, digestive system, immune system, etc.) based on the Common Fund program selected.
+    The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., kidney, pancreas, lung, etc.) based on the Common Fund program selected.
 
-### Review DCC Data
+### Download the Chart
 
-The Data Review page displays a personalized dashboard for you to verify the data currently available for your DCC. The DCC data that displays is based on the DCC associated with your login account.
+The Download icon (![alt_text](../images/Export_Button.png "Export Button")) displays next to each chart to download the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
-NOTE: Currently, only the HMP data is available for this feature. The other DCCs are coming soon.
+## Data Review
+The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
 
-![alt_text](../images/Data_Review_Main.png "Data Review")
+To access the Data Review page, click Data Review in the main menu bar from the portal or dashboard.
 
-The Data Review section on the left displays the data totals and the data breakdown numbers. These totals show you how many data files exist for your DCC overall, how many subjects are represented, and how many biosamples are in the project.
+The data review options under the Submission System menu bar include:
+* Submitted Datapackages
+* Enrolled DCCs
+* Enrolled Groups
+* Releases
+* Vocabulary
 
-The Data Snapshot displays a bar chart of assay types by anatomy categories. Hover over a bar to view the exact totals for each.
+### Review Submitted Datapackages
+To review the submitted datapackages:
+1. Select one of the following options:
+    * The **Data Review** option in the main menu bar from the portal or dashboard.
+    * The **Submission System > Submitted Datapackages** option in the main menu bar of the Data Review system.
 
-To get help with reports or the data, click the associated link at the bottom of the page. Your default email application will open an email to [support@cfde.atlassian.net](mailto:support@cfde.atlassian.net).
+    The Submitted Datapackage page displays.
 
-### Export the Chart
+2. The data browser includes the following columns in the results table:
+    * View
+        * Click the View icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+        * For users with Approver permissions, an Edit (pencil) icon will display in this column as well. See the [Approve Data](#approve-data) section for more information.
+    * Submission – Displays additional identifying information about the submitted data, such as submission date, ID, the DCC, and the submitter.
+    * Status Summary – The ingest status (what is happening with your submission) and approval status of the datapackage in the submission system. When the ingest status is “content ready for review,” additional links for Browse Data, Summary Charts, and Raw Data display where you can review the submission. See the [Review Content](#review-content) section for more information.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * Submitting DCC
+    * Submitting User
+    * Status
+    * DCC Approval
+    * CFDE Approval
+    * Submission Time
 
-The Export icon (![alt_text](../images/Export_Button.png "Export Button"))(or Download button on the Data Review page) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
+### Review Content
+On the Submitted Datapackages page, you can access additional information about a record in the “content ready for review” ingest status by selecting one of the following links in the Review Content section (under the Status Summary column):
+* Browse Data – The [File data browser](#browse-by-file) displays with additional information for that record only. You can view additional details about the submission by selecting **In-Review Submission > Submission <ID>**.
+* Summary Charts – The [dashboard](#dashboard) displays with additional information for that record only. The hyperlinked totals will open [data browsers](#explore-the-repository) with additional information about those numbers. You can also access this page from the Browse Data File data browser by selecting **In-Review Submission > Content Summary Charts** from the main menu.
+* Raw Data – Provides a download of the BDBag that was created when cfde-submit run was ran, so you can always retrieve a copy of your input data.
+
+### Review Enrolled DCCs
+To review the enrolled/onboarded DCCs:
+1. Select the **Submission System > Enrolled DCCs** option in the main menu bar of the Data Review system. The Onboarded DCC page displays.
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * DCC – The name of the DCC enrolled/onboarded with the CFDE-CC.
+    * Contact – The primary contact’s name and email of the DCC.
+    * Description – A long description of the DCC’s purpose and data researched.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * DCC Name
+    * Contact Name
+    * Contact Email
+
+### Review Enrolled Groups
+To review the enrolled/registered groups:
+1. Select the **Submission System > Enrolled Groups** option in the main menu bar of the Data Review system. The Registered Group page displays.
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The globally unique identifier for the group.
+    * Name – A short label for the enrolled/registered group.
+    * Description – A long description of the group.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * ID
+    * Name
+    * Description
+    * DCC Group Role
+
+### Review Releases
+To review the CFDE releases:
+1. Select the **Submission System > Releases** option in the main menu bar of the Data Review system. The CFDE Release page displays.
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The identifier for this release issued by the CFDE-CC for internal use.
+    * Release Time – A timestamp for when the release was completed by the CFDE-CC.
+    * Status – The status of this release in the submission system.
+    * Links – The URL of the ERMrest (an entity-relationship data storage service) catalog with the release content.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * Release Status Term
+    * Approval Status Term
+    * Release Time
+    * Contributing DCC
+    * Datapackage
+
+### Review Vocabulary
+To review the vocabulary:
+1. Select the **Submission System > Vocabulary** option in the main menu bar of the Data Review system.
+2. Select an item from the list:
+    * Release Status
+    * Datapackage Status
+    * Table Status
+    * Approval Status
+    * Group Role
+    
+    The data browser displays the CFDE data and filters related to the vocabulary term.
+3. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The globally unique identifier for the status concept.
+    * Name – A short label for the status concept.
+    * Description – A long description of the status concept. 
+4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the [Refine Search Results](#refine-search-results) section for more information on how to filter the results.
+
+### Approve Data
+Data can only be approved (or rejected) by users with Approver permissions.
+
+To approve submitted data:
+1. On the Data Review > Submitted Datapackage page, click the **Edit** (pencil) icon in the View column next to the appropriate record.
+2. Review the data to ensure it is accurate. If necessary, use the Browse Data, Summary Charts, and Raw Data links on the Submitted Datapackage page to view more information about the data.
+3. In the DCC Approval Status field, click the “Select” icon next to the appropriate status. The status options include:
+    * Decision Pending – An approval decision is due, but pending content review.
+    * Content Approved – Content has been approved by the reviewer.
+    * Content Approved but Held – Content has been approved, but further processing should be delayed.
+    * Content Rejected – Content has been rejected by the user.
+4. Click **Save** to save the approval status.
+
