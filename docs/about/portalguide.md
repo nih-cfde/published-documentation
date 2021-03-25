@@ -115,8 +115,7 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 
 ### Export the Chart
 
-The Export icon (![alt_text](../images/Export_Button.png "Export Button")
-) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
+The Export icon (![alt_text](../images/Download_Button.png "Download Button")) displays next to each chart to export the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 ### Explore the Repository
 
@@ -485,6 +484,8 @@ The CFDE dashboard displays multiple charts for users to view high-level data. T
 *   Pie chart of the number of subjects by anatomy for a single assay type across all Common Fund programs.
 *   Pie chart of the number of samples by anatomy for a single Common Fund program.
 
+![alt_text](../images/Dashboard_Overview.png "Dashboard_Overview")
+
 ### Access the Dashboard
 
 To access the dashboard:
@@ -578,7 +579,7 @@ To filter the anatomy by Common Fund program chart:
 
 ### Download the Chart
 
-The Download icon (![alt_text](../images/Export_Button.png "Export Button")) displays next to each chart to download the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
+The Download icon (![alt_text](../images/Download_Button.png "Download Button")) displays next to each chart to download the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 ## Data Review
 The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
@@ -586,6 +587,7 @@ The Data Review page displays the recent data submission that has not yet been i
 To access the Data Review page, click Data Review in the main menu bar from the portal or dashboard.
 
 The data review options under the Submission System menu bar include:
+
 * Submitted Datapackages
 * Enrolled DCCs
 * Enrolled Groups
@@ -594,6 +596,7 @@ The data review options under the Submission System menu bar include:
 
 ### Review Submitted Datapackages
 To review the submitted datapackages:
+
 1. Select one of the following options:
     * The **Data Review** option in the main menu bar from the portal or dashboard.
     * The **Submission System > Submitted Datapackages** option in the main menu bar of the Data Review system.
@@ -616,13 +619,24 @@ To review the submitted datapackages:
 
 ### Review Content
 On the Submitted Datapackages page, you can access additional information about a record in the “content ready for review” ingest status by selecting one of the following links in the Review Content section (under the Status Summary column):
+
 * Browse Data – The [File data browser](#browse-by-file) displays with additional information for that record only. You can view additional details about the submission by selecting **In-Review Submission > Submission <ID>**.
+
+  ![alt_text](../images/In-Review_Submission.png "In-Review Submission")
+
 * Summary Charts – The [dashboard](#dashboard) displays with additional information for that record only. The hyperlinked totals will open [data browsers](#explore-the-repository) with additional information about those numbers. You can also access this page from the Browse Data File data browser by selecting **In-Review Submission > Content Summary Charts** from the main menu.
+
+ ![alt_text](../images/In-Review_Submission_Summary_Chart.png "In-Review Submission Summary Chart")
+
 * Raw Data – Provides a download of the BDBag that was created when cfde-submit run was ran, so you can always retrieve a copy of your input data.
 
 ### Review Enrolled DCCs
 To review the enrolled/onboarded DCCs:
+
 1. Select the **Submission System > Enrolled DCCs** option in the main menu bar of the Data Review system. The Onboarded DCC page displays.
+
+    ![alt_text](../images/Onboarded_DCC_List.png "Onboarded DCC List")
+
 2. The data browser includes the following columns in the results table:
     * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
     * DCC – The name of the DCC enrolled/onboarded with the CFDE-CC.
@@ -635,7 +649,11 @@ To review the enrolled/onboarded DCCs:
 
 ### Review Enrolled Groups
 To review the enrolled/registered groups:
+
 1. Select the **Submission System > Enrolled Groups** option in the main menu bar of the Data Review system. The Registered Group page displays.
+
+    ![alt_text](../images/Registered_Group.png "Registered Group")
+
 2. The data browser includes the following columns in the results table:
     * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
     * ID – The globally unique identifier for the group.
@@ -649,7 +667,11 @@ To review the enrolled/registered groups:
 
 ### Review Releases
 To review the CFDE releases:
+
 1. Select the **Submission System > Releases** option in the main menu bar of the Data Review system. The CFDE Release page displays.
+
+     ![alt_text](../images/CFDE_Release.png "CFDE_Release")
+
 2. The data browser includes the following columns in the results table:
     * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
     * ID – The identifier for this release issued by the CFDE-CC for internal use.
@@ -665,32 +687,41 @@ To review the CFDE releases:
 
 ### Review Vocabulary
 To review the vocabulary:
+
 1. Select the **Submission System > Vocabulary** option in the main menu bar of the Data Review system.
 2. Select an item from the list:
     * Release Status
     * Datapackage Status
     * Table Status
     * Approval Status
-    * Group Role
-    
-    The data browser displays the CFDE data and filters related to the vocabulary term.
+    * Group Role </br>
+The data browser displays the CFDE data and filters related to the vocabulary term.
 3. The data browser includes the following columns in the results table:
     * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
     * ID – The globally unique identifier for the status concept.
     * Name – A short label for the status concept.
-    * Description – A long description of the status concept. 
+    * Description – A long description of the status concept.
 4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the [Refine Search Results](#refine-search-results) section for more information on how to filter the results.
 
 ### Approve Data
 Data can only be approved (or rejected) by users with Approver permissions.
 
 To approve submitted data:
+
 1. On the Data Review > Submitted Datapackage page, click the **Edit** (pencil) icon in the View column next to the appropriate record.
+
+    ![alt_text](../images/Edit_Submitted_Datapackage.png "Edit Submitted Datapackage")
+
 2. Review the data to ensure it is accurate. If necessary, use the Browse Data, Summary Charts, and Raw Data links on the Submitted Datapackage page to view more information about the data.
+
+    ![alt_text](../images/Edit_Submitted_Datapackage_Metadata.png "Edit Submitted Datapackage Metadata")
+
 3. In the DCC Approval Status field, click the “Select” icon next to the appropriate status. The status options include:
+
     * Decision Pending – An approval decision is due, but pending content review.
     * Content Approved – Content has been approved by the reviewer.
     * Content Approved but Held – Content has been approved, but further processing should be delayed.
     * Content Rejected – Content has been rejected by the user.
-4. Click **Save** to save the approval status.
 
+   ![alt_text](../images/Submitted_Datapackage_Approval_Status.png "Submitted Datapackage Approval Status")
+4. Click **Save** to save the approval status.
