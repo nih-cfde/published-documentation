@@ -1,4 +1,5 @@
 title: About the CFDE
 nav:
+    - about.md
     - ...
     - CFDE website: https://nih-cfde.org/

@@ -5,3 +5,7 @@
 [submodule "docs/c2m2"]
 	path = docs/c2m2
 	url = git@github.com:nih-cfde/c2m2.git
+[submodule "docs/cfde-submit"]
+	path = docs/cfde-submit
+	url = https://github.com/nih-cfde/cfde-submit.git
+        branch =  main
