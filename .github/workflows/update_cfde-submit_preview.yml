@@ -1,7 +1,7 @@
 name: Update cfde-submit
 on:
   schedule:
-    - cron:  '1 */1 * * *'
+    - cron:  '0 * * * *'
 jobs:
   update-dep:
     runs-on: ubuntu-latest
