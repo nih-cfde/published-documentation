@@ -54,7 +54,7 @@ When you fill out a survey, the CFDE collects, depending on the survey:
 - other information in response to solicited questions, as you voluntarily contribute
       
 
-### Information the CFDE Obtains from Third Party Sources
+## Information the CFDE Obtains from Third Party Sources
 
 The CFDE collects Personal Information about individuals from a number of third party sources.
 
@@ -64,27 +64,27 @@ The CFDE collects Personal Information about individuals from a number of third 
 
 - Publicly Available Sources: The CFDE collects Personal Information about you that the CFDE does not otherwise have (including contact information, employment-related information and product interest information) from social media platforms (for example, LinkedIn), and other publicly available databases.
 
-### Information the CFDE Collects Automatically
+## Information the CFDE Collects Automatically
 
-#### Log File Data
+### Log File Data
 
 The Services collect domain names of site visitors, as well as aggregate information about site traffic and server load. Additional processes store IP addresses, browser information, location, and device statistics of visitors for auditing and security purposes. This information is used strictly to maintain and improve the Services.
 
-#### Cookies
+### Cookies
 
 The Services use “cookies” during site visits. The “cookie,” which is a small text file stored in temporary memory, is used by our Web applications for usability purposes and to comply with subscription and settings preferences that our visitors have given us. The Services also uses “cookies” on a limited basis to measure user interactions with the Services through Google Analytics. You can turn off cookies in your browser preferences at any time without affecting site performance, if you wish to do so.
 
-#### Online Comment Forms
+## Online Comment Forms
 
 Please note that the CFDE will not intentionally share the contents of any email feedback or comment form with any third party. However, due to the nature of electronic communications, the CFDE cannot and does not provide any assurances that the contents of your e-mail will not become known or accessible to third parties.
 
 You are urged not to provide any confidential information about you, your health, or other patients’ health via electronic communication. If you do so, it is at your own risk.
 
-#### How the CFDE Uses Your Information
+## How the CFDE Uses Your Information
 
 The CFDE uses information, including Personal Information, for internal and service-related purposes. The CFDE may use and retain any data that it collects to provide and improve any of the Services. The CFDE may send email to the email address you provide to it for sending you email for informational and operational purposes, such as account management, customer service, system maintenance, and other Services-related purposes. The CFDE may use information, including Personal Information, to show or send you information that it thinks may be useful or relevant to you. The CFDE may anonymize or aggregate data collected through the Services and use and disclose it for any purpose.
 
-##### How the CFDE Shares Your Information
+## How the CFDE Shares Your Information
 
 Only members of the CFDE staff, its approved contractors, and its approved vendors have access to the data collected by the Services. The CFDE may share information with its third-party vendors and service providers, to comply with legal obligations, to protect and defend our rights and property, and with your permission. The CFDE may share any information it receives with vendors and service providers it uses to help provide and improve the Services. For example, the CFDE may disclose information to the service providers that help host the Services or send its emails.
 
@@ -94,11 +94,11 @@ The CFDE may access, preserve, and disclose collected information, if it believe
 
 If the CFDE is involved in a transition of service to another provider, your information may be disclosed in connection with the negotiation of such transaction, and/or transferred as part of such a transaction as permitted by law and/or contract. The CFDE cannot control how the recipient entities may use or disclose such information.
 
-### Children’s Privacy
+## Children’s Privacy
 
 The CFDE is committed to protecting the privacy of children. The Services are intended for adults and young adults ages 13 and over. It is not intended for or designed to attract persons under the age of 13. Registration by any person to be under the age of 13 is not permitted and no part of the Services are directed to children under 13. If the CFDE learns that a child under 13 has created an account, the CFDE will promptly take steps to delete such information and terminate the child’s account.
 
-### Other Sites
+## Other Sites
 
 Our privacy policies apply only to your use of the Services. The Services contain links and integrations to other sites, including sites that may indicate relationships or collaborations with the CFDE. At times, in support of technical integrations, you may be required to provide your email address and name to third parties to fully use and/or access all Services. The CFDE is not responsible for the privacy practices of such other sites. You should read and review the privacy policies of each site you visit to determine what information that site may be collecting about you. Below are the privacy policies for the third party websites & services that the Services currently integrate with:
 
@@ -113,11 +113,11 @@ Our privacy policies apply only to your use of the Services. The Services contai
   
   
 
-### Passwords and Tokens
+## Passwords and Tokens
 
 You are responsible for taking all reasonable steps to ensure that no unauthorized person shall have access to your CFDE passwords, accounts, or security tokens. It is your sole responsibility to (1) control the dissemination and use of activation codes and passwords; (2) authorize, monitor, and control access to and use of your CFDE account and password; (3) promptly inform us of any need to deactivate a password or token. You grant to the CFDE and to all other persons or entities involved in the operation of the Services the right to transmit, monitor, retrieve, store, and use your information in connection with the operation of the Services. The CFDE cannot and does not assume any responsibility or liability for any information you submit, or your or third parties’ use or misuse of information transmitted or received using the CFDE tools and services.
 
-### Changes to Our Privacy Policy
+## Changes to Our Privacy Policy
 
 Just as with the other terms and conditions associated with the Services, the CFDE may change the terms and conditions of its Privacy Policy at any time by posting revisions on the Services.
 You agree to review the Privacy Policy each time you use the Services so that you are aware of any modifications made to these policies. By accessing or using the Services, you agree to be bound by all of the terms and conditions of the Agreement as posted on the Services at the time of your access or use, including the Privacy Policy then in effect.
