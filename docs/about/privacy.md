@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Disclaimer of Endorsement
 
 Last Update Date: 08/30/21
