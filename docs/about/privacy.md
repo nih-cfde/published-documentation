@@ -34,7 +34,7 @@ If you have any questions about these terms, conditions or the practices of this
 
 # Privacy Policy
 
-Last Update Date: 08/30/21
+Last Update Date: 09/01/21
 
 The Common Fund Data Ecosystem Coordination Center (“CFDE-CC” or “we”) has created this Privacy Policy to demonstrate its commitment to privacy and transparency of practices. This Privacy Policy explains the CFDE’s information-gathering and dissemination practices for the CFDE Website and CFDE Portal (the “Services”). By accessing the Services, you consent to the practices and terms of this Privacy Policy. Limited data is collected about your visit to any of our Services in order to help us better understand public use of the sites and to improve and continue to make our Services more useful to visitors. This page describes the information that is automatically collected and stored.
 
