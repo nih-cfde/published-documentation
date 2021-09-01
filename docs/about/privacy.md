@@ -112,7 +112,7 @@ Our privacy policies apply only to your use of the Services. The Services contai
   
 - Orcid: Users have the option to integrate their CFDE Portal login with Orcid to allow users to “login with Orcid.” The Services will access your basic profile information including your name and email address. You may visit Orcid’s privacy policy here: [https://orcid.org/footer/privacy-policy](https://orcid.org/footer/privacy-policy)
   
-- Globus: Users have the option to something about logging in with University IDs
+- Globus: Users with an existing login at any of the many universities, colleges, research institutions, identity providers and government agencies supported by Globus may use one of these logins to access the CFDE Portal. Please consult your individual institution’s privacy policy and the Globus privacy policy, which you may visit here: [https://www.globus.org/legal/privacy](https://www.globus.org/legal/privacy)
   
  - Google Analytics: The Services use Google Analytics to monitor user interaction and use of the sites. See Log File Data above for information on what is collected with Google Analytics. You may visit Google’s privacy policy here: [https://policies.google.com/privacy](https://policies.google.com/privacy)
   
