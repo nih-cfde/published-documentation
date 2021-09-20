@@ -26,10 +26,9 @@ Contents:
 
 ## Overview
 
-- To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
+- To update documents or layout relating to the FAIR cookbook, make changes to the `master`branch of https://github.com/nih-cfde/the-fair-cookbook
 
-- Updates to documents or layout relating to the c2m2 are made on the c2m2 repo
-  <!-- - https://github.com/nih-cfde/c2m2 -->
+- Updates to documents or layout relating to the c2m2 are made on the `master` branch of the c2m2 repo https://github.com/nih-cfde/c2m2
 
 - To update documents or layout relating to `cfde-submit`, make changes to https://github.com/nih-cfde/cfde-submit
 
