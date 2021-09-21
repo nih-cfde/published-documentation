@@ -98,13 +98,15 @@ If this preview pull request runs and closes itself without you doing anything, 
 
 If the preview pull request does not merge and close itself, then there was a problem.
 
-There are three possible reasons the PR might not automatically merge into `XXXpreview/XXXpreview`:
+There are four possible reasons the PR might not automatically merge into `XXXpreview/XXXpreview`:
 
 - The most likely reason is that the preview branch needs to be refreshed
 
 - The second possibility is that a stale preview was already in the `XXXpreview` branch and is clashing with yours. To fix this problem delete the `XXXpreview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
 - Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `XXXpreview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+
+- Github has imposed a 60 day limit on actions, so if the robot hasn't detected a change in the original repo for more than 60 days, it stops watching the repo. You can this by looking at the [actions tab for this repo](https://github.com/nih-cfde/published-documentation/actions). Each original repo has two actions: a 'preview' and a 'stable'. If the actions for your repo have been automatically stopped, you can restart them by clicking on them. If you cannot restart the action, please contact achar@ucdavis.edu.
 
 
 ### Publishing your changes
@@ -135,10 +137,12 @@ To make changes to this repo:
 
 ## Troubleshooting
 
-There are three possible reasons the PR might not automatically merge into preview:
+There are four possible reasons the PR might not automatically merge into preview:
 
 - The most likely reason is that the preview branch needs to be refreshed
 
 - The second possibility is that a stale preview was already in the `preview` branch and is clashing with yours. To fix this problem delete the `preview` branch and wait for the next hourly run. If it's a fresh preview branch, your changes may have made the repos incompatible. Tag @ACharbonneau in your PR and she'll help
 
 - Very occasionally, the github robot fails for server related reasons when there is otherwise no problem. Removing the `preview` branch so that the robot tries again generally fixes this. Or tag @ACharbonneau
+- 
+- Github has imposed a 60 day limit on actions, so if the robot hasn't detected a change in the original repo for more than 60 days, it stops watching the repo. You can this by looking at the [actions tab for this repo](https://github.com/nih-cfde/published-documentation/actions). Each original repo has two actions: a 'preview' and a 'stable'. If the actions for your repo have been automatically stopped, you can restart them by clicking on them. If you cannot restart the action, please contact achar@ucdavis.edu.
