@@ -27,4 +27,4 @@ jobs:
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedcfdesubmit
             branch: update-cfde-submit
-            reviewers: Acharbonneau, marisalim, DavidKelly999, NickolausDS
+            reviewers: Acharbonneau, DavidKelly999, NickolausDS
