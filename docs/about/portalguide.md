@@ -7,7 +7,7 @@ title: Portal and Dashboard User Guide
 
 ## Introduction
 
-This document decribes the features and basic navigation of the CFDE portal. If you are looking for documentation on using the submission system specifically [that documentation is here](https://github.com/nih-cfde/published-documentation/wiki)
+This document decribes the features and basic navigation of the CFDE portal. If you are looking for documentation on using the submission system specifically [that documentation is here](https://github.com/nih-cfde/published-documentation/wiki).
 
 ### Common Fund Data Ecosystem (CFDE)
 
@@ -21,7 +21,7 @@ The specific goals of the CFDE are to:
 
 ### Purpose of this Document
 
-The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/dashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
+The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://https://app.nih-cfde.org/udashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
 
 *   **F** – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
 *   **A** – Offering rich access control and access to metadata via standard HTTP web service interfaces.
@@ -32,7 +32,13 @@ To support these principals, the dashboard and data browser within the portal em
 
 ### Login
 
-Currently, all features are available without a login, but this may change in the future.
+Some features are available without logging in, but to save queries and access your personalized dashboard, you must log in. 
+
+---
+
+NOTE: To access your personalized dashboard, you must be added to the NIH CFDE Portal Members group.
+
+---
 
 To log into the portal and dashboard:
 
@@ -50,9 +56,16 @@ To log into the portal and dashboard:
     
     c. Enter your information and click **Login**.
 
+3. If this is your first time logging in after November 1, 2021, the Sign up for Personalized Dashboard Features page displays.
+
+4. Click **Sign Up** to be added to the NIH CFDE Portal Members group so you can view the personalized dashboard features. If you click Proceed before being added to the group, you will be returned to the portal Home page without being logged in. The Join Group page displays:
+
+5. Enter your information and click **Submit Application**.
+6. Return to the Sign up for Personalized Dashboard Features page (in Step 3 above) and click **Proceed**. You will be logged in and see your personalized dashboard.
+
 ### View Your Profile
 
-Select your name in the upper-right after logging in, click the down arrow, and select **Profile**.
+Select your name in the upper-right after logging in, click the down arrow, and select **My Profile**. Your user profile information displays along with the saved searches and favorites from your personalized dashboard. Click “Add Record” in a gray menu bar to manually add a favorite.
 
 ## Portal
 
@@ -75,10 +88,9 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 ### Filter the Chart
 
-The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each CF program.
+The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each data type.
 
 ![alt_text](../images/Summary_View_Chart.png "Summary View")
-
 
 To filter the portal chart:
 
@@ -88,6 +100,7 @@ To filter the portal chart:
     - Assay
     - Species
     - Anatomy
+    - Disease
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
@@ -105,6 +118,7 @@ To filter the portal chart:
     *   Assay
     *   Species
     *   Anatomy
+    *   Disease
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
@@ -127,46 +141,37 @@ The CFDE repository, referred to as the “data browser,” provides views of th
 *   Explore and export data collections
 *   Share data with other users and cite the data for use in publications
 
-The portal includes multiple ways to access the repository so you can view the data differently. For example, you can select “Browse All Collections” to see the entire CFDE data collection or select “Browse by Biosample” to see the data automatically pre-filtered by biosample. The data that displays and the Refine Search options differ based on the option selected.
+The portal includes multiple ways to access the repository so you can view the data differently. For example, under the Data Browser menu, you can select “Collection” to see the entire CFDE data collection or select “Biosample” to see the data automatically pre-filtered by biosample. The data that displays and the Refine Search options differ based on the option selected.
 
 The repository can be accessed in the following ways from the portal:
 
-*   Select **Browse All Data > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
+*   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
 more information.
-*   Click the **Search All Collections** button under Explore our Repository. See the [Browse All Collections](#browse-all-collections) section below for more information.
-*   Click a link under View Data By in the Explore our Repository section to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Browse All Data drop-down in the main menu bar):
-    *   Collection – See the [Browse All Collections](#browse-all-collections) section below for more information.
+*   Click an icon under Start your Search to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Data Browser drop-down in the main menu bar):
+    *   Anatomy – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   Assay – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   File – See the [Browse by File](#browse-by-file) section below for more information.
     *   Biosample – See the [Browse by Biosample](#browse-by-biosample) section below for more information.
     *   Subject – See the [Browse by Subject](#browse-by-subject) section below for more information.
-    *   File – See the [Browse by File](#browse-by-file) section below for more information.
-
-    NOTE: The options under Popular Data Views may vary, so they are not discussed in this guide.
-
-*   Select **Browse All Data > Project** from the main menu bar. See the
-[Browse by Project](#browse-by-project) section below for more information.
-*   Select **Browse All Data > Vocabulary** from the main menu bar and select an item from the list. See the
-[Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
-*   Select **Browse All Data > ID Namespace** from the main menu bar. See the
-[Browse by ID Namespace](#browse-by-id-namespace) section below for more information.
+*   Select **Data Browser > Project** from the main menu bar. See the [Browse by Project](#browse-by-project) section below for more information.
+*   Select **Data Browser > Primary DCC Contact** from the main menu bar. See the [Browse by Primary DCC Contact](#browse-by-primary-DCC-contact) section below for more information.
+*   Select **Data Browser > Vocabulary** from the main menu bar and select an item from the list. See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+*   Select **Data Browser > ID Namespace** from the main menu bar. See the [Browse by ID Namespace](#browse-by-id-namespace) section below for more information.
 
 
 ### Browse All Collections
 
 To search by all collections:
 
-1. Select one of the following options:
-    - The **Browse All Data > Collection** option in the main menu bar.
-    - The **Search All Collections** button under Explore our Repository.
-    - The **Collection** link under View Data By in the Explore our Repository section.
-
+1. Select **Data Browser > Collection** from the main menu bar.
+  
     The entire CFDE data collection displays in the data browser.
     ![alt_text](../images/Collection Data Browser_v2.png "Collection")
 
 2. The data browser includes the following columns in the results table:
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the
-[View Details](#view-details) section for more information.
-    *   ID Namespace – A grouping of collection IDs.
-    *   Local ID – The unique collection ID within the ID Namespace.
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    *   Common Fund Program – The Common Fund program that defines the collection.
+    *   Project – The project that defines the collection.
     *   Name – A short user-friendly label for the collection.
     *   Description – A user-friendly description of the collection.
     *   Creation Time – The date and time the collection was created.
@@ -175,26 +180,61 @@ To search by all collections:
     *   File Format
     *   Assay Type
     *   Anatomy
-    *   Subject Taxonomy
+    *   Taxonomy
+    *   Disease
     *   Common Fund Program
     *   Project
     *   Subject Granularity
-    *   Subject Role
     *   Collection Creation Time
+
+### Browse by File
+
+To search by file:
+
+1. Select one of the following options:
+    *   The **Data Broswer> File** option in the main menu bar.
+    *   The **File** link under View Data By in the Start your Search section on the main portal page.
+
+    The data browser displays the CFDE data and filters related to files.
+    ![alt_text](../images/File_Data_Browser.png "File")
+
+2. The data browser includes the following columns in the results table:
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
+[View Details](#view-details) section for more information.
+    *   Common Fund Program – The Common Fund program that defines the file.
+    *   Project – The project attributed as the source of the file.
+    *   File Format – The content format of the file.
+    *   Data Type – The type of data represented by the file.
+    *   Assay Type – The assay type represented by the file.
+    *   Size in Bytes – The size of the file in bytes.
+    *   Filename – The name of the file excluding prepended PATH information.
+    *   Persistent ID – A persistent, resolvable URI generated by a DCC and attached to the file.
+    *   Creation Time – The date and time the file was created.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Data Type
+    *   File Format
+    *   Assay Type
+    *   Anatomy (slim)
+    *   Anatomy
+    *   Subject Taxonomy
+    *   Disease
+    *   Gene
+    *   Common Fund Program
+    *   Project
+    *   Subject Granularity
     *   File Creation Time
-    *   Biosample Creation Time
-    *   Part of Collection
-    *   Contained Subject
-    *   Contained Biosample
-    *   Contained File
+    *   Size in Bytes
+    *   Is Bundle
+    *   Uncompressed Size in Bytes
+    *   Compression Format
 
 ### Browse by Biosample
 
 To search by biosample:
 
 1. Select one of the following options:
-    *   The **Browse All Data > Biosample** option in the main menu bar.
-    *   The **Biosample** link under View Data By in the Explore our Repository section on the main portal page.
+    *   The **Data Browser > Biosample** option in the main menu bar.
+    *   The **Biosample** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to biosamples.
     ![alt_text](../images/Biosample Data Browser_v2.png "BioSample")
@@ -202,30 +242,35 @@ To search by biosample:
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
-    *   ID Namespace – A grouping of biosample IDs.
-    *   Local ID – The unique biosample ID within the ID Namespace.
+    *   Common Fund Program – The Common Fund program that defines the biosample.
     *   Project – The project attributed as the source of the biosample.
     *   Anatomy – The anatomy from which the biosample is derived.
+    *   Assay Type – The assay type represented by the file.
+    *   Local ID – The unique biosample ID within the ID Namespace.
+    *   Persistent ID – A persistent, resolvable URI generated by a DCC and attached to the file.
     *   Creation Time – The date and time the biosample was created.
+    *   Age at Sampling – The subject's age, in years, when the biosample was taken.
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine_search_results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Assay Type
+    *   Anatomy (slim)
     *   Anatomy
     *   Subject Taxonomy
+    *   Disease
+    *   Substance
+    *   Gene
     *   Common Fund Program
     *   Project
     *   Creation Time
-    *   Source Subject
-    *   Described by File
-    *   Part of Collection
+    *   Age at Sampling
 
 ### Browse by Subject
 
 To search by subject:
 
 1. Select one of the following options:
-    *   The **Browse All Data > Subject** option in the main menu bar.
-    *   The **Subject** link under View Data By in the Explore our Repository section on the main portal page.
+    *   The **Data Browser > Subject** option in the main menu bar.
+    *   The **Subject** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
     ![alt_text](../images/Subject Data Browser_v2.png "Subject")
@@ -233,106 +278,106 @@ To search by subject:
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
-    *   ID Namespace – A grouping of subject IDs.
-    *   Local ID – The unique subject ID within the ID Namespace.
+    *   Common Fund Program – The Common Fund program that defines the subject.
     *   Project – The project attributed as the source of the subject.
+    *   Taxonomy – The taxonomy concepts that characterize the subject.
     *   Granularity – The specificity of the subject description, i.e., organism versus cell-line.
-    *   Taxonomy – The classification concept(s) that characterize the subject.
+    *   Sex – The sex characterizing the subject.
+    *   Race – The race characterizing the subject.
+    *   Ethnicity – The ethnicity characterizing the subject.
+    *   Local ID – The unique subject ID within the ID Namespace.
+    *   Persistent ID – A persistent, resolvable URI generated by a DCC and attached to the file.
     *   Creation Time – The date and time the subject record was created.
+    *   Age at Enrollment – The age, in years, of the subject when they were first enrolled in the project in which they were studied. 
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Taxonomy
     *   Subject Granularity
+    *   Sex
+    *   Race
+    *   Ethnicity
+    *   Disease
+    *   Substance
+    *   Gene
     *   Taxonomic Role
+    *   Anatomy (slim)
+    *   Anatomy
+    *   Assay Type
+    *   Data Type
+    *   File Format
     *   Common Fund Program
     *   Project
     *   Creation Time
-    *   Derived Biosample
-    *   Described by File
-    *   Part of Collection
-
-### Browse by File
-
-To search by file:
-
-1. Select one of the following options:
-    *   The **Browse All Data > File** option in the main menu bar.
-    *   The **File** link under View Data By in the Explore our Repository section on the main portal page.
-
-    The data browser displays the CFDE data and filters related to files.
-    ![alt_text](../images/File Data Browser_v2.png "File")
-
-2. The data browser includes the following columns in the results table:
-    *   View – Click the icon next to the appropriate record to view more information about the record. See the
-[View Details](#view-details) section for more information.
-    *   ID Namespace – A grouping of file IDs.
-    *   Local ID – The unique file ID within the ID Namespace.
-    *   Filename – The name of the file excluding prepended PATH information.
-    *   Project – The project attributed as the source of the file.
-    *   Size in Bytes – The size of the file in bytes.
-    *   File Format – The content format of the file.
-    *   Data Type – The type of data represented by the file.
-    *   Assay Type – The assay type represented by the file.
-    *   Creation Time – The date and time the file was created.
-3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
-    *   Data Type
-    *   File Format
-    *   Assay Type
-    *   Anatomy
-    *   Subject Taxonomy
-    *   Common Fund Program
-    *   Project
-    *   Subject Granularity
-    *   Subject Role
-    *   File Creation Time
-    *   Biosample Creation Time
-    *   Size in Bytes
-    *   Uncompressed Size in Bytes
-    *   Part of Collection
-    *   Described Biosample
-    *   Described Subject
+    *   Age at Enrollment
 
 ### Browse by Project
 
 To search by project:
 
-1. Select **Browse All Data > Project** from the main menu bar. The data browser displays the CFDE data and filters related to projects.
-    ![alt_text](../images/Project Data Browser_v2.png "Browse by Project")
+1. Select **Browse All Data > Project** from the main menu bar. 
+The data browser displays the CFDE data and filters related to projects. 
+![alt_text](../images/Project Data Browser_v2.png "Browse by Project")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
-    *   ID Namespace – A grouping of project IDs.
-    *   Local ID – The unique project ID within the ID Namespace.
-    *   Name – A short user-friendly label for the ID Namespace.
-    *   Description – A user-friendly description of the ID Namespace.
+    *   Common Fund Program – The Common Fund program that defines the project.
+    *   Name – A short user-friendly label for the project.
+    *   Description – A user-friendly description of the project.
     *   Creation Time – The date and time the project was created.
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   Creation Time
+    *   Common Fund Program
+    *   Assay Type
+    *   Data Type
+    *   File Format
+    *   Anatomy (slim)
+    *   Anatomy
+    *   Subject Taxonomy
+    *   Disease
     *   Super-Project
     *   Sub-Project
-    *   Subject Granularity
-    *   Subject Role
-    *   Subject Taxonomy
-    *   Anatomy
-    *   Assay Type
-    *   File Format
-    *   Data Type
+
+### Browse by Primary DCC Contact
+
+To search by primary DCC contact:
+
+
+1. Select **Browse All Data > Project** from the main menu bar. The data browser displays the CFDE data and filters related to projects.
+    ![alt_text](../images/Project Data Browser_v2.png "Browse by Project")
+2. The data browser includes the following columns in the results table:
+    *   View – Click the icon next to the appropriate record to view more information about the record. See the
+[View Details](#view-details) section for more information.
+    *   DCC – Contact information about the Data Collection Center (DCC).
+    *   Description – A user-friendly description of the DCC.
+3. The results can be filtered using the Refine Search filter panel. See the
+[Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Abbreviation
+    *   Contact Name
+    *   Contact Email
 
 ### Browse by Vocabulary
 
 To search by vocabulary:
 
-1. Select **Browse All Data > Vocabulary** from the main menu bar.
+1. Select **Data Browser > Vocabulary** from the main menu bar.
 2. Select an item from the list:
     *   Anatomy
     *   Assay Type
+    *   Compound
     *   Data Type
+    *   Disease
+    *   Ethnicity
     *   File Format
+    *   Gene
+    *   MIME Type
     *   NCBI Taxonomy
+    *   Race
+    *   Sex
     *   Subject Granularity
     *   Subject Role
+    *   Substance
 
     The data browser displays the CFDE data and filters related to the vocabulary term.
 
@@ -344,7 +389,7 @@ To search by vocabulary:
 
 To search by ID namespace:
 
-1. Select **Browse All Data > ID Namespace** from the main menu bar.
+1. Select **Data Browser > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
     ![alt_text](../images/ID Namespace Data Browser_v2.png "Browse by ID Namespace")
@@ -361,13 +406,10 @@ To search by ID namespace:
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
     *   ID
-    *   Abbreviation
     *   Name
-    *   Description
-    *   Biosample
     *   Collection
     *   File
-    *   Project
+    *   Biosample
     *   Subject
 
 ### View Details
@@ -467,14 +509,41 @@ Search results can be exported from the main data browser and from the View Deta
         *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
     *   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
 
-### Documentation
+### Save Searches
 
-To access additional CFDE resources, select **Technical Documentation** from the main menu bar. The following resources are available:
+On any data browser page, you can save searches and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard).
 
-*   About the CFDE includes the Code of Conduct, Contributing information, License information, this Portal and Dashboard User Guide, and a link to the [CFDE website](https://www.nih-cfde.org/).
-*   The [CFDE Crosscut Metadata Model (C2M2)](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION/) is a flexible standard for describing biomedical experimental data.
-*   The [FAIR Cookbook](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/the-fair-cookbook/content/intro/) provides introductory materials about various aspects of FAIRness, including practical guides that show how to enhance digital objects by adhering them to communicated-accepted standards.
-*   The [glossary](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/CFDE-glossary/) is a list of common CFDE terms with definitions.
+To save a search:
+1. Select **Saved Searches > Save current search criteria** from the upper-right of the page. The Save Current Search Criteria pop-up displays.
+2. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
+3. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
+4. Click **Save**.
+
+To view saved search criteria:
+1. Select **Saved Searches > Show saved search criteria** from the upper-right of the page. The Saved Search Criteria for Table pop-up displays the saved searches related only to that repository.
+
+If no saved searches exist for that repository, then this pop-up will not display any results.
+
+### Add Favorites
+On any data browser page, you can save favorites for vocabulary items and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard). Currently, the favorites that display on your dashboard are items under the CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets in the Refine Search filter panel.
+
+To add a favorite:
+1. Click the star icon next to the item you want to favorite in the Refine Search filter panel to the left of the data browser.
+2. The star will turn yellow to indicate it is a favorite for all data browser searches and your dashboard will be immediately updated.
+
+### User Help
+
+To access additional CFDE resources, select **User Help** from the main menu bar. The following resources are available:
+
+*   [Cohort Building Tutorial](https://training.nih-cfde.org/en/latest/Common-Fund-Tools/CFDE-Portal/) includes use cases and tutorials related to CFDE cohorts.
+*   [Submit a Feature Request or Bug Report](https://github.com/nih-cfde/published-documentation/discussions) opens GitHub where you can select “New Discussion” to ask a question.
+*   Email the Help Desk opens your default email program to email support@cfde.atlassian.net.
+*   [Privacy Policy](https://docs.nih-cfde.org/en/latest/about/privacy/) includes additional information on the disclaimer of endorsement, terms and conditions, privacy policy, disclaimer of liability, and the CFDE cookie policy.
+*   [About the CFDE](https://www.nih-cfde.org/) includes information such as:
+    *   The [CFDE Crosscut Metadata Model (C2M2)](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/spec-and-docs/C2M2-usage-guides-and-technical-documents/000-INTRODUCTION/) is a flexible standard for describing biomedical experimental data.
+    *   The [FAIR Cookbook](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/the-fair-cookbook/content/intro/) provides introductory materials about various aspects of FAIRness, including practical guides that show how to enhance digital objects by adhering them to communicated-accepted standards.
+    *   Calendar of upcoming events.
+    *   Engagement opportunities for CF programs.
 
 ## Dashboard
 
@@ -591,6 +660,133 @@ To filter the anatomy by Common Fund program chart:
 The Download icon (![alt_text](../images/Download_Button.png "Download Button")) displays next to each chart to download the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 ### Navigate the Personalized Dashboard
+
+## Data Review
+The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
+
+To access the Data Review page, click Data Review in the main menu bar from the portal or dashboard.
+
+The data review options under the Submission System menu bar include:
+
+* Submitted Datapackages
+* Enrolled DCCs
+* Enrolled Groups
+* Releases
+* Vocabulary
+
+### Review Submitted Datapackages
+To review the submitted datapackages:
+
+1. Select one of the following options:
+    * The **Data Review** option in the main menu bar from the portal or dashboard.
+    * The **Submission System > Submitted Datapackages** option in the main menu bar of the Data Review system.
+
+    The Submitted Datapackage page displays.
+
+2. The data browser includes the following columns in the results table:
+    * View
+        * Click the View icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+        * For users with Approver permissions, an Edit (pencil) icon will display in this column as well. See the [Approve Data](#approve-data) section for more information.
+    * Submission – Displays additional identifying information about the submitted data, such as submission date, ID, the DCC, and the submitter.
+    * Status Summary – The ingest status (what is happening with your submission) and approval status of the datapackage in the submission system. When the ingest status is “content ready for review,” additional links for Browse Data, Summary Charts, and Raw Data display where you can review the submission. See the [Review Content](#review-content) section for more information.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * Submitting DCC
+    * Submitting User
+    * Status
+    * DCC Approval
+    * CFDE Approval
+    * Submission Time
+
+### Review Content
+On the Submitted Datapackages page, you can access additional information about a record in the “content ready for review” ingest status by selecting one of the following links in the Review Content section (under the Status Summary column):
+
+* Browse Data – The [File data browser](#browse-by-file) displays with additional information for that record only. You can view additional details about the submission by selecting **In-Review Submission > Submission <ID>**.
+
+  ![alt_text](../images/In-Review_Submission.png "In-Review Submission")
+
+* Summary Charts – The [dashboard](#dashboard) displays with additional information for that record only. The hyperlinked totals will open [data browsers](#explore-the-repository) with additional information about those numbers. You can also access this page from the Browse Data File data browser by selecting **In-Review Submission > Content Summary Charts** from the main menu.
+
+ ![alt_text](../images/In-Review_Submission_Summary_Chart.png "In-Review Submission Summary Chart")
+
+* Raw Data – Provides a download of the BDBag that was created when cfde-submit run was ran, so you can always retrieve a copy of your input data.
+
+### Review Enrolled DCCs
+To review the enrolled/onboarded DCCs:
+
+1. Select the **Submission System > Enrolled DCCs** option in the main menu bar of the Data Review system. The Onboarded DCC page displays.
+
+    ![alt_text](../images/Onboarded_DCC_List.png "Onboarded DCC List")
+
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * DCC – The name of the DCC enrolled/onboarded with the CFDE-CC.
+    * Contact – The primary contact’s name and email of the DCC.
+    * Description – A long description of the DCC’s purpose and data researched.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * DCC Name
+    * Contact Name
+    * Contact Email
+
+### Review Enrolled Groups
+To review the enrolled/registered groups:
+
+1. Select the **Submission System > Enrolled Groups** option in the main menu bar of the Data Review system. The Registered Group page displays.
+
+    ![alt_text](../images/Registered_Group.png "Registered Group")
+
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The globally unique identifier for the group.
+    * Name – A short label for the enrolled/registered group.
+    * Description – A long description of the group.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * ID
+    * Name
+    * Description
+    * DCC Group Role
+
+### Review Releases
+To review the CFDE releases:
+
+1. Select the **Submission System > Releases** option in the main menu bar of the Data Review system. The CFDE Release page displays.
+
+     ![alt_text](../images/CFDE_Release.png "CFDE_Release")
+
+2. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The identifier for this release issued by the CFDE-CC for internal use.
+    * Release Time – A timestamp for when the release was completed by the CFDE-CC.
+    * Status – The status of this release in the submission system.
+    * Links – The URL of the ERMrest (an entity-relationship data storage service) catalog with the release content.
+3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    * Release Status Term
+    * Approval Status Term
+    * Release Time
+    * Contributing DCC
+    * Datapackage
+
+### Review Vocabulary
+To review the vocabulary:
+
+1. Select the **Submission System > Vocabulary** option in the main menu bar of the Data Review system.
+2. Select an item from the list:
+    * Release Status
+    * Datapackage Status
+    * Table Status
+    * Approval Status
+    * Group Role </br>
+The data browser displays the CFDE data and filters related to the vocabulary term.
+3. The data browser includes the following columns in the results table:
+    * View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
+    * ID – The globally unique identifier for the status concept.
+    * Name – A short label for the status concept.
+    * Description – A long description of the status concept.
+4. The available filters in the Refine Search panel vary based on the vocabulary term selected. See the [Refine Search Results](#refine-search-results) section for more information on how to filter the results.
+
+### Approve Data
+Data can only be approved (or rejected) by users with Approver permissions.
+
+To approve submitted data:
 
 After [logging in](#login), you can view your personalized dashboard that includes saved searches and saved favorites for CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets.
 
