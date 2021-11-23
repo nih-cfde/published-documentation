@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Disclaimer of Endorsement
 
-Last Update Date: 08/30/21
+Last Update Date: 11/23/21
 
 The Common Fund Data Ecosystem Coordination Center (“CFDE-CC”) comprises partnered institutions supported by the NIH Common Fund under Award Numbers 1OT3OD025459-01 and OTA-20-005 as part of the Common Fund’s Common Fund Data Ecosystem (“CFDE”). All content, terms and conditions and policies associated with the CFDE Portal and Website (the “Services”) are produced by the CFDE-CC. The views and opinions of authors expressed on the Services do not necessarily state or reflect those of the National Institutes of Health (“NIH”) or the U.S. government. Furthermore, the NIH does not endorse or promote any CFDE entity or any of its products or services nor guarantees the products, services, or information provided by the CFDE.
 
