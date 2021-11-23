@@ -11,7 +11,7 @@ The Common Fund Data Ecosystem Coordination Center (“CFDE-CC”) comprises par
 
 # Terms & Conditions
 
-Last Update Date: 08/30/21
+Last Update Date: 11/23/21
 
 As a user of the Services you agree that you are 13 years of age or older and furthermore agree to the Terms and Conditions of Services defined herein and where applicable the terms defined by the [NIH Genomic Data User Code of Conduct](https://osp.od.nih.gov/wp-content/uploads/Genomic_Data_User_Code_of_Conduct.pdf). These terms include, but are not limited to:
 
