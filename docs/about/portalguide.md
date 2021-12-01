@@ -58,11 +58,11 @@ To log into the portal and dashboard:
 
 3. If this is your first time logging in after November 1, 2021, the Sign up for Personalized Dashboard Features page displays.
 
-    ![alt_text](../images/Sign_up_for_personalized_dashboard.jpg "Sign up for personalized dashboard")
+    ![alt_text](../images/Sign_up_for_personalized_dashboard.png "Sign up for personalized dashboard")
 
 4. Click **Sign Up** to be added to the NIH CFDE Portal Members group so you can view the personalized dashboard features. If you click Proceed before being added to the group, you will be returned to the portal Home page without being logged in. The Join Group page displays:
     
-    ![alt_text](../images/Join_Portal_Members_Group.jpg "Join Portal Members Group")
+    ![alt_text](../images/Join_Portal_Members_Group.png "Join Portal Members Group")
 
 5. Enter your information and click **Submit Application**.
 6. Return to the Sign up for Personalized Dashboard Features page (in Step 3 above) and click **Proceed**. You will be logged in and see your personalized dashboard.
