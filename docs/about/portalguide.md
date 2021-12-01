@@ -58,11 +58,11 @@ To log into the portal and dashboard:
 
 3. If this is your first time logging in after November 1, 2021, the Sign up for Personalized Dashboard Features page displays.
 
-    ![alt_text](../images/Sign up for personalized dashboard.jpg "Sign up for personalized dashboard")
+    ![alt_text](../images/Sign_up_for_personalized_dashboard.jpg "Sign up for personalized dashboard")
 
 4. Click **Sign Up** to be added to the NIH CFDE Portal Members group so you can view the personalized dashboard features. If you click Proceed before being added to the group, you will be returned to the portal Home page without being logged in. The Join Group page displays:
     
-    ![alt_text](../images/Join Portal Members Group.jpg "Join Portal Members Group")
+    ![alt_text](../images/Join_Portal_Members_Group.jpg "Join Portal Members Group")
 
 5. Enter your information and click **Submit Application**.
 6. Return to the Sign up for Personalized Dashboard Features page (in Step 3 above) and click **Proceed**. You will be logged in and see your personalized dashboard.
@@ -71,7 +71,7 @@ To log into the portal and dashboard:
 
 Select your name in the upper-right after logging in, click the down arrow, and select **My Profile**. Your user profile information displays along with the saved searches and favorites from your personalized dashboard. Click “Add Record” in a gray menu bar to manually add a favorite.
 
-![alt_text](../images/My Profile.png "My Profile")
+![alt_text](../images/My_Profile.png "My Profile")
 
 ## Portal
 
@@ -85,7 +85,7 @@ From the portal, you can:
 *  Read documentation about the C2M2 and FAIR Cookbook.
 *  See the latest news regarding the CFDE.
 
-![alt_text](../images/Portal Home.png "Portal Home")
+![alt_text](../images/Portal_Home.png "Portal Home")
 
 ### Access the Portal
 
@@ -96,7 +96,7 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each data type.
 
-![alt_text](../images/Summary View Chart.png "Preview the data chart")
+![alt_text](../images/Summary_View_Chart.png "Preview the data chart")
 
 To filter the portal chart:
 
@@ -172,7 +172,7 @@ To search by all collections:
 1. Select **Data Browser > Collection** from the main menu bar.
   
     The entire CFDE data collection displays in the data browser.
-    ![alt_text](../images/Collection Data Browser_v2.png "Collection Data Browser")
+    ![alt_text](../images/Collection_Data_Browser_v2.png "Collection Data Browser")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the [View Details](#view-details) section for more information.
@@ -202,7 +202,7 @@ To search by file:
     *   The **File** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to files.
-    ![alt_text](../images/File Data Browser_v2.png "File Data Browser")
+    ![alt_text](../images/File_Data_Browser_v2.png "File Data Browser")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -243,7 +243,7 @@ To search by biosample:
     *   The **Biosample** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to biosamples.
-    ![alt_text](../images/Biosample Data Browser_v2.png "BioSample")
+    ![alt_text](../images/Biosample_Data_Browser_v2.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -279,7 +279,7 @@ To search by subject:
     *   The **Subject** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
-    ![alt_text](../images/Subject Data Browser_v2.png "Subject")
+    ![alt_text](../images/Subject_Data_Browser_v2.png "Subject")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -322,7 +322,7 @@ To search by project:
 
 1. Select **Browse All Data > Project** from the main menu bar. 
 The data browser displays the CFDE data and filters related to projects. 
-![alt_text](../images/Project Data Browser_v2.png "Browse by Project")
+![alt_text](../images/Project_Data_Browser_v2.png "Browse by Project")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -351,7 +351,7 @@ To search by primary DCC contact:
 
 
 1. Select **Data Browser > Primary DCC Contact** from the main menu bar. The data browser displays the CFDE data and filters related to the DCCs.
-    ![alt_text](../images/Primary DCC Contact.png "Primary DCC Contact Data Browser")
+    ![alt_text](../images/Primary_DCC_Contact.png "Primary DCC Contact Data Browser")
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
 [View Details](#view-details) section for more information.
@@ -398,7 +398,7 @@ To search by ID namespace:
 1. Select **Data Browser > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
-    ![alt_text](../images/ID Namespace Data Browser_v2.png "Browse by ID Namespace")
+    ![alt_text](../images/ID_Namespace_Data_Browser_v2.png "Browse by ID Namespace")
 
 2. The data browser includes the following columns in the results table:
 
@@ -522,7 +522,7 @@ On any data browser page, you can save searches and easily return to them later 
 To save a search:
 1. Select **Saved Searches > Save current search criteria** from the upper-right of the page. The Save Current Search Criteria pop-up displays.
 
-    ![alt_text](../images/Save Current Search Criteria.png "Save Current Search Criteria")
+    ![alt_text](../images/Save_Current_Search_Criteria.png "Save Current Search Criteria")
     
 3. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
 4. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
@@ -531,7 +531,7 @@ To save a search:
 To view saved search criteria:
 1. Select **Saved Searches > Show saved search criteria** from the upper-right of the page. The Saved Search Criteria for Table pop-up displays the saved searches related only to that repository.
 
-    ![alt_text](../images/Show saved search criteria for table.png "Show saved search criteria for table")
+    ![alt_text](../images/Show_saved_search_criteria_for_table.png "Show saved search criteria for table")
 
 If no saved searches exist for that repository, then this pop-up will not display any results.
 
@@ -541,7 +541,7 @@ On any data browser page, you can save favorites for vocabulary items and easily
 To add a favorite:
 1. Click the star icon next to the item you want to favorite in the Refine Search filter panel to the left of the data browser.
 
-   ![alt_text](../images/Add Favorite.png "Add Favorite")
+   ![alt_text](../images/Add_Favorite.png "Add Favorite")
    
 3. The star will turn yellow to indicate it is a favorite for all data browser searches and your dashboard will be immediately updated.
 
@@ -573,7 +573,7 @@ The CFDE dashboard displays multiple charts for users to view high-level data. T
 *   Pie chart of the number of samples by anatomy for a single Common Fund program.
 *   Bar chart of the file count by data type and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
 
-![alt_text](../images/Generic Dashboard.png "Dashboard Overview")
+![alt_text](../images/Generic_Dashboard.png "Dashboard Overview")
 
 ### Access the Dashboard
 
@@ -675,14 +675,14 @@ The Download icon (![alt_text](../images/Download_Button.png "Download Button"))
 
 ### Navigate the Personalized Dashboard
 After [logging in](#login), you can view your personalized dashboard that includes saved searches and saved favorites for CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets. 
-![alt_text](../images/Personalized Dashboard.png "Personalized Dashboard")
+![alt_text](../images/Personalized_Dashboard.png "Personalized Dashboard")
 
 To populate the personalized dashboard:
 * Saved searches – Browse data under the Data Browser menu and select **Saved Searches > Save current search criteria** from the upper-right of the page. See the [Save Searches](#save-searches) section for more information. 
 * Favorites – Browse data under the Data Browser menu and select the star icon next to an item in the Refine Search filter panel facet. See the [Add Favorites](#add-favorites) section for more information.
 
 The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
-![alt_text](../images/Personalized Dashboard Chart.png "Personalized Dashboard Chart")
+![alt_text](../images/Personalized_Dashboard Chart.png "Personalized Dashboard Chart")
 
 ## Data Review
 The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
@@ -813,7 +813,7 @@ To approve submitted data:
 
 After [logging in](#login), you can view your personalized dashboard that includes saved searches and saved favorites for CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets.
 
-![alt_text](../images/Personalized Dashboard.png "Personalized Dashboard")
+![alt_text](../images/Personalized_Dashboard.png "Personalized Dashboard")
 
 To populate the personalized dashboard:
 *   Saved searches – Browse data under the Data Browser menu and select **Saved Searches > Save current search criteria** from the upper-right of the page. See the [Save Searches](#save-searches) section for more information. 
@@ -821,7 +821,7 @@ To populate the personalized dashboard:
 
 The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
 
-![alt_text](../images/Personalized Dashboard Chart.png "Personalized Dashboard Chart")
+![alt_text](../images/Personalized_Dashboard_Chart.png "Personalized Dashboard Chart")
 
 
 ## Data Submission
