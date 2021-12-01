@@ -682,7 +682,7 @@ To populate the personalized dashboard:
 * Favorites – Browse data under the Data Browser menu and select the star icon next to an item in the Refine Search filter panel facet. See the [Add Favorites](#add-favorites) section for more information.
 
 The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
-![alt_text](../images/Personalized_Dashboard Chart.png "Personalized Dashboard Chart")
+![alt_text](../images/Personalized_Dashboard_Chart.png "Personalized Dashboard Chart")
 
 ## Data Review
 The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
