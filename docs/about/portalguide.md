@@ -21,7 +21,7 @@ The specific goals of the CFDE are to:
 
 ### Purpose of this Document
 
-The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://https://app.nih-cfde.org/udashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
+The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/udashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
 
 *   **F** – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
 *   **A** – Offering rich access control and access to metadata via standard HTTP web service interfaces.
