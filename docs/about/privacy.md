@@ -5,15 +5,15 @@ title: Privacy Policy
 
 # Disclaimer of Endorsement
 
-Last Update Date: 11/23/21
+Last Update Date: 11/24/21
 
-The Common Fund Data Ecosystem Coordination Center (“CFDE-CC”) comprises partnered institutions supported by the NIH Common Fund under Award Numbers 1OT3OD025459-01 and OTA-20-005 as part of the Common Fund’s Common Fund Data Ecosystem (“CFDE”). All content, terms and conditions and policies associated with the CFDE Portal and Website (the “Services”) are produced by the CFDE-CC. The views and opinions of authors expressed on the Services do not necessarily state or reflect those of the National Institutes of Health (“NIH”) or the U.S. government. Furthermore, the NIH does not endorse or promote any CFDE entity or any of its products or services nor guarantees the products, services, or information provided by the CFDE.
+The Common Fund Data Ecosystem Coordination Center (“CFDE-CC”) comprises partnered institutions supported by the NIH Common Fund under Award Numbers 1OT3OD025459-01 and OTA-20-005 as part of the Common Fund’s Common Fund Data Ecosystem (“CFDE”). All content, terms and conditions, and policies associated with the CFDE Portal and Website (the “Services”) are produced by the CFDE-CC. The views and opinions of authors expressed on the Services do not necessarily state or reflect those of the National Institutes of Health (“NIH”) or the U.S. government. Furthermore, the NIH does not endorse or promote any CFDE entity or any of its products or services nor guarantees the products, services, or information provided by the CFDE.
 
 # Terms & Conditions
 
-Last Update Date: 11/23/21
+Last Update Date: 11/24/21
 
-As a user of the Services you agree that you are 13 years of age or older and furthermore agree to the Terms and Conditions of Services defined herein and where applicable the terms defined by the [NIH Genomic Data User Code of Conduct](https://osp.od.nih.gov/wp-content/uploads/Genomic_Data_User_Code_of_Conduct.pdf). These terms include, but are not limited to:
+As a user of the Services you agree that you are 13 years of age or older, and furthermore agree to the Terms and Conditions of Services defined herein and where applicable the terms defined by the [NIH Genomic Data User Code of Conduct](https://osp.od.nih.gov/wp-content/uploads/Genomic_Data_User_Code_of_Conduct.pdf). These terms include, but are not limited to:
 
 
 - You will request controlled-access datasets solely in connection with the research project described in an approved Data Access Request for each dataset;
@@ -26,7 +26,7 @@ As a user of the Services you agree that you are 13 years of age or older and fu
 
 CFDE terms and conditions may be changed at any time via a public posting of revisions to the Services. As a user, you agree to review the Terms & Conditions and Privacy Policies each time you use the Services so that you are aware of any modifications made to these policies. By accessing or using the Services, you agree with and to be bound by all of the terms and conditions and policies as posted on the Services at the time of your access or use, including the Privacy Policies then in effect.
 
-For documents and/or data available from the Services, the CFDE does not warrant or assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process. No specific medical advice is provided by any Services, and the  CFDE urges users of Services to consult with a qualified physician for diagnosis and for answers to personal questions.
+For documents and/or data available from the Services, the CFDE does not warrant or assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process. No specific medical advice is provided by any Services, and the CFDE urges users of Services to consult with a qualified physician for diagnosis and answers to personal questions.
 
 For more information about the NIH Genomic Data Sharing Policy and applying for Controlled-Access Data through dbGaP visit: [NIH Genomic Data Sharing Policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html) and [dbGaP Request Procedures to Access Individual-Level Data](https://dbgap.ncbi.nlm.nih.gov/aa/dbgap_request_process.pdf)
 
@@ -34,13 +34,13 @@ If you have any questions about these terms, conditions or the practices of this
 
 # Privacy Policy
 
-Last Update Date: 09/01/21
+Last Update Date: 11/24/21
 
 The Common Fund Data Ecosystem Coordination Center (“CFDE-CC” or “we”) has created this Privacy Policy to demonstrate its commitment to privacy and transparency of practices. This Privacy Policy explains the CFDE’s information-gathering and dissemination practices for the CFDE Website and CFDE Portal (the “Services”). By accessing the Services, you consent to the practices and terms of this Privacy Policy. Limited data is collected about your visit to any of our Services in order to help us better understand public use of the sites and to improve and continue to make our Services more useful to visitors. This page describes the information that is automatically collected and stored.
 
 ## Information the CFDE Collects
 
-“Personal Information” means any information that can be used to identify you, directly or indirectly, as an individual person. The CFDE collects Personal Information when you visit any of the Services, send CFDE an email, respond to a survey, provide online feedback, register for the CFDE Portal, subscribe to one of the CFDE’s online publications or email newsletters, or otherwise communicate with us. The CFDE also collect information, such as anonymous usage statistics, by using cookies, server logs, and other similar technology as you use the Services.
+“Personal Information” means any information that can be used to identify you, directly or indirectly, as an individual person. The CFDE collects Personal Information when you visit any of the Services, send CFDE an email, respond to a survey, provide online feedback, register for the CFDE Portal, subscribe to one of the CFDE’s online publications or email newsletters, or otherwise communicate with us. The CFDE also collects information, such as anonymous usage statistics, by using cookies, server logs, and other similar technology as you use the Services.
 
 ## Information Provided by You
 
@@ -61,7 +61,7 @@ When you fill out a survey, the CFDE collects, depending on the survey:
 
 ## Information the CFDE Obtains from Third Party Sources
 
-The CFDE collects Personal Information about individuals from a number of third party sources.
+The CFDE collects Personal Information about individuals from a number of third-party sources.
 
 - Business Partners and Service Providers:  Our business partners and service providers, such as contacts database and website hosting providers, collect Personal Information and share some or all of this information with us.
 
@@ -81,7 +81,8 @@ The Services use “cookies” during site visits. The “cookie,” which is a 
 
 ## Online Comment Forms
 
-Please note that the CFDE will not intentionally share the contents of any email feedback or comment form with any third party. However, due to the nature of electronic communications, the CFDE cannot and does not provide any assurances that the contents of your e-mail will not become known or accessible to third parties.
+Please note that the CFDE will not intentionally share the contents of any email feedback or comment form with any 
+party. However, due to the nature of electronic communications, the CFDE cannot and does not provide any assurances that the contents of your e-mail will not become known or accessible to third parties.
 
 You are urged not to provide any confidential information about you, your health, or other patients’ health via electronic communication. If you do so, it is at your own risk.
 
@@ -105,7 +106,7 @@ The CFDE is committed to protecting the privacy of children. The Services are in
 
 ## Other Sites
 
-Our privacy policies apply only to your use of the Services. The Services contain links and integrations to other sites, including sites that may indicate relationships or collaborations with the CFDE. At times, in support of technical integrations, you may be required to provide your email address and name to third parties to fully use and/or access all Services. The CFDE is not responsible for the privacy practices of such other sites. You should read and review the privacy policies of each site you visit to determine what information that site may be collecting about you. Below are the privacy policies for the third party websites & services that the Services currently integrate with:
+Our privacy policies apply only to your use of the Services. The Services contain links and integrations to other sites, including sites that may indicate relationships or collaborations with the CFDE. At times, in support of technical integrations, you may be required to provide your email address and name to third parties to fully use and/or access all Services. The CFDE is not responsible for the privacy practices of such other sites. You should read and review the privacy policies of each site you visit to determine what information that site may be collecting about you. Below are the privacy policies for the third-party websites & services that the Services currently integrate with:
 
 - Google: Users have the option to integrate their CFDE Portal login with Google to allow users to “login with Google.” The Services will access your basic profile information including your name and email address. You may visit Google’s privacy policy here: [https://policies.google.com/privacy](https://policies.google.com/privacy)
   
@@ -120,7 +121,7 @@ Our privacy policies apply only to your use of the Services. The Services contai
 
 ## Passwords and Tokens
 
-You are responsible for taking all reasonable steps to ensure that no unauthorized person shall have access to your CFDE passwords, accounts, or security tokens. It is your sole responsibility to (1) control the dissemination and use of activation codes and passwords; (2) authorize, monitor, and control access to and use of your CFDE account and password; (3) promptly inform us of any need to deactivate a password or token. You grant to the CFDE and to all other persons or entities involved in the operation of the Services the right to transmit, monitor, retrieve, store, and use your information in connection with the operation of the Services. The CFDE cannot and does not assume any responsibility or liability for any information you submit, or your or third parties’ use or misuse of information transmitted or received using the CFDE tools and services.
+You are responsible for taking all reasonable steps to ensure that no unauthorized person shall have access to your CFDE passwords, accounts, or security tokens. It is your sole responsibility to (1) control the dissemination and use of activation codes and passwords; (2) authorize, monitor, and control access to and use of your CFDE account and password; (3) promptly inform us of any need to deactivate a password or token. You grant to the CFDE and to all other persons or entities involved in the operation of the Services the right to transmit, monitor, retrieve, store, and use your information in connection with the operation of the Services. The CFDE cannot and does not assume any responsibility or liability for any information you submit, or you or third parties use, or misuse of information transmitted or received using the CFDE tools and services.
 
 ## Changes to Our Privacy Policy
 
@@ -129,9 +130,9 @@ You agree to review the Privacy Policy each time you use the Services so that yo
 
 # Disclaimer of Liability
 
-Last Update Date: 08/30/21
+Last Update Date: 11/24/21
 
-For documents and/or data available from or provided by any Services, the CFDE and its members do not warrant or assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process provided. Furthermore no specific medical advice is intended or provided by any of the Services, and where applicable users are urged to consult with a qualified physician for diagnosis and for answers to any personal questions.
+For documents and/or data available from or provided by any Services, the CFDE and its members do not warrant or assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process provided. Furthermore, no specific medical advice is intended or provided by any of the Services, and where applicable users are urged to consult with a qualified physician for diagnosis and answers to any personal questions.
 
 ## Contact Information
 
@@ -140,7 +141,7 @@ If you have any questions about these privacy policies or the practices of this 
 
 # CFDE Cookie Policy
 
-Last Update Date: 08/30/21
+Last Update Date: 11/24/21
 
 ## Cookies & Similar Technologies
 
