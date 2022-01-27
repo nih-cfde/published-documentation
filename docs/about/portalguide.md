@@ -73,6 +73,48 @@ Select your name in the upper-right after logging in, click the down arrow, and 
 
 ![alt_text](../images/My_Profile.png "My Profile")
 
+### View and Create Your Personal Collections
+Personal Collections are customized collections of files. From this page, you can customize your personal collections, view the files, and export them.
+
+NOTE: A file must have a defined persistent ID before it can be added to your personal collection.
+
+To view and create your personal collection:
+1. Select your name in the upper-right after logging in, click the down arrow, and select **Personal Collections**. The Personal Collection page displays.
+
+    ![alt_text](../images/Personal_Collection_Home.png "Personal Collection Home")
+
+2. Use the View Details, Edit, and Delete icons in the Actions column to view and modify an existing collection.
+3. Click **Create** to create a new collection. The Create New Personal Collection page displays.
+
+    ![alt_text](../images/Personal_Collection_Create_New.png "Create New Personal Collection")
+
+4. Enter the **Name** and the **Description** of the collection.
+5. Click **Save**. A summary of the new collection displays.
+6. Click **Show Empty Sections** to add records to the collection.
+
+    ![alt_text](../images/Personal_Collection_Update.png "Show Empty Sections of Personal Collection")
+
+7. In the File in Collection section, click **Add Record**.
+
+    ![alt_text](../images/Personal_Collection_Add_File.png "Add File to Personal Collection")
+
+8. Select the checkboxes next to the files to add to your collection. Use the filter panel and search box in the upper-left to locate specific files. 
+9. Click **Save**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
+10. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored.
+
+To add a file to a collection from the Data Browser:
+1. Select **Data Browser > File** from the main menu.
+2. Search for the appropriate file. Ensure the “Has Persistent ID” facet is set to “True” since files in personal collections must have a defined Persistent ID.
+3. Click **View Details** next to the appropriate file. The file details display.
+
+    ![alt_text](../images/Personal_Collection_Data_Browser.png "Open File using the Data Browser")
+
+4. In the Part of Personal Collection section, click **Add Record**. The Add Personal Collection to File page displays.
+
+    ![alt_text](../images/Personal_Collection_Data_Browser_Add.png "Add File to Personal Collection using the Data Browser")
+    
+5. Select the checkbox next to the appropriate collection to which to add the file. Click **Save**. The file is added to the personal collection and the details on the Personal Collection page updates automatically.
+
 ## Portal
 
 The CFDE portal is a hub for searching the CFDE data across all programs. The main page of the portal (shown below) is meant for high-level decision-making, whereas the repository (or “data browser”) allows users such as clinical researchers, bioinformatics power users, and NIH program officers to search for CFDE data.
@@ -85,7 +127,7 @@ From the portal, you can:
 *  Read documentation about the C2M2 and FAIR Cookbook.
 *  See the latest news regarding the CFDE.
 
-![alt_text](../images/Portal_Home.png "Portal Home")
+![alt_text](../images/Portal_Home_1_2022.png "Portal Home")
 
 ### Access the Portal
 
@@ -101,30 +143,36 @@ The portal chart is an interactive graphic that renders automatically when diffe
 To filter the portal chart:
 
 1. Select an **X-axis** value from the drop-down. Options include:
+    - Anatomy
+    - Assay
     - CF Program
     - Data Type
-    - Assay
-    - Species
-    - Anatomy
     - Disease
+    - Ethnicity
+    - Race
+    - Sex
+    - Species
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
 2. Select a **Y-axis** value from the drop-down. Options include:
-    *   File Count
     *   Data Volume
+    *   File Count
     *   Sample Count
     *   Subject Count
 
     The vertical axis of the bar chart updates automatically with the option selected.
 
 3. Select a **Stack By** value from the drop-down. Options include:
-    *   CF Program
-    *   Data Type
-    *   Assay
-    *   Species
-    *   Anatomy
-    *   Disease
+    - Anatomy
+    - Assay
+    - CF Program
+    - Data Type
+    - Disease
+    - Ethnicity
+    - Race
+    - Sex
+    - Species
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
@@ -522,7 +570,7 @@ On any data browser page, you can save searches and easily return to them later 
 To save a search:
 1. Select **Saved Searches > Save current search criteria** from the upper-right of the page. The Save Current Search Criteria pop-up displays.
 
-    ![alt_text](../images/Save_Current_Search_Criteria.png "Save Current Search Criteria")
+    ![alt_text](../images/Save_Current_Search_Criteria_1_2022.png "Save Current Search Criteria")
     
 3. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
 4. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
@@ -536,7 +584,7 @@ To view saved search criteria:
 If no saved searches exist for that repository, then this pop-up will not display any results.
 
 ### Add Favorites
-On any data browser page, you can save favorites for vocabulary items and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard). Currently, the favorites that display on your dashboard are items under the CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets in the Refine Search filter panel.
+On any data browser page, you can save favorites for vocabulary items and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard). Currently, the favorites that display on your dashboard are items under the CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, File Format, Gene, and Compound facets in the Refine Search filter panel.
 
 To add a favorite:
 1. Click the star icon next to the item you want to favorite in the Refine Search filter panel to the left of the data browser.
@@ -594,30 +642,36 @@ The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay,
 To filter the bar charts:
 
 1. Select an **X-axis** value from the drop-down. Options include:
-    *   CF Program
-    *   Data Type
-    *   Assay
-    *   Species
-    *   Anatomy
-    *   Disease
+    - Anatomy
+    - Assay
+    - CF Program
+    - Data Type
+    - Disease
+    - Ethnicity
+    - Race
+    - Sex
+    - Species
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
 2. Select a **Y-axis** value from the drop-down. Options include:
-    *   File Count
     *   Data Volume
+    *   File Count
     *   Sample Count
     *   Subject Count
 
     The vertical axis of the bar chart updates automatically with the option selected.
 
 3. Select a **Stack By** value from the drop-down. Options include:
-    *   CF Program
-    *   Data Type
-    *   Assay
-    *   Species
-    *   Anatomy
-    *   Disease
+    - Anatomy
+    - Assay
+    - CF Program
+    - Data Type
+    - Disease
+    - Ethnicity
+    - Race
+    - Sex
+    - Species
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
 
@@ -627,11 +681,11 @@ NOTE: The same X-axis option cannot be selected for the Stacked By option, so th
 
 ---
 
-#### Filter the Anatomy by Assay Type across the Common Fund Chart
+#### Filter the Subjects by Assay and Anatomy across Programs Chart
 
 ![alt_text](../images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
 
-To filter the anatomy by assay type across the Common Fund chart:
+To filter the Subjects by Assay and Anatomy across Programs chart:
 
 1. Select the **Assay Type** from the drop-down. Options include:
     *   Whole genome sequencing assay
@@ -652,11 +706,11 @@ To filter the anatomy by assay type across the Common Fund chart:
 
 The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, saliva, tissue, etc.) across all Common Fund programs based on the assay type selected.
 
-#### Filter the Anatomy by Common Fund Program Chart
+#### Filter the Samples by Anatomy and CF Program Chart
 
 ![alt_text](../images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
 
-To filter the anatomy by Common Fund program chart:
+To filter the Samples by Anatomy and CF Program chart:
 
 1. Select the **CF Program** from the drop-down. Options include:
     *   LINCS
@@ -674,15 +728,17 @@ To filter the anatomy by Common Fund program chart:
 The Download icon (![alt_text](../images/Download_Button.png "Download Button")) displays next to each chart to download the data as a PNG, SVG, or CSV file. The PNG and SVG exports are image files of the chart, whereas the CSV export is a spreadsheet of the data.
 
 ### Navigate the Personalized Dashboard
-After [logging in](#login), you can view your personalized dashboard that includes saved searches and saved favorites for CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, and File Format facets. 
+After [logging in](#login), you can view your personalized dashboard that includes saved searches and saved favorites for CF Programs, Anatomy, Assay, Disease, Taxonomy, Data Type, File Format, Gene, and Compound facets. 
 ![alt_text](../images/Personalized_Dashboard.png "Personalized Dashboard")
 
 To populate the personalized dashboard:
 * Saved searches – Browse data under the Data Browser menu and select **Saved Searches > Save current search criteria** from the upper-right of the page. See the [Save Searches](#save-searches) section for more information. 
 * Favorites – Browse data under the Data Browser menu and select the star icon next to an item in the Refine Search filter panel facet. See the [Add Favorites](#add-favorites) section for more information.
 
-The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
+The bar chart can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, disease, ethnicity, race, sex, or species (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
 ![alt_text](../images/Personalized_Dashboard_Chart.png "Personalized Dashboard Chart")
+
+Below this bar chart are additional charts for [Subjects by Assay and Anatomy across Programs](#Filter-the-Subjects-by-Assay-and-Anatomy-across-Programs-Chart) and [Samples by Anatomy and CF Program](#Samples-by-Anatomy-and-CF-Program-Chart).
 
 ## Data Review
 The Data Review page displays the recent data submission that has not yet been incorporated into the main catalog. Data administrators should review the data to ensure it is correct before being incorporated into the portal. The DCC data that displays is based on the DCC associated with your login account.
