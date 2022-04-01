@@ -37,7 +37,7 @@ plugins:
   - exclude:
       glob:
         - the-fair-cookbook/content/1/testnb/*
-        - specifications-and-documentation/README.md
+        - c2m2/backups_for_OSF.io_reference_files
   - search: # necessary for search to work
       separator: '[\s\-\.]+'
   - awesome-pages:
