@@ -3,3 +3,4 @@ mkdocs-awesome-pages-plugin
 mkdocs-exclude
 mkdocs-htmlproofer-plugin
 mkdocs-jupyter
+ipython_genutils
