@@ -38,6 +38,7 @@ plugins:
       glob:
         - the-fair-cookbook/content/1/testnb/*
         - c2m2/backups_for_OSF.io_reference_files/*
+        - c2m2/developer_tools/*
   - search: # necessary for search to work
       separator: '[\s\-\.]+'
   - awesome-pages:
