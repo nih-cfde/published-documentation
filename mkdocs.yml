@@ -7,6 +7,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.sections
+    - toc.integrate
+    - toc.follow
+    - navigation.top
   logo: images/CFDE_Logo-color-web.png
   favicon: images/CFDE-logo-white-outline.png
   docs_dir: docs
