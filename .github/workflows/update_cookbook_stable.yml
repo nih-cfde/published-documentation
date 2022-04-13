@@ -27,4 +27,4 @@ jobs:
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedfairupdate
             branch: update-cfde-fair
-            reviewers: Acharbonneau
+            reviewers: jessicalumian, raynamharris
