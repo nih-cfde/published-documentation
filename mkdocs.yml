@@ -53,3 +53,10 @@ plugins:
       separator: '[\s\-\.]+'
   - awesome-pages:
       collapse_single_pages: true
+nav:
+  - docs/index.md
+  - CFDE Glossary: docs/CFDE-glossary.md
+  - About the CFDE: docs/about
+  - C2M2 Documentation: docs/c2m2
+  - Submission Tool: docs/cfde-submit
+  - The FAIR Cookbook: docs/the-fair-cookbook
