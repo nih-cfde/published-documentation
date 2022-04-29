@@ -54,9 +54,9 @@ plugins:
   - awesome-pages:
       collapse_single_pages: true
 nav:
-  - docs/index.md
-  - CFDE Glossary: docs/CFDE-glossary.md
-  - About the CFDE: docs/about
-  - C2M2 Documentation: docs/c2m2
-  - Submission Tool: docs/cfde-submit
-  - The FAIR Cookbook: docs/the-fair-cookbook
+  - index.md
+  - CFDE Glossary: CFDE-glossary.md
+  - About the CFDE: about
+  - C2M2 Documentation: c2m2
+  - Submission Tool: cfde-submit
+  - The FAIR Cookbook: the-fair-cookbook
