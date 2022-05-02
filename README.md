@@ -1,4 +1,4 @@
-# published-documentation
+# Published Documentation
 
 This repository builds the public technical documentation for the CFDE: https://docs.nih-cfde.org/en/latest/ (note that the ReadTheDocs [website](https://cfde-published-documentation.readthedocs-hosted.com/en/latest/) redirects to this public URL).
 
@@ -22,9 +22,9 @@ Contents:
 1. [Updating the Documentation in the Public Documentation Site from a submodule](#submod-repos)
 2. [Updating the Documentation in the Public Documentation Site from this repo](#this-repo)
 
-# Updating the Documentation in the Public Documentation Site from a submodule <a name="submod-repo"></a>
+## Updating the Documentation in the Public Documentation Site from a submodule <a name="submod-repo"></a>
 
-## Overview
+### Overview
 
 - To update documents or layout relating to the FAIR cookbook, make changes to the `master`branch of https://github.com/nih-cfde/the-fair-cookbook
 
@@ -41,9 +41,9 @@ A robot watches for changes made to the `master` branches of all the submodules.
 
 You should use the preview site to check that the changes look the way you want. If they do, you should positively review (i.e., approve) the PR to the stable branch so it can be merged in.
 
-## Detailed Instructions for Updating the Published Documentation Website
+### Detailed Instructions for Updating the Published Documentation Website
 
-### Make your desired changes in the correct repo
+#### Make your desired changes in the correct repo
 
 To update documents or layout relating to the FAIR cookbook, make changes to https://github.com/nih-cfde/the-fair-cookbook
 
@@ -73,7 +73,7 @@ If you are adding or removing pages, or otherwise changing how the navigation of
   - you can make a link to a different web address with `- Link Title: https://lukasgeiter.com`
 - For more options and examples see [awesome pages documentation](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
 
-### Check the preview site
+#### Check the preview site
 
 If the robot detects changes to either sub repository, it automatically:
 
@@ -84,6 +84,7 @@ If the robot detects changes to either sub repository, it automatically:
 If those build checks all pass, it will then automatically merge and close the PR, then build a preview site for you to browse
 
 #### Preview sites
+
 c2m2: https://cfde-published-documentation.readthedocs-hosted.com/en/c2m2preview/
 fair cookbook: https://cfde-published-documentation.readthedocs-hosted.com/en/cookbookpreview/
 cfde-submit: https://cfde-published-documentation.readthedocs-hosted.com/en/cfde-submitpreview/
@@ -109,7 +110,7 @@ There are four possible reasons the PR might not automatically merge into `XXXpr
 - Github has imposed a 60 day limit on actions, so if the robot hasn't detected a change in the original repo for more than 60 days, it stops watching the repo. You can this by looking at the [actions tab for this repo](https://github.com/nih-cfde/published-documentation/actions). Each original repo has two actions: a 'preview' and a 'stable'. If the actions for your repo have been automatically stopped, you can restart them by clicking on them. If you cannot restart the action, please contact achar@ucdavis.edu.
 
 
-### Publishing your changes
+#### Publishing your changes
 
 If the robot detects changes to any submodule, it also automatically:
 
@@ -119,7 +120,9 @@ If the robot detects changes to any submodule, it also automatically:
 
 This PR will have your changes, and a link to your preview site. You can continue making changes on your local repo, and they will be automatically added to this PR, and a new preview site generated with the addions. Once you are happy with your preview site, approve this PR. An administrator will double check the PR and then merge the changes into the public site https://github.com/nih-cfde/published-documentation. Administrators are automatically tagged by the PR robot. However, if you find they are taking an excessively long time, please re-tag @ACharbonneau
 
-# Updating the Documentation in the Public Documentation Site from this repo <a name="this-repo"></a>
+## Updating the Documentation in the Public Documentation Site from this repo <a name="this-repo"></a>
+
+### Overview
 
 Only overall style of this website and the contents of the "About" pages are editable from this repository.
 
@@ -135,7 +138,7 @@ To make changes to this repo:
 
 ** if you have admin access to ReadTheDocs you can skip testing your changes in the `preview` branch and use the ReadTheDocs automated preview branch
 
-## Troubleshooting
+### Troubleshooting
 
 There are four possible reasons the PR might not automatically merge into preview:
 
