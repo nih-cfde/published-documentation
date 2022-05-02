@@ -1,7 +1,8 @@
 nav:
 - index.md
-- CFDE Glossary: CFDE-glossary.md
 - About the CFDE: about
 - C2M2 Documentation: c2m2
-- Submission Tool: cfde-submit
+- CFDE Glossary: CFDE-glossary.md
+- Portal User Guide: about/portalguide.md
+- Portal Submission Tool: cfde-submit
 - The FAIR Cookbook: the-fair-cookbook
