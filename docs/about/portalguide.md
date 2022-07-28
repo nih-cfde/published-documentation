@@ -7,7 +7,7 @@ title: Portal and Dashboard User Guide
 
 ## Introduction
 
-This document decribes the features and basic navigation of the CFDE portal. If you are looking for documentation on using the submission system specifically, [that documentation is here](https://github.com/nih-cfde/published-documentation/wiki).
+This document describes the features and basic navigation of the CFDE portal. If you are looking for documentation on using the submission system specifically, [that documentation is here](https://github.com/nih-cfde/published-documentation/wiki).
 
 ### Common Fund Data Ecosystem (CFDE)
 
@@ -23,10 +23,10 @@ The specific goals of the CFDE are to:
 
 The CFDE website includes two modules to ensure the specific goals are met and users can find data—the [portal](https://app.nih-cfde.org/) and the [dashboard](https://app.nih-cfde.org/udashboard.html). This document describes those modules in detail. The goals of both the portal and the dashboard are to establish FAIR data production by:
 
-*   **F** – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
-*   **A** – Offering rich access control and access to metadata via standard HTTP web service interfaces.
-*   **I** – Integrating with standardized terms defined by collaborators, consortium, and communities.
-*   **R** – Supporting dynamic model evolution so the presented data accurately represents the current structure and state of knowledge within an investigation.
+*   **F**indable – Providing rich metadata using an entity-relationship model to express relationships between diverse data elements.
+*   **A**ccessible – Offering rich access control and access to metadata via standard HTTP web service interfaces.
+*   **I**nteroperable – Integrating with standardized terms defined by collaborators, consortium, and communities.
+*   **R**eusable – Supporting dynamic model evolution so the presented data accurately represents the current structure and state of knowledge within an investigation.
 
 To support these principals, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
 
@@ -253,7 +253,7 @@ To search by all collections:
 To search by file:
 
 1. Select one of the following options:
-    *   The **Data Broswer> File** option in the main menu bar.
+    *   The **Data Browser > File** option in the main menu bar.
     *   The **File** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to files.
