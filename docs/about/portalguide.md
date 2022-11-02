@@ -11,7 +11,11 @@ This document describes the features and basic navigation of the CFDE portal. If
 
 ### Common Fund Data Ecosystem (CFDE)
 
-The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH Common Fund (CF) programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
+The NIH Common Fund (CF) has funded a wide variety of data types and studies that are of interest to clinical and biomedical researchers, however, those datasets are hosted on an equally large number of websites, with varying query systems. The Common Fund Data Ecosystem (CFDE) Portal is a unified system for searching across the entire CF portfolio in a single search and is the first step in addressing the goal of making CF data more Find-able, Accessible, Interoperable and Reusable (FAIR). The wide range of data types, models, and formats used by Common Fund Programs are being harmonized using well-defined metadata, and common controlled vocabularies using the Crosscut Metadata Model.
+
+The CFDE Search Portal uses the Crosscut Metadata Model (C2M2), a flexible metadata standard for describing experimental resources in biomedicine and related fields. This portal supports faceted searches of metadata concepts such as anatomical location, species, and assay type, across a wide variety of datasets using a controlled vocabulary (we do not currently support protected metadata). This allows researchers to find a wide variety of data that would otherwise need to be searched individually, using varying nomenclatures. The portal only accepts C2M2 data packages from Common Fund Programs.
+
+The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH CF programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
 
 The specific goals of the CFDE are to:
 
@@ -46,7 +50,7 @@ To log into the portal and dashboard:
 
     ![alt_text](../images/Login_CFDE.png "Globus Login")
 
-2.  Search for your organization using the drop-down, sign in with Google, or sign in with an ORCID ID.
+2. Search for your organization using the drop-down and sign in using Google, ORCID, or NIH Researcher Auth Service (RAS). Logging in using RAS with your NIH credentials is helpful if you want to view the dbGaP Study ID permissions in the [File data browser](#browse-by-file).
 
     a. If you do not see your organization in the drop-down, then click **Sign in with ORCID ID** to create a Globus account. A warning message displays.
 
@@ -100,7 +104,7 @@ To view and create your personal collection:
 
 8. Select the checkboxes next to the files to add to your collection. Use the filter panel and search box in the upper-left to locate specific files. 
 9. Click **Save**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
-10. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored.
+10. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored. An NCPI (NIH Cloud Platform Interoperability) manifest file includes file details regarding the NCPI, which is an effort by the NIH to convene around interoperation for cloud workbenches.
 
 To add a file to a collection from the Data Browser:
 1. Select **Data Browser > File** from the main menu.
@@ -264,6 +268,7 @@ To search by file:
 [View Details](#view-details) section for more information.
     *   Common Fund Program – The Common Fund program that defines the file.
     *   Project – The project attributed as the source of the file.
+    *   dbGaP Study ID – The name of the dbGaP study ID governing access control for the file. Permissions display as colored circles if you are logged in using RAS. A green circle displays if the user has access to the file. A yellow circle displays if the user does not have access to the file. A gray circle displays if the user’s access to the file cannot be determined.
     *   File Format – The content format of the file.
     *   Data Type – The type of data represented by the file.
     *   Assay Type – The assay type represented by the file.
@@ -491,6 +496,9 @@ The metadata displays in the summary section at the top of the page. In the exam
 *  Name – A short user-friendly label for the ID Namespace.
 *  Description – A user-friendly description of the ID Namespace.
 *  Creation Time – The date and time the project was created.
+
+The anatomy, compound, disease, gene, and protein pages are now annotated with images, interactive widgets, aliases, associations, and links to databases. For example, the View Details page for an Anatomy file:
+![alt_text](../images/Resources.png "Resources")
 
 The Sections panel on the left displays links to the contents of the View Details page (similar to a Table of Contents) and the counts for each section. Click one of the links to jump to that section of the View Details page. You can also scroll down the page to view the sections instead of using these links.
 
