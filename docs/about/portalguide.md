@@ -32,7 +32,7 @@ The CFDE website includes two modules to ensure the specific goals are met and u
 *   **I**nteroperable – Integrating with standardized terms defined by collaborators, consortium, and communities.
 *   **R**eusable – Supporting dynamic model evolution so the presented data accurately represents the current structure and state of knowledge within an investigation.
 
-To support these principals, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
+To support these principles, the dashboard and data browser within the portal emphasize well-defined metadata and data models, use controlled vocabularies and ontologies, allow others to reproduce experiments, etc.
 
 ### Login
 
