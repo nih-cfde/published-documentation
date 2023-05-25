@@ -15,12 +15,12 @@ The NIH Common Fund (CF) has funded a wide variety of data types and studies tha
 
 The CFDE Search Portal uses the Crosscut Metadata Model (C2M2), a flexible metadata standard for describing experimental resources in biomedicine and related fields. This portal supports faceted searches of metadata concepts such as anatomical location, species, and assay type, across a wide variety of datasets using a controlled vocabulary (we do not currently support protected metadata). This allows researchers to find a wide variety of data that would otherwise need to be searched individually, using varying nomenclatures. The portal only accepts C2M2 data packages from Common Fund Programs.
 
-The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH CF programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among data sets from multiple programs. By connecting the data sets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
+The CFDE is an effort to identify and solve issues that inhibit data access and reuse across NIH CF programs. The goal of the CFDE is for Common Fund data to be more usable and useful both within a single program and among datasets from multiple programs. By connecting the datasets and making them more accessible, the CFDE is intended to enable novel scientific research that was not possible before, including hypothesis generation, discovery, and validation.
 
 The specific goals of the CFDE are to:
 
 *   Increase usability – enable the uptake, reuse, and creation of Common Fund (CF) data and tools.
-*   Preserve data – support the storage, sharing, and sustainability of CF data sets.
+*   Preserve data – support the storage, sharing, and sustainability of CF datasets.
 *   Provide training – maximize scientists’ ability to use CF data and other resources.
 
 ### Purpose of this Document
