@@ -140,13 +140,22 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 ### Filter the Chart
 
-The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each data type.
+The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Scale By drop-downs. For example, the chart below shows the number of files by assay for each data type.
 
 ![alt_text](../images/Summary_View_Chart.png "Preview the data chart")
 
 To filter the portal chart:
 
-1. Select an **X-axis** value from the drop-down. Options include:
+1. Select a **Y-axis** value from the drop-down. Options include:
+    *   Data Volume
+    *   Collection Count
+    *   File Count
+    *   Sample Count
+    *   Subject Count
+
+    The vertical axis of the bar chart updates automatically with the option selected.
+
+2. Select an **X-axis** value from the drop-down. Options include:
     - Anatomy
     - Assay
     - CF Program
@@ -159,30 +168,11 @@ To filter the portal chart:
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
-2. Select a **Y-axis** value from the drop-down. Options include:
-    *   Data Volume
-    *   File Count
-    *   Sample Count
-    *   Subject Count
-
-    The vertical axis of the bar chart updates automatically with the option selected.
-
-3. Select a **Stack By** value from the drop-down. Options include:
-    - Anatomy
-    - Assay
-    - CF Program
-    - Data Type
-    - Disease
-    - Ethnicity
-    - Race
-    - Sex
-    - Species
+3. Select a **Scale** value from the drop-down. Options include:
+    - Logarithmic
+    - Linear
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
-
----
-
-NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
 
 ---
 
