@@ -131,7 +131,7 @@ From the portal, you can:
 *  Read documentation about the C2M2 and FAIR Cookbook.
 *  See the latest news regarding the CFDE.
 
-![alt_text](../images/Portal_Home_1_2022.png "Portal Home")
+![alt_text](../images/Portal_Home_1_2023.png "Portal Home")
 
 ### Access the Portal
 
