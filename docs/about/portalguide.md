@@ -97,12 +97,12 @@ To view and create your personal collection:
 
     ![alt_text](../images/Personal_Collection_Update.png "Show Empty Sections of Personal Collection")
 
-6. In the File in Collection section, click **+ Link records**.
+6. In the File in Collection section, click **+Link records**.
 
     ![alt_text](../images/Personal_Collection_Add_File.png "Add File to Personal Collection")
 
-7. Select the checkboxes next to the files to add to your collection. Use the filter panel and search box in the upper-left to locate specific files. 
-8. Click **Save**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
+7. Select the checkboxes next to the files to add to your collection. Use the Refine search filter panel on the left or the search box in the upper-left to locate specific files. 
+8. Click **Link**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
 9. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored. An NCPI (NIH Cloud Platform Interoperability) manifest file includes file details regarding the NCPI, which is an effort by the NIH to convene around interoperation for cloud workbenches.
 
 To add a file to a collection from the Data Browser:
