@@ -112,7 +112,7 @@ To add a file to a collection from the Data Browser:
 
     ![alt_text](../images/Personal_Collection_Data_Browser.png "Open File using the Data Browser")
 
-4. In the Part of Personal Collection section, click **Add Record**. The Add Personal Collection to File page displays.
+4. In the Part of Personal Collection section, click **+Link records**. The Add Personal Collection to File page displays.
 
     ![alt_text](../images/Personal_Collection_Data_Browser_Add.png "Add File to Personal Collection using the Data Browser")
     
