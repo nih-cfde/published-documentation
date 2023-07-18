@@ -116,7 +116,7 @@ To add a file to a collection from the Data Browser:
 
     ![alt_text](../images/Personal_Collection_Data_Browser_Add.png "Add File to Personal Collection using the Data Browser")
     
-5. Select the checkbox next to the appropriate collection to which to add the file. Click **Save**. The file is added to the personal collection and the details on the Personal Collection page updates automatically.
+5. Select the checkbox next to the appropriate collection to which to add the file. Click **Link**. The file is added to the personal collection and the details on the Personal Collection page updates automatically.
 
 ## Portal
 
