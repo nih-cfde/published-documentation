@@ -97,7 +97,7 @@ To view and create your personal collection:
 
     ![alt_text](../images/Personal_Collection_Update.png "Show Empty Sections of Personal Collection")
 
-6. In the File in Collection section, click **Add Record**.
+6. In the File in Collection section, click **+ Link records**.
 
     ![alt_text](../images/Personal_Collection_Add_File.png "Add File to Personal Collection")
 
