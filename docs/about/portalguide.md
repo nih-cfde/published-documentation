@@ -439,6 +439,7 @@ To search by vocabulary:
     *   Phenotype
     *   Protein
     *   Race
+    *   Sample Prep Method
     *   Sex
     *   Subject Granularity
     *   Subject Role
