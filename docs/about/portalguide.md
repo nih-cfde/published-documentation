@@ -192,14 +192,17 @@ The portal includes multiple ways to access the repository so you can view the d
 
 The repository can be accessed in the following ways from the portal:
 
-*   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
-more information.
-*   Click an icon under Start your Search to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Data Browser drop-down in the main menu bar):
+*   Click an icon on the [CFDE Home page under](https://app.nih-cfde.org/) Start your Search to display a pre-filtered repository by one of the following features:
     *   Anatomy – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
     *   Assay – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
     *   File – See the [Browse by File](#browse-by-file) section below for more information.
     *   Biosample – See the [Browse by Biosample](#browse-by-biosample) section below for more information.
     *   Subject – See the [Browse by Subject](#browse-by-subject) section below for more information.
+    *   Disease -
+    *   Gene -
+    *   Compound -
+*   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
+more information.
 *   Select **Data Browser > Project** from the main menu bar. See the [Browse by Project](#browse-by-project) section below for more information.
 *   Select **Data Browser > Primary DCC Contact** from the main menu bar. See the [Browse by Primary DCC Contact](#browse-by-primary-DCC-contact) section below for more information.
 *   Select **Data Browser > Vocabulary** from the main menu bar and select an item from the list. See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
