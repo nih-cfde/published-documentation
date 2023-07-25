@@ -139,7 +139,7 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 ### Filter the Chart
 
-The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Scale By drop-downs. For example, the chart below shows the number of files by assay for each data type.
+The portal chart is an interactive graphic that renders automatically when different criteria are selected from the Y-axis, X-axis, and Scale drop-downs. For example, the chart below shows the number of files by assay for each data type.
 
 ![alt_text](../images/Summary_View_Chart.png "Preview the data chart")
 
