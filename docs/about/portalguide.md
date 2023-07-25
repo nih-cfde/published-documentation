@@ -225,13 +225,22 @@ To search by all collections:
     *   Disease - The disease studied in the collection.
     *   Phenotype - The phenotype studied in the collection.
     *   Name – A short user-friendly label for the collection.
+    *   Description – A user-friendly description of the collection.
+    *   Creation Time – The date and time the collection was created.
     
 3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Data Type (slim)
     *   Data Type
+    *   File Format (slim)
     *   File Format
+    *   Assay Type (slim)
     *   Assay Type
+    *   Sample Prep Method
+    *   Anatomy (slim)
     *   Anatomy
+    *   Taxonomy (slim)
     *   Taxonomy
+    *   Disease (slim)
     *   Disease
     *   Compound
     *   Protein
