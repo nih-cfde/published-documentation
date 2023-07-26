@@ -485,7 +485,7 @@ To search by ID namespace:
 1. Select **Data Browser > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
-    ![alt_text](../images/ID_Namespace_Data_Browser_v2.png "Browse by ID Namespace")
+    ![alt_text](../images/ID_Namespace_Data_Browser_v3.png "Browse by ID Namespace")
 
 2. The data browser includes the following columns in the results table:
 
