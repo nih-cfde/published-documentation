@@ -404,7 +404,7 @@ To search by project:
 
 1. Select **Browse All Data > Project** from the main menu bar. 
 The data browser displays the CFDE data and filters related to projects. 
-![alt_text](../images/Project_Data_Browser_v2.png "Browse by Project")
+![alt_text](../images/Project_Data_Browser_v3.png "Browse by Project")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
