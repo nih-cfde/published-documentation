@@ -372,19 +372,26 @@ To search by subject:
     *   Age at Enrollment – The age, in years, of the subject when they were first enrolled in the project in which they were studied. 
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Taxonomy (slim)
     *   Taxonomy
     *   Subject Granularity
     *   Sex
     *   Race
     *   Ethnicity
+    *   Disease (slim)
     *   Disease
     *   Phenotype
     *   Compound
     *   Gene
     *   Taxonomic Role
+    *   Anatomy (slim)
     *   Anatomy
+    *   Sample Prep Method
+    *   Assay Type (slim)
     *   Assay Type
+    *   Data Type (slim)
     *   Data Type
+    *   File Format (slim)
     *   File Format
     *   Common Fund Program
     *   Project
