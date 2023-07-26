@@ -358,7 +358,7 @@ To search by subject:
     *   The **Subject** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
-    ![alt_text](../images/Subject_Data_Browser_v2.png "Subject")
+    ![alt_text](../images/Subject_Data_Browser_v3.png "Subject")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
