@@ -510,7 +510,7 @@ To search by ID namespace:
 Click the icon in the View column (![alt_text](../images/View_Details_Button.png "View Details")
 ) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example.
 
-![alt_text](../images/View_Details.png "View Details")
+![alt_text](../images/View_Details_v2.png "View Details")
 
 The metadata displays in the summary section at the top of the page. In the example above, the metadata includes:
 
