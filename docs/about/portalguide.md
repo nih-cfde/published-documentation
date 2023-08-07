@@ -576,7 +576,7 @@ The data browser search results can be sorted and viewed using the following fun
 
 ![alt_text](../images/Number_of_Records.png "Number of Records")
 
-*   Use the **Search All Columns** search box at the top of the results table to search for records within the table.
+*   Use the **Search All Columns** search box at the top of the results table to search for records within the table. The search box may include other terms such as 'collection' or 'project' depending on the search criteria.
 
 ![alt_text](../images/Search_All_Columns.png "Search All Columns")
 
@@ -595,7 +595,7 @@ Search results can be exported from the main data browser and from the View Deta
 
     ![alt_text](../images/Export_Options.png "Export Options")
 
-2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
+2. Select **CSV**, **BDBAG**, or **NCPI file manifest**. The options that display will depend on which page you are on:
     *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
         *   RID - The internal Record ID, which could be considered the Primary Key.
         *   RCT - The timestamp representing the Record Creation Time.
@@ -603,9 +603,8 @@ Search results can be exported from the main data browser and from the View Deta
         *   RCB - The Record Created By, which is the GlobusAuth identity string (GUID) representing the creator of the record.
         *   RMB - The Record Modified By, which is the GlobusAuth identity string (GUID) representing the user who last modified the record.
         *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
-    *   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
-
-3. For File exports, an additional export option for **NCPI File Manifest** is available. This option exports the BDBAG data plus the actual files associated with the record pages. The file includes the DRS_URI that includes a link to the file information. Note that the file must have a Persistent ID to view the DRS_URI.
+    *   BDBAG – Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
+    *   NCPI file manifest - for File exports. This option exports the BDBAG data plus the actual files associated with the record pages. The file includes the DRS_URI that includes a link to the file information. Note that the file must have a Persistent ID to view the DRS_URI.
 
 ### Save Searches
 
