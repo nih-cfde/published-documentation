@@ -558,7 +558,7 @@ To use the facets to refine your search results:
     *   Select the appropriate attribute checkbox(es).
     *   Use the Search box to search for attributes only within that facet.
     *   Click **Show More** to display additional information about the attributes.
-    ![alt_text](../images/Search_by_Data_Type.png "Search by Data Type")
+    ![alt_text](../images/Search_by_Data_Type_v2.png "Search by Data Type")
 
 3. The time-related facets (Collection Creation Time, File Creation Time, and Biosample Creation Time) and the Size in Bytes facet function differently. To filter on a time-related facet, perform one of the following:
     *   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
