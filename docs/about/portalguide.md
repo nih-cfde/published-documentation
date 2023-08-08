@@ -658,13 +658,12 @@ The CFDE dashboard includes:
 
 The CFDE dashboard displays multiple charts for users to view high-level data. The charts update automatically with the selections you make and the precise numbers can be viewed by hovering over the chart. The charts include:
 
-*   Bar chart of the file count by Common Fund program and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
-*   Bar chart of the subject count by data type and Common Fund program. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
-*   Pie chart of the number of subjects by anatomy for a single assay type across all Common Fund programs.
-*   Pie chart of the number of samples by anatomy for a single Common Fund program.
-*   Bar chart of the file count by data type and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
+*   Bar chart of the subject count by Data Type and Common Fund Program. The Y-axis, X-axis, and Scale are configurable by all users to customize the data summary as needed.
+*   Bar chart of the file count by Common Fund Program and Assay. The Y-axis, X-axis, and Scale are configurable by all users to customize the data summary as needed.
+*   Pie chart of the number of subjects by assay and anatomy across all Common Fund programs configurable by assay. 
+*   Pie chart of the number of samples by anatomy for a single Common Fund program configurable by program.
 
-![alt_text](../images/Generic_Dashboard.png "Dashboard Overview")
+![alt_text](../images/Generic_Dashboard_v2.png "Dashboard Overview")
 
 ### Access the Dashboard
 
