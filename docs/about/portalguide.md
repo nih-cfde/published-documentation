@@ -552,7 +552,7 @@ The buttons in the upper-right of the page include:
 To use the facets to refine your search results:
 
 1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results.    
-    ![alt_text](../images/Data_Type_Facet.png "Data Type")
+    ![alt_text](../images/Data_Type_Facet_v2.png "Data Type")
 
 2. Within a facet, you can perform any of the following to filter the results:
     *   Select the appropriate attribute checkbox(es).
