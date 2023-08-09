@@ -918,9 +918,9 @@ To populate the personalized dashboard:
 *   Saved searches – Browse data under the Data Browser menu and select **Saved Searches > Save current search criteria** from the upper-right of the page. See the [Save Searches](#save-searches) section for more information. 
 *   Favorites – Browse data under the Data Browser menu and select the star icon next to an item in the Refine Search filter panel facet. See the [Add Favorites](#add-favorites) section for more information.
 
-The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
+The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, disease, ethnicity, race, sex, or species (the X-axis drop down). You can also change the Y-axis to display file count, data volume, collection count, sample count, or subject count. The Scale can be adjusted for Linear or Logarithmic rendering. 
 
-![alt_text](../images/Personalized_Dashboard_Chart.png "Personalized Dashboard Chart")
+![alt_text](../images/Personalized_Dashboard_Chart_v2.png "Personalized Dashboard Chart")
 
 
 ## Data Submission
