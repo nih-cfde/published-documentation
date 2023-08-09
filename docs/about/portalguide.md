@@ -677,13 +677,22 @@ To access the dashboard:
 
 #### Filter the Bar Charts
 
-The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. The title of the charts update automatically to reflect the options selected.
+The bar charts allow users to compare CFDE data by Anatomy, Assay, CF Program, Data Type, Disease, Ethnicity, Race, Sex, or Species using File Count, Data Volume, Collection Count, Sample Count, or Subject Count. The X-axis, Y-axis, and Scale are configurable by all users to customize the data summaries as needed. 
 
-![alt_text](../images/File_Count_by_CF_Program_Chart.png "File Count by CF Program and Assay")
+![alt_text](../images/File_Count_by_CF_Program_Chart_v2.png "File Count by CF Program and Assay")
 
 To filter the bar charts:
 
-1. Select an **X-axis** value from the drop-down. Options include:
+1. Select a **Y-axis** value from the drop-down. Options include:
+    *   Subject Count
+    *   Data Volume
+    *   Collection Count
+    *   File Count
+    *   Sample Count 
+   
+    The vertical axis of the bar chart updates automatically with the option selected.
+
+2. Select a **X-axis** value from the drop-down. Options include:
     - Anatomy
     - Assay
     - CF Program
@@ -696,74 +705,54 @@ To filter the bar charts:
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
-2. Select a **Y-axis** value from the drop-down. Options include:
-    *   Data Volume
-    *   File Count
-    *   Sample Count
-    *   Subject Count
-
-    The vertical axis of the bar chart updates automatically with the option selected.
-
-3. Select a **Stack By** value from the drop-down. Options include:
-    - Anatomy
-    - Assay
-    - CF Program
-    - Data Type
-    - Disease
-    - Ethnicity
-    - Race
-    - Sex
-    - Species
-
-    The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
-
----
-
-NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
-
----
+3. Select a **Scale** option from the drop-down. Options include:
+    - Linear
+    - Logarithmic
 
 #### Filter the Subjects by Assay and Anatomy across Programs Chart
 
-![alt_text](../images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
+![alt_text](../images/Subjects_by_Assay_Chart_v2.png "Anatomy by Assay Type")
 
 To filter the Subjects by Assay and Anatomy across Programs chart:
 
 1. Select the **Assay Type** from the drop-down. Options include:
-    *   Whole genome sequencing assay
-    *   Unknown
-    *   16s ribosomal gene sequencing assay
-    *   RNA-seq assay
-    *   Whole metagenome sequencing assay
-    *   Fluorescence imaging based cell proliferation assay
-    *   RNA sequencing assay
-    *   Cytokine assay
-    *   Exome sequencing assay
-    *   Metabolite profiling assay
-    *   Epigenetic modification assay
-    *   Hi-C assay
-    *   Lipid profiling assay
-    *   Antigen specific antibodies assay
-    *   Other
+    *   sequencing assay
+    *   polymerase chain reaction assay
+    *   transcription profiling assay
+    *   imaging assay
+    *   electrophysiology assay
+    *   microscopy assay
+    *   cytometry assay
+    *   assay
+    *   analyte assay
+    *   histological assay
+    *   metabolite profiling assay
+    *   protein expression profiling assay
+    *   lipid profiling assay
+    *   kinase inhibitor assay
+    *   other
 
-The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, saliva, tissue, etc.) across all Common Fund programs based on the assay type selected.
+The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., digestive system, renal system, nervous system, etc.) across all Common Fund programs based on the assay type selected.
 
 #### Filter the Samples by Anatomy and CF Program Chart
 
-![alt_text](../images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
+![alt_text](../images/Samples_by_Anatomy_Chart_v2.png "Anatomy by CF Program")
 
 To filter the Samples by Anatomy and CF Program chart:
 
 1. Select the **CF Program** from the drop-down. Options include:
     *   LINCS
-    *   GTEx
+    *   MW (Metabolomics Workbench)
+    *   KFDRC (Kids First)
     *   HMP
-    *   Metabolomics
-    *   KidsFirst
-    *   4DN
+    *   GTEx
+    *   ERCC_DCC
     *   MoTrPAC
+    *   SPARC
+    *   4DN_DCIC
+    *   HuBMAP
 
-    The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., kidney, pancreas, lung, etc.) based on the Common Fund program selected.
+    The pie chart updates automatically and displays the number of samples for each anatomy category (reproductive system, throat, blood cell, etc.) based on the Common Fund program selected.
 
 #### Download the Chart
 
