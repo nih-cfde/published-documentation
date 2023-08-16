@@ -198,9 +198,9 @@ The repository can be accessed in the following ways from the portal:
     *   File – See the [Browse by File](#browse-by-file) section below for more information.
     *   Biosample – See the [Browse by Biosample](#browse-by-biosample) section below for more information.
     *   Subject – See the [Browse by Subject](#browse-by-subject) section below for more information.
-    *   Disease -
-    *   Gene -
-    *   Compound -
+    *   Disease - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   Gene - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   Compound - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
 *   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
 more information.
 *   Select **Data Browser > Project** from the main menu bar. See the [Browse by Project](#browse-by-project) section below for more information.
