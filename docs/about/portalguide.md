@@ -589,20 +589,18 @@ The data browser search results can be sorted and viewed using the following fun
 
 ### Export Search Results
 
-Search results can be exported from the main data browser and from the View Details page. To export the search results:
+Search results can be exported from the data browser when viewing the core C2M2 tables. The *collection, file, biosample*, and *subject* tables show **Collection BDBAG, File BDBAG, Biosample BDBAG**, and **Subject BDBAG** export options, respectively. The file table adds an **NCPI file manifest** option not applicable to the other C2M2 tables.
+
+The various BDBAG options produce a so-called Big-Data Bag which is a zipfile with multiple, CSV-formatted tabular data files and other supporting metadata. Generally, the CSV file content will have columns following the C2M2 model specification. When run on a search page with paginated results, the export will represent all matching results for the search criteria. When run on a single (detailed) record page, the export will represent that single record as the main result. There will be a CSV file representing the main record(s) as well as other CSV files representing related content from other C2M2 tables.
+
+The personal collection feature mimics the same export options as the C2M2 file table. However, export is only offered from each detailed personal collection page. This page represents a manually curated set of file records, and so produces exports as if a search were performed with this specific set of matching files.
 
 1. Click the **Export** button.
 
     ![alt_text](../images/Export_Options.png "Export Options")
 
 2. Select **CSV**, **BDBAG**, or **NCPI file manifest**. The options that display will depend on which page you are on:
-    *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
-        *   RID - The internal Record ID, which could be considered the Primary Key.
-        *   RCT - The timestamp representing the Record Creation Time.
-        *   RMT - The timestamp representing the Record Modified Time.
-        *   RCB - The Record Created By, which is the GlobusAuth identity string (GUID) representing the creator of the record.
-        *   RMB - The Record Modified By, which is the GlobusAuth identity string (GUID) representing the user who last modified the record.
-        *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
+    *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. 
     *   BDBAG – Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
     *   NCPI file manifest - for File exports. This option exports the BDBAG data plus the actual files associated with the record pages. The file includes the DRS_URI that includes a link to the file information. Note that the file must have a Persistent ID to view the DRS_URI.
 
