@@ -607,15 +607,17 @@ The personal collection feature mimics the same export options as the C2M2 file 
 ### Save Searches
 
 On any data browser page, you can save searches and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard).
-
+   
 To save a search:
-1. Select **Saved Searches > Save current search criteria** from the upper-right of the page. The Save Current Search Criteria pop-up displays.
-
+1. Select **Saved Searches > Save current search criteria** from the upper-right of the page.
+    ![alt_text](../images/Saved_Search_Button.png "Saved searches")
+   
+   The Save Current Search Criteria pop-up displays.
     ![alt_text](../images/Save_Current_Search_Criteria_1_2022.png "Save Current Search Criteria")
     
-3. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
-4. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
-5. Click **Save**.
+4. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
+5. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
+6. Click **Save**.
 
 To view saved search criteria:
 1. Select **Saved Searches > Show saved search criteria** from the upper-right of the page. The Saved Search Criteria for Table pop-up displays the saved searches related only to that repository.
