@@ -597,7 +597,7 @@ The personal collection feature mimics the same export options as the C2M2 file 
 
 1. Click the **Export** button.
 
-    ![alt_text](../images/Export_Options.png "Export Options")
+    ![alt_text](../images/Export_Options_v2.png "Export Options")
 
 2. Select **CSV**, **BDBAG**, or **NCPI file manifest**. The options that display will depend on which page you are on:
     *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. 
