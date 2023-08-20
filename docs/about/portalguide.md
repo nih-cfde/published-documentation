@@ -94,17 +94,16 @@ To view and create your personal collection:
 
 4. Enter the **Name** and the **Description** of the collection.
 5. Click **Save**. A summary of the new collection displays.
-6. Click **Show Empty Sections** to add records to the collection.
 
     ![alt_text](../images/Personal_Collection_Update.png "Show Empty Sections of Personal Collection")
 
-7. In the File in Collection section, click **Add Record**.
+6. In the File in Collection section, click **+Link records**.
 
     ![alt_text](../images/Personal_Collection_Add_File.png "Add File to Personal Collection")
 
-8. Select the checkboxes next to the files to add to your collection. Use the filter panel and search box in the upper-left to locate specific files. 
-9. Click **Save**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
-10. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored. An NCPI (NIH Cloud Platform Interoperability) manifest file includes file details regarding the NCPI, which is an effort by the NIH to convene around interoperation for cloud workbenches.
+7. Select the checkboxes next to the files to add to your collection. Use the Refine search filter panel on the left or the search box in the upper-left to locate specific files. 
+8. Click **Link**. The files are now associated with your personal collection and the collection displays as a separate line item on the Personal Collection page.
+9. If necessary, select **Export > File Manifest** in the upper-right of the collection (you can also access a collection by clicking the View Details icon on the Personal Collection page) to export the file details in CSV format. The CSV export consists of metadata where the Persistent ID is a path to where the file is hosted/stored. An NCPI (NIH Cloud Platform Interoperability) manifest file includes file details regarding the NCPI, which is an effort by the NIH to convene around interoperation for cloud workbenches.
 
 To add a file to a collection from the Data Browser:
 1. Select **Data Browser > File** from the main menu.
@@ -113,11 +112,11 @@ To add a file to a collection from the Data Browser:
 
     ![alt_text](../images/Personal_Collection_Data_Browser.png "Open File using the Data Browser")
 
-4. In the Part of Personal Collection section, click **Add Record**. The Add Personal Collection to File page displays.
+4. In the Part of Personal Collection section, click **+Link records**. The Link Personal Collection to File page displays.
 
     ![alt_text](../images/Personal_Collection_Data_Browser_Add.png "Add File to Personal Collection using the Data Browser")
     
-5. Select the checkbox next to the appropriate collection to which to add the file. Click **Save**. The file is added to the personal collection and the details on the Personal Collection page updates automatically.
+5. Select the checkbox next to the appropriate collection to which to add the file. Click **Link**. The file is added to the personal collection and the details on the Personal Collection page updates automatically.
 
 ## Portal
 
@@ -131,7 +130,7 @@ From the portal, you can:
 *  Read documentation about the C2M2 and FAIR Cookbook.
 *  See the latest news regarding the CFDE.
 
-![alt_text](../images/Portal_Home_1_2022.png "Portal Home")
+![alt_text](../images/Portal_Home_1_2023.png "Portal Home")
 
 ### Access the Portal
 
@@ -140,13 +139,22 @@ Access the portal directly by using this link: [https://app.nih-cfde.org/](https
 
 ### Filter the Chart
 
-The portal chart is an interactive graphic that renders automatically when different criteria are selected from the X-axis, Y-axis, and Stack By drop-downs. For example, the chart below shows the number of files by assay for each data type.
+The portal chart is an interactive graphic that renders automatically when different criteria are selected from the Y-axis, X-axis, and Scale drop-downs. For example, the chart below shows the number of files by assay for each data type.
 
 ![alt_text](../images/Summary_View_Chart.png "Preview the data chart")
 
 To filter the portal chart:
 
-1. Select an **X-axis** value from the drop-down. Options include:
+1. Select a **Y-axis** value from the drop-down. Options include:
+    *   Data Volume
+    *   Collection Count
+    *   File Count
+    *   Sample Count
+    *   Subject Count
+
+    The vertical axis of the bar chart updates automatically with the option selected.
+
+2. Select an **X-axis** value from the drop-down. Options include:
     - Anatomy
     - Assay
     - CF Program
@@ -159,30 +167,11 @@ To filter the portal chart:
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
-2. Select a **Y-axis** value from the drop-down. Options include:
-    *   Data Volume
-    *   File Count
-    *   Sample Count
-    *   Subject Count
-
-    The vertical axis of the bar chart updates automatically with the option selected.
-
-3. Select a **Stack By** value from the drop-down. Options include:
-    - Anatomy
-    - Assay
-    - CF Program
-    - Data Type
-    - Disease
-    - Ethnicity
-    - Race
-    - Sex
-    - Species
+3. Select a **Scale** value from the drop-down. Options include:
+    - Logarithmic
+    - Linear
 
     The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
-
----
-
-NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
 
 ---
 
@@ -203,14 +192,17 @@ The portal includes multiple ways to access the repository so you can view the d
 
 The repository can be accessed in the following ways from the portal:
 
-*   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
-more information.
-*   Click an icon under Start your Search to display a pre-filtered repository by one of the following features (NOTE: These options also display under the Data Browser drop-down in the main menu bar):
+*   Click an icon on the [CFDE Home page under](https://app.nih-cfde.org/) Start your Search to display a pre-filtered repository by one of the following features:
     *   Anatomy – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
     *   Assay – See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
     *   File – See the [Browse by File](#browse-by-file) section below for more information.
     *   Biosample – See the [Browse by Biosample](#browse-by-biosample) section below for more information.
     *   Subject – See the [Browse by Subject](#browse-by-subject) section below for more information.
+    *   Disease - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   Gene - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+    *   Compound - See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
+*   Select **Data Browser > Collection** from the main menu bar. See the [Browse All Collections](#browse-all-collections) section below for
+more information.
 *   Select **Data Browser > Project** from the main menu bar. See the [Browse by Project](#browse-by-project) section below for more information.
 *   Select **Data Browser > Primary DCC Contact** from the main menu bar. See the [Browse by Primary DCC Contact](#browse-by-primary-DCC-contact) section below for more information.
 *   Select **Data Browser > Vocabulary** from the main menu bar and select an item from the list. See the [Browse by Vocabulary](#browse-by-vocabulary) section below for more information.
@@ -235,12 +227,20 @@ To search by all collections:
     *   Name – A short user-friendly label for the collection.
     *   Description – A user-friendly description of the collection.
     *   Creation Time – The date and time the collection was created.
+    
 3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Data Type (slim)
     *   Data Type
+    *   File Format (slim)
     *   File Format
+    *   Assay Type (slim)
     *   Assay Type
+    *   Sample Prep Method
+    *   Anatomy (slim)
     *   Anatomy
+    *   Taxonomy (slim)
     *   Taxonomy
+    *   Disease (slim)
     *   Disease
     *   Compound
     *   Protein
@@ -261,7 +261,7 @@ To search by file:
     *   The **File** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to files.
-    ![alt_text](../images/File_Data_Browser_v2.png "File Data Browser")
+    ![alt_text](../images/File_Data_Browser_v3.png "File Data Browser")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -278,12 +278,19 @@ To search by file:
     *   Persistent ID – A persistent, resolvable URI generated by a DCC and attached to the file.
     *   Creation Time – The date and time the file was created.
 3. The results can be filtered using the Refine Search filter panel. See the [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Data Type (slim)
     *   Data Type
+    *   File Format (slim)
     *   File Format
+    *   Assay Type (slim)
     *   Assay Type
     *   Analysis Type
+    *   Sample Prep Method
+    *   Anatomy (slim)
     *   Anatomy
+    *   Subject Taxonomy (slim)
     *   Subject Taxonomy
+    *   Disease (slim)
     *   Disease
     *   Phenotype
     *   Compound
@@ -313,7 +320,7 @@ To search by biosample:
     *   The **Biosample** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to biosamples.
-    ![alt_text](../images/Biosample_Data_Browser_v2.png "BioSample")
+    ![alt_text](../images/Biosample_Data_Browser_v3.png "BioSample")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -325,9 +332,14 @@ To search by biosample:
     *   Age at Sampling – The subject's age, in years, when the biosample was taken.
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine_search_results) section for more information. The panel includes the following facets by which you can filter the results:
-    *   Assay Type
+    *   Sample Prep Method
+    *   Anatomy (slim)
     *   Anatomy
+    *   Assay Type (slim)
+    *   Assay Type
+    *   Subject Taxonomy (slim)
     *   Subject Taxonomy
+    *   Disease (slim)
     *   Disease
     *   Phenotype
     *   Compound
@@ -346,7 +358,7 @@ To search by subject:
     *   The **Subject** link under View Data By in the Start your Search section on the main portal page.
 
     The data browser displays the CFDE data and filters related to subjects.
-    ![alt_text](../images/Subject_Data_Browser_v2.png "Subject")
+    ![alt_text](../images/Subject_Data_Browser_v3.png "Subject")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -360,19 +372,26 @@ To search by subject:
     *   Age at Enrollment – The age, in years, of the subject when they were first enrolled in the project in which they were studied. 
 3. The results can be filtered using the Refine Search filter panel. See the
 [Refine Search Results](#refine-search-results) section for more information. The panel includes the following facets by which you can filter the results:
+    *   Taxonomy (slim)
     *   Taxonomy
     *   Subject Granularity
     *   Sex
     *   Race
     *   Ethnicity
+    *   Disease (slim)
     *   Disease
     *   Phenotype
     *   Compound
     *   Gene
     *   Taxonomic Role
+    *   Anatomy (slim)
     *   Anatomy
+    *   Sample Prep Method
+    *   Assay Type (slim)
     *   Assay Type
+    *   Data Type (slim)
     *   Data Type
+    *   File Format (slim)
     *   File Format
     *   Common Fund Program
     *   Project
@@ -385,7 +404,7 @@ To search by project:
 
 1. Select **Browse All Data > Project** from the main menu bar. 
 The data browser displays the CFDE data and filters related to projects. 
-![alt_text](../images/Project_Data_Browser_v2.png "Browse by Project")
+![alt_text](../images/Project_Data_Browser_v3.png "Browse by Project")
 
 2. The data browser includes the following columns in the results table:
     *   View – Click the icon next to the appropriate record to view more information about the record. See the
@@ -447,6 +466,7 @@ To search by vocabulary:
     *   Phenotype
     *   Protein
     *   Race
+    *   Sample Prep Method
     *   Sex
     *   Subject Granularity
     *   Subject Role
@@ -465,7 +485,7 @@ To search by ID namespace:
 1. Select **Data Browser > ID Namespace** from the main menu bar.
 
     The data browser displays the CFDE data and filters related to the ID namespace data contributors.
-    ![alt_text](../images/ID_Namespace_Data_Browser_v2.png "Browse by ID Namespace")
+    ![alt_text](../images/ID_Namespace_Data_Browser_v3.png "Browse by ID Namespace")
 
 2. The data browser includes the following columns in the results table:
 
@@ -490,7 +510,7 @@ To search by ID namespace:
 Click the icon in the View column (![alt_text](../images/View_Details_Button.png "View Details")
 ) next to the appropriate record in the results table to view more information about the record, such as the metadata and links to the data files for that record. The options available on the View Details page vary based on the record selected, but this section of the document will use the screenshot below as an example.
 
-![alt_text](../images/View_Details.png "View Details")
+![alt_text](../images/View_Details_v2.png "View Details")
 
 The metadata displays in the summary section at the top of the page. In the example above, the metadata includes:
 
@@ -532,13 +552,13 @@ The buttons in the upper-right of the page include:
 To use the facets to refine your search results:
 
 1. Click the down arrow next to the appropriate facet to display the related attributes by which you can filter the results.    
-    ![alt_text](../images/Data_Type_Facet.png "Data Type")
+    ![alt_text](../images/Data_Type_Facet_v2.png "Data Type")
 
 2. Within a facet, you can perform any of the following to filter the results:
     *   Select the appropriate attribute checkbox(es).
     *   Use the Search box to search for attributes only within that facet.
     *   Click **Show More** to display additional information about the attributes.
-    ![alt_text](../images/Search_by_Data_Type.png "Search by Data Type")
+    ![alt_text](../images/Search_by_Data_Type_v2.png "Search by Data Type")
 
 3. The time-related facets (Collection Creation Time, File Creation Time, and Biosample Creation Time) and the Size in Bytes facet function differently. To filter on a time-related facet, perform one of the following:
     *   Enter the **From** and **To** dates and times. Click the blue checkmark to filter the results in the main data browser.
@@ -556,7 +576,7 @@ The data browser search results can be sorted and viewed using the following fun
 
 ![alt_text](../images/Number_of_Records.png "Number of Records")
 
-*   Use the **Search All Columns** search box at the top of the results table to search for records within the table.
+*   Use the **Search All Columns** search box at the top of the results table to search for records within the table. The search box may include other terms such as 'collection' or 'project' depending on the search criteria.
 
 ![alt_text](../images/Search_All_Columns.png "Search All Columns")
 
@@ -569,36 +589,35 @@ The data browser search results can be sorted and viewed using the following fun
 
 ### Export Search Results
 
-Search results can be exported from the main data browser and from the View Details page. To export the search results:
+Search results can be exported from the data browser when viewing the core C2M2 tables. The *collection, file, biosample*, and *subject* tables show **Collection BDBAG, File BDBAG, Biosample BDBAG**, and **Subject BDBAG** export options, respectively. The file table adds an **NCPI file manifest** option not applicable to the other C2M2 tables.
+
+The various BDBAG options produce a so-called Big-Data Bag which is a zipfile with multiple, CSV-formatted tabular data files and other supporting metadata. Generally, the CSV file content will have columns following the C2M2 model specification. When run on a search page with paginated results, the export will represent all matching results for the search criteria. When run on a single (detailed) record page, the export will represent that single record as the main result. There will be a CSV file representing the main record(s) as well as other CSV files representing related content from other C2M2 tables.
+
+The personal collection feature mimics the same export options as the C2M2 file table. However, export is only offered from each detailed personal collection page. This page represents a manually curated set of file records, and so produces exports as if a search were performed with this specific set of matching files.
 
 1. Click the **Export** button.
 
-    ![alt_text](../images/Export_Options.png "Export Options")
+    ![alt_text](../images/Export_Options_v2.png "Export Options")
 
-2. Select **CSV** or **BAG**. The options that display will depend on which page you are on:
-    *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. All of the search results display in the file; not just the first page of results. The columns of the CSV file include:
-        *   RID - The internal Record ID, which could be considered the Primary Key.
-        *   RCT - The timestamp representing the Record Creation Time.
-        *   RMT - The timestamp representing the Record Modified Time.
-        *   RCB - The Record Created By, which is the GlobusAuth identity string (GUID) representing the creator of the record.
-        *   RMB - The Record Modified By, which is the GlobusAuth identity string (GUID) representing the user who last modified the record.
-        *   Id_namespace - A C2M2 column that represents the unique DCC namespace identifier assigned by the CFDE to the DCC.
-    *   BAG – This option is only available for the View Details page. Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
-
-3. For File exports, an additional export option for **NCPI File Manifest** is available. This option exports the BDBAG data plus the actual files associated with the record pages. The file includes the DRS_URI that includes a link to the file information. Note that the file must have a Persistent ID to view the DRS_URI.
+2. Select **CSV**, **BDBAG**, or **NCPI file manifest**. The options that display will depend on which page you are on:
+    *   CSV – Opens a .csv file in Excel that includes the metadata displayed in the search results in tabular format. 
+    *   BDBAG – Downloads the data to a .bag file used for storing ROS message data. Use this option if you want to download large files or if a particular dataset includes many files.
+    *   NCPI file manifest - for File exports. This option exports the BDBAG data plus the actual files associated with the record pages. The file includes the DRS_URI that includes a link to the file information. Note that the file must have a Persistent ID to view the DRS_URI.
 
 ### Save Searches
 
 On any data browser page, you can save searches and easily return to them later through your [personalized dashboard](#navigate-the-personalized-dashboard).
-
+   
 To save a search:
-1. Select **Saved Searches > Save current search criteria** from the upper-right of the page. The Save Current Search Criteria pop-up displays.
-
+1. Select **Saved Searches > Save current search criteria** from the upper-right of the page.
+    ![alt_text](../images/Saved_Search_Button.png "Saved searches")
+   
+   The Save Current Search Criteria pop-up displays.
     ![alt_text](../images/Save_Current_Search_Criteria_1_2022.png "Save Current Search Criteria")
     
-3. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
-4. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
-5. Click **Save**.
+4. Enter a **Query Name** for your saved search. This displays as the Search Name on your personalized dashboard.
+5. Enter a **Description** for your saved search. This displays when you hover over the Search Name on your personalized dashboard.
+6. Click **Save**.
 
 To view saved search criteria:
 1. Select **Saved Searches > Show saved search criteria** from the upper-right of the page. The Saved Search Criteria for Table pop-up displays the saved searches related only to that repository.
@@ -639,13 +658,12 @@ The CFDE dashboard includes:
 
 The CFDE dashboard displays multiple charts for users to view high-level data. The charts update automatically with the selections you make and the precise numbers can be viewed by hovering over the chart. The charts include:
 
-*   Bar chart of the file count by Common Fund program and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
-*   Bar chart of the subject count by data type and Common Fund program. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
-*   Pie chart of the number of subjects by anatomy for a single assay type across all Common Fund programs.
-*   Pie chart of the number of samples by anatomy for a single Common Fund program.
-*   Bar chart of the file count by data type and assay. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summary as needed.
+*   Bar chart of the subject count by Data Type and Common Fund Program. The Y-axis, X-axis, and Scale are configurable by all users to customize the data summary as needed.
+*   Bar chart of the file count by Common Fund Program and Assay. The Y-axis, X-axis, and Scale are configurable by all users to customize the data summary as needed.
+*   Pie chart of the number of subjects by assay and anatomy across all Common Fund programs configurable by assay. 
+*   Pie chart of the number of samples by anatomy for a single Common Fund program configurable by program.
 
-![alt_text](../images/Generic_Dashboard.png "Dashboard Overview")
+![alt_text](../images/Generic_Dashboard_v2.png "Dashboard Overview")
 
 ### Access the Dashboard
 
@@ -659,13 +677,22 @@ To access the dashboard:
 
 #### Filter the Bar Charts
 
-The bar charts allow users to compare CFDE data by CF Program, Data Type, Assay, Species, or Anatomy using File Count, Data Volume, Sample Count, or Subject Count. The X-axis, Y-axis, and Stack are configurable by all users to customize the data summaries as needed. The title of the charts update automatically to reflect the options selected.
+The bar charts allow users to compare CFDE data by Anatomy, Assay, CF Program, Data Type, Disease, Ethnicity, Race, Sex, or Species using File Count, Data Volume, Collection Count, Sample Count, or Subject Count. The X-axis, Y-axis, and Scale are configurable by all users to customize the data summaries as needed. 
 
-![alt_text](../images/File_Count_by_CF_Program_Chart.png "File Count by CF Program and Assay")
+![alt_text](../images/File_Count_by_CF_Program_Chart_v2.png "File Count by CF Program and Assay")
 
 To filter the bar charts:
 
-1. Select an **X-axis** value from the drop-down. Options include:
+1. Select a **Y-axis** value from the drop-down. Options include:
+    *   Subject Count
+    *   Data Volume
+    *   Collection Count
+    *   File Count
+    *   Sample Count 
+   
+    The vertical axis of the bar chart updates automatically with the option selected.
+
+2. Select a **X-axis** value from the drop-down. Options include:
     - Anatomy
     - Assay
     - CF Program
@@ -678,74 +705,54 @@ To filter the bar charts:
 
     The horizontal axis of the bar chart updates automatically with the option selected.
 
-2. Select a **Y-axis** value from the drop-down. Options include:
-    *   Data Volume
-    *   File Count
-    *   Sample Count
-    *   Subject Count
-
-    The vertical axis of the bar chart updates automatically with the option selected.
-
-3. Select a **Stack By** value from the drop-down. Options include:
-    - Anatomy
-    - Assay
-    - CF Program
-    - Data Type
-    - Disease
-    - Ethnicity
-    - Race
-    - Sex
-    - Species
-
-    The bars are stacked/sorted automatically with the option selected and the color-coded key updates with the appropriate categories.
-
----
-
-NOTE: The same X-axis option cannot be selected for the Stacked By option, so the corresponding option in the Stacked By drop-down will be disabled if it is already selected in the X-axis drop-down.
-
----
+3. Select a **Scale** option from the drop-down. Options include:
+    - Linear
+    - Logarithmic
 
 #### Filter the Subjects by Assay and Anatomy across Programs Chart
 
-![alt_text](../images/Subjects_by_Assay_Chart.png "Anatomy by Assay Type")
+![alt_text](../images/Subjects_by_Assay_Chart_v2.png "Anatomy by Assay Type")
 
 To filter the Subjects by Assay and Anatomy across Programs chart:
 
 1. Select the **Assay Type** from the drop-down. Options include:
-    *   Whole genome sequencing assay
-    *   Unknown
-    *   16s ribosomal gene sequencing assay
-    *   RNA-seq assay
-    *   Whole metagenome sequencing assay
-    *   Fluorescence imaging based cell proliferation assay
-    *   RNA sequencing assay
-    *   Cytokine assay
-    *   Exome sequencing assay
-    *   Metabolite profiling assay
-    *   Epigenetic modification assay
-    *   Hi-C assay
-    *   Lipid profiling assay
-    *   Antigen specific antibodies assay
-    *   Other
+    *   sequencing assay
+    *   polymerase chain reaction assay
+    *   transcription profiling assay
+    *   imaging assay
+    *   electrophysiology assay
+    *   microscopy assay
+    *   cytometry assay
+    *   assay
+    *   analyte assay
+    *   histological assay
+    *   metabolite profiling assay
+    *   protein expression profiling assay
+    *   lipid profiling assay
+    *   kinase inhibitor assay
+    *   other
 
-The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., blood plasma, saliva, tissue, etc.) across all Common Fund programs based on the assay type selected.
+The pie chart updates automatically and displays the number of subjects for each anatomy category (e.g., digestive system, renal system, nervous system, etc.) across all Common Fund programs based on the assay type selected.
 
 #### Filter the Samples by Anatomy and CF Program Chart
 
-![alt_text](../images/Samples_by_Anatomy_Chart.png "Anatomy by CF Program")
+![alt_text](../images/Samples_by_Anatomy_Chart_v2.png "Anatomy by CF Program")
 
 To filter the Samples by Anatomy and CF Program chart:
 
 1. Select the **CF Program** from the drop-down. Options include:
     *   LINCS
-    *   GTEx
+    *   MW (Metabolomics Workbench)
+    *   KFDRC (Kids First)
     *   HMP
-    *   Metabolomics
-    *   KidsFirst
-    *   4DN
+    *   GTEx
+    *   ERCC_DCC
     *   MoTrPAC
+    *   SPARC
+    *   4DN_DCIC
+    *   HuBMAP
 
-    The pie chart updates automatically and displays the number of samples for each anatomy category (e.g., kidney, pancreas, lung, etc.) based on the Common Fund program selected.
+    The pie chart updates automatically and displays the number of samples for each anatomy category (reproductive system, throat, blood cell, etc.) based on the Common Fund program selected.
 
 #### Download the Chart
 
@@ -900,9 +907,9 @@ To populate the personalized dashboard:
 *   Saved searches – Browse data under the Data Browser menu and select **Saved Searches > Save current search criteria** from the upper-right of the page. See the [Save Searches](#save-searches) section for more information. 
 *   Favorites – Browse data under the Data Browser menu and select the star icon next to an item in the Refine Search filter panel facet. See the [Add Favorites](#add-favorites) section for more information.
 
-The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, species, or disease (the Group By drop-down at the top). You can also change the y-axis and/or the x-axis to view the appropriate information.
+The chart at the bottom of the personalized dashboard can be filtered by DCC (the checkboxes on the right) and grouped by anatomy, assay, CF program, data type, disease, ethnicity, race, sex, or species (the X-axis drop down). You can also change the Y-axis to display file count, data volume, collection count, sample count, or subject count. The Scale can be adjusted for Linear or Logarithmic rendering. 
 
-![alt_text](../images/Personalized_Dashboard_Chart.png "Personalized Dashboard Chart")
+![alt_text](../images/Personalized_Dashboard_Chart_v2.png "Personalized Dashboard Chart")
 
 
 ## Data Submission
