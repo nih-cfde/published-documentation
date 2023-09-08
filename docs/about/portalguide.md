@@ -1,7 +1,7 @@
----
+<!---
 layout: default
 title: Portal and Dashboard User Guide
----
+--->
 
 # Portal and Dashboard User Guide
 
