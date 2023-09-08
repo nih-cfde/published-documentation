@@ -13,7 +13,14 @@ build:
 mkdocs:
   configuration: mkdocs.yml
 
-# Optionally declare the Python requirements required to build your docs
+formats:
+  - pdf
+
 python:
   install:
-  - requirements: requirements.txt
+    - requirements: requirements.txt
+
+submodules:
+  include: all
+  recursive: true
+
