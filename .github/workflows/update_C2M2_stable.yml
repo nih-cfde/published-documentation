@@ -32,4 +32,4 @@ jobs:
               [1]: https://github.com/peter-evans/create-pull-request
             labels: proposedc2m2update
             branch: update-c2m2
-            reviewers: Acharbonneau, abradyIGS
+            reviewers: jonathancrabtree, raynamharris
