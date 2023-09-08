@@ -18,7 +18,7 @@ formats:
 
 python: 3.7
   install:
-    requirements: docs/requirements.txt
+    - requirements: docs/requirements.txt
 
 submodules:
   include: all
