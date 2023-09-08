@@ -16,8 +16,9 @@ mkdocs:
 formats:
   - pdf
 
-install:
-    requirements: requirements.txt
+python: 3.7
+  install:
+    requirements: docs/requirements.txt
 
 submodules:
   include: all
