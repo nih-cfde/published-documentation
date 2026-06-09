@@ -1,0 +1,3 @@
+id	name	description
+cfde_disease_association_type:0	not observed	disease explicitly ruled out
+cfde_disease_association_type:1	observed	disease positively observed

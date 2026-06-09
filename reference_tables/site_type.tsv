@@ -1,0 +1,6 @@
+id	name	description
+defined	Defined - faldo:ExactPosition	Event occurs on position specified by position_one
+range	Range - faldo:InRangePosition	Event occurs on a peptide between position_one (start) and position_two (end)
+alternative	Alternative - faldo:OneOfPosition	Event occurs on position_one OR position_two
+connect	Connected	Event occurs on position_one AND position_two
+unknown	Unknown - faldo:FuzzyPosition	No position information available for the event

@@ -1,0 +1,3 @@
+id	name	description
+cfde_phenotype_association_type:0	not observed	phenotype explicitly ruled out
+cfde_phenotype_association_type:1	observed	phenotype positively observed
